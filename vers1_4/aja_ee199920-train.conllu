@@ -12660,10 +12660,10 @@
 #
 1	Päris	päris	ADV	D	_	2	advmod	_	_
 2	täpne	täpne	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	6	xcomp	_	_
-3	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	_	_
 4	ei	ei	AUX	V	Mood=Ind|Negative=Neg|VerbForm=Fin	5	neg	_	_
 5	pruugi	pruukima	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-6	olla	olema	VERB	V	VerbForm=Inf	5	cxomp	_	_
+6	olla	olema	VERB	V	VerbForm=Inf	5	cop	_	_
 7	,	,	PUNCT	Z	_	14	punct	_	_
 8	sest	sest	SCONJ	J	_	14	mark	_	_
 9	esiteks	esiteks	ADV	D	_	14	advmod	_	_

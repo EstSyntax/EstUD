@@ -3,7 +3,7 @@
 1	Kuigi	kuigi	SCONJ	J	_	4	mark	_	_
 2	viimasel	viimane	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	3	amod	_	_
 3	ajal	aeg	NOUN	S	Case=Ade|Number=Sing	4	nmod	_	_
-4	räägitakse	rääkima	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	15	dep	_	_
+4	räägitakse	rääkima	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	15	advcl	_	_
 5	palju	palju	ADV	D	_	4	advmod	_	_
 6	ravimite	ravim	NOUN	S	Case=Gen|Number=Plur	7	nmod	_	_
 7	hinnast	hind	NOUN	S	Case=Ela|Number=Sing	4	nmod	_	_

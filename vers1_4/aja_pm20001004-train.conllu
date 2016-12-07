@@ -15685,7 +15685,7 @@
 6	tea	teadma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 7	täpselt	täpselt	ADV	D	_	6	advmod	_	_
 8	,	,	PUNCT	Z	_	12	punct	_	_
-9	millised	milline	ADJ	P	Case=Nom|Number=Plur|PronType=Int	10	amod	_	_
+9	millised	milline	ADJ	P	Case=Nom|Number=Plur|PronType=Int,Rel	10	amod	_	_
 10	stseenid	stseen	NOUN	S	Case=Nom|Number=Plur	6	ccomp	_	_
 11	need	see	PRON	P	Case=Nom|Number=Plur|PronType=Dem	10	nsubj:cop	_	_
 12	on	olema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
