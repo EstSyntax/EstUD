@@ -1,0 +1,1249 @@
+#sent_id ilu_kivirahk_9
+#
+1	Ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	tulnud	tulema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4	jala	jala	ADV	D	_	3	advmod	_	_
+5	juba	juba	ADV	D	_	3	advmod	_	_
+6	üle	üle	ADP	K	AdpType=Prep	8	case	_	_
+7	viie	viis	NUM	N	Case=Gen|Number=Sing|NumForm=Letter|NumType=Card	8	nummod	_	_
+8	kilomeetri	kilo_meeter	NOUN	S	Case=Gen|Number=Sing	3	nmod	_	_
+9	,	,	PUNCT	Z	_	18	punct	_	_
+10	sest	sest	SCONJ	J	_	18	mark	_	_
+11	siia	siia	ADV	D	_	18	advmod	_	_
+12	,	,	PUNCT	Z	_	15	punct	_	_
+13	selle	see	PRON	P	Case=Gen|Number=Sing|PronType=Dem	14	det	_	_
+14	lossi	loss	NOUN	S	Case=Gen|Number=Sing	11	nmod	_	_
+15	juurde	juurde	ADP	K	AdpType=Post	14	case	_	_
+16	,	,	PUNCT	Z	_	18	punct	_	_
+17	ei	ei	AUX	V	Mood=Ind|Negative=Neg|VerbForm=Fin	18	neg	_	_
+18	viinud	viima	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	dep	_	_
+19	ühtegi	üks	NUM	N	Case=Par|Number=Sing|NumForm=Letter|NumType=Card	20	nummod	_	_
+20	autoteed	auto_tee	NOUN	S	Case=Par|Number=Sing	18	nsubj	_	_
+21	.	.	PUNCT	Z	_	3	punct	_	_
+
+#sent_id ilu_kivirahk_19
+#
+1	Tema	tema	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod	_	_
+2	ees	ees	ADP	K	AdpType=Post	1	case	_	_
+3	seisis	seisma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	kääbus	kääbus	NOUN	S	Case=Nom|Number=Sing	3	nsubj	_	_
+5	,	,	PUNCT	Z	_	8	punct	_	_
+6	seljas	selg	NOUN	S	Case=Ine|Number=Sing	8	nmod	_	_
+7	tilluke	tilluke	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	8	amod	_	_
+8	raudrüü	raud_rüü	NOUN	S	Case=Nom|Number=Sing	3	advcl	_	_
+9	.	.	PUNCT	Z	_	3	punct	_	_
+
+#sent_id ilu_kivirahk_29
+#
+1	Aga	aga	CONJ	J	_	11	cc	_	_
+2	ega	ega	ADV	D	Negative=Neg	11	advmod	_	_
+3	te	sina	PRON	P	Case=Nom|Number=Plur|Person=2|PronType=Prs	11	nsubj	_	_
+4	ju	ju	ADV	D	_	11	advmod	_	_
+5	täna	täna	ADV	D	_	11	advmod	_	_
+6	enam	enam	ADV	D	_	11	advmod	_	_
+7	nagunii	nagu_nii	ADV	D	_	11	advmod	_	_
+8	tagasi	tagasi	ADV	D	_	9	compound:prt	_	_
+9	minema	minema	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	11	xcomp	_	_
+10	ei	ei	AUX	V	Connegative=Yes|Mood=Ind|VerbForm=Fin	11	neg	_	_
+11	hakka	hakkama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	,	,	PUNCT	Z	_	11	punct	_	_
+13	väljas	väljas	ADV	D	_	15	advmod	_	_
+14	on	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	_
+15	pime	pime	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	11	conj	_	_
+16	ja	ja	CONJ	J	_	11	cc	_	_
+17	teie	sina	PRON	P	Case=Nom|Number=Plur|Person=2|PronType=Prs	19	nsubj:cop	_	_
+18	olete	olema	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	_
+19	väsinud	väsinud	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	conj	_	_
+20	.	.	PUNCT	Z	_	11	punct	_	_
+
+#sent_id ilu_kivirahk_39
+#
+1	Üldse	üldse	ADV	D	_	7	advmod	_	_
+2	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	aux	_	_
+3	lossi	loss	NOUN	S	Case=Gen|Number=Sing	6	nmod	_	_
+4	seni	seni	ADV	D	_	5	advmod	_	_
+5	läbitud	läbi=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
+6	osa	osa	NOUN	S	Case=Nom|Number=Sing	7	nsubj	_	_
+7	jätnud	jätma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+8	ülimalt	ülimalt	ADV	D	_	9	advmod	_	_
+9	arhailise	arhailine	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	10	amod	_	_
+10	mulje	mulje	NOUN	S	Case=Gen|Number=Sing	7	dobj	_	_
+11	,	,	PUNCT	Z	_	16	punct	_	_
+12	nii	nii	ADV	D	_	13	cc:preconj	_	_
+13	et	et	SCONJ	J	_	16	mark	_	_
+14	Tõnu	Tõnu	PROPN	S	Case=Nom|Number=Sing	16	nsubj	_	_
+15	ei	ei	AUX	V	Mood=Ind|Negative=Neg|VerbForm=Fin	16	neg	_	_
+16	suutnud	suutma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	dep	_	_
+17	uudishimu	uudis_himu	NOUN	S	Case=Par|Number=Sing	19	dobj	_	_
+18	maha	maha	ADV	D	_	19	compound:prt	_	_
+19	suruda	suruma	VERB	V	VerbForm=Inf	16	xcomp	_	_
+20	ning	ning	CONJ	J	_	16	cc	_	_
+21	päris	pärima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	conj	_	_
+22	:	:	PUNCT	Z	_	7	punct	_	_
+
+#sent_id ilu_kivirahk_49
+#
+1	Õiglaselt	õiglaselt	ADV	D	_	0	root	_	_
+2	ja	ja	CONJ	J	_	1	cc	_	_
+3	valjult	valjult	ADV	D	_	1	conj	_	_
+4	.	.	PUNCT	Z	_	1	punct	_	_
+5	"	"	PUNCT	Z	_	1	punct	_	_
+
+#sent_id ilu_kivirahk_59
+#
+1	"	"	PUNCT	Z	_	3	punct	_	_
+2	Ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	usun	uskuma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	,	,	PUNCT	Z	_	7	punct	_	_
+5	et	et	SCONJ	J	_	7	mark	_	_
+6	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	on	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
+8	kohe-kohe	kohe-kohe	ADV	D	_	7	advmod	_	_
+9	ärkamas	ärkama	VERB	V	Case=Ine|VerbForm=Sup|Voice=Act	7	xcomp	_	_
+10	,	,	PUNCT	Z	_	14	punct	_	_
+11	kui	kui	SCONJ	J	_	14	mark	_	_
+12	mitte	mitte	ADV	D	Negative=Neg	14	advmod	_	_
+13	juba	juba	ADV	D	_	14	advmod	_	_
+14	ärganud	ärkama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	7	advcl	_	_
+15	.	.	PUNCT	Z	_	3	punct	_	_
+
+#sent_id ilu_kivirahk_69
+#
+1	Mind	mina	PRON	P	Case=Par|Number=Sing|Person=1|PronType=Prs	2	dobj	_	_
+2	anti	andma	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	talle	tema	PRON	P	Case=All|Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
+4	üle	üle	ADV	D	_	2	compound:prt	_	_
+5	1956.	1956.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	6	amod	_	_
+6	aastal	aasta	NOUN	S	Case=Ade|Number=Sing	2	nmod	_	_
+7	koos	koos	ADP	K	AdpType=Prep	9	case	_	_
+8	rahvakunstniku	rahva_kunstnik	NOUN	S	Case=Gen|Number=Sing	9	nmod	_	_
+9	tunnistusega	tunnistus	NOUN	S	Case=Com|Number=Sing	2	nmod	_	_
+10	.	.	PUNCT	Z	_	2	punct	_	_
+11	"	"	PUNCT	Z	_	2	punct	_	_
+
+#sent_id ilu_kivirahk_79
+#
+1	Süsimust	süsi_must	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	_
+2	,	,	PUNCT	Z	_	5	punct	_	_
+3	laineteta	laine	NOUN	S	Case=Abe|Number=Plur	4	nmod	_	_
+4	vesi	vesi	NOUN	S	Case=Nom|Number=Sing	5	nsubj	_	_
+5	läikis	läikima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	nende	tema	PRON	P	Case=Gen|Number=Plur|Person=3|PronType=Prs	5	nmod	_	_
+7	ümber	ümber	ADP	K	AdpType=Post	6	case	_	_
+8	nagu	nagu	SCONJ	J	_	9	mark	_	_
+9	nafta	nafta	NOUN	S	Case=Nom|Number=Sing	5	advcl	_	_
+10	.	.	PUNCT	Z	_	5	punct	_	_
+
+#sent_id ilu_kivirahk_89
+#
+1	Nad	tema	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	kiirustasid	kiirustama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	läbi	läbi	ADP	K	AdpType=Prep	6	case	_	_
+4	uute	uus	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+5	hämarate	hämar	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	koridoride	koridor	NOUN	S	Case=Gen|Number=Plur	2	nmod	_	_
+7	,	,	PUNCT	Z	_	2	punct	_	_
+8	ronisid	ronima	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+9	üles	üles	ADV	D	_	8	compound:prt	_	_
+10	ühest	üks	PRON	P	Case=Ela|Number=Sing|PronType=Dem	16	det	_	_
+11	väga	väga	ADV	D	_	12	advmod	_	_
+12	kitsast	kitsas	ADJ	A	Case=Par|Degree=Pos|Number=Sing	16	amod	_	_
+13	ning	ning	CONJ	J	_	12	cc	_	_
+14	järskude	järsk	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	kiviastmetega	kivi_aste	NOUN	S	Case=Com|Number=Plur	12	conj	_	_
+16	keerdtrepist	keerd_trepp	NOUN	S	Case=Ela|Number=Sing	8	nmod	_	_
+17	ning	ning	CONJ	J	_	2	cc	_	_
+18	jõudsid	jõudma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+19	viimaks	viimaks	ADV	D	_	18	advmod	_	_
+20	keskaegses	kesk_aegne	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	21	amod	_	_
+21	olustikus	olustik	NOUN	S	Case=Ine|Number=Sing	24	nmod	_	_
+22	täiesti	täiesti	ADV	D	_	23	advmod	_	_
+23	ootamatult	ootamatult	ADV	D	_	24	advmod	_	_
+24	mõjuva	mõjuv	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	26	acl	_	_
+25	nahkpolstriga	nahk_polster	NOUN	S	Case=Com|Number=Sing	26	nmod	_	_
+26	ukse	uks	NOUN	S	Case=Gen|Number=Sing	18	nmod	_	_
+27	juurde	juurde	ADP	K	AdpType=Post	26	case	_	_
+28	,	,	PUNCT	Z	_	30	punct	_	_
+29	millised	milline	ADJ	P	Case=Nom|Number=Plur|PronType=Rel	30	nsubj	_	_
+30	olid	olema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	26	acl:relcl	_	_
+31	moes	mood	NOUN	S	Case=Ine|Number=Sing	30	nmod	_	_
+32	millalgi	millalgi	ADV	D	_	30	advmod	_	_
+33	seitsmekümnendatel	seitsme_kümnes	ADJ	N	Case=Ade|Number=Plur|NumForm=Letter|NumType=Ord	32	amod	_	_
+34	.	.	PUNCT	Z	_	2	punct	_	_
+
+#sent_id ilu_kivirahk_99
+#
+1	Valged	valge	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	juuksed	juus	NOUN	S	Case=Nom|Number=Plur	3	nsubj	_	_
+3	keerdusid	keerduma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	selle	see	PRON	P	Case=Gen|Number=Sing|PronType=Dem	3	nmod	_	_
+5	alt	alt	ADP	K	AdpType=Post	4	case	_	_
+6	välja	välja	ADV	D	_	3	compound:prt	_	_
+7	nagu	nagu	SCONJ	J	_	9	mark	_	_
+8	kübara	kübar	NOUN	S	Case=Gen|Number=Sing	9	nmod	_	_
+9	juured	juur	NOUN	S	Case=Nom|Number=Plur	3	advcl	_	_
+10	ning	ning	CONJ	J	_	3	cc	_	_
+11	segunesid	segunema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+12	pleekinud	pleekinud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Act	13	acl	_	_
+13	tammepärjaga	tamme_pärg	NOUN	S	Case=Com|Number=Sing	11	nmod	_	_
+14	,	,	PUNCT	Z	_	19	punct	_	_
+15	mida	mis	PRON	P	Case=Par|Number=Sing|PronType=Int,Rel	19	dobj	_	_
+16	Ernesaks	Ernesaks	PROPN	S	Case=Nom|Number=Sing	19	nsubj	_	_
+17	sallina	sall	NOUN	S	Case=Ess|Number=Sing	19	nmod	_	_
+18	kaelas	kael	NOUN	S	Case=Ine|Number=Sing	19	nmod	_	_
+19	kandis	kandma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+20	.	.	PUNCT	Z	_	3	punct	_	_
+
+#sent_id ilu_kivirahk_109
+#
+1	"	"	PUNCT	Z	_	4	punct	_	_
+2	See	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	_
+3	pole	olema	VERB	V	Mood=Ind|Negative=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	Leemet	Leemet	PROPN	S	Case=Nom|Number=Sing	0	root	_	_
+5	!	!	PUNCT	Z	_	4	punct	_	_
+
+#sent_id ilu_kivirahk_119
+#
+1	Omal	oma	PRON	P	Case=Ade|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	2	det	_	_
+2	ajal	aeg	NOUN	S	Case=Ade|Number=Sing	10	nmod	_	_
+3	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+4	võisin	võima	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	10	aux	_	_
+5	kõik	kõik	PRON	P	Case=Nom|Number=Plur|PronType=Tot	6	det	_	_
+6	lauljad	laulja	NOUN	S	Case=Nom|Number=Plur	10	dobj	_	_
+7	laulukaare	laulu_kaar	NOUN	S	Case=Gen|Number=Sing	6	nmod	_	_
+8	all	all	ADP	K	AdpType=Post	7	case	_	_
+9	kokku	kokku	ADV	D	_	10	compound:prt	_	_
+10	lugeda	lugema	VERB	V	VerbForm=Inf	0	root	_	_
+11	,	,	PUNCT	Z	_	10	punct	_	_
+12	ka	ka	ADV	D	_	18	advmod	_	_
+13	kõige	kõige	ADV	D	_	14	advmod	_	_
+14	tagumisse	tagumine	ADJ	A	Case=Add|Degree=Pos|Number=Sing	15	amod	_	_
+15	ritta	rida	NOUN	S	Case=Add|Number=Sing	16	nmod	_	_
+16	roninud	roni=nu	NOUN	S	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	18	nsubj	_	_
+17	ei	ei	AUX	V	Mood=Ind|Negative=Neg|VerbForm=Fin	18	neg	_	_
+18	jäänud	jääma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
+19	minu	mina	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	20	nmod:poss	_	_
+20	pilgu	pilk	NOUN	S	Case=Gen|Number=Sing	18	nmod	_	_
+21	eest	eest	ADP	K	AdpType=Post	20	case	_	_
+22	varjule	varjule	ADV	D	_	18	advmod	_	_
+23	!	!	PUNCT	Z	_	10	punct	_	_
+
+#sent_id ilu_kivirahk_129
+#
+1	"	"	PUNCT	Z	_	7	punct	_	_
+2	maestro	maestro	NOUN	S	Case=Nom|Number=Sing	7	vocative	_	_
+3	,	,	PUNCT	Z	_	4	punct	_	_
+4	maestro	maestro	NOUN	S	Case=Nom|Number=Sing	2	vocative	_	_
+5	!	!	PUNCT	Z	_	7	punct	_	_
+6	"	"	PUNCT	Z	_	7	punct	_	_
+7	ütles	ütlema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	Ram	Ram	PROPN	S	Case=Nom|Number=Sing	7	nsubj	_	_
+9	millegipärast	millegi_pärast	ADV	D	_	7	advmod	_	_
+10	krigiseva	krigise=v	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	acl	_	_
+11	häälega	hääl	NOUN	S	Case=Com|Number=Sing	7	nmod	_	_
+12	,	,	PUNCT	Z	_	14	punct	_	_
+13	nagu	nagu	SCONJ	J	_	14	mark	_	_
+14	üritaks	üritama	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
+15	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+16	tuvi	tuvi	NOUN	S	Case=Gen|Number=Sing	18	nmod	_	_
+17	moodi	moodi	ADP	K	AdpType=Post	16	case	_	_
+18	kudrutada	kudrutama	VERB	V	VerbForm=Inf	14	xcomp	_	_
+19	.	.	PUNCT	Z	_	7	punct	_	_
+
+#sent_id ilu_kivirahk_139
+#
+1	Ernesaks	Ernesaks	PROPN	S	Case=Nom|Number=Sing	2	nsubj	_	_
+2	võttis	võtma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	tugitooli	tugi_tool	NOUN	S	Case=Gen|Number=Sing	2	nmod	_	_
+4	kõrvalt	kõrvalt	ADP	K	AdpType=Post	3	case	_	_
+5	kepi	kepp	NOUN	S	Case=Gen|Number=Sing	2	dobj	_	_
+6	ja	ja	CONJ	J	_	2	cc	_	_
+7	koputas	koputama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+8	sellega	see	PRON	P	Case=Com|Number=Sing|PronType=Dem	7	nmod	_	_
+9	Ramile	Ram	PROPN	S	Case=All|Number=Sing	7	nmod	_	_
+10	pähe	pea	NOUN	S	Case=Add|Number=Sing	7	nmod	_	_
+11	,	,	PUNCT	Z	_	13	punct	_	_
+12	nagu	nagu	SCONJ	J	_	13	mark	_	_
+13	raputaks	rappuma	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Pass	7	advcl	_	_
+14	sigareti	sigaret	NOUN	S	Case=Gen|Number=Sing	13	nmod	_	_
+15	otsast	otsast	ADP	K	AdpType=Post	14	case	_	_
+16	tuhka	tuhk	NOUN	S	Case=Par|Number=Sing	13	dobj	_	_
+17	.	.	PUNCT	Z	_	2	punct	_	_
+
+#sent_id ilu_kivirahk_149
+#
+1	Tõnu	Tõnu	PROPN	S	Case=Nom|Number=Sing	3	nsubj	_	_
+2	ei	ei	AUX	V	Mood=Ind|Negative=Neg|VerbForm=Fin	3	neg	_	_
+3	osanud	oskama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	kujunenud	kujune=nud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	acl	_	_
+5	olukorras	olu_kord	NOUN	S	Case=Ine|Number=Sing	7	nmod	_	_
+6	kuidagi	kuidagi	ADV	D	_	7	advmod	_	_
+7	käituda	käituma	VERB	V	VerbForm=Inf	3	xcomp	_	_
+8	,	,	PUNCT	Z	_	3	punct	_	_
+9	tundus	tunduma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+10	,	,	PUNCT	Z	_	17	punct	_	_
+11	et	et	SCONJ	J	_	17	mark	_	_
+12	Ernesaks	Ernesaks	PROPN	S	Case=Nom|Number=Sing	17	nsubj	_	_
+13	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	_
+14	tema	tema	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	15	nmod:poss	_	_
+15	kohalolu	kohal_olu	NOUN	S	Case=Gen|Number=Sing	17	dobj	_	_
+16	sootuks	sootuks	ADV	D	_	17	advmod	_	_
+17	unustanud	unustama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	9	dep	_	_
+18	.	.	PUNCT	Z	_	3	punct	_	_
+
+#sent_id ilu_kivirahk_159
+#
+1	Ning	ning	CONJ	J	_	2	cc	_	_
+2	kopsas	kopsama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	taas	taas	ADV	D	_	2	advmod	_	_
+4	Ramile	Ram	PROPN	S	Case=All|Number=Sing	2	nmod	_	_
+5	kepiga	kepp	NOUN	S	Case=Com|Number=Sing	2	nmod	_	_
+6	pähe	pea	NOUN	S	Case=Add|Number=Sing	2	nmod	_	_
+7	.	.	PUNCT	Z	_	2	punct	_	_
+
+#sent_id ilu_kivirahk_169
+#
+1	Noormees	noor_mees	NOUN	S	Case=Nom|Number=Sing	5	vocative	_	_
+2	,	,	PUNCT	Z	_	5	punct	_	_
+3	te	sina	PRON	P	Case=Nom|Number=Plur|Person=2|PronType=Prs	5	nsubj:cop	_	_
+4	olete	olema	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+5	tugev	tugev	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	_
+6	ja	ja	CONJ	J	_	5	cc	_	_
+7	julge	julge	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	conj	_	_
+8	,	,	PUNCT	Z	_	5	punct	_	_
+9	tapke	tapma	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+10	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	dobj	_	_
+11	ära	ära	ADV	D	_	9	compound:prt	_	_
+12	!	!	PUNCT	Z	_	5	punct	_	_
+
+#sent_id ilu_kivirahk_179
+#
+1	Mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	2	nmod	_	_
+2	ihukaitsja	ihu_kaitsja	NOUN	S	Case=Nom|Number=Sing	0	root	_	_
+3	sa	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj:cop	_	_
+4	selline	selline	ADJ	P	Case=Nom|Number=Sing|PronType=Dem	3	amod	_	_
+5	oled	olema	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+6	,	,	PUNCT	Z	_	8	punct	_	_
+7	et	et	SCONJ	J	_	8	mark	_	_
+8	lubad	lubama	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	dep	_	_
+9	kurjavaimu	kurja_vaim	NOUN	S	Case=Gen|Number=Sing	10	nmod	_	_
+10	Petrovil	Petrov	PROPN	S	Case=Ade|Number=Sing	8	nmod	_	_
+11	takistamatult	takistamatult	ADV	D	_	16	advmod	_	_
+12	mööda	mööda	ADP	K	AdpType=Prep	14	case	_	_
+13	minu	mina	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	14	nmod:poss	_	_
+14	maja	maja	NOUN	S	Case=Par|Number=Sing	16	nmod	_	_
+15	ringi	ringi	ADV	D	_	16	compound:prt	_	_
+16	luusida	luusima	VERB	V	VerbForm=Inf	8	xcomp	_	_
+17	!	!	PUNCT	Z	_	2	punct	_	_
+
+#sent_id ilu_kivirahk_189
+#
+1	Laseb	laskma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	öösiti	öösiti	ADV	D	_	1	advmod	_	_
+3	mulle	mina	PRON	P	Case=All|Number=Sing|Person=1|PronType=Prs	1	nmod	_	_
+4	tuppa	tuba	NOUN	S	Case=Add|Number=Sing	1	nmod	_	_
+5	koledaid	kole	ADJ	A	Case=Par|Degree=Pos|Number=Plur	6	amod	_	_
+6	aure	aur	NOUN	S	Case=Par|Number=Plur	1	dobj	_	_
+7	,	,	PUNCT	Z	_	11	punct	_	_
+8	et	et	SCONJ	J	_	11	mark	_	_
+9	mind	mina	PRON	P	Case=Par|Number=Sing|Person=1|PronType=Prs	11	dobj	_	_
+10	higistama	higistama	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	11	xcomp	_	_
+11	panna	panema	VERB	V	VerbForm=Inf	1	dep	_	_
+12	ja	ja	CONJ	J	_	11	cc	_	_
+13	haigeks	haige	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	14	xcomp	_	_
+14	teha	tegema	VERB	V	VerbForm=Inf	11	conj	_	_
+15	!	!	PUNCT	Z	_	1	punct	_	_
+
+#sent_id ilu_kivirahk_199
+#
+1	See	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	9	nsubj:cop	_	_
+2	oli	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	_
+3	turske	turske	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	9	amod	_	_
+4	ja	ja	CONJ	J	_	3	cc	_	_
+5	pikk	pikk	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	conj	_	_
+6	,	,	PUNCT	Z	_	9	punct	_	_
+7	paksude	paks	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	vuntsidega	vunts	NOUN	S	Case=Com|Number=Plur	9	nmod	_	_
+9	meesterahvas	meeste_rahvas	NOUN	S	Case=Nom|Number=Sing	0	root	_	_
+10	,	,	PUNCT	Z	_	9	punct	_	_
+11	näo	nägu	NOUN	S	Case=Gen|Number=Sing	14	nmod	_	_
+12	poolest	poolest	ADP	K	AdpType=Post	11	case	_	_
+13	ehtne	ehtne	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	14	amod	_	_
+14	hüljes	hüljes	NOUN	S	Case=Nom|Number=Sing	9	conj	_	_
+15	,	,	PUNCT	Z	_	16	punct	_	_
+16	käed	käsi	NOUN	S	Case=Nom|Number=Plur	9	conj	_	_
+17	ankruid	ankur	NOUN	S	Case=Par|Number=Plur	21	nmod	_	_
+18	ja	ja	CONJ	J	_	17	cc	_	_
+19	näkineitsisid	näki_neitsi	NOUN	S	Case=Par|Number=Plur	17	conj	_	_
+20	täis	täis	ADV	D	_	17	advmod:quant	_	_
+21	tätoveeritud	tätoveeri=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	16	amod	_	_
+22	.	.	PUNCT	Z	_	9	punct	_	_
+
+#sent_id ilu_kivirahk_209
+#
+1	Keele	keel	NOUN	S	Case=Gen|Number=Sing	2	dobj	_	_
+2	viib	viima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	alla	alla	ADV	D	_	2	compound:prt	_	_
+4	!	!	PUNCT	Z	_	2	punct	_	_
+
+#sent_id ilu_kivirahk_219
+#
+1	Moskvasse	Moskva	PROPN	S	Case=Ill|Number=Sing	0	root	_	_
+2	!	!	PUNCT	Z	_	1	punct	_	_
+
+#sent_id ilu_kivirahk_229
+#
+1	Ja	ja	CONJ	J	_	3	cc	_	_
+2	nüüd	nüüd	ADV	D	_	3	advmod	_	_
+3	on	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	minu	mina	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	nmod:poss	_	_
+5	pojakohus	poja_kohus	NOUN	S	Case=Nom|Number=Sing	3	nsubj:cop	_	_
+6	sind	sina	PRON	P	Case=Par|Number=Sing|Person=2|PronType=Prs	8	dobj	_	_
+7	raugaeas	rauga_iga	NOUN	S	Case=Ine|Number=Sing	8	nmod	_	_
+8	teenida	teenima	VERB	V	VerbForm=Inf	3	ccomp	_	_
+9	,	,	PUNCT	Z	_	3	punct	_	_
+10	meeldib	meeldima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+11	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	10	nsubj	_	_
+12	sulle	sina	PRON	P	Case=All|Number=Sing|Person=2|PronType=Prs	10	nmod	_	_
+13	või	või	CONJ	J	_	3	cc	_	_
+14	mitte	mitte	ADV	D	Negative=Neg	3	conj	_	_
+15	!	!	PUNCT	Z	_	3	punct	_	_
+
+#sent_id ilu_kivirahk_239
+#
+1	Sinu	sina	PRON	P	Case=Gen|Number=Sing|Person=2|PronType=Prs	3	nmod	_	_
+2	jaoks	jaoks	ADP	K	AdpType=Post	1	case	_	_
+3	hea	hea	NOUN	S	Case=Nom|Number=Sing	0	root	_	_
+4	?	?	PUNCT	Z	_	3	punct	_	_
+
+#sent_id ilu_kivirahk_249
+#
+1	Siis	siis	ADV	D	_	2	advmod	_	_
+2	on	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	maja	maja	NOUN	S	Case=Nom|Number=Sing	2	nsubj	_	_
+4	sinu	sina	PRON	P	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	nmod	_	_
+5	päralt	päralt	ADP	K	AdpType=Post	4	case	_	_
+6	,	,	PUNCT	Z	_	2	punct	_	_
+7	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	10	dobj	_	_
+8	sa	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
+9	ju	ju	ADV	D	_	10	advmod	_	_
+10	ootad	ootama	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+11	pikisilmi	piki_silmi	ADV	D	_	10	advmod	_	_
+12	!	!	PUNCT	Z	_	2	punct	_	_
+13	"	"	PUNCT	Z	_	2	punct	_	_
+
+#sent_id ilu_kivirahk_259
+#
+1	(	(	PUNCT	Z	_	3	punct	_	_
+2	"	"	PUNCT	Z	_	3	punct	_	_
+3	Palun	paluma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	,	,	PUNCT	Z	_	5	punct	_	_
+5	maestro	maestro	NOUN	S	Case=Nom|Number=Sing	3	vocative	_	_
+6	,	,	PUNCT	Z	_	3	punct	_	_
+7	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	jätsin	jätma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+9	maiuse	maius	NOUN	S	Case=Gen|Number=Sing	8	dobj	_	_
+10	teile	sina	PRON	P	Case=All|Number=Plur|Person=2|PronType=Prs	8	nmod	_	_
+11	!	!	PUNCT	Z	_	3	punct	_	_
+
+#sent_id ilu_kivirahk_269
+#
+1	Jälle	jälle	ADV	D	_	4	advmod	_	_
+2	üks	üks	NUM	N	Case=Nom|Number=Sing|NumForm=Letter|NumType=Card	4	nummod	_	_
+3	piinarikas	piina_rikas	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	_
+4	öö	öö	NOUN	S	Case=Nom|Number=Sing	0	root	_	_
+5	!	!	PUNCT	Z	_	4	punct	_	_
+
+#sent_id ilu_kivirahk_279
+#
+1	"	"	PUNCT	Z	_	5	punct	_	_
+2	See	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	_	_
+3	on	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+4	tema	tema	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	_
+5	aaria	aaria	NOUN	S	Case=Nom|Number=Sing	0	root	_	_
+6	...	...	PUNCT	Z	_	11	punct	_	_
+7	teie	sina	PRON	P	Case=Gen|Number=Plur|Person=2|PronType=Prs	8	nmod:poss	_	_
+8	ooperist	ooper	NOUN	S	Case=Ela|Number=Sing	5	nmod	_	_
+9	...	...	PUNCT	Z	_	5	punct	_	_
+10	"	"	PUNCT	Z	_	5	punct	_	_
+11	julges	julgema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+12	Tõnu	Tõnu	PROPN	S	Case=Nom|Number=Sing	11	nsubj	_	_
+13	poetada	poetama	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	,	,	PUNCT	Z	_	11	punct	_	_
+15	aga	aga	CONJ	J	_	11	cc	_	_
+16	Ernesaks	Ernesaks	PROPN	S	Case=Nom|Number=Sing	17	nsubj	_	_
+17	kirtsutas	kirtsutama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	_
+18	nina	nina	NOUN	S	Case=Par|Number=Sing	17	dobj	_	_
+19	.	.	PUNCT	Z	_	5	punct	_	_
+
+#sent_id ilu_kivirahk_289
+#
+1	Vana	vana	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	2	amod	_	_
+2	mehe	mees	NOUN	S	Case=Gen|Number=Sing	3	nmod	_	_
+3	pea	pea	NOUN	S	Case=Nom|Number=Sing	6	nsubj	_	_
+4	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	_
+5	rinnale	rind	NOUN	S	Case=All|Number=Sing	6	nmod	_	_
+6	langenud	langema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+7	,	,	PUNCT	Z	_	6	punct	_	_
+8	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	magas	magama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+10	.	.	PUNCT	Z	_	6	punct	_	_
+
+#sent_id ilu_kivirahk_299
+#
+1	Ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	ei	ei	AUX	V	Mood=Ind|Negative=Neg|VerbForm=Fin	3	neg	_	_
+3	andnud	andma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	Tõnule	Tõnu	PROPN	S	Case=All|Number=Sing	3	nmod	_	_
+5	mahti	mahti	ADV	D	_	3	compound:prt	_	_
+6	toibuda	toibuma	VERB	V	VerbForm=Inf	3	xcomp	_	_
+7	,	,	PUNCT	Z	_	3	punct	_	_
+8	vaid	vaid	CONJ	J	_	3	cc	_	_
+9	trügis	trügima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+10	mehe	mees	NOUN	S	Case=Gen|Number=Sing	9	dobj	_	_
+11	toast	tuba	NOUN	S	Case=Ela|Number=Sing	9	nmod	_	_
+12	välja	välja	ADV	D	_	9	compound:prt	_	_
+13	,	,	PUNCT	Z	_	14	punct	_	_
+14	lubamata	lubama	VERB	V	Case=Abe|VerbForm=Sup|Voice=Act	9	advcl	_	_
+15	püksegi	püks	NOUN	S	Case=Par|Number=Plur	17	dobj	_	_
+16	jalga	jalg	NOUN	S	Case=Add|Number=Sing	17	nmod	_	_
+17	tõmmata	tõmbama	VERB	V	VerbForm=Inf	14	xcomp	_	_
+18	ning	ning	CONJ	J	_	3	cc	_	_
+19	vedas	vedama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+20	teda	tema	PRON	P	Case=Par|Number=Sing|Person=3|PronType=Prs	19	dobj	_	_
+21	läbi	läbi	ADP	K	AdpType=Prep	23	case	_	_
+22	jääkülmade	jää_külm	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	koridoride	koridor	NOUN	S	Case=Gen|Number=Plur	19	nmod	_	_
+24	.	.	PUNCT	Z	_	3	punct	_	_
+
+#sent_id ilu_kivirahk_309
+#
+1	"	"	PUNCT	Z	_	4	punct	_	_
+2	Ah	ah	INTJ	I	_	4	discourse	_	_
+3	mulgimaa	mulgi_maa	ADJ	G	_	4	amod	_	_
+4	laulja	laulja	NOUN	S	Case=Nom|Number=Sing	0	root	_	_
+5	!	!	PUNCT	Z	_	4	punct	_	_
+
+#sent_id ilu_kivirahk_319
+#
+1	Andku	andma	VERB	V	Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	jumal	jumal	NOUN	S	Case=Nom|Number=Sing	1	nsubj	_	_
+3	meile	mina	PRON	P	Case=All|Number=Plur|Person=1|PronType=Prs	1	nmod	_	_
+4	ilusat	ilus	ADJ	A	Case=Par|Degree=Pos|Number=Sing	5	amod	_	_
+5	ilma	ilm	NOUN	S	Case=Par|Number=Sing	1	dobj	_	_
+6	!	!	PUNCT	Z	_	1	punct	_	_
+7	"	"	PUNCT	Z	_	1	punct	_	_
+
+#sent_id ilu_kivirahk_329
+#
+1	Ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	küünitas	küünitama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	end	ise	PRON	P	Case=Par|Number=Sing|PronType=Prs|Reflex=Yes	2	dobj	_	_
+4	poolenisti	poolenisti	ADV	D	_	2	advmod	_	_
+5	tugitoolist	tugi_tool	NOUN	S	Case=Ela|Number=Sing	2	nmod	_	_
+6	välja	välja	ADV	D	_	2	compound:prt	_	_
+7	ning	ning	CONJ	J	_	2	cc	_	_
+8	vahtis	vahtima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+9	otsivalt	otsivalt	ADV	D	_	8	advmod	_	_
+10	ringi	ringi	ADV	D	_	8	compound:prt	_	_
+11	.	.	PUNCT	Z	_	2	punct	_	_
+
+#sent_id ilu_kivirahk_339
+#
+1	Petrov	Petrov	PROPN	S	Case=Nom|Number=Sing	2	nsubj	_	_
+2	sidus	siduma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	vöö	vöö	NOUN	S	Case=Gen|Number=Sing	2	dobj	_	_
+4	lahti	lahti	ADV	D	_	2	compound:prt	_	_
+5	ja	ja	CONJ	J	_	2	cc	_	_
+6	viskas	viskama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+7	ka	ka	ADV	D	_	6	advmod	_	_
+8	kitli	kittel	NOUN	S	Case=Gen|Number=Sing	6	dobj	_	_
+9	seljast	selg	NOUN	S	Case=Ela|Number=Sing	6	nmod	_	_
+10	,	,	PUNCT	Z	_	11	punct	_	_
+11	jäädes	jääma	VERB	V	VerbForm=Ger	6	advcl	_	_
+12	lötakate	lötakas	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	sportpükste	sport_püks	NOUN	S	Case=Gen|Number=Plur	11	nmod	_	_
+14	väele	väele	ADP	K	AdpType=Post	13	case	_	_
+15	.	.	PUNCT	Z	_	2	punct	_	_
+
+#sent_id ilu_kivirahk_349
+#
+1	Ernesaks	Ernesaks	PROPN	S	Case=Nom|Number=Sing	2	nsubj	_	_
+2	libistas	libistama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	pilgu	pilk	NOUN	S	Case=Gen|Number=Sing	2	dobj	_	_
+4	üle	üle	ADP	K	AdpType=Post	5	case	_	_
+5	toa	tuba	NOUN	S	Case=Gen|Number=Sing	2	nmod	_	_
+6	.	.	PUNCT	Z	_	2	punct	_	_
+
+#sent_id ilu_kivirahk_359
+#
+1	Tundus	tunduma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	,	,	PUNCT	Z	_	10	punct	_	_
+3	et	et	SCONJ	J	_	10	mark	_	_
+4	pisikesed	pisike	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	elukad	elukas	NOUN	S	Case=Nom|Number=Plur	10	nsubj	_	_
+6	narmaste	narmas	NOUN	S	Case=Gen|Number=Plur	5	nmod	_	_
+7	vahel	vahel	ADP	K	AdpType=Post	6	case	_	_
+8	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
+9	paigale	paigale	ADV	D	_	10	compound:prt	_	_
+10	tardunud	tarduma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	1	csubj	_	_
+11	.	.	PUNCT	Z	_	1	punct	_	_
+
+#sent_id ilu_kivirahk_369
+#
+1	Ernesaks	Ernesaks	PROPN	S	Case=Nom|Number=Sing	2	nsubj	_	_
+2	osutas	osutama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	kepiga	kepp	NOUN	S	Case=Com|Number=Sing	2	nmod	_	_
+4	kaugemal	kaugemal	ADV	D	_	5	advmod	_	_
+5	ujuvatele	ujuv	ADJ	A	Case=All|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	acl	_	_
+6	tündritele	tünder	NOUN	S	Case=All|Number=Plur	2	nmod	_	_
+7	ning	ning	CONJ	J	_	2	cc	_	_
+8	üritas	üritama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+9	pisemaid	pisem	ADJ	A	Case=Par|Degree=Cmp|Number=Plur	10	amod	_	_
+10	esemeid	ese	NOUN	S	Case=Par|Number=Plur	15	dobj	_	_
+11	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	12	det	_	_
+12	jõuga	jõud	NOUN	S	Case=Com|Number=Sing	15	nmod	_	_
+13	kuivale	kuiv	ADJ	A	Case=All|Degree=Pos|Number=Sing	14	amod	_	_
+14	maale	maa	NOUN	S	Case=All|Number=Sing	15	nmod	_	_
+15	tirida	tirima	VERB	V	VerbForm=Inf	8	xcomp	_	_
+16	.	.	PUNCT	Z	_	2	punct	_	_
+
+#sent_id ilu_kivirahk_379
+#
+1	Kääbus	kääbus	NOUN	S	Case=Nom|Number=Sing	2	nsubj	_	_
+2	naeratas	naeratama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	.	.	PUNCT	Z	_	2	punct	_	_
+
+#sent_id ilu_kivirahk_389
+#
+1	Retk	retk	NOUN	S	Case=Nom|Number=Sing	3	nsubj	_	_
+2	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	kestnud	kestma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4	juba	juba	ADV	D	_	3	advmod	_	_
+5	sedavõrd	seda_võrd	ADV	D	_	6	advmod	_	_
+6	kaua	kaua	ADV	D	_	3	advmod	_	_
+7	,	,	PUNCT	Z	_	9	punct	_	_
+8	et	et	SCONJ	J	_	9	mark	_	_
+9	sulas	sulama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	dep	_	_
+10	meeste	mees	NOUN	S	Case=Gen|Number=Plur	11	nmod	_	_
+11	mälus	mälu	NOUN	S	Case=Ine|Number=Sing	9	nmod	_	_
+12	kokku	kokku	ADV	D	_	9	compound:prt	_	_
+13	üheks	üks	NUM	N	Case=Tra|Number=Sing|NumForm=Letter|NumType=Card	17	nummod	_	_
+14	ainsaks	ainus	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	17	amod	_	_
+15	pikaks	pikk	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	17	amod	_	_
+16	uduseks	udune	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	17	amod	_	_
+17	päevaks	päev	NOUN	S	Case=Tra|Number=Sing	9	nmod	_	_
+18	,	,	PUNCT	Z	_	20	punct	_	_
+19	millel	mis	PRON	P	Case=Ade|Number=Sing|PronType=Int,Rel	20	nmod	_	_
+20	polnud	olema	VERB	V	Mood=Ind|Negative=Neg|Tense=Past|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
+21	algust	algus	NOUN	S	Case=Par|Number=Sing	20	nsubj	_	_
+22	ega	ega	ADV	D	Negative=Neg	25	advmod	_	_
+23	tõenäoliselt	tõe_näoliselt	ADV	D	_	20	advmod	_	_
+24	ka	ka	ADV	D	_	25	advmod	_	_
+25	lõppu	lõpp	NOUN	S	Case=Par|Number=Sing	21	conj	_	_
+26	.	.	PUNCT	Z	_	3	punct	_	_
+
+#sent_id ilu_kivirahk_399
+#
+1	Ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	eraldus	eralduma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	teistest	teine	PRON	P	Case=Ela|Number=Plur|PronType=Dem	2	nmod	_	_
+4	,	,	PUNCT	Z	_	2	punct	_	_
+5	sõitis	sõitma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+6	võõra	võõras	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	7	amod	_	_
+7	sõdalase	sõdalane	NOUN	S	Case=Gen|Number=Sing	5	nmod	_	_
+8	poole	poole	ADP	K	AdpType=Post	7	case	_	_
+9	ning	ning	CONJ	J	_	2	cc	_	_
+10	mõlemad	mõlema	ADJ	P	Case=Nom|Number=Plur	11	nsubj	_	_
+11	kappasid	kappama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+12	eemale	eemale	ADV	D	_	11	compound:prt	_	_
+13	,	,	PUNCT	Z	_	14	punct	_	_
+14	kadudes	kaduma	VERB	V	VerbForm=Ger	11	advcl	_	_
+15	uttu	udu	NOUN	S	Case=Add|Number=Sing	14	nmod	_	_
+16	.	.	PUNCT	Z	_	2	punct	_	_
+
+#sent_id ilu_kivirahk_409
+#
+1	Mees	mees	NOUN	S	Case=Nom|Number=Sing	4	nsubj:cop	_	_
+2	oli	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	veel	veel	ADV	D	_	4	advmod	_	_
+4	elus	elus	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	_
+5	,	,	PUNCT	Z	_	4	punct	_	_
+6	kuid	kuid	CONJ	J	_	4	cc	_	_
+7	lai	lai	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	8	amod	_	_
+8	piigihaav	piigi_haav	NOUN	S	Case=Nom|Number=Sing	13	nsubj	_	_
+9	otse	otse	ADV	D	_	10	advmod	_	_
+10	keset	keset	ADP	K	AdpType=Prep	11	case	_	_
+11	kõhtu	kõht	NOUN	S	Case=Par|Number=Sing	8	nmod	_	_
+12	ei	ei	AUX	V	Mood=Ind|Negative=Neg|VerbForm=Fin	13	neg	_	_
+13	jätnud	jätma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+14	kahtlust	kahtlus	NOUN	S	Case=Par|Number=Sing	13	dobj	_	_
+15	,	,	PUNCT	Z	_	21	punct	_	_
+16	et	et	SCONJ	J	_	21	mark	_	_
+17	võõras	võõras	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	18	amod	_	_
+18	rüütel	rüütel	NOUN	S	Case=Nom|Number=Sing	21	dobj	_	_
+19	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	_	_
+20	surmale	surm	NOUN	S	Case=All|Number=Sing	21	nmod	_	_
+21	määratud	määrama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	13	dep	_	_
+22	.	.	PUNCT	Z	_	4	punct	_	_
+
+#sent_id ilu_kivirahk_419
+#
+1	"	"	PUNCT	Z	_	5	punct	_	_
+2	See	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	4	det	_	_
+3	üllas	üllas	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	_
+4	rüütel	rüütel	NOUN	S	Case=Nom|Number=Sing	5	nsubj	_	_
+5	elas	elama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	ilusa	ilus	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	7	amod	_	_
+7	elu	elu	NOUN	S	Case=Gen|Number=Sing	5	dobj	_	_
+8	!	!	PUNCT	Z	_	5	punct	_	_
+9	"	"	PUNCT	Z	_	5	punct	_	_
+10	ütles	ütlema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+11	viimaks	viimaks	ADV	D	_	10	advmod	_	_
+12	sir	sir	NOUN	S	Case=Nom|Number=Sing	13	appos	_	_
+13	Galahad	Galahad	PROPN	S	Case=Nom|Number=Sing	10	nsubj	_	_
+14	.	.	PUNCT	Z	_	5	punct	_	_
+
+#sent_id ilu_kivirahk_429
+#
+1	Ott	Ott	PROPN	S	Case=Nom|Number=Sing	2	nsubj	_	_
+2	teadis	teadma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	küll	küll	ADV	D	_	2	advmod	_	_
+4	,	,	PUNCT	Z	_	11	punct	_	_
+5	et	et	SCONJ	J	_	11	mark	_	_
+6	tegelikult	tegelikult	ADV	D	_	11	advmod	_	_
+7	on	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
+8	mehe	mees	NOUN	S	Case=Gen|Number=Sing	9	nmod	_	_
+9	nimi	nimi	NOUN	S	Case=Nom|Number=Sing	11	nsubj:cop	_	_
+10	Urmas	Urmas	PROPN	S	Case=Nom|Number=Sing	11	name	_	_
+11	Männisalu	Männi_salu	PROPN	S	Case=Nom|Number=Sing	2	ccomp	_	_
+12	,	,	PUNCT	Z	_	2	punct	_	_
+13	aga	aga	CONJ	J	_	2	cc	_	_
+14	kunstniku	kunstnik	NOUN	S	Case=Gen|Number=Sing	15	nmod	_	_
+15	asi	asi	NOUN	S	Case=Nom|Number=Sing	2	conj	_	_
+16	,	,	PUNCT	Z	_	18	punct	_	_
+17	ilmselt	ilmselt	ADV	D	_	18	advmod	_	_
+18	kõlas	kõlama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+19	Pierre	Pierre	PROPN	S	Case=Nom|Number=Sing	18	nsubj	_	_
+20	tema	tema	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	21	nmod	_	_
+21	arvates	arvama	VERB	V	VerbForm=Ger	18	advcl	_	_
+22	paremini	paremini	ADV	D	_	18	advmod	_	_
+23	.	.	PUNCT	Z	_	2	punct	_	_
+
+#sent_id ilu_kivirahk_439
+#
+1	Antikvariaadist	antikvariaat	NOUN	S	Case=Ela|Number=Sing	2	nmod	_	_
+2	õnnestus	õnnestuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	saada	saama	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	.	.	PUNCT	Z	_	2	punct	_	_
+
+#sent_id ilu_kivirahk_449
+#
+1	Käed	käsi	NOUN	S	Case=Nom|Number=Plur	4	nsubj:cop	_	_
+2	olid	olema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	täitsa	täitsa	ADV	D	_	4	advmod	_	_
+4	haiged	haige	NOUN	S	Case=Nom|Number=Plur	0	root	_	_
+5	lõpuks	lõpuks	ADV	D	_	4	advmod	_	_
+6	,	,	PUNCT	Z	_	4	punct	_	_
+7	sõrmed	sõrm	NOUN	S	Case=Nom|Number=Plur	8	nsubj	_	_
+8	paistetasid	paistetama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+9	üles	üles	ADV	D	_	8	compound:prt	_	_
+10	ja	ja	CONJ	J	_	4	cc	_	_
+11	küünealused	küüne_alune	NOUN	S	Case=Nom|Number=Plur	13	nsubj:cop	_	_
+12	olid	olema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	_	_
+13	verised	verine	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	4	conj	_	_
+14	.	.	PUNCT	Z	_	4	punct	_	_
+
+#sent_id ilu_kivirahk_459
+#
+1	No	no	INTJ	I	_	4	discourse	_	_
+2	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	4	nmod	_	_
+3	kuradi	kuradi	ADJ	A	Degree=Pos	4	amod	_	_
+4	tõde	tõde	NOUN	S	Case=Nom|Number=Sing	0	root	_	_
+5	!	!	PUNCT	Z	_	4	punct	_	_
+
+#sent_id ilu_kivirahk_469
+#
+1	Tegelikult	tegelikult	ADV	D	_	5	advmod	_	_
+2	tundus	tunduma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+3	talle	tema	PRON	P	Case=All|Number=Sing|Person=3|PronType=Prs	5	nmod	_	_
+4	isegi	isegi	ADV	D	_	5	advmod	_	_
+5	imelik	imelik	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	_
+6	,	,	PUNCT	Z	_	17	punct	_	_
+7	et	et	SCONJ	J	_	17	mark	_	_
+8	keegi	keegi	PRON	P	Case=Nom|Number=Sing|PronType=Ind	17	nsubj	_	_
+9	sellise	selline	ADJ	P	Case=Gen|Number=Sing|PronType=Dem	11	amod	_	_
+10	tühja	tühi	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	11	amod	_	_
+11	asja	asi	NOUN	S	Case=Gen|Number=Sing	16	nmod	_	_
+12	pärast	pärast	ADP	K	AdpType=Post	11	case	_	_
+13	nii	nii	ADV	D	_	14	advmod	_	_
+14	kirglikult	kirglikult	ADV	D	_	16	advmod	_	_
+15	pead	pea	NOUN	S	Case=Par|Number=Sing	16	dobj	_	_
+16	murda	murdma	VERB	V	VerbForm=Inf	17	xcomp	_	_
+17	viitsib	viitsima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	csubj	_	_
+18	.	.	PUNCT	Z	_	5	punct	_	_
+
+#sent_id ilu_kivirahk_479
+#
+1	Aga	aga	CONJ	J	_	3	cc	_	_
+2	siiski	siiski	ADV	D	_	3	advmod	_	_
+3	liikusid	liikuma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	nad	tema	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+5	esialgu	esi_algu	ADV	D	_	3	advmod	_	_
+6	vapralt	vapralt	ADV	D	_	3	advmod	_	_
+7	edasi	edasi	ADV	D	_	3	compound:prt	_	_
+8	,	,	PUNCT	Z	_	11	punct	_	_
+9	kuni	kuni	SCONJ	J	_	11	mark	_	_
+10	laps	laps	NOUN	S	Case=Nom|Number=Sing	11	nsubj	_	_
+11	nägi	nägema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	dep	_	_
+12	enda	ise	PRON	P	Case=Gen|Number=Sing|PronType=Prs|Reflex=Yes	11	nmod	_	_
+13	ees	ees	ADP	K	AdpType=Post	12	case	_	_
+14	Stockmanni	Stockmann	PROPN	S	Case=Gen|Number=Sing	15	nmod	_	_
+15	kaubamaja	kauba_maja	NOUN	S	Case=Par|Number=Sing	11	dobj	_	_
+16	ja	ja	CONJ	J	_	11	cc	_	_
+17	teatas	teatama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	_
+18	,	,	PUNCT	Z	_	21	punct	_	_
+19	et	et	SCONJ	J	_	21	mark	_	_
+20	tema	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	tahab	tahtma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	ccomp	_	_
+22	nüüd	nüüd	ADV	D	_	21	advmod	_	_
+23	minna	minema	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24	poodi	pood	NOUN	S	Case=Add|Number=Sing	23	nmod	_	_
+25	.	.	PUNCT	Z	_	3	punct	_	_
+
+#sent_id ilu_kivirahk_489
+#
+1	"	"	PUNCT	Z	_	2	punct	_	_
+2	Lähme	minema	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	jah	jah	ADV	D	_	2	advmod	_	_
+4	!	!	PUNCT	Z	_	2	punct	_	_
+5	"	"	PUNCT	Z	_	2	punct	_	_
+6	kiitis	kiitma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+7	laps	laps	NOUN	S	Case=Nom|Number=Sing	6	nsubj	_	_
+8	takka	takka	ADV	D	_	6	compound:prt	_	_
+9	.	.	PUNCT	Z	_	2	punct	_	_
+
+#sent_id ilu_kivirahk_499
+#
+1	Mehed	mees	NOUN	S	Case=Nom|Number=Plur	3	nsubj	_	_
+2	lausa	lausa	ADV	D	_	3	advmod	_	_
+3	varisesid	varisema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	sadulaist	sadul	NOUN	S	Case=Ela|Number=Plur	3	nmod	_	_
+5	,	,	PUNCT	Z	_	7	punct	_	_
+6	jäädes	jääma	VERB	V	VerbForm=Ger	7	advcl	_	_
+7	lebama	lebama	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	3	xcomp	_	_
+8	kastest	kaste	NOUN	S	Case=Ela|Number=Sing	9	nmod	_	_
+9	niiskeile	niiske	ADJ	A	Case=All|Degree=Pos|Number=Plur	10	amod	_	_
+10	mätastele	mätas	NOUN	S	Case=All|Number=Plur	7	nmod	_	_
+11	.	.	PUNCT	Z	_	3	punct	_	_
+
+#sent_id ilu_kivirahk_509
+#
+1	Talle	tema	PRON	P	Case=All|Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
+2	meenus	meenuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	päev	päev	NOUN	S	Case=Nom|Number=Sing	2	nsubj	_	_
+4	,	,	PUNCT	Z	_	9	punct	_	_
+5	mil	mil	ADV	D	_	9	mark	_	_
+6	nad	tema	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+7	olid	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	aux	_	_
+8	kolmekesi	kolmekesi	ADV	D	_	9	advmod	_	_
+9	jõudnud	jõudma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	2	dep	_	_
+10	teeristile	tee_rist	NOUN	S	Case=All|Number=Sing	9	nmod	_	_
+11	,	,	PUNCT	Z	_	13	punct	_	_
+12	millel	mis	PRON	P	Case=Ade|Number=Sing|PronType=Int,Rel	13	nmod	_	_
+13	seisis	seisma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+14	keegi	keegi	PRON	P	Case=Nom|Number=Sing|PronType=Ind	16	nmod	_	_
+15	hall	hall	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	16	amod	_	_
+16	vanamees	vana_mees	NOUN	S	Case=Nom|Number=Sing	13	nsubj	_	_
+17	.	.	PUNCT	Z	_	2	punct	_	_
+
+#sent_id ilu_kivirahk_519
+#
+1	Ometi	ometi	ADV	D	_	2	advmod	_	_
+2	räägiti	rääkima	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	,	,	PUNCT	Z	_	9	punct	_	_
+4	et	et	SCONJ	J	_	9	mark	_	_
+5	enne	enne	ADP	K	AdpType=Prep	6	case	_	_
+6	uinumist	uinumine	NOUN	S	Case=Par|Number=Sing	9	nmod	_	_
+7	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	aux	_	_
+8	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	lubanud	lubama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	2	ccomp	_	_
+10	ükskord	üks_kord	ADV	D	_	12	advmod	_	_
+11	tagasi	tagasi	ADV	D	_	12	compound:prt	_	_
+12	tulla	tulema	VERB	V	VerbForm=Inf	9	xcomp	_	_
+13	ja	ja	CONJ	J	_	12	cc	_	_
+14	aidata	aitama	VERB	V	VerbForm=Inf	12	conj	_	_
+15	rüütleid	rüütel	NOUN	S	Case=Par|Number=Plur	14	dobj	_	_
+16	nende	tema	PRON	P	Case=Gen|Number=Plur|Person=3|PronType=Prs	19	nmod:poss	_	_
+17	raskes	raske	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	19	amod	_	_
+18	tõeotsimise	tõe_otsimine	NOUN	S	Case=Gen|Number=Sing	19	nmod	_	_
+19	töös	töö	NOUN	S	Case=Ine|Number=Sing	14	nmod	_	_
+20	.	.	PUNCT	Z	_	2	punct	_	_
+
+#sent_id ilu_kivirahk_529
+#
+1	Nad	tema	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	olid	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	tõstnud	tõstma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4	mõõgad	mõõk	NOUN	S	Case=Nom|Number=Plur	3	dobj	_	_
+5	ja	ja	CONJ	J	_	3	cc	_	_
+6	raiunud	raiuma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	3	conj	_	_
+7	puruks	puruks	ADV	D	_	6	advmod	_	_
+8	neiu	neiu	NOUN	S	Case=Gen|Number=Sing	6	dobj	_	_
+9	,	,	PUNCT	Z	_	8	punct	_	_
+10	pehmeid	pehme	ADJ	A	Case=Par|Degree=Pos|Number=Plur	11	amod	_	_
+11	patju	padi	NOUN	S	Case=Par|Number=Plur	16	nmod	_	_
+12	ja	ja	CONJ	J	_	11	cc	_	_
+13	värvilisi	värviline	ADJ	A	Case=Par|Degree=Pos|Number=Plur	14	amod	_	_
+14	kangaid	kangas	NOUN	S	Case=Par|Number=Plur	11	conj	_	_
+15	täis	täis	ADV	D	_	11	advmod:quant	_	_
+16	telgi	telg	NOUN	S	Case=Par|Number=Plur	8	conj	_	_
+17	ning	ning	CONJ	J	_	8	cc	_	_
+18	liuad	liud	NOUN	S	Case=Nom|Number=Plur	8	conj	_	_
+19	haruldaste	haruldane	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	roogadega	roog	NOUN	S	Case=Com|Number=Plur	18	nmod	_	_
+21	,	,	PUNCT	Z	_	3	punct	_	_
+22	ja	ja	CONJ	J	_	3	cc	_	_
+23	sõitnud	sõitma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	3	conj	_	_
+24	tagasi	tagasi	ADV	D	_	25	compound:prt	_	_
+25	vaatamata	vaatama	VERB	V	Case=Abe|VerbForm=Sup|Voice=Act	23	advcl	_	_
+26	edasi	edasi	ADV	D	_	23	compound:prt	_	_
+27	-	-	PUNCT	Z	_	3	punct	_	_
+28	sinna	sinna	ADV	D	_	23	advmod	_	_
+29	,	,	PUNCT	Z	_	32	punct	_	_
+30	kuhu	kuhu	ADV	D	_	32	mark	_	_
+31	neid	tema	PRON	P	Case=Par|Number=Plur|Person=3|PronType=Prs	32	dobj	_	_
+32	käskis	käskima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	23	advcl	_	_
+33	ratsutada	ratsutama	VERB	V	VerbForm=Inf	32	xcomp	_	_
+34	püha	püha	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	35	amod	_	_
+35	vanne	vanne	NOUN	S	Case=Nom|Number=Sing	32	nsubj	_	_
+36	.	.	PUNCT	Z	_	3	punct	_	_
+
+#sent_id ilu_kivirahk_539
+#
+1	Mina	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	ei	ei	AUX	V	Mood=Ind|Negative=Neg|VerbForm=Fin	3	neg	_	_
+3	kavatse	kavatsema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	anda	andma	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	armu	arm	NOUN	S	Case=Par|Number=Sing	4	dobj	_	_
+6	nõdrale	nõder	ADJ	A	Case=All|Degree=Pos|Number=Sing	7	amod	_	_
+7	lihale	liha	NOUN	S	Case=All|Number=Sing	4	nmod	_	_
+8	,	,	PUNCT	Z	_	10	punct	_	_
+9	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	10	nsubj	_	_
+10	meelitab	meelitama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+11	mind	mina	PRON	P	Case=Par|Number=Sing|Person=1|PronType=Prs	10	dobj	_	_
+12	siin	siin	ADV	D	_	14	advmod	_	_
+13	pehmel	pehme	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	14	amod	_	_
+14	murul	muru	NOUN	S	Case=Ade|Number=Sing	15	nmod	_	_
+15	laisklema	laisklema	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	10	xcomp	_	_
+16	ja	ja	CONJ	J	_	15	cc	_	_
+17	patuseid	patune	ADJ	A	Case=Par|Degree=Pos|Number=Plur	18	amod	_	_
+18	rõõme	rõõm	NOUN	S	Case=Par|Number=Plur	19	dobj	_	_
+19	nautima	nautima	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	15	conj	_	_
+20	,	,	PUNCT	Z	_	3	punct	_	_
+21	vaid	vaid	CONJ	J	_	3	cc	_	_
+22	annan	andma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+23	talle	tema	PRON	P	Case=All|Number=Sing|Person=3|PronType=Prs	22	nmod	_	_
+24	piitsa	piits	NOUN	S	Case=Par|Number=Sing	22	dobj	_	_
+25	ja	ja	CONJ	J	_	3	cc	_	_
+26	asun	asuma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+27	taas	taas	ADV	D	_	26	advmod	_	_
+28	teele	tee	NOUN	S	Case=All|Number=Sing	26	nmod	_	_
+29	.	.	PUNCT	Z	_	3	punct	_	_
+
+#sent_id ilu_kivirahk_549
+#
+1	"	"	PUNCT	Z	_	5	punct	_	_
+2	Jah	jah	ADV	D	_	5	advmod	_	_
+3	,	,	PUNCT	Z	_	5	punct	_	_
+4	või	või	ADV	D	_	5	advmod	_	_
+5	tõde	tõde	NOUN	S	Case=Par|Number=Sing	0	root	_	_
+6	sulle	sina	PRON	P	Case=All|Number=Sing|Person=2|PronType=Prs	5	nmod	_	_
+7	veel	veel	ADV	D	_	5	advmod	_	_
+8	tarvis	tarvis	ADV	D	_	5	advmod	_	_
+9	!	!	PUNCT	Z	_	5	punct	_	_
+10	"	"	PUNCT	Z	_	5	punct	_	_
+11	pilkas	pilkama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+12	Ott	Ott	PROPN	S	Case=Nom|Number=Sing	11	nsubj	_	_
+13	.	.	PUNCT	Z	_	5	punct	_	_
+
+#sent_id ilu_kivirahk_559
+#
+1	Selle	see	PRON	P	Case=Gen|Number=Sing|PronType=Dem	3	nmod	_	_
+2	üle	üle	ADP	K	AdpType=Post	1	case	_	_
+3	oli	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	tal	tema	PRON	P	Case=Ade|Number=Sing|Person=3|PronType=Prs	3	nmod	_	_
+5	eriti	eriti	ADV	D	_	6	advmod	_	_
+6	suur	suur	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	7	amod	_	_
+7	rõõm	rõõm	NOUN	S	Case=Nom|Number=Sing	3	nsubj	_	_
+8	.	.	PUNCT	Z	_	3	punct	_	_
+
+#sent_id ilu_kivirahk_569
+#
+1	Seekord	see_kord	ADV	D	_	2	advmod	_	_
+2	polnud	olema	VERB	V	Mood=Ind|Negative=Neg|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	selle	see	PRON	P	Case=Gen|Number=Sing|PronType=Dem	2	nmod	_	_
+4	sees	sees	ADP	K	AdpType=Post	3	case	_	_
+5	mitte	mitte	ADV	D	Negative=Neg	9	advmod	_	_
+6	mingi	mingi	ADJ	P	Case=Nom|Number=Sing|PronType=Ind	9	amod	_	_
+7	totter	totter	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	9	amod	_	_
+8	kokkupandav	kokku_pandav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	acl	_	_
+9	lennuk	lennuk	NOUN	S	Case=Nom|Number=Sing	2	nsubj	_	_
+10	või	või	CONJ	J	_	9	cc	_	_
+11	värdjaslik	värdjas=lik	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	12	amod	_	_
+12	kosmoselaev	kosmose_laev	NOUN	S	Case=Nom|Number=Sing	9	conj	_	_
+13	,	,	PUNCT	Z	_	9	punct	_	_
+14	vaid	vaid	CONJ	J	_	9	cc	_	_
+15	päris	päris	ADV	D	_	16	advmod	_	_
+16	kena	kena	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	19	amod	_	_
+17	ja	ja	CONJ	J	_	16	cc	_	_
+18	armas	armas	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	16	conj	_	_
+19	orav	orav	NOUN	S	Case=Nom|Number=Sing	9	conj	_	_
+20	.	.	PUNCT	Z	_	2	punct	_	_
+
+#sent_id ilu_kivirahk_579
+#
+1	Kunstinäitusele	kunsti_näitus	NOUN	S	Case=All|Number=Sing	4	nmod	_	_
+2	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	_	_
+3	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	eelistanud	eelistama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	kaubamaja	kauba_maja	NOUN	S	Case=Par|Number=Sing	4	dobj	_	_
+6	ja	ja	CONJ	J	_	4	cc	_	_
+7	installatsioonile	installatsioon	NOUN	S	Case=All|Number=Sing	10	nmod	_	_
+8	Lätis	Läti	PROPN	S	Case=Ine|Number=Sing	9	nmod	_	_
+9	valmistatud	valmista=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	_
+10	kondenspiima	kondens_piim	NOUN	S	Case=Par|Number=Sing	4	conj	_	_
+11	.	.	PUNCT	Z	_	4	punct	_	_
+
+#sent_id ilu_kivirahk_589
+#
+1	Juba	juba	ADV	D	_	4	advmod	_	_
+2	ainuüksi	ainu_üksi	ADV	D	_	4	advmod	_	_
+3	õue	õu	NOUN	S	Case=Add|Number=Sing	4	nmod	_	_
+4	vaadates	vaatama	VERB	V	VerbForm=Ger	5	advcl	_	_
+5	tuli	tulema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	hirm	hirm	NOUN	S	Case=Nom|Number=Sing	5	nsubj	_	_
+7	peale	peale	ADV	D	_	5	compound:prt	_	_
+8	-	-	PUNCT	Z	_	11	punct	_	_
+9	akna	aken	NOUN	S	Case=Gen|Number=Sing	11	nmod	_	_
+10	taga	taga	ADP	K	AdpType=Post	9	case	_	_
+11	kooldusid	koolduma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+12	puud	puu	NOUN	S	Case=Nom|Number=Plur	11	nsubj	_	_
+13	koleda	kole	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	14	amod	_	_
+14	tormi	torm	NOUN	S	Case=Gen|Number=Sing	11	nmod	_	_
+15	käes	käes	ADP	K	AdpType=Post	14	case	_	_
+16	,	,	PUNCT	Z	_	11	punct	_	_
+17	kusagil	kusagil	ADV	D	_	18	advmod	_	_
+18	seal	seal	ADV	D	_	23	advmod	_	_
+19	tuule	tuul	NOUN	S	Case=Gen|Number=Sing	23	nmod	_	_
+20	ja	ja	CONJ	J	_	19	cc	_	_
+21	tuisu	tuisk	NOUN	S	Case=Gen|Number=Sing	19	conj	_	_
+22	taga	taga	ADP	K	AdpType=Post	19	case	_	_
+23	asuv	asuv	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	24	acl	_	_
+24	soolaladu	soola_ladu	NOUN	S	Case=Nom|Number=Sing	30	nsubj	_	_
+25	ühes	ühes	ADP	K	AdpType=Prep	28	case	_	_
+26	temas	tema	PRON	P	Case=Ine|Number=Sing|Person=3|PronType=Prs	27	nmod	_	_
+27	hõljuvate	hõljuv	ADJ	A	Case=Gen|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	28	acl	_	_
+28	paberilipakatega	paberi_lipakas	NOUN	S	Case=Com|Number=Plur	24	nmod	_	_
+29	ei	ei	AUX	V	Mood=Ind|Negative=Neg|VerbForm=Fin	30	neg	_	_
+30	mõjunud	mõjuma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	_
+31	kaugeltki	kaugeltki	ADV	D	_	32	advmod	_	_
+32	kutsuvalt	kutsuvalt	ADV	D	_	30	advmod	_	_
+33	.	.	PUNCT	Z	_	5	punct	_	_
+
+#sent_id ilu_kivirahk_599
+#
+1	Aga	aga	CONJ	J	_	3	cc	_	_
+2	veel	veel	ADV	D	_	3	advmod	_	_
+3	pidas	pidama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	rüütlite	rüütel	NOUN	S	Case=Gen|Number=Plur	5	nmod	_	_
+5	vaim	vaim	NOUN	S	Case=Nom|Number=Sing	3	nsubj	_	_
+6	vastu	vastu	ADV	D	_	3	compound:prt	_	_
+7	ja	ja	CONJ	J	_	3	cc	_	_
+8	andis	andma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+9	lodevale	lodev	ADJ	A	Case=All|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	acl	_	_
+10	lihale	liha	NOUN	S	Case=All|Number=Sing	8	nmod	_	_
+11	halastamatult	halastamatult	ADV	D	_	8	advmod	_	_
+12	kannuseid	kannus	NOUN	S	Case=Par|Number=Plur	8	dobj	_	_
+13	.	.	PUNCT	Z	_	3	punct	_	_
+
+#sent_id ilu_kivirahk_609
+#
+1	Tõuse	tõusma	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	!	!	PUNCT	Z	_	1	punct	_	_
+
+#sent_id ilu_kivirahk_619
+#
+1	Jumala	jumal	NOUN	S	Case=Gen|Number=Sing	0	root	_	_
+2	,	,	PUNCT	Z	_	1	punct	_	_
+3	tõe	tõde	NOUN	S	Case=Gen|Number=Sing	1	conj	_	_
+4	ja	ja	CONJ	J	_	1	cc	_	_
+5	õiguse	õigus	NOUN	S	Case=Gen|Number=Sing	1	conj	_	_
+6	nimel	nimel	ADP	K	AdpType=Post	1	case	_	_
+7	!	!	PUNCT	Z	_	1	punct	_	_
+
+#sent_id ilu_kivirahk_629
+#
+1	Jumala	jumal	NOUN	S	Case=Gen|Number=Sing	6	nmod	_	_
+2	eest	eest	ADP	K	AdpType=Post	1	case	_	_
+3	,	,	PUNCT	Z	_	6	punct	_	_
+4	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	6	dobj	_	_
+5	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	teen	tegema	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	,	,	PUNCT	Z	_	10	punct	_	_
+8	sest	sest	SCONJ	J	_	10	mark	_	_
+9	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	tahan	tahtma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	dep	_	_
+11	leida	leidma	VERB	V	VerbForm=Inf	10	xcomp	_	_
+12	tõde	tõde	NOUN	S	Case=Par|Number=Sing	11	dobj	_	_
+13	ja	ja	CONJ	J	_	12	cc	_	_
+14	õigust	õigus	NOUN	S	Case=Par|Number=Sing	12	conj	_	_
+15	!	!	PUNCT	Z	_	6	punct	_	_
+16	"	"	PUNCT	Z	_	6	punct	_	_
+
+#sent_id ilu_kivirahk_639
+#
+1	Just	just	ADV	D	_	2	advmod	_	_
+2	praegu	praegu	ADV	D	_	3	advmod	_	_
+3	leidis	leidma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	üks	üks	PRON	P	Case=Nom|Number=Sing|PronType=Dem	6	det	_	_
+5	võõras	võõras	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	6	amod	_	_
+6	rüütel	rüütel	NOUN	S	Case=Nom|Number=Sing	3	nsubj	_	_
+7	Püha	püha	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	8	amod	_	_
+8	Graali	Graal	PROPN	S	Case=Gen|Number=Sing	3	dobj	_	_
+9	.	.	PUNCT	Z	_	3	punct	_	_
+
+#sent_id ilu_kivirahk_649
+#
+1	Ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	polnud	olema	AUX	V	Mood=Ind|Negative=Neg|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	_
+3	saanud	saama	AUX	V	Tense=Past|VerbForm=Part|Voice=Act	6	aux	_	_
+4	mahti	mahti	ADV	D	_	3	compound:prt	_	_
+5	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	6	dobj	_	_
+6	maitsta	maitsma	VERB	V	VerbForm=Inf	0	root	_	_
+7	.	.	PUNCT	Z	_	6	punct	_	_
+
+#sent_id ilu_kivirahk_659
+#
+1	Ott	Ott	PROPN	S	Case=Nom|Number=Sing	2	nsubj	_	_
+2	püüdis	püüdma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	end	ise	PRON	P	Case=Par|Number=Sing|PronType=Prs|Reflex=Yes	4	dobj	_	_
+4	veenda	veenma	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	,	,	PUNCT	Z	_	11	punct	_	_
+6	et	et	SCONJ	J	_	11	mark	_	_
+7	öösel	öösel	ADV	D	_	9	advmod	_	_
+8	magusa	magus	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	9	amod	_	_
+9	söömine	söömine	NOUN	S	Case=Nom|Number=Sing	11	nsubj:cop	_	_
+10	on	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
+11	kahjulik	kahjulik	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	dep	_	_
+12	.	.	PUNCT	Z	_	2	punct	_	_
+
+#sent_id ilu_kivirahk_669
+#
+1	Ei	ei	ADV	D	_	3	advmod	_	_
+2	,	,	PUNCT	Z	_	13	punct	_	_
+3	pole	olema	VERB	V	Mood=Ind|Negative=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	mingit	mingi	ADJ	P	Case=Par|Number=Sing|PronType=Ind	5	amod	_	_
+5	mõtet	mõte	NOUN	S	Case=Par|Number=Sing	3	nsubj	_	_
+6	söömist	söömine	NOUN	S	Case=Par|Number=Sing	13	dobj	_	_
+7	edasi	edasi	ADV	D	_	13	compound:prt	_	_
+8	,	,	PUNCT	Z	_	13	punct	_	_
+9	tundmatusse	tundmatu	ADJ	A	Case=Ill|Degree=Pos|Number=Sing	12	amod	_	_
+10	ja	ja	CONJ	J	_	9	cc	_	_
+11	ähvardavasse	ähvardav	ADJ	A	Case=Ill|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	conj	_	_
+12	tulevikku	tulevik	NOUN	S	Case=Add|Number=Sing	13	nmod	_	_
+13	lükata	lükkama	VERB	V	VerbForm=Inf	5	acl	_	_
+14	!	!	PUNCT	Z	_	3	punct	_	_
+
+#sent_id ilu_kivirahk_679
+#
+1	Külmikust	külmik	NOUN	S	Case=Ela|Number=Sing	2	nmod	_	_
+2	kiirgas	kiirgama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	kummalist	kummaline	ADJ	A	Case=Par|Degree=Pos|Number=Sing	7	amod	_	_
+4	,	,	PUNCT	Z	_	3	punct	_	_
+5	lausa	lausa	ADV	D	_	6	advmod	_	_
+6	silmipimestavat	silmi_pimestav	ADJ	A	Case=Par|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	conj	_	_
+7	valgust	valgus	NOUN	S	Case=Par|Number=Sing	2	nsubj	_	_
+8	,	,	PUNCT	Z	_	21	punct	_	_
+9	nagu	nagu	SCONJ	J	_	21	mark	_	_
+10	oleks	olema	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	_	_
+11	keegi	keegi	PRON	P	Case=Nom|Number=Sing|PronType=Ind	21	nsubj	_	_
+12	sinna	sinna	ADV	D	_	21	advmod	_	_
+13	tavalise	tavaline	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	15	amod	_	_
+14	pisikese	pisike	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	15	amod	_	_
+15	lambikese	lambike	NOUN	S	Case=Gen|Number=Sing	21	nmod	_	_
+16	asemele	asemele	ADP	K	AdpType=Post	15	case	_	_
+17	vähemalt	vähemalt	ADV	D	_	19	advmod	_	_
+18	1000	1000	NUM	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Card	19	nummod	_	_
+19	vatise	vatine	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	20	amod	_	_
+20	pirni	pirn	NOUN	S	Case=Gen|Number=Sing	21	dobj	_	_
+21	keeranud	keerama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	2	advcl	_	_
+22	.	.	PUNCT	Z	_	2	punct	_	_
+
+#sent_id ilu_kivirahk_689
+#
+1	Ott	Ott	PROPN	S	Case=Nom|Number=Sing	2	nsubj	_	_
+2	tundis	tundma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	end	ise	PRON	P	Case=Par|Number=Sing|PronType=Prs|Reflex=Yes	2	dobj	_	_
+4	täiesti	täiesti	ADV	D	_	5	advmod	_	_
+5	juhmistunult	juhmistu=nult	ADV	D	_	2	advmod	_	_
+6	.	.	PUNCT	Z	_	2	punct	_	_
+
+#sent_id ilu_kivirahk_699
+#
+1	"	"	PUNCT	Z	_	4	punct	_	_
+2	Mina	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:cop	_	_
+3	olen	olema	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	Merlin	Merlin	PROPN	S	Case=Nom|Number=Sing	0	root	_	_
+5	!	!	PUNCT	Z	_	4	punct	_	_
+6	"	"	PUNCT	Z	_	4	punct	_	_
+7	vastas	vastama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+8	orav	orav	NOUN	S	Case=Nom|Number=Sing	7	nsubj	_	_
+9	.	.	PUNCT	Z	_	4	punct	_	_
+
+#sent_id ilu_kivirahk_709
+#
+1	Kuidas	kuidas	ADV	D	_	2	mark	_	_
+2	reageerida	reageerima	VERB	V	VerbForm=Inf	0	root	_	_
+3	?	?	PUNCT	Z	_	2	punct	_	_
+
+#sent_id ilu_kivirahk_719
+#
+1	"	"	PUNCT	Z	_	5	punct	_	_
+2	See	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	_	_
+3	on	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+4	tõepoolest	tõe_poolest	ADV	D	_	5	advmod	_	_
+5	karikas	karikas	NOUN	S	Case=Nom|Number=Sing	0	root	_	_
+6	,	,	PUNCT	Z	_	8	punct	_	_
+7	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	8	nsubj	_	_
+8	sisaldab	sisaldama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+9	meie	mina	PRON	P	Case=Gen|Number=Plur|Person=1|PronType=Prs	10	nmod:poss	_	_
+10	Lunastaja	lunastaja	NOUN	S	Case=Gen|Number=Sing	13	nmod	_	_
+11	kõige	kõige	ADV	D	_	12	advmod	_	_
+12	pühamat	püham	ADJ	A	Case=Par|Degree=Cmp|Number=Sing	13	amod	_	_
+13	verd	veri	NOUN	S	Case=Par|Number=Sing	8	dobj	_	_
+14	.	.	PUNCT	Z	_	5	punct	_	_
+
+#sent_id ilu_kivirahk_729
+#
+1	"	"	PUNCT	Z	_	3	punct	_	_
+2	Ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	kuulen	kuulma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	,	,	PUNCT	Z	_	11	punct	_	_
+5	kuidas	kuidas	ADV	D	_	11	mark	_	_
+6	maa	maa	NOUN	S	Case=Nom|Number=Sing	11	nsubj	_	_
+7	nende	tema	PRON	P	Case=Gen|Number=Plur|Person=3|PronType=Prs	8	nmod:poss	_	_
+8	ratsude	ratsu	NOUN	S	Case=Gen|Number=Plur	9	nmod	_	_
+9	jalge	jalg	NOUN	S	Case=Gen|Number=Plur	11	nmod	_	_
+10	all	all	ADP	K	AdpType=Post	9	case	_	_
+11	müdiseb	müdisema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
+12	ja	ja	CONJ	J	_	11	cc	_	_
+13	kuidas	kuidas	ADV	D	_	14	mark	_	_
+14	kõlksuvad	kõlksuma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
+15	rasked	raske	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	mõõgad	mõõk	NOUN	S	Case=Nom|Number=Plur	14	nsubj	_	_
+17	ja	ja	CONJ	J	_	16	cc	_	_
+18	kilbid	kilp	NOUN	S	Case=Nom|Number=Plur	16	conj	_	_
+19	!	!	PUNCT	Z	_	3	punct	_	_
+
