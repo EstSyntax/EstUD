@@ -10,6 +10,7 @@ Treebank has been created by automatically converting Estonian Dependency Treeba
 Later, some relations have been reannotated manually. Some sentences which belong to the test set have been removed temporally. Please contact the contributor if you need then before February 2017.
 
 The documentation is available in Estonian only (Eesti_UD_2016.pdf).
+
 ----------------------
 Eesti universaalsete sõltuvustega märgendatud puudepanka arendatakse Tartu Ülikoolis.
 Hetkel saadaolev versioon (detsember 2016) koosneb 23 tekstifailist, ca 339000 sõnast, 24752 lausest.
