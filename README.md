@@ -9,7 +9,7 @@ The release currently available for download (as of December 2016) comprises 23 
 Treebank has been created by automatically converting Estonian Dependency Treebank (https://github.com/EstSyntax/EDT) to Universal Dependencies'.
 Later, some relations have been reannotated manually. Some sentences which belong to the test set have been removed temporally. Please contact the contributor if you need then before February 2017.
 
-The documentation is available in Estonian only (Eesti_UD_2016.pdf).
+The documentation is available in English (Estonian_UD_2016.pdf) and in Estonian (Eesti_UD_2016.pdf).
 
 ----------------------
 Eesti universaalsete sõltuvustega märgendatud puudepanka arendatakse Tartu Ülikoolis.
