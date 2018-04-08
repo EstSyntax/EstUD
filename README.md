@@ -5,7 +5,7 @@ Estonian Treebank in form of Universal Dependencies
 
 ## Version 2.2
 
-Versions 2.0 and upper are available at http://universaldependencies.org/ (https://github.com/UniversalDependencies/UD_Estonian-EDT/ , master branch is a stabile version and dev-branch the newest)
+Versions 2.0 and upper are available at http://universaldependencies.org/ (https://github.com/UniversalDependencies/UD_Estonian-EDT/ , master branch has a stable version and dev branch is the newest)
 
 ## Version 1.4
 
