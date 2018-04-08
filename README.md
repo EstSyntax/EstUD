@@ -3,7 +3,11 @@ Estonian Treebank in form of Universal Dependencies
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-##version 1.4
+## Version 2.2
+
+Versions 2.0 and upper are available at http://universaldependencies.org/ (https://github.com/UniversalDependencies/UD_Estonian-EDT/ , master branch is a stabile version and dev-branch the newest)
+
+## Version 1.4
 
 The Estonian Universal Dependencies' Treebank is developed at University of Tartu. 
 The release currently available for download (as of December 2016) comprises 23 documents, ca 339,000 tokens in 24,752 sentences.
