@@ -1,0 +1,47 @@
+see	PRON	PronType=Dem
+too	PRON	PronType=Dem
+seesama	PRON	PronType=Dem
+toosama	PRON	PronType=Dem
+sama	PRON	PronType=Dem
+esimene	PRON	PronType=Dem
+teine	PRON	PronType=Dem
+selline	PRON	PronType=Dem
+			
+üksteise	PRON	PronType=Rcp
+teineteise	PRON	PronType=Rcp
+			
+mina	PRON	PronType=Prs	Person=1
+sina	PRON	PronType=Prs	Person=2
+tema	PRON	PronType=Prs	Person=3
+			
+oma	PRON	PronType=Prs Poss=Yes
+ise	PRON	PronType=Prs Reflex=Yes
+			
+iseenda	PRON	PronType=Prs Reflex=Yes
+omaenese	PRON	PronType=Prs Reflex=Yes
+
+kes	PRON	PronType=Int,Rel
+mis	PRON	PronType=Int,Rel
+kumb	PRON	PronType=Int,Rel
+missugune	PRON	PronType=Int,Rel
+milline	PRON	PronType=Int,Rel
+mitu	PRON	PronType=Int,Rel
+mitmes	PRON	PronType=Int,Rel
+
+keegi	PRON	PronType=Ind
+miski	PRON	PronType=Ind
+üks	PRON	PronType=Ind
+ükski	PRON	PronType=Ind
+igaüks	PRON	PronType=Ind
+muu	PRON	PronType=Ind
+mõni	PRON	PronType=Ind
+palju	PRON	PronType=Ind
+mitu	PRON	PronType=Ind
+igasugune	PRON	PronType=Ind
+mitmesugune	PRON	PronType=Ind
+mõningas	PRON	PronType=Ind
+
+kõik	PRON	PronType=Tot
+iga	PRON	PronType=Tot
+
+kogu	PRON	PronType=Tot
