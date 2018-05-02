@@ -1,24 +1,25 @@
 see	PRON	PronType=Dem
 too	PRON	PronType=Dem
-seesama	PRON	PronType=Dem
-toosama	PRON	PronType=Dem
+see_sama	PRON	PronType=Dem
+too_sama	PRON	PronType=Dem
 sama	PRON	PronType=Dem
 esimene	PRON	PronType=Dem
 teine	PRON	PronType=Dem
 selline	PRON	PronType=Dem
+säärane	PRON	PronType=Dem
 			
-üksteise	PRON	PronType=Rcp
-teineteise	PRON	PronType=Rcp
+üks_teise	PRON	PronType=Rcp
+teine_teise	PRON	PronType=Rcp
 			
-mina	PRON	PronType=Prs	Person=1
-sina	PRON	PronType=Prs	Person=2
-tema	PRON	PronType=Prs	Person=3
+mina	PRON	PronType=Prs Person=1
+sina	PRON	PronType=Prs Person=2
+tema	PRON	PronType=Prs Person=3
 			
 oma	PRON	PronType=Prs Poss=Yes
 ise	PRON	PronType=Prs Reflex=Yes
 			
-iseenda	PRON	PronType=Prs Reflex=Yes
-omaenese	PRON	PronType=Prs Reflex=Yes
+ise_enese	PRON	PronType=Prs Reflex=Yes
+oma_enese	PRON	PronType=Prs Reflex=Yes
 
 kes	PRON	PronType=Int,Rel
 mis	PRON	PronType=Int,Rel
@@ -37,10 +38,10 @@ muu	PRON	PronType=Ind
 mõni	PRON	PronType=Ind
 palju	PRON	PronType=Ind
 mitu	PRON	PronType=Ind
-igasugune	PRON	PronType=Ind
-mitmesugune	PRON	PronType=Ind
+iga_sugune	PRON	PronType=Ind
+mitme_sugune	PRON	PronType=Ind
 mõningas	PRON	PronType=Ind
-
+mingi	PRON	PronType=Ind
 kõik	PRON	PronType=Tot
 iga	PRON	PronType=Tot
 
