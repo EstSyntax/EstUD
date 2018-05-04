@@ -7,7 +7,7 @@ import os
 import re
 import sys
 
-if sys.version_info<(3,5,0):
+if sys.version_info<(3,4,0):
 	sys.stderr.write("You need python 3.5 or later to run this script\n")
 	exit(1)
 
@@ -424,12 +424,13 @@ def translateToConllu(dict_info, flags = '', sentence_id=None):
 		
 		#first priority is for pos-lemma file rules
 		if pos in POSdict and lemma in POSdict[pos]:
-			#eprint(bColors.pattern_green % "MATCH")
+			#eprint(bColors.pattern_green % "MATCH", lemma)
 			pos2 = POSdict[pos][lemma]['pos']
 			#siin on loogika veidi dubleeritud 
 			if len(POSdict[pos][lemma]['features']):
 				conllu_features = list(POSdict[pos][lemma]['features'])
-			
+				#eprint(bColors.pattern_green % "MATCH", conllu_features)
+		    
 		
 		#kui failis polnud sobivat infot, siis läheb reeglite järgi
 		elif pos == 'S' and 'com' in a_morf:
@@ -610,9 +611,9 @@ def translateToConllu(dict_info, flags = '', sentence_id=None):
 		if 'es' in a_morf and pos2 in ['NOUN', 'PROPN', 'ADJ', 'DET', 'PRON', 'NUM']:
 			conllu_features.append('Case=Ess')
 			
-		if 'ab' in a_morf and pos2 in ['NOUN', 'PROPN', 'ADJ', 'DET', 'PRON', 'NUM']:
+		if 'abes' in a_morf and pos2 in ['NOUN', 'PROPN', 'ADJ', 'DET', 'PRON', 'NUM']:
 			conllu_features.append('Case=Abe')		
-		if 'ab' in a_morf and pos2 in ['VERB', 'AUX'] and 'VerbForm=Sup' in conllu_features:
+		if 'abes' in a_morf and pos2 in ['VERB', 'AUX'] and 'VerbForm=Sup' in conllu_features:
 			conllu_features.append('Case=Abe')
 			
 		if 'kom' in a_morf and pos2 in ['NOUN', 'PROPN', 'ADJ', 'DET', 'PRON', 'NUM']:
@@ -623,11 +624,15 @@ def translateToConllu(dict_info, flags = '', sentence_id=None):
 			conllu_features.append('Degree=Pos')
 		if 'comp' in a_morf and pos2 in ['ADJ']:
 			conllu_features.append('Degree=Cmp')
+		if 'super' in a_morf and pos2 in ['ADJ']:
+			conllu_features.append('Degree=Sup')
 
 		#NumForm=	 
 		if 'digit' in a_morf and pos2 in ['ADJ'] and 'NumType=Ord' in conllu_features:
 			conllu_features.append('NumForm=Digit')
 		if 'digit' in a_morf and pos2 in ['NUM']:
+			conllu_features.append('NumForm=Digit')
+		elif lemma.isdigit() and pos2 in ['NUM']:
 			conllu_features.append('NumForm=Digit')
 		
 		if 'l' in a_morf and pos2 in ['ADJ'] and 'NumType=Ord' in conllu_features:
@@ -653,9 +658,11 @@ def translateToConllu(dict_info, flags = '', sentence_id=None):
 		#if 'af' in a_morf and pos2 in ['VERB', 'AUX']:
 		#	conllu_features.append('Polarity=Pos')
 
-		if 'neg' in a_morf and pos2 in ['AUX']:
+		if 'neg' in a_morf and lemma in ['ei','ära']:
 			conllu_features.append('Polarity=Neg')
-		if 'neg' in a_morf and pos2 in ['VERB']:
+		elif 'neg' in a_morf and pos2 in ['VERB','AUX'] and wordform in ['pole','Pole','polnud','Polnud','poldud','Poldud','poleks','Poleks','poleksid','Poleksid','polegi','Polegi','polnudki','Polnudki']:
+			conllu_features.append('Polarity=Neg')
+		elif 'neg' in a_morf and pos2 in ['VERB','AUX']:
 			conllu_features.append('Connegative=Yes')
 		
 		#Voice=
@@ -682,8 +689,51 @@ def translateToConllu(dict_info, flags = '', sentence_id=None):
 		if '<tav>' in a_morf and 'partic' in a_morf:
 			conllu_features.append('Tense=Pres')
 			conllu_features.append('Voice=Pass')
-	
+		if 'tav' in lemma[-3:] and 'partic' in a_morf:
+			conllu_features.append('Tense=Pres')
+			conllu_features.append('Voice=Pass')
+		elif 'tav' in lemma[-3:] and pos2 in ['ADJ'] and lemma not in ['ustav','pool_tuttav','tuttav','naeratav','joonistav','äratav','isu_äratav','pimestav','otsustav','pimestav','ehmatav','tõotav','rahustav','uinutav','lömitav']:
+			conllu_features.append('Tense=Pres')
+			conllu_features.append('Voice=Pass')
+			conllu_features.append('VerbForm=Part')
+		elif 'v' in lemma[-1:] and 'partic' in a_morf:
+			conllu_features.append('Tense=Pres')
+			conllu_features.append('Voice=Act')
+		elif 'v' in lemma[-1:] and pos2 in ['ADJ'] and lemma not in ['harv','igav','imal-terav','kirev','kuiv','lõtv','odav','osav','pool_tuttav','pidev','pinev','põnev','terav','tugev','tuttav','sügav','ustav','verev','vägev']:
+			conllu_features.append('Tense=Pres')
+			conllu_features.append('Voice=Act')
+			conllu_features.append('VerbForm=Part')
 		
+		if 'nud' in lemma[-3:] and 'partic' in a_morf:
+			conllu_features.append('Tense=Past')
+			conllu_features.append('Voice=Act')
+		elif 'nud' in lemma[-3:] and pos2 in ['ADJ'] and len(conllu_features) <= 2: #jama
+			conllu_features.append('VerbForm=Part')
+			conllu_features.append('Tense=Past')
+			conllu_features.append('Voice=Act')	
+			
+		if 'tud' in lemma[-3:] and 'partic' in a_morf:
+			conllu_features.append('Tense=Past')
+			conllu_features.append('Voice=Pass')	
+		elif 'tud' in lemma[-3:] and pos2 in ['ADJ'] and len(conllu_features) <= 2: #jama
+			conllu_features.append('VerbForm=Part')
+			conllu_features.append('Tense=Past')
+			conllu_features.append('Voice=Pass')
+		if 'dud' in lemma[-3:] and 'partic' in a_morf:
+			conllu_features.append('Tense=Past')
+			conllu_features.append('Voice=Pass')	
+		elif 'dud' in lemma[-3:] and pos2 in ['ADJ'] and len(conllu_features) <= 2: #jama
+			conllu_features.append('VerbForm=Part')
+			conllu_features.append('Tense=Past')
+			conllu_features.append('Voice=Pass')
+		if 'mata' in lemma[-4:] and 'partic' in a_morf:
+			conllu_features.append('Case=Abe')
+			conllu_features.append('Voice=Act')	
+			conllu_features.append('VerbForm=Sup')
+			conllu_features.remove('VerbForm=Part')
+		#if 'tud' in lemma[-3:]:
+		#        eprint(bColors.pattern_red % conllu_features)
+								
 		
 		#Mood= and VerbForm=
 		if 'indic' in a_morf and pos2 in ['VERB', 'AUX']:
@@ -702,7 +752,10 @@ def translateToConllu(dict_info, flags = '', sentence_id=None):
 			conllu_features.append('Mood=Qot')
 			conllu_features.append('VerbForm=Fin') #??
 			
-		
+		if 'sup' in a_morf and 'VerbForm=Fin' in conllu_features:
+			conllu_features.remove('VerbForm=Fin')
+		if 'inf' in a_morf and 'VerbForm=Fin' in conllu_features:
+			conllu_features.remove('VerbForm=Fin')	
 
 		#wordform rules
 		#??? to lc
@@ -710,7 +763,7 @@ def translateToConllu(dict_info, flags = '', sentence_id=None):
 			conllu_features.append('Poss=Yes')
 		
 		#lemma rules
-		if lemma in ['ise', 'enda', 'enese', 'iseenda', 'iseenese', 'omaenda', 'omaenese'] and pos2 in ['PRON', 'DET']:
+		if lemma in ['ise', 'enda', 'enese', 'ise_enda', 'ise_enese', 'oma_enda', 'oma_enese'] and pos2 in ['PRON', 'DET']:
 			conllu_features.append('Reflex=Yes')
 		
 		#korrastame features array-id - sorteerime ja korjame duplikaadid välja
