@@ -1,4 +1,4 @@
-#Enhanced versions of Estonian universal dependencies treebanks
+# Enhanced versions of Estonian universal dependencies treebanks
 
 [UD EWT treebank](https://github.com/UniversalDependencies/UD_Estonian-EWT/tree/master) consists of different genres of new media. [UD EDT treebank](https://github.com/UniversalDependencies/UD_Estonian-EDT/tree/master) consists of genres of fiction, newspaper texts and scientific texts.
 Enhanced dependcies ([see](https://universaldependencies.org/u/overview/enhanced-syntax.html)) have been added as following:
