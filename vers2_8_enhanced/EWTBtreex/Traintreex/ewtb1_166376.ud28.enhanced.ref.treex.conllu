@@ -1,0 +1,47 @@
+# newdoc id = ewtb1_166376
+# sent_id = ewtb1_166376_1/et
+# text = Laupäeval, 29. oktoobril toimus Põlvamaal Moostes Folgikojas noortekonverents ja infomess, kus olid ennast tutvustama tulnud mitmed kõrgkoolid ja kutsekoolid.
+1	Laupäeval	lau_päev	NOUN	S	Case=Ade|Number=Sing	5	obl	5:obl:ade	SpaceAfter=No
+2	,	,	PUNCT	Z	_	4	punct	4:punct	_
+3	29.	29.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	4	amod	4:amod	_
+4	oktoobril	oktoober	NOUN	S	Case=Ade|Number=Sing	1	appos	1:appos	_
+5	toimus	toimuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+6	Põlvamaal	Põlva_maa	PROPN	S	Case=Ade|Number=Sing	5	obl	5:obl:ade	_
+7	Moostes	Mooste	PROPN	S	Case=Ine|Number=Sing	5	obl	5:obl:ine	_
+8	Folgikojas	Folgi_koda	PROPN	S	Case=Ine|Number=Sing	5	obl	5:obl:ine	_
+9	noortekonverents	noorte_konverents	NOUN	S	Case=Nom|Number=Sing	5	nsubj	5:nsubj	_
+10	ja	ja	CCONJ	J	_	11	cc	11:cc	_
+11	infomess	info_mess	NOUN	S	Case=Nom|Number=Sing	9	conj	5:nsubj|9:conj	SpaceAfter=No
+12	,	,	PUNCT	Z	_	17	punct	17:punct	_
+13	kus	kus	ADV	D	_	17	mark	17:mark	_
+14	olid	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	aux	17:aux	_
+15	ennast	ise	PRON	P	Case=Par|Number=Sing|PronType=Prs|Reflex=Yes	16	obj	16:obj	_
+16	tutvustama	tutvustama	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	17	xcomp	17:xcomp	_
+17	tulnud	tulema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	11	acl	11:acl:kus	_
+18	mitmed	mitu	DET	P	Case=Nom|Number=Plur|PronType=Ind	19	det	19:det	_
+19	kõrgkoolid	kõrg_kool	NOUN	S	Case=Nom|Number=Plur	17	nsubj	16:nsubj|17:nsubj	_
+20	ja	ja	CCONJ	J	_	21	cc	21:cc	_
+21	kutsekoolid	kutse_kool	NOUN	S	Case=Nom|Number=Plur	19	conj	16:nsubj|17:nsubj|19:conj	SpaceAfter=No
+22	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = ewtb1_166376_2/et
+# text = Näitena võib välja tuua Võru Kutsehariduskeskuse, Tallinna Tehnikakõrgkooli, Maaülikooli, IT-kolledži ja muidugi ka Lennuakadeemia.
+1	Näitena	näide	NOUN	S	Case=Ess|Number=Sing	4	obl	4:obl:ess	_
+2	võib	võima	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
+3	välja	välja	ADV	D	_	4	compound:prt	4:compound	_
+4	tuua	tooma	VERB	V	VerbForm=Inf	0	root	0:root	_
+5	Võru	Võru	PROPN	S	Case=Gen|Number=Sing	6	nmod	6:nmod:gen	_
+6	Kutsehariduskeskuse	Kutse_haridus_keskus	PROPN	S	Case=Gen|Number=Sing	4	obj	4:obj	SpaceAfter=No
+7	,	,	PUNCT	Z	_	9	punct	9:punct	_
+8	Tallinna	Tallinn	PROPN	S	Case=Gen|Number=Sing	9	nmod	9:nmod:gen	_
+9	Tehnikakõrgkooli	Tehnika_kõrg_kool	PROPN	S	Case=Gen|Number=Sing	6	conj	4:obj|6:conj	SpaceAfter=No
+10	,	,	PUNCT	Z	_	11	punct	11:punct	_
+11	Maaülikooli	Maa_üli_kool	PROPN	S	Case=Gen|Number=Sing	6	conj	4:obj|6:conj	SpaceAfter=No
+12	,	,	PUNCT	Z	_	13	punct	13:punct	_
+13	IT-kolledži	IT-kolledž	NOUN	S	Case=Gen|Number=Sing	6	conj	4:obj|6:conj	_
+14	ja	ja	CCONJ	J	_	17	cc	17:cc	_
+15	muidugi	muidugi	ADV	D	_	17	advmod	17:advmod	_
+16	ka	ka	ADV	D	_	17	advmod	17:advmod	_
+17	Lennuakadeemia	Lennu_akadeemia	PROPN	S	Case=Gen|Number=Sing	6	conj	4:obj|6:conj	SpaceAfter=No
+18	.	.	PUNCT	Z	_	4	punct	4:punct	_
+

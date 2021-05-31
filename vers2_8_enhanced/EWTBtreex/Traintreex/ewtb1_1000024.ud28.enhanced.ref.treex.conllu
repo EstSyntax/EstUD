@@ -1,0 +1,199 @@
+# newdoc id = ewtb1_1000024
+# sent_id = ewtb1_1000024_1/et
+# text = Dell, maailma suuruselt teine personaalarvutite tootja teatas eelmise aasta septembris, et ta jõuab keskkonna vallas nn süsinikneutraalsele (carbon neutral) tasemele 2008. aasta lõpuks.
+1	Dell	Dell	PROPN	S	Case=Nom|Number=Sing	8	nsubj	8:nsubj	SpaceAfter=No
+2	,	,	PUNCT	Z	_	7	punct	7:punct	_
+3	maailma	maa_ilm	NOUN	S	Case=Gen|Number=Sing	7	nmod	7:nmod:gen	_
+4	suuruselt	suurus	NOUN	S	Case=Abl|Number=Sing	5	obl	5:obl:abl	_
+5	teine	teine	ADJ	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Ord	7	amod	7:amod	_
+6	personaalarvutite	personaal_arvuti	NOUN	S	Case=Gen|Number=Plur	7	nmod	7:nmod:gen	_
+7	tootja	tootja	NOUN	S	Case=Nom|Number=Sing	1	appos	1:appos	_
+8	teatas	teatama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+9	eelmise	eelmine	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	10	amod	10:amod	_
+10	aasta	aasta	NOUN	S	Case=Gen|Number=Sing	11	nmod	11:nmod:gen	_
+11	septembris	september	NOUN	S	Case=Ine|Number=Sing	8	obl	8:obl:ine	SpaceAfter=No
+12	,	,	PUNCT	Z	_	15	punct	15:punct	_
+13	et	et	SCONJ	J	_	15	mark	15:mark	_
+14	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	15	nsubj	15:nsubj	_
+15	jõuab	jõudma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	8:ccomp	_
+16	keskkonna	keskkond	NOUN	S	Case=Gen|Number=Sing	17	nmod	17:nmod:gen	_
+17	vallas	vald	NOUN	S	Case=Ine|Number=Sing	15	obl	15:obl:ine	_
+18	nn	nn	ADJ	Y	Abbr=Yes	19	amod	19:amod	_
+19	süsinikneutraalsele	süsinik_neutraalne	ADJ	A	Case=All|Degree=Pos|Number=Sing	24	amod	24:amod	_
+20	(	(	PUNCT	Z	_	21	punct	21:punct	SpaceAfter=No
+21	carbon	carbon	NOUN	Y	Abbr=Yes|Foreign=Yes	19	appos	19:appos	_
+22	neutral	neutral	NOUN	Y	Abbr=Yes|Foreign=Yes	21	flat	21:flat	SpaceAfter=No
+23	)	)	PUNCT	Z	_	21	punct	21:punct	_
+24	tasemele	tase	NOUN	S	Case=All|Number=Sing	15	obl	15:obl:all	_
+25	2008.	2008.	ADJ	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Ord	26	amod	26:amod	_
+26	aasta	aasta	NOUN	S	Case=Gen|Number=Sing	27	nmod	27:nmod:gen	_
+27	lõpuks	lõpp	NOUN	S	Case=Tra|Number=Sing	15	obl	15:obl:tra	SpaceAfter=No
+28	.	.	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = ewtb1_1000024_2/et
+# text = Selle nädala kolmapäeval teatas firma, et nad jõuavad eesmärgini koguni viis kuud enne tähtaega, vahendas Reuters.
+1	Selle	see	DET	P	Case=Gen|Number=Sing|PronType=Dem	2	det	2:det	_
+2	nädala	nädal	NOUN	S	Case=Gen|Number=Sing	3	nmod	3:nmod:gen	_
+3	kolmapäeval	kolma_päev	NOUN	S	Case=Ade|Number=Sing	4	obl	4:obl:ade	_
+4	teatas	teatama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	parataxis	17:parataxis	_
+5	firma	firma	NOUN	S	Case=Nom|Number=Sing	4	nsubj	4:nsubj	SpaceAfter=No
+6	,	,	PUNCT	Z	_	9	punct	9:punct	_
+7	et	et	SCONJ	J	_	9	mark	9:mark	_
+8	nad	tema	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	9:nsubj	_
+9	jõuavad	jõudma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	4:ccomp	_
+10	eesmärgini	ees_märk	NOUN	S	Case=Ter|Number=Sing	9	obl	9:obl:ter	_
+11	koguni	koguni	ADV	D	_	12	advmod	12:advmod	_
+12	viis	viis	NUM	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	13	nummod	13:nummod	_
+13	kuud	kuu	NOUN	S	Case=Par|Number=Sing	9	obl	9:obl:par	_
+14	enne	enne	ADP	K	AdpType=Prep	15	case	15:case	_
+15	tähtaega	täht_aeg	NOUN	S	Case=Par|Number=Sing	13	nmod	13:nmod:enne:par	SpaceAfter=No
+16	,	,	PUNCT	Z	_	17	punct	17:punct	_
+17	vahendas	vahendama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+18	Reuters	Reuters	PROPN	S	Case=Nom|Number=Sing	17	nsubj	17:nsubj	SpaceAfter=No
+19	.	.	PUNCT	Z	_	17	punct	17:punct	_
+
+# sent_id = ewtb1_1000024_3/et
+# text = Elektrienergia hulk , mida Dell saab rohelise energia (näiteks tuule- ja päikeseenergia) vahendajatelt, on 2004. aastast alates kasvanud enam kui 9-kordseks.
+1	Elektrienergia	elektri_energia	NOUN	S	Case=Gen|Number=Sing	2	nmod	2:nmod:gen	_
+2	hulk	hulk	NOUN	S	Case=Nom|Number=Sing	21	nsubj	6:obj|21:nsubj	_
+3	,	,	PUNCT	Z	_	6	punct	6:punct	_
+4	mida	mis	PRON	P	Case=Par|Number=Sing|PronType=Int,Rel	6	obj	2:ref	_
+5	Dell	Dell	PROPN	S	Case=Nom|Number=Sing	6	nsubj	6:nsubj	_
+6	saab	saama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	2:acl:relcl	_
+7	rohelise	roheline	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	8	amod	8:amod	_
+8	energia	energia	NOUN	S	Case=Gen|Number=Sing	15	nmod	15:nmod:gen	_
+9	(	(	PUNCT	Z	_	11	punct	11:punct	SpaceAfter=No
+10	näiteks	näiteks	ADV	D	_	11	advmod	11:advmod	_
+11	tuule-	tuul	NOUN	S	Case=Gen|Hyph=Yes|Number=Sing	8	nmod	8:nmod:gen	_
+12	ja	ja	CCONJ	J	_	13	cc	13:cc	_
+13	päikeseenergia	päikese_energia	NOUN	S	Case=Gen|Number=Sing	11	conj	8:nmod:gen|11:conj	SpaceAfter=No
+14	)	)	PUNCT	Z	_	11	punct	11:punct	_
+15	vahendajatelt	vahendaja	NOUN	S	Case=Abl|Number=Plur	6	obl	6:obl:abl	SpaceAfter=No
+16	,	,	PUNCT	Z	_	21	punct	21:punct	_
+17	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	21:aux	_
+18	2004.	2004.	ADJ	N	Case=Ela|Number=Sing|NumForm=Digit|NumType=Ord	19	amod	19:amod	_
+19	aastast	aasta	NOUN	S	Case=Ela|Number=Sing	21	obl	21:obl:alates:ela	_
+20	alates	alates	ADP	K	_	19	case	19:case	_
+21	kasvanud	kasvama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+22	enam	enam	ADV	D	_	24	advmod	24:advmod	_
+23	kui	kui	SCONJ	J	_	24	mark	24:mark	_
+24	9-kordseks	9-kordne	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	21	advcl	21:advcl:kui	SpaceAfter=No
+25	.	.	PUNCT	Z	_	21	punct	21:punct	_
+
+# sent_id = ewtb1_1000024_4/et
+# text = 2004. aasta seisuga võis rääkida 12 miljonist kilovatt-tunnist.
+1	2004.	2004.	ADJ	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Ord	2	amod	2:amod	_
+2	aasta	aasta	NOUN	S	Case=Gen|Number=Sing	3	nmod	3:nmod:gen	_
+3	seisuga	seis	NOUN	S	Case=Com|Number=Sing	5	obl	5:obl:com	_
+4	võis	võima	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
+5	rääkida	rääkima	VERB	V	VerbForm=Inf	0	root	0:root	_
+6	12	12	NUM	N	NumForm=Digit|NumType=Card	8	nummod	8:nummod	_
+7	miljonist	miljon	NUM	N	Case=Ela|Number=Sing|NumForm=Word|NumType=Card	6	compound	6:compound	_
+8	kilovatt-tunnist	kilo_vatt-tund	NOUN	S	Case=Ela|Number=Sing	5	obl	5:obl:ela	SpaceAfter=No
+9	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = ewtb1_1000024_5/et
+# text = 2008. aastal räägitakse juba 116 miljonist kilovatt-tunnist.
+1	2008.	2008.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	2	amod	2:amod	_
+2	aastal	aasta	NOUN	S	Case=Ade|Number=Sing	3	obl	3:obl:ade	_
+3	räägitakse	rääkima	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
+4	juba	juba	ADV	D	_	3	advmod	3:advmod	_
+5	116	116	NUM	N	NumForm=Digit|NumType=Card	7	nummod	7:nummod	_
+6	miljonist	miljon	NUM	N	Case=Ela|Number=Sing|NumForm=Word|NumType=Card	5	compound	5:compound	_
+7	kilovatt-tunnist	kilo_vatt-tund	NOUN	S	Case=Ela|Number=Sing	3	obl	3:obl:ela	SpaceAfter=No
+8	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb1_1000024_6/et
+# text = Delli hinnngul on säästupoliitika mõjul atmosfääri jäänud paiskamata 20000 tonni CO2.
+1	Delli	Dell	PROPN	S	Case=Gen|Number=Sing	2	nmod	2:nmod:gen	_
+2	hinnngul	hinnang	NOUN	S	Case=Ade|Number=Sing|Typo=Yes	7	obl	7:obl:ade	CorrectForm=hinnangul
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
+4	säästupoliitika	säästu_poliitika	NOUN	S	Case=Gen|Number=Sing	7	obl	7:obl:mõjul:gen	_
+5	mõjul	mõjul	ADP	K	AdpType=Post	4	case	4:case	_
+6	atmosfääri	atmosfäär	NOUN	S	Case=Add|Number=Sing	8	obl	8:obl:add	_
+7	jäänud	jääma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+8	paiskamata	paiskama	VERB	V	Case=Abe|VerbForm=Sup|Voice=Act	7	advcl	7:advcl	_
+9	20000	20000	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	10	nummod	10:nummod	_
+10	tonni	tonn	NOUN	S	Case=Par|Number=Sing	11	nmod	11:nmod:par	_
+11	CO2	CO2	SYM	Y	Abbr=Yes	7	nsubj	7:nsubj	SpaceAfter=No
+12	.	.	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = ewtb1_1000024_7/et
+# text = Dell pakub oma tarbijatele võimalust osaleda programmis „Plant a Tree for Me ", mis istutab klientide eest puid säästva metsanduse piirkondadesse.
+1	Dell	Dell	PROPN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	_
+2	pakub	pakkuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	4:nmod:gen	_
+4	tarbijatele	tarbija	NOUN	S	Case=All|Number=Plur	2	obl	2:obl:all	_
+5	võimalust	võimalus	NOUN	S	Case=Par|Number=Sing	2	obj	2:obj	_
+6	osaleda	osalema	VERB	V	VerbForm=Inf	5	acl	5:acl	_
+7	programmis	programm	NOUN	S	Case=Ine|Number=Sing	6	obl	6:obl:ine|17:nsubj	_
+8	„	„	PUNCT	Z	_	9	punct	9:punct	SpaceAfter=No
+9	Plant	Plant	PROPN	S	Case=Nom|Foreign=Yes|Number=Sing	7	appos	7:appos	_
+10	a	a	NOUN	Y	Abbr=Yes|Foreign=Yes	9	flat	9:flat	_
+11	Tree	Tree	PROPN	S	Case=Nom|Foreign=Yes|Number=Sing	9	flat	9:flat	_
+12	for	for	NOUN	Y	Abbr=Yes|Foreign=Yes	9	flat	9:flat	_
+13	Me	Me	PROPN	S	Case=Nom|Foreign=Yes|Number=Sing	9	flat	9:flat	_
+14	"	"	PUNCT	Z	_	9	punct	9:punct	SpaceAfter=No
+15	,	,	PUNCT	Z	_	17	punct	17:punct	_
+16	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	17	nsubj	7:ref	_
+17	istutab	istutama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	7:acl:relcl	_
+18	klientide	klient	NOUN	S	Case=Gen|Number=Plur	17	obl	17:obl:eest:gen	_
+19	eest	eest	ADP	K	AdpType=Post	18	case	18:case	_
+20	puid	puu	NOUN	S	Case=Par|Number=Plur	17	obj	17:obj	_
+21	säästva	säästev	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	22	acl	22:acl	_
+22	metsanduse	metsandus	NOUN	S	Case=Gen|Number=Sing	23	nmod	23:nmod:gen	_
+23	piirkondadesse	piirkond	NOUN	S	Case=Ill|Number=Plur	17	obl	17:obl:ill	SpaceAfter=No
+24	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb1_1000024_8/et
+# text = Usutakse, et puud suudavad talletada piisavalt CO2, et neutraliseerida arvuti tootmise käigus atmosfäärile põhjustatud kahju.
+1	Usutakse	uskuma	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	Z	_	5	punct	5:punct	_
+3	et	et	SCONJ	J	_	5	mark	5:mark	_
+4	puud	puu	NOUN	S	Case=Nom|Number=Plur	5	nsubj	5:nsubj|6:nsubj	_
+5	suudavad	suutma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	1:ccomp	_
+6	talletada	talletama	VERB	V	VerbForm=Inf	5	xcomp	5:xcomp	_
+7	piisavalt	piisavalt	ADV	D	_	6	advmod	6:advmod	_
+8	CO2	CO2	SYM	Y	Abbr=Yes	6	obj	6:obj	SpaceAfter=No
+9	,	,	PUNCT	Z	_	11	punct	11:punct	_
+10	et	et	SCONJ	J	_	11	mark	11:mark	_
+11	neutraliseerida	neutraliseerima	VERB	V	VerbForm=Inf	5	advcl	5:advcl:et	_
+12	arvuti	arvuti	NOUN	S	Case=Gen|Number=Sing	13	nmod	13:nmod:gen	_
+13	tootmise	tootmine	NOUN	S	Case=Gen|Number=Sing	16	obl	16:obl:käigus:gen	_
+14	käigus	käigus	ADP	K	AdpType=Post	13	case	13:case	_
+15	atmosfäärile	atmosfäär	NOUN	S	Case=All|Number=Sing	16	obl	16:obl:all	_
+16	põhjustatud	põhjusta=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	17	acl	17:acl	_
+17	kahju	kahju	NOUN	S	Case=Nom|Number=Sing	11	obj	11:obj	SpaceAfter=No
+18	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ewtb1_1000024_9/et
+# text = Dell ei ole ainus firma, mis on panustanud rohelisse algatustesse.
+1	Dell	Dell	PROPN	S	Case=Nom|Number=Sing	5	nsubj:cop	5:nsubj	_
+2	ei	ei	AUX	V	Polarity=Neg	5	aux	5:aux	_
+3	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
+4	ainus	ainus	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	5:amod	_
+5	firma	firma	NOUN	S	Case=Nom|Number=Sing	0	root	0:root|9:nsubj	SpaceAfter=No
+6	,	,	PUNCT	Z	_	9	punct	9:punct	_
+7	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	9	nsubj	5:ref	_
+8	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
+9	panustanud	panustama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	5	acl:relcl	5:acl:relcl	_
+10	rohelisse	roheline	ADJ	A	Case=Add|Degree=Pos|Number=Sing	11	amod	11:amod	CorrectForm=rohelistesse|CorrectCase=Ill|CorrectNumber=Plur
+11	algatustesse	algatus	NOUN	S	Case=Ill|Number=Plur	9	obl	9:obl:ill	SpaceAfter=No
+12	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = ewtb1_1000024_10/et
+# text = Järjest enam ettevõtteid üle maailma on otsustanud muuta oma energia tarbimise tõhusamaks.
+1	Järjest	järjest	ADV	D	_	3	advmod	3:advmod	_
+2	enam	enam	ADV	D	_	3	advmod	3:advmod	_
+3	ettevõtteid	ette_võte	NOUN	S	Case=Par|Number=Plur	7	nsubj	7:nsubj|8:nsubj	_
+4	üle	üle	ADP	K	AdpType=Prep	5	case	5:case	_
+5	maailma	maa_ilm	NOUN	S	Case=Gen|Number=Sing	3	nmod	3:nmod:üle:gen	_
+6	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
+7	otsustanud	otsustama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+8	muuta	muutma	VERB	V	VerbForm=Inf	7	xcomp	7:xcomp	_
+9	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	10	nmod	10:nmod:gen	_
+10	energia	energia	NOUN	S	Case=Gen|Number=Sing	11	nmod	11:nmod:gen	_
+11	tarbimise	tarbimine	NOUN	S	Case=Gen|Number=Sing	8	obj	8:obj|12:nsubj	_
+12	tõhusamaks	tõhusam	ADJ	A	Case=Tra|Degree=Cmp|Number=Sing	8	xcomp	8:xcomp	SpaceAfter=No
+13	.	.	PUNCT	Z	_	7	punct	7:punct	_
+

@@ -1,0 +1,594 @@
+# newdoc id = ewtb2_396999
+# sent_id = ewtb2_396999_1/et
+# text = Rock Ramp 2012 eraldi autode jaoks korraldatud parkimist ei ole!
+1	Rock	Rock	PROPN	S	Case=Nom|Number=Sing	0	root	0:root	_
+2	Ramp	Ramp	PROPN	S	Case=Nom|Number=Sing	1	flat:name	1:flat	_
+3	2012	2012	NUM	N	NumForm=Digit|NumType=Card	1	flat:name	1:flat	_
+4	eraldi	eraldi	ADV	D	_	7	advmod	7:advmod	_
+5	autode	auto	NOUN	S	Case=Gen|Number=Plur	8	nmod	8:nmod:jaoks:gen	_
+6	jaoks	jaoks	ADP	K	AdpType=Post	5	case	5:case	_
+7	korraldatud	korralda=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	8	acl	8:acl	_
+8	parkimist	parkimine	NOUN	S	Case=Par|Number=Sing	1	nsubj:cop	1:nsubj	_
+9	ei	ei	AUX	V	Polarity=Neg	1	aux	1:aux	_
+10	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	1:cop	SpaceAfter=No
+11	!	!	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ewtb2_396999_2/et
+# text = Palume kasutada Viljandi linna avalikke parklaid.
+1	Palume	paluma	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	kasutada	kasutama	VERB	V	VerbForm=Inf	1	xcomp	1:xcomp	_
+3	Viljandi	Viljandi	PROPN	S	Case=Gen|Number=Sing	4	nmod	4:nmod:gen	_
+4	linna	linn	NOUN	S	Case=Gen|Number=Sing	6	nmod	6:nmod:gen	_
+5	avalikke	avalik	ADJ	A	Case=Par|Degree=Pos|Number=Plur	6	amod	6:amod	_
+6	parklaid	parkla	NOUN	S	Case=Par|Number=Plur	2	obj	2:obj	SpaceAfter=No
+7	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ewtb2_396999_3/et
+# text = Tasuline parkimine on tööpäevadel kuni kell 16.00 (märgistatult 2 tundi tasuta).
+1	Tasuline	tasuline	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	2:amod	_
+2	parkimine	parkimine	NOUN	S	Case=Nom|Number=Sing	6	nsubj:cop	6:nsubj	_
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
+4	tööpäevadel	töö_päev	NOUN	S	Case=Ade|Number=Plur	6	obl	6:obl:ade	_
+5	kuni	kuni	ADP	K	AdpType=Prep	6	case	6:case	_
+6	kell	kell	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+7	16.00	16.00	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	6	appos	6:appos	_
+8	(	(	PUNCT	Z	_	12	punct	12:punct	SpaceAfter=No
+9	märgistatult	märgista=tult	ADV	D	_	12	advmod	12:advmod	_
+10	2	2	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	11	nummod	11:nummod	_
+11	tundi	tund	NOUN	S	Case=Par|Number=Sing	12	nsubj:cop	12:nsubj	_
+12	tasuta	tasu	NOUN	S	Case=Abe|Number=Sing	6	parataxis	6:parataxis	SpaceAfter=No
+13	)	)	PUNCT	Z	_	12	punct	12:punct	SpaceAfter=No
+14	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb2_396999_4/et
+# text = Õhtusel ajal ja nädalavahetustel on parkimine tasuta.
+1	Õhtusel	õhtune	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	2	amod	2:amod	_
+2	ajal	aeg	NOUN	S	Case=Ade|Number=Sing	7	obl	7:obl:ade	_
+3	ja	ja	CCONJ	J	_	4	cc	4:cc	_
+4	nädalavahetustel	nädala_vahetus	NOUN	S	Case=Ade|Number=Plur	2	conj	2:conj|7:obl:ade	_
+5	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
+6	parkimine	parkimine	NOUN	S	Case=Nom|Number=Sing	7	nsubj:cop	7:nsubj	_
+7	tasuta	tasu	NOUN	S	Case=Abe|Number=Sing	0	root	0:root	SpaceAfter=No
+8	.	.	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = ewtb2_396999_5/et
+# text = Telklaager Rock Ramp 2012 on korrtaldatud telklaager.
+1	Telklaager	telk_laager	NOUN	S	Case=Nom|Number=Sing	7	nsubj:cop	7:nsubj	_
+2	Rock	rock	NOUN	S	Case=Nom|Number=Sing	1	appos	1:appos	_
+3	Ramp	Ramp	PROPN	S	Case=Nom|Number=Sing	2	flat:name	2:flat	_
+4	2012	2012	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	2	flat:name	2:flat	_
+5	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
+6	korrtaldatud	korralda=tud	ADJ	A	Degree=Pos|Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass	7	amod	7:amod	CorrectForm=korraldatud
+7	telklaager	telk_laager	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
+8	.	.	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = ewtb2_396999_6/et
+# text = Telklaagri pääse maksab 5 eurot!
+1	Telklaagri	telk_laager	NOUN	S	Case=Gen|Number=Sing	2	nmod	2:nmod:gen	_
+2	pääse	pääse	NOUN	S	Case=Nom|Number=Sing	3	nsubj	3:nsubj	_
+3	maksab	maksma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	5	5	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	5	nummod	5:nummod	_
+5	eurot	euro	NOUN	S	Case=Par|Number=Sing	3	obl	3:obl:par	SpaceAfter=No
+6	!	!	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb2_396999_7/et
+# text = NB!
+1	NB	NB	X	Y	Abbr=Yes	0	root	0:root	SpaceAfter=No
+2	!	!	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ewtb2_396999_8/et
+# text = Telklaagrisse pääsevad vaid telkijad.
+1	Telklaagrisse	telk_laager	NOUN	S	Case=Ill|Number=Sing	2	obl	2:obl:ill	_
+2	pääsevad	pääsema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	vaid	vaid	ADV	D	_	4	advmod	4:advmod	_
+4	telkijad	telki=ja	NOUN	S	Case=Nom|Number=Plur	2	nsubj	2:nsubj	SpaceAfter=No
+5	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb2_396999_9/et
+# text = Ohutus
+1	Ohutus	ohutus	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+
+# sent_id = ewtb2_396999_10/et
+# text = Telklaageri alal on keelatud:
+1	Telklaageri	telk_laager	PROPN	S	Case=Gen|Number=Sing|Typo=Yes	2	nmod	2:nmod:gen	CorrectForm=Telklaagri
+2	alal	ala	NOUN	S	Case=Ade|Number=Sing	4	obl	4:obl:ade	_
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
+4	keelatud	keelama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	SpaceAfter=No
+5	:	:	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb2_396999_11/et
+# text = • lahtise tule tegemine.
+1	•	•	PUNCT	Z	_	4	punct	4:punct	_
+2	lahtise	lahtine	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	3	amod	3:amod	_
+3	tule	tuli	NOUN	S	Case=Gen|Number=Sing	4	nmod	4:nmod:gen	_
+4	tegemine	tegemine	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
+5	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb2_396999_12/et
+# text = Keeld käib ka nn ühekordsete ja tavaliste grillide kohta.
+1	Keeld	keeld	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	_
+2	käib	käima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	ka	ka	ADV	D	_	2	advmod	2:advmod	_
+4	nn	nn	ADV	Y	Abbr=Yes	5	advmod	5:advmod	_
+5	ühekordsete	ühe_kordne	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	8	amod	8:amod	_
+6	ja	ja	CCONJ	J	_	7	cc	7:cc	_
+7	tavaliste	tavaline	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	5	conj	5:conj|8:amod	_
+8	grillide	grill	NOUN	S	Case=Gen|Number=Plur	2	obl	2:obl:kohta:gen	_
+9	kohta	kohta	ADP	K	AdpType=Post	8	case	8:case	SpaceAfter=No
+10	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb2_396999_13/et
+# text = • klaastaara
+1	•	•	PUNCT	Z	_	2	punct	2:punct	_
+2	klaastaara	klaas_taara	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+
+# sent_id = ewtb2_396999_14/et
+# text = Hügieen
+1	Hügieen	hügieen	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+
+# sent_id = ewtb2_396999_15/et
+# text = Telklaagri maa-alale pannakse välikäimlad.
+1	Telklaagri	telk_laager	NOUN	S	Case=Gen|Number=Sing	2	nmod	2:nmod:gen	_
+2	maa-alale	maa-ala	NOUN	S	Case=All|Number=Sing	3	obl	3:obl:all	_
+3	pannakse	panema	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
+4	välikäimlad	väli_käimla	NOUN	S	Case=Nom|Number=Plur	3	obj	3:obj	SpaceAfter=No
+5	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb2_396999_16/et
+# text = Palume telklaagri ala mitte reostada ning panna kogu olmepraht alati prügiurnidesse.
+1	Palume	paluma	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	telklaagri	telk_laager	NOUN	S	Case=Gen|Number=Sing	3	nmod	3:nmod:gen	_
+3	ala	ala	NOUN	S	Case=Par|Number=Sing	5	obj	5:obj	_
+4	mitte	mitte	ADV	D	Polarity=Neg	5	advmod	5:advmod	_
+5	reostada	reostama	VERB	V	VerbForm=Inf	1	xcomp	1:xcomp	_
+6	ning	ning	CCONJ	J	_	7	cc	7:cc	_
+7	panna	panema	VERB	V	VerbForm=Inf	5	conj	1:xcomp|5:conj	_
+8	kogu	kogu	DET	A	PronType=Tot	9	det	9:det	_
+9	olmepraht	olme_praht	NOUN	S	Case=Nom|Number=Sing	7	obj	7:obj	_
+10	alati	alati	ADV	D	_	7	advmod	7:advmod	_
+11	prügiurnidesse	prügi_urn	NOUN	S	Case=Ill|Number=Plur	7	obl	7:obl:ill	SpaceAfter=No
+12	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ewtb2_396999_17/et
+# text = Kas telklaager on avatud juba neljapäeval?
+1	Kas	kas	ADV	D	_	4	advmod	4:advmod	_
+2	telklaager	telk_laager	NOUN	S	Case=Nom|Number=Sing	4	nsubj:cop	4:nsubj	_
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+4	avatud	ava=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+5	juba	juba	ADV	D	_	6	advmod	6:advmod	_
+6	neljapäeval	nelja_päev	NOUN	S	Case=Ade|Number=Sing	4	obl	4:obl:ade	SpaceAfter=No
+7	?	?	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb2_396999_18/et
+# text = Tehases ahvatlevad bändid aga öömajaga hapud lood
+1	Tehases	tehas	NOUN	S	Case=Ine|Number=Sing	2	obl	2:obl:ine	_
+2	ahvatlevad	ahvatlema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	bändid	bänd	NOUN	S	Case=Nom|Number=Plur	2	nsubj	2:nsubj	_
+4	aga	aga	CCONJ	J	_	5	cc	5:cc	_
+5	öömajaga	öö_maja	NOUN	S	Case=Com|Number=Sing	2	conj	0:root|2:conj	_
+6	hapud	hapu	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	7	amod	7:amod	_
+7	lood	lugu	NOUN	S	Case=Nom|Number=Plur	5	nsubj:cop	5:nsubj	_
+
+# sent_id = ewtb2_396999_19/et
+# text = Tekkis küsimus, et kas see aasta on ka sedasi, et sitamaja ja söökla asuvad körvuti?, st et kui öhtul midagi närimist vötta seal toiduputkade juures ning keegi juhtub peldiku ust avama siis hullem lebra üleval?
+1	Tekkis	tekkima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	küsimus	küsimus	NOUN	S	Case=Nom|Number=Sing	1	nsubj	1:nsubj	SpaceAfter=No
+3	,	,	PUNCT	Z	_	10	punct	10:punct	_
+4	et	et	SCONJ	J	_	10	mark	10:mark	_
+5	kas	kas	ADV	D	_	10	advmod	10:advmod	_
+6	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	7	det	7:det	_
+7	aasta	aasta	NOUN	S	Case=Nom|Number=Sing	10	obl	10:obl:nom	_
+8	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
+9	ka	ka	ADV	D	_	10	advmod	10:advmod	_
+10	sedasi	sedasi	ADV	D	_	2	acl	2:acl:et	SpaceAfter=No
+11	,	,	PUNCT	Z	_	16	punct	16:punct	_
+12	et	et	SCONJ	J	_	16	mark	16:mark	_
+13	sitamaja	sita_maja	NOUN	S	Case=Nom|Number=Sing	16	nsubj	16:nsubj	_
+14	ja	ja	CCONJ	J	_	15	cc	15:cc	_
+15	söökla	söökla	NOUN	S	Case=Nom|Number=Sing	13	conj	13:conj|16:nsubj	_
+16	asuvad	asuma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	10:advcl:et	_
+17	körvuti	kõrvuti	ADV	D	Typo=Yes	16	advmod	16:advmod	SpaceAfter=No|CorrectForm=kõrvuti
+18	?	?	PUNCT	Z	_	16	punct	16:punct	SpaceAfter=No
+19	,	,	PUNCT	Z	_	39	punct	39:punct	_
+20	st	st	ADV	Y	Abbr=Yes	39	obl	39:obl	_
+21	et	et	SCONJ	J	_	26	mark	26:mark	_
+22	kui	kui	SCONJ	J	_	26	mark	26:mark	_
+23	öhtul	õhtu	NOUN	S	Case=Ade|Number=Sing|Typo=Yes	26	obl	26:obl:ade	CorrectForm=õhtul
+24	midagi	miski	PRON	P	Case=Par|Number=Sing|PronType=Ind	26	obj	26:obj	_
+25	närimist	närimine	NOUN	S	Case=Par|Number=Sing	24	nmod	24:nmod:par	_
+26	vötta	võtma	VERB	V	Typo=Yes|VerbForm=Inf	39	advcl	39:advcl:et_kui	CorrectForm=võtta
+27	seal	seal	ADV	D	_	26	advmod	26:advmod	_
+28	toiduputkade	toidu_putka	NOUN	S	Case=Gen|Number=Plur	26	obl	26:obl:juures:gen	_
+29	juures	juures	ADP	K	AdpType=Post	28	case	28:case	_
+30	ning	ning	CCONJ	J	_	32	cc	32:cc	_
+31	keegi	keegi	PRON	P	Case=Nom|Number=Sing|PronType=Ind	32	nsubj	32:nsubj	_
+32	juhtub	juhtuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	conj	26:conj|39:advcl:et_kui	_
+33	peldiku	peldik	NOUN	S	Case=Gen|Number=Sing	34	nmod	34:nmod:gen	_
+34	ust	uks	NOUN	S	Case=Par|Number=Sing	35	obj	35:obj	_
+35	avama	avama	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	32	xcomp	32:xcomp	_
+36	siis	siis	ADV	D	_	39	advmod	39:advmod	_
+37	hullem	hullem	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	38	amod	38:amod	_
+38	lebra	lebra	NOUN	S	Case=Nom|Number=Sing	39	nsubj:cop	39:nsubj	_
+39	üleval	üleval	ADV	D	_	16	conj	10:advcl:et|16:conj	SpaceAfter=No
+40	?	?	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ewtb2_396999_20/et
+# text = Kas telkla tuleb ikkagi kooli õuele, nagu kaardil näidatud või Tasuja platsile
+1	Kas	kas	ADV	D	_	3	advmod	3:advmod	_
+2	telkla	telkla	NOUN	S	Case=Nom|Number=Sing	3	nsubj	3:nsubj	_
+3	tuleb	tulema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	ikkagi	ikkagi	ADV	D	_	3	advmod	3:advmod	_
+5	kooli	kool	NOUN	S	Case=Gen|Number=Sing	6	nmod	6:nmod:gen	_
+6	õuele	õu	NOUN	S	Case=All|Number=Sing	3	obl	3:obl:all	SpaceAfter=No
+7	,	,	PUNCT	Z	_	10	punct	10:punct	_
+8	nagu	nagu	SCONJ	J	_	10	mark	10:mark	_
+9	kaardil	kaart	NOUN	S	Case=Ade|Number=Sing	10	obl	10:obl:ade	_
+10	näidatud	näitama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	3:advcl:nagu	_
+11	või	või	CCONJ	J	_	13	cc	13:cc	_
+12	Tasuja	Tasuja	PROPN	S	Case=Gen|Number=Sing	13	nmod	13:nmod:gen	_
+13	platsile	plats	NOUN	S	Case=All|Number=Sing	3	conj	0:root|3:conj	_
+
+# sent_id = ewtb2_396999_21/et
+# text = Tasuja platsile ikka, katsume vea parandada
+1	Tasuja	Tasuja	PROPN	S	Case=Gen|Number=Sing	2	nmod	2:nmod:gen	_
+2	platsile	plats	NOUN	S	Case=All|Number=Sing	0	root	0:root	_
+3	ikka	ikka	ADV	D	_	2	advmod	2:advmod	SpaceAfter=No
+4	,	,	PUNCT	Z	_	5	punct	5:punct	_
+5	katsume	katsuma	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	_
+6	vea	viga	NOUN	S	Case=Gen|Number=Sing	7	obj	7:obj	_
+7	parandada	parandama	VERB	V	VerbForm=Inf	5	xcomp	5:xcomp	_
+
+# sent_id = ewtb2_396999_22/et
+# text = eelmisel aastal oli telklaagri väravas range kontroll, kedagi ei lastud sisse, kel käepaela polnud
+1	eelmisel	eelmine	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	2	amod	2:amod	_
+2	aastal	aasta	NOUN	S	Case=Ade|Number=Sing	5	obl	5:obl:ade	_
+3	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
+4	telklaagri	telk_laager	NOUN	S	Case=Gen|Number=Sing	5	nmod	5:nmod:gen	_
+5	väravas	värav	NOUN	S	Case=Ine|Number=Sing	0	root	0:root	_
+6	range	range	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	7	amod	7:amod	_
+7	kontroll	kontroll	NOUN	S	Case=Nom|Number=Sing	5	nsubj:cop	5:nsubj	SpaceAfter=No
+8	,	,	PUNCT	Z	_	11	punct	11:punct	_
+9	kedagi	keegi	PRON	P	Case=Par|Number=Sing|PronType=Ind	11	obj	11:obj	_
+10	ei	ei	AUX	V	Polarity=Neg	11	aux	11:aux	_
+11	lastud	laskma	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	0:root|5:conj	_
+12	sisse	sisse	ADV	D	_	11	compound:prt	11:compound	SpaceAfter=No
+13	,	,	PUNCT	Z	_	14	punct	14:punct	_
+14	kel	kes	PRON	P	Case=Ade|Number=Sing|PronType=Int,Rel	9	acl:relcl	9:acl:relcl|9:ref	_
+15	käepaela	käe_pael	NOUN	S	Case=Par|Number=Sing	14	nsubj:cop	9:nsubj|9:nsubj:cop	_
+16	polnud	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	14:cop	_
+
+# sent_id = ewtb2_396999_23/et
+# text = mina, kes ma ratastoolis tänavale olin jäänud öömajata, ei tohtinud oodata oma laste juures, kellele ma kõigile olin telka pileti ostnud, kuni leian öömaja või transpordi isegi väravas, minu peale karjuti ja lubati politsei kutsuda, et ma seal olla tahtsin oma laste juures
+1	mina	mina	NOUN	S	Case=Nom|Number=Sing	13	nsubj	13:nsubj	SpaceAfter=No
+2	,	,	PUNCT	Z	_	4	punct	4:punct	_
+3	kes	kes	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	4	nmod	4:nmod:nom	_
+4	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	8:nsubj	_
+5	ratastoolis	ratas_tool	NOUN	S	Case=Ine|Number=Sing	8	obl	8:obl:ine	_
+6	tänavale	tänav	NOUN	S	Case=All|Number=Sing	8	obl	8:obl:all	_
+7	olin	olema	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
+8	jäänud	jääma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	1	acl	1:acl	_
+9	öömajata	öö_maja	NOUN	S	Case=Abe|Number=Sing	8	obl	8:obl:abe	SpaceAfter=No
+10	,	,	PUNCT	Z	_	13	punct	13:punct	_
+11	ei	ei	AUX	V	Polarity=Neg	13	aux	13:aux	_
+12	tohtinud	tohtima	AUX	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	aux	13:aux	_
+13	oodata	ootama	VERB	V	VerbForm=Inf	0	root	0:root	_
+14	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	15	nmod	15:nmod:gen	_
+15	laste	laps	NOUN	S	Case=Gen|Number=Plur	13	obl	13:obl:juures:gen|24:obl:juures:gen	_
+16	juures	juures	ADP	K	AdpType=Post	15	case	15:case	SpaceAfter=No
+17	,	,	PUNCT	Z	_	24	punct	24:punct	_
+18	kellele	kes	PRON	P	Case=All|Number=Plur|PronType=Int,Rel	24	obl	15:ref	_
+19	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	24:nsubj	_
+20	kõigile	kõik	PRON	P	Case=All|Number=Plur|PronType=Tot	24	obl	24:obl:all	_
+21	olin	olema	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	24	aux	24:aux	_
+22	telka	telkla	NOUN	S	Case=Gen|Number=Sing|Typo=Yes	23	nmod	23:nmod:gen	CorrectForm=telkla
+23	pileti	pilet	NOUN	S	Case=Gen|Number=Sing	24	obj	24:obj	_
+24	ostnud	ostma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	15	acl:relcl	15:acl:relcl	SpaceAfter=No
+25	,	,	PUNCT	Z	_	27	punct	27:punct	_
+26	kuni	kuni	SCONJ	J	_	27	mark	27:mark	_
+27	leian	leidma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	13:advcl:kuni	_
+28	öömaja	öö_maja	NOUN	S	Case=Gen|Number=Sing	27	obj	27:obj	_
+29	või	või	CCONJ	J	_	30	cc	30:cc	_
+30	transpordi	transport	NOUN	S	Case=Gen|Number=Sing	28	conj	27:obj|28:conj	_
+31	isegi	isegi	ADV	D	_	32	advmod	32:advmod	_
+32	väravas	värav	NOUN	S	Case=Ine|Number=Sing	13	obl	13:obl:ine	SpaceAfter=No
+33	,	,	PUNCT	Z	_	36	punct	36:punct	_
+34	minu	mina	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	36	obl	36:obl:peale:gen	_
+35	peale	peale	ADP	K	AdpType=Post	34	case	34:case	_
+36	karjuti	karjuma	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	13	ccomp	13:ccomp	_
+37	ja	ja	CCONJ	J	_	38	cc	38:cc	_
+38	lubati	lubama	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	36	conj	13:ccomp|36:conj	_
+39	politsei	politsei	NOUN	S	Case=Nom|Number=Sing	40	obj	40:obj	_
+40	kutsuda	kutsuma	VERB	V	VerbForm=Inf	38	xcomp	38:xcomp	SpaceAfter=No
+41	,	,	PUNCT	Z	_	46	punct	46:punct	_
+42	et	et	SCONJ	J	_	46	mark	46:mark	_
+43	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	46	nsubj	46:nsubj|48:nsubj	_
+44	seal	seal	ADV	D	_	48	advmod	48:advmod	_
+45	olla	olema	AUX	V	VerbForm=Inf	48	cop	48:cop	_
+46	tahtsin	tahtma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	38	advcl	38:advcl:et	_
+47	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	48	nmod	48:nmod:gen	_
+48	laste	laps	NOUN	S	Case=Gen|Number=Plur	46	xcomp	46:xcomp	_
+49	juures	juures	ADP	K	AdpType=Post	48	case	48:case	_
+
+# sent_id = ewtb2_396999_24/et
+# text = see aasta aga kolasid igasugu võõrad mööda telklat, kel polnudki sinna asja, kui ma pühapäeva hommikul lahkusin, magasid valvurid ja telklasse võis sisse voorida kes tahes asjad on nagu ühest äärmusest teise ?!
+1	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	2	det	2:det	_
+2	aasta	aasta	NOUN	S	Case=Nom|Number=Sing	4	obl	4:obl:nom	_
+3	aga	aga	ADV	D	_	4	advmod	4:advmod	_
+4	kolasid	kolama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	igasugu	iga_sugu	ADJ	A	Degree=Pos	6	amod	6:amod	_
+6	võõrad	võõras	NOUN	S	Case=Nom|Number=Plur	4	nsubj	4:nsubj	_
+7	mööda	mööda	ADP	K	AdpType=Prep	8	case	8:case	_
+8	telklat	telkla	NOUN	S	Case=Par|Number=Sing	4	obl	4:obl:mööda:par	SpaceAfter=No
+9	,	,	PUNCT	Z	_	10	punct	10:punct	_
+10	kel	kes	PRON	P	Case=Ade|Number=Sing|PronType=Int,Rel	6	acl:relcl	6:acl:relcl|6:ref	_
+11	polnudki	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
+12	sinna	sinna	ADV	D	_	10	advmod	10:advmod	_
+13	asja	asi	NOUN	S	Case=Par|Number=Sing	10	nsubj:cop	6:nsubj|6:nsubj:cop	SpaceAfter=No
+14	,	,	PUNCT	Z	_	19	punct	19:punct	_
+15	kui	kui	SCONJ	J	_	19	mark	19:mark	_
+16	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	19:nsubj	_
+17	pühapäeva	püha_päev	NOUN	S	Case=Gen|Number=Sing	18	nmod	18:nmod:gen	_
+18	hommikul	hommik	NOUN	S	Case=Ade|Number=Sing	19	obl	19:obl:ade	_
+19	lahkusin	lahkuma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	21	advcl	21:advcl:kui	SpaceAfter=No
+20	,	,	PUNCT	Z	_	21	punct	21:punct	_
+21	magasid	magama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	0:root|4:conj	_
+22	valvurid	valvur	NOUN	S	Case=Nom|Number=Plur	21	nsubj	21:nsubj	_
+23	ja	ja	CCONJ	J	_	27	cc	27:cc	_
+24	telklasse	telkla	NOUN	S	Case=Ill|Number=Sing	27	obl	27:obl:ill	_
+25	võis	võima	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	27	aux	27:aux	_
+26	sisse	sisse	ADV	D	_	27	compound:prt	27:compound	_
+27	voorida	voorima	VERB	V	VerbForm=Inf	21	conj	0:root|21:conj	_
+28	kes	kes	PRON	P	Case=Nom|Number=Plur|PronType=Int,Rel	27	nsubj	27:nsubj	_
+29	tahes	tahes	ADV	D	_	28	fixed	28:fixed	_
+30	asjad	asi	NOUN	S	Case=Nom|Number=Plur	34	nsubj:cop	34:nsubj	_
+31	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	cop	34:cop	_
+32	nagu	nagu	ADV	D	_	34	advmod	34:advmod	_
+33	ühest	üks	DET	P	Case=Ela|Number=Sing|PronType=Ind	34	det	34:det	_
+34	äärmusest	äärmus	NOUN	S	Case=Ela|Number=Sing	4	conj	0:root|4:conj	_
+35	teise	teine	PRON	P	Case=Ill|Number=Sing|PronType=Dem	34	obl	34:obl:ill	_
+36	?!	?!	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb2_396999_25/et
+# text = võiks ikka leida inimesed, kes oleks oma ülesannete kõrgusel ja ei ole jäigalt ning nõmedalt põikpäised
+1	võiks	võima	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	3:aux	_
+2	ikka	ikka	ADV	D	_	3	advmod	3:advmod	_
+3	leida	leidma	VERB	V	VerbForm=Inf	0	root	0:root	_
+4	inimesed	inimene	NOUN	S	Case=Nom|Number=Plur	3	obj	3:obj|10:nsubj:cop	SpaceAfter=No
+5	,	,	PUNCT	Z	_	10	punct	10:punct	_
+6	kes	kes	PRON	P	Case=Nom|Number=Plur|PronType=Int,Rel	10	nsubj:cop	4:ref	_
+7	oleks	olema	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
+8	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	9:nmod:gen	_
+9	ülesannete	üles_anne	NOUN	S	Case=Gen|Number=Plur	10	nmod	10:nmod:gen	_
+10	kõrgusel	kõrgus	NOUN	S	Case=Ade|Number=Sing	4	acl:relcl	4:acl:relcl	_
+11	ja	ja	CCONJ	J	_	17	cc	17:cc	_
+12	ei	ei	AUX	V	Polarity=Neg	17	aux	17:aux	_
+13	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	17:cop	_
+14	jäigalt	jäigalt	ADV	D	_	17	advmod	17:advmod	_
+15	ning	ning	CCONJ	J	_	16	cc	16:cc	_
+16	nõmedalt	nõmeda=lt	ADV	D	_	14	conj	14:conj|17:advmod	_
+17	põikpäised	põik_päine	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	10	conj	4:acl:relcl|10:conj	_
+
+# sent_id = ewtb2_396999_26/et
+# text = eelmisel aastal tundus, et piletikontrollil telklas oli mingi isiklik viha invaliidide vastu, minust voooris mööd mitu inimest, kel käepaela polnud, aga minust võeti kinni, kui haigijad oleks kallale tulnud, ma ei hakanud eelmisel aastal sõna võtma, sest tegelikult polnud ju mul õigust trügida, aga mingi inimlikkus võiks ikka olla, mul oli telklas toidu kott, tahtsin vaid seal veidi istuda ja einet võtta niiakaa kui olukord laheneb, nende inimestega ei olnud võimalik inimlikult suhelda, hakati ähvardama ja peaaegu et käed oleks käiku läinud
+1	eelmisel	eelmine	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	2	amod	2:amod	_
+2	aastal	aasta	NOUN	S	Case=Ade|Number=Sing	3	obl	3:obl:ade	_
+3	tundus	tunduma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	Z	_	6	punct	6:punct	_
+5	et	et	SCONJ	J	_	6	mark	6:mark	_
+6	piletikontrollil	pileti_kontroll	NOUN	S	Case=Ade|Number=Sing	3	csubj	3:csubj	_
+7	telklas	telkla	NOUN	S	Case=Ine|Number=Sing	6	nmod	6:nmod:ine	_
+8	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
+9	mingi	mingi	DET	P	Case=Nom|Number=Sing|PronType=Ind	11	det	11:det	_
+10	isiklik	isiklik	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	11	amod	11:amod	_
+11	viha	viha	NOUN	S	Case=Nom|Number=Sing	6	nsubj:cop	6:nsubj	_
+12	invaliidide	invaliid	NOUN	S	Case=Gen|Number=Plur	11	nmod	11:nmod:vastu:gen	_
+13	vastu	vastu	ADP	K	AdpType=Post	12	case	12:case	SpaceAfter=No
+14	,	,	PUNCT	Z	_	16	punct	16:punct	_
+15	minust	mina	PRON	P	Case=Ela|Number=Sing|Person=1|PronType=Prs	16	obl	16:obl:ela	_
+16	voooris	voorima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|Typo=Yes|VerbForm=Fin|Voice=Act	3	conj	0:root|3:conj	CorrectForm=vooris
+17	mööd	mööda	ADV	D	Typo=Yes	16	compound:prt	16:compound	CorrectForm=mööda
+18	mitu	mitu	DET	P	Case=Nom|Number=Sing|PronType=Ind	19	det	19:det	_
+19	inimest	inimene	NOUN	S	Case=Par|Number=Sing	16	nsubj	16:nsubj	SpaceAfter=No
+20	,	,	PUNCT	Z	_	21	punct	21:punct	_
+21	kel	kes	PRON	P	Case=Ade|Number=Sing|PronType=Int,Rel	19	acl:relcl	19:acl:relcl|19:ref	_
+22	käepaela	käe_pael	NOUN	S	Case=Par|Number=Sing	21	nsubj	19:nsubj	_
+23	polnud	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Act	21	cop	21:cop	SpaceAfter=No
+24	,	,	PUNCT	Z	_	27	punct	27:punct	_
+25	aga	aga	CCONJ	J	_	27	cc	27:cc	_
+26	minust	mina	PRON	P	Case=Ela|Number=Sing|Person=1|PronType=Prs	27	obl	27:obl:ela	_
+27	võeti	võtma	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	16	conj	0:root|16:conj	_
+28	kinni	kinni	ADV	D	_	27	compound:prt	27:compound	SpaceAfter=No
+29	,	,	PUNCT	Z	_	34	punct	34:punct	_
+30	kui	kui	SCONJ	J	_	34	mark	34:mark	_
+31	haigijad	hagijas	NOUN	S	Case=Nom|Number=Plur|Typo=Yes	34	nsubj	34:nsubj	CorrectForm=hagijad
+32	oleks	olema	AUX	V	Mood=Cnd|Number=Plur|Tense=Pres|VerbForm=Fin|Voice=Act	34	aux	34:aux	_
+33	kallale	kallale	ADV	D	_	34	compound:prt	34:compound	_
+34	tulnud	tulema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	27	advcl	27:advcl:kui	SpaceAfter=No
+35	,	,	PUNCT	Z	_	38	punct	38:punct	_
+36	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	38	nsubj	38:nsubj|42:nsubj	_
+37	ei	ei	AUX	V	Polarity=Neg	38	aux	38:aux	_
+38	hakanud	hakkama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	0:root|3:conj	_
+39	eelmisel	eelmine	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	40	amod	40:amod	_
+40	aastal	aasta	NOUN	S	Case=Ade|Number=Sing	38	obl	38:obl:ade	_
+41	sõna	sõna	NOUN	S	Case=Par|Number=Sing	42	obj	42:obj	_
+42	võtma	võtma	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	38	xcomp	38:xcomp	SpaceAfter=No
+43	,	,	PUNCT	Z	_	48	punct	48:punct	_
+44	sest	sest	SCONJ	J	_	48	mark	48:mark	_
+45	tegelikult	tegelikult	ADV	D	_	48	advmod	48:advmod	_
+46	polnud	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Act	48	cop	48:cop	_
+47	ju	ju	ADV	D	_	48	advmod	48:advmod	_
+48	mul	mina	PRON	P	Case=Ade|Number=Sing|Person=1|PronType=Prs	38	advcl	38:advcl:sest	_
+49	õigust	õigus	NOUN	S	Case=Par|Number=Sing	48	nsubj:cop	48:nsubj	_
+50	trügida	trügima	VERB	V	VerbForm=Inf	49	acl	49:acl	SpaceAfter=No
+51	,	,	PUNCT	Z	_	57	punct	57:punct	_
+52	aga	aga	CCONJ	J	_	57	cc	57:cc	_
+53	mingi	mingi	DET	P	Case=Nom|Number=Sing|PronType=Ind	54	det	54:det	_
+54	inimlikkus	inimlikkus	NOUN	S	Case=Nom|Number=Sing	57	nsubj	57:nsubj	_
+55	võiks	võima	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	57	aux	57:aux	_
+56	ikka	ikka	ADV	D	_	57	advmod	57:advmod	_
+57	olla	olema	VERB	V	VerbForm=Inf	48	conj	38:advcl:sest|48:conj	SpaceAfter=No
+58	,	,	PUNCT	Z	_	59	punct	59:punct	_
+59	mul	mina	PRON	P	Case=Ade|Number=Sing|Person=1|PronType=Prs	3	conj	0:root|3:conj	_
+60	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	59	cop	59:cop	_
+61	telklas	telkla	NOUN	S	Case=Ine|Number=Sing	59	obl	59:obl:ine	_
+62	toidu	toit	NOUN	S	Case=Gen|Number=Sing	63	nmod	63:nmod:gen	_
+63	kott	kott	NOUN	S	Case=Nom|Number=Sing	59	nsubj:cop	59:nsubj	SpaceAfter=No
+64	,	,	PUNCT	Z	_	65	punct	65:punct	_
+65	tahtsin	tahtma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	59	conj	0:root|59:conj	_
+66	vaid	vaid	ADV	D	_	65	advmod	65:advmod	_
+67	seal	seal	ADV	D	_	69	advmod	69:advmod	_
+68	veidi	veidi	ADV	D	_	69	advmod	69:advmod	_
+69	istuda	istuma	VERB	V	VerbForm=Inf	65	xcomp	65:xcomp	_
+70	ja	ja	CCONJ	J	_	72	cc	72:cc	_
+71	einet	eine	NOUN	S	Case=Par|Number=Sing	72	obj	72:obj	_
+72	võtta	võtma	VERB	V	VerbForm=Inf	69	conj	65:xcomp|69:conj	_
+73	niiakaa	nii_kaua	ADV	D	Typo=Yes	76	advmod	76:advmod	CorrectForm=niikaua
+74	kui	kui	SCONJ	J	_	76	mark	76:mark	_
+75	olukord	olu_kord	NOUN	S	Case=Nom|Number=Sing	76	nsubj	76:nsubj	_
+76	laheneb	lahenema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	65	advcl	65:advcl:kui	SpaceAfter=No
+77	,	,	PUNCT	Z	_	82	punct	82:punct	_
+78	nende	see	DET	P	Case=Gen|Number=Plur|PronType=Dem	79	det	79:det	_
+79	inimestega	inimene	NOUN	S	Case=Com|Number=Plur	84	obl	84:obl:com	_
+80	ei	ei	AUX	V	Polarity=Neg	82	aux	82:aux	_
+81	olnud	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	82	cop	82:cop	_
+82	võimalik	võimalik	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	conj	0:root|3:conj	_
+83	inimlikult	inimlikult	ADV	D	_	84	advmod	84:advmod	_
+84	suhelda	suhtlema	VERB	V	VerbForm=Inf	82	csubj:cop	82:csubj	SpaceAfter=No
+85	,	,	PUNCT	Z	_	86	punct	86:punct	_
+86	hakati	hakkama	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	82	conj	0:root|82:conj	_
+87	ähvardama	ähvardama	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	86	xcomp	86:xcomp	_
+88	ja	ja	CCONJ	J	_	94	cc	94:cc	_
+89	peaaegu	pea_aegu	ADV	D	_	94	advmod	94:advmod	_
+90	et	et	SCONJ	J	_	94	mark	94:mark	_
+91	käed	käsi	NOUN	S	Case=Nom|Number=Plur	94	nsubj	94:nsubj	_
+92	oleks	olema	AUX	V	Mood=Cnd|Number=Plur|Tense=Pres|VerbForm=Fin|Voice=Act	94	aux	94:aux	_
+93	käiku	käik	NOUN	S	Case=Add|Number=Sing	94	obl	94:obl:add	_
+94	läinud	minema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	82	conj	0:root|82:conj	_
+
+# sent_id = ewtb2_396999_27/et
+# text = poleks võtnud seda asja üldse üles, kui seekord hoopis vastupidi poleks olnud, hommikul istus äkki mu lauas mingi mees tänavalt, lärmas ja tülitas oma loraga, tal polnud festivaliga mingit pistmist
+1	poleks	olema	AUX	V	Mood=Cnd|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	2:aux	_
+2	võtnud	võtma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+3	seda	see	DET	P	Case=Par|Number=Sing|PronType=Dem	4	det	4:det	_
+4	asja	asi	NOUN	S	Case=Par|Number=Sing	2	obj	2:obj	_
+5	üldse	üldse	ADV	D	_	2	advmod	2:advmod	_
+6	üles	üles	ADV	D	_	2	compound:prt	2:compound	SpaceAfter=No
+7	,	,	PUNCT	Z	_	11	punct	11:punct	_
+8	kui	kui	SCONJ	J	_	11	mark	11:mark	_
+9	seekord	see_kord	ADV	D	_	11	advmod	11:advmod	_
+10	hoopis	hoopis	ADV	D	_	11	advmod	11:advmod	_
+11	vastupidi	vastu_pidi	ADV	D	_	2	advcl	2:advcl:kui	_
+12	poleks	olema	AUX	V	Mood=Cnd|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	11:aux	_
+13	olnud	olema	AUX	V	Tense=Past|VerbForm=Part|Voice=Act	11	cop	11:cop	SpaceAfter=No
+14	,	,	PUNCT	Z	_	16	punct	16:punct	_
+15	hommikul	hommik	NOUN	S	Case=Ade|Number=Sing	16	obl	16:obl:ade	_
+16	istus	istuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	_
+17	äkki	äkki	ADV	D	_	16	advmod	16:advmod	_
+18	mu	mina	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	19	nmod	19:nmod:gen	_
+19	lauas	laud	NOUN	S	Case=Ine|Number=Sing	16	obl	16:obl:ine	_
+20	mingi	mingi	DET	P	Case=Nom|Number=Sing|PronType=Ind	21	det	21:det	_
+21	mees	mees	NOUN	S	Case=Nom|Number=Sing	16	nsubj	16:nsubj	_
+22	tänavalt	tänav	NOUN	S	Case=Abl|Number=Sing	21	nmod	21:nmod:abl	SpaceAfter=No
+23	,	,	PUNCT	Z	_	24	punct	24:punct	_
+24	lärmas	lärmama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	conj	0:root|16:conj	_
+25	ja	ja	CCONJ	J	_	26	cc	26:cc	_
+26	tülitas	tülitama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	conj	0:root|16:conj	_
+27	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	28	nmod	28:nmod:gen	_
+28	loraga	lora	NOUN	S	Case=Com|Number=Sing	26	obl	26:obl:com	SpaceAfter=No
+29	,	,	PUNCT	Z	_	32	punct	32:punct	_
+30	tal	tema	PRON	P	Case=Ade|Number=Sing|Person=3|PronType=Prs	32	obl	32:obl:ade	_
+31	polnud	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Act	32	cop	32:cop	_
+32	festivaliga	festival	NOUN	S	Case=Com|Number=Sing	2	conj	0:root|2:conj	_
+33	mingit	mingi	DET	P	Case=Par|Number=Sing|PronType=Ind	34	det	34:det	_
+34	pistmist	pistmine	NOUN	S	Case=Par|Number=Sing	32	nsubj:cop	32:nsubj	_
+
+# sent_id = ewtb2_396999_28/et
+# text = ma laadisin tooli asju täis ja lahkusin, oleksin võinud sealt võtta kaasa mida iganes, valvet ma ei kohanud, kui aga hilisõhtul mängude korraldaja pani muusika kogemata valjusti, tuli mingi korraldaja õiendama, et meie oleme teile andnud võimaluse olla siin nii väiksese raha eest ja teie ei pea korrast kinni
+1	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	_
+2	laadisin	laadima	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	tooli	tool	NOUN	S	Case=Gen|Number=Sing	2	obj	2:obj	_
+4	asju	asi	NOUN	S	Case=Par|Number=Plur	2	obl	2:obl:par	_
+5	täis	täis	ADV	D	_	4	advmod	4:advmod	_
+6	ja	ja	CCONJ	J	_	7	cc	7:cc	_
+7	lahkusin	lahkuma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	SpaceAfter=No
+8	,	,	PUNCT	Z	_	12	punct	12:punct	_
+9	oleksin	olema	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
+10	võinud	võima	AUX	V	Tense=Past|VerbForm=Part|Voice=Act	12	aux	12:aux	_
+11	sealt	sealt	ADV	D	_	12	advmod	12:advmod	_
+12	võtta	võtma	VERB	V	VerbForm=Inf	2	conj	0:root|2:conj	_
+13	kaasa	kaasa	ADV	D	_	12	compound:prt	12:compound	_
+14	mida	mis	PRON	P	Case=Par|Number=Sing|PronType=Int,Rel	12	obj	12:obj	_
+15	iganes	iganes	ADV	D	_	14	fixed	14:fixed	SpaceAfter=No
+16	,	,	PUNCT	Z	_	20	punct	20:punct	_
+17	valvet	valve	NOUN	S	Case=Par|Number=Sing	20	obj	20:obj	_
+18	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	20:nsubj	_
+19	ei	ei	AUX	V	Polarity=Neg	20	aux	20:aux	_
+20	kohanud	kohtama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	SpaceAfter=No
+21	,	,	PUNCT	Z	_	27	punct	27:punct	_
+22	kui	kui	SCONJ	J	_	27	mark	27:mark	_
+23	aga	aga	ADV	D	_	27	advmod	27:advmod	_
+24	hilisõhtul	hilis_õhtu	NOUN	S	Case=Ade|Number=Sing	27	obl	27:obl:ade	_
+25	mängude	mäng	NOUN	S	Case=Gen|Number=Plur	26	nmod	26:nmod:gen	_
+26	korraldaja	korraldaja	NOUN	S	Case=Nom|Number=Sing	27	nsubj	27:nsubj	_
+27	pani	panema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	32	advcl	32:advcl:kui	_
+28	muusika	muusika	NOUN	S	Case=Gen|Number=Sing	27	obj	27:obj	_
+29	kogemata	kogemata	ADV	D	_	27	advmod	27:advmod	_
+30	valjusti	valjusti	ADV	D	_	27	advmod	27:advmod	SpaceAfter=No
+31	,	,	PUNCT	Z	_	32	punct	32:punct	_
+32	tuli	tulema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	_
+33	mingi	mingi	DET	P	Case=Nom|Number=Sing|PronType=Ind	34	det	34:det	_
+34	korraldaja	korraldaja	NOUN	S	Case=Nom|Number=Sing	32	nsubj	32:nsubj|35:nsubj	_
+35	õiendama	õiendama	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	32	xcomp	32:xcomp	SpaceAfter=No
+36	,	,	PUNCT	Z	_	41	punct	41:punct	_
+37	et	et	SCONJ	J	_	41	mark	41:mark	_
+38	meie	mina	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	41	nsubj	41:nsubj	_
+39	oleme	olema	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	41	aux	41:aux	_
+40	teile	sina	PRON	P	Case=All|Number=Plur|Person=2|PronType=Prs	41	obl	41:obl:all	_
+41	andnud	andma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	35	advcl	35:advcl:et	_
+42	võimaluse	võimalus	NOUN	S	Case=Gen|Number=Sing	41	obj	41:obj	_
+43	olla	olema	AUX	V	VerbForm=Inf	44	cop	44:cop	_
+44	siin	siin	ADV	D	_	42	acl	42:acl	_
+45	nii	nii	ADV	D	_	46	advmod	46:advmod	_
+46	väiksese	väikene	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Typo=Yes	47	amod	47:amod	CorrectForm=väikese
+47	raha	raha	NOUN	S	Case=Gen|Number=Sing	44	obl	44:obl:eest:gen	_
+48	eest	eest	ADP	K	AdpType=Post	47	case	47:case	_
+49	ja	ja	CCONJ	J	_	52	cc	52:cc	_
+50	teie	sina	PRON	P	Case=Nom|Number=Plur|Person=2|PronType=Prs	52	nsubj	52:nsubj	_
+51	ei	ei	AUX	V	Polarity=Neg	52	aux	52:aux	_
+52	pea	pidama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	41	conj	35:advcl:et|41:conj	_
+53	korrast	kord	NOUN	S	Case=Ela|Number=Sing	52	obl	52:obl:ela	_
+54	kinni	kinni	ADV	D	_	52	compound:prt	52:compound	_
+
+# sent_id = ewtb2_396999_29/et
+# text = mis korrast me räägime,?!
+1	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	2	nmod	2:nmod:nom	_
+2	korrast	kord	NOUN	S	Case=Ela|Number=Sing	4	obl	4:obl:ela	_
+3	me	mina	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	_
+4	räägime	rääkima	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
+6	?	?	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
+7	!	!	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb2_396999_30/et
+# text = kelle korrast?
+1	kelle	kes	PRON	P	Case=Gen|Number=Sing|PronType=Int,Rel	2	nmod	2:nmod:gen	_
+2	korrast	kord	NOUN	S	Case=Ela|Number=Sing	0	root	0:root	SpaceAfter=No
+3	?	?	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb2_396999_31/et
+# text = muusika segas väravas magamist?
+1	muusika	muusika	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	_
+2	segas	segama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	väravas	värav	NOUN	S	Case=Ine|Number=Sing	4	nmod	4:nmod:ine	_
+4	magamist	magamine	NOUN	S	Case=Par|Number=Sing	2	obj	2:obj	SpaceAfter=No
+5	?	?	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb2_396999_32/et
+# text = no kuulge see on ikka jama
+1	no	no	INTJ	B	_	2	discourse	2:discourse	_
+2	kuulge	kuulma	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	6	nsubj:cop	6:nsubj	_
+4	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
+5	ikka	ikka	ADV	D	_	6	advmod	6:advmod	_
+6	jama	jama	NOUN	S	Case=Nom|Number=Sing	2	conj	0:root|2:conj	_
+
