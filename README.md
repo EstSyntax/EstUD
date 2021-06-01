@@ -5,7 +5,7 @@ Estonian Treebank in form of Universal Dependencies
 
 ## Version 2.8 Enhanced
 
-This is an experimential version of official UD2.8 Estonian UD treebanks.
+This is an experimental version of official UD2.8 Estonian UD treebanks.
 [Enhanced dependencies](https://universaldependencies.org/u/overview/enhanced-syntax.html) have been added as following:
 * Empty nodes for elided predicates - manually
 * Propagation of incoming dependencies to conjuncts - automatically using [Treex](https://github.com/ufal/treex) software
