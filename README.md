@@ -3,6 +3,17 @@ Estonian Treebank in form of Universal Dependencies
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
+## Version 2.8 Enhanced
+
+This is an experimential version of official UD2.8 Estonian UD treebanks.
+[Enhanced dependencies](https://universaldependencies.org/u/overview/enhanced-syntax.html) have been added as following:
+* Empty nodes for elided predicates - manually
+* Propagation of incoming dependencies to conjuncts - automatically using [Treex](https://github.com/ufal/treex) software
+* Propagation of outgoing dependencies from conjuncts - automatically using Treex
+* Additional subject relations for control and raising constructions - automatically using Treex
+* Coreference in relative clause constructions - manually
+* Modifier labels that contain the preposition or other case-marking information - automatically using Treex
+
 ## Version 2.2
 
 Versions 2.0 and upper are available at http://universaldependencies.org/ (https://github.com/UniversalDependencies/UD_Estonian-EDT/ , master branch has a stable version and dev branch is the newest)
