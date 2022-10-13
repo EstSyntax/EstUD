@@ -1,0 +1,899 @@
+# sent_id = aja_luup200202_900
+# text = Korraga võib lennuk õhus olla umbes 16 tundi.
+1	Korraga	korraga	ADV	D	_	8	advmod	8:advmod	_
+2	võib	võima	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
+3	lennuk	lennuk	NOUN	S	Case=Nom|Number=Sing	8	nsubj:cop	8:nsubj	_
+4	õhus	õhk	NOUN	S	Case=Ine|Number=Sing	8	obl	8:obl	_
+5	olla	olema	AUX	V	VerbForm=Inf	8	cop	8:cop	_
+6	umbes	umbes	ADV	D	_	7	advmod	7:advmod	_
+7	16	16	NUM	N	NumForm=Digit|NumType=Card	8	nummod	8:nummod	_
+8	tundi	tund	NOUN	S	Case=Par|Number=Sing	0	root	0:root	SpaceAfter=No
+9	.	.	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = aja_luup200202_901
+# text = Alates 1994. aastast on toodetud 50 Predatorit.
+1	Alates	alates	ADP	K	AdpType=Prep	3	case	3:case	_
+2	1994.	1994.	ADJ	N	Case=Ela|Number=Sing|NumForm=Digit|NumType=Ord	3	amod	3:amod	_
+3	aastast	aasta	NOUN	S	Case=Ela|Number=Sing	5	obl	5:obl	_
+4	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
+5	toodetud	tootma	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+6	50	50	NUM	N	NumForm=Digit|NumType=Card	7	nummod	7:nummod	_
+7	Predatorit	Predator	PROPN	S	Case=Par|Number=Sing	5	obj	5:obj	NE=B-Prod|SpaceAfter=No
+8	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = aja_luup200202_902
+# text = Umbes 20 neist on hävinud, neist omakorda pooled kriisipiirkondades alla tulistatud.
+1	Umbes	umbes	ADV	D	_	2	advmod	2:advmod	_
+2	20	20	NUM	N	NumForm=Digit|NumType=Card	5	nsubj	5:nsubj	_
+3	neist	see	DET	P	Case=Ela|Number=Plur|PronType=Dem	2	det	2:det	_
+4	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
+5	hävinud	hävima	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
+6	,	,	PUNCT	Z	_	12	punct	12:punct	_
+7	neist	see	DET	P	Case=Ela|Number=Plur|PronType=Dem	9	det	9:det	_
+8	omakorda	oma_korda	ADV	D	_	9	advmod	9:advmod	_
+9	pooled	pool	NUM	N	Case=Nom|Number=Plur|NumForm=Word|NumType=Frac	12	obj	12:obj	_
+10	kriisipiirkondades	kriisi_piirkond	NOUN	S	Case=Ine|Number=Plur	12	obl	12:obl	_
+11	alla	alla	ADV	D	_	12	compound:prt	12:compound	_
+12	tulistatud	tulistama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	0:root|5:conj	SpaceAfter=No
+13	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = aja_luup200202_903
+# text = Inimelud on aga säästetud.
+1	Inimelud	inim_elu	NOUN	S	Case=Nom|Number=Plur	4	obj	4:obj	_
+2	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
+3	aga	aga	ADV	D	_	4	advmod	4:advmod	_
+4	säästetud	säästma	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	SpaceAfter=No
+5	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = aja_luup200202_904
+# text = Katsetamisjärgus on mehitamata lennuk Global Hawk, mis suudab lennata kuni 19 000 meetri kõrgusel 650-kilomeetrise tunnikiirusega ja olla õhus korraga kuni 40 tundi.
+1	Katsetamisjärgus	katsetamis_järk	NOUN	S	Case=Ine|Number=Sing	0	root	0:root	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	1:cop	_
+3	mehitamata	mehita=mata	ADJ	A	Case=Abe|Degree=Pos|VerbForm=Sup|Voice=Act	4	amod	4:amod	_
+4	lennuk	lennuk	NOUN	S	Case=Nom|Number=Sing	1	nsubj:cop	1:nsubj|9:nsubj|10:nsubj	_
+5	Global	Global	PROPN	S	Case=Nom|Number=Sing	4	appos	4:appos	NE=B-Prod
+6	Hawk	Hawk	PROPN	S	Case=Nom|Number=Sing	5	flat	5:flat	NE=I-Prod|SpaceAfter=No
+7	,	,	PUNCT	Z	_	9	punct	9:punct	_
+8	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	9	nsubj	4:ref|10:nsubj	_
+9	suudab	suutma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	5:acl:relcl	_
+10	lennata	lendama	VERB	V	VerbForm=Inf	9	xcomp	9:xcomp	_
+11	kuni	kuni	ADV	D	_	12	advmod	12:advmod	_
+12	19	19000	NUM	N	NumForm=Digit|NumType=Card|Typo=Yes	14	nummod	14:nummod	CorrectForm=19000
+13	000	_	X	_	_	12	goeswith	12:goeswith	_
+14	meetri	meeter	NOUN	S	Case=Gen|Number=Sing	15	nmod	15:nmod	_
+15	kõrgusel	kõrgus	NOUN	S	Case=Ade|Number=Sing	10	obl	10:obl	_
+16	650-kilomeetrise	650_kilo_meetrine	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	17	amod	17:amod	_
+17	tunnikiirusega	tunni_kiirus	NOUN	S	Case=Com|Number=Sing	10	obl	10:obl	_
+18	ja	ja	CCONJ	J	_	20	cc	20:cc	_
+19	olla	olema	AUX	V	VerbForm=Inf	20	cop	20:cop	_
+20	õhus	õhk	NOUN	S	Case=Ine|Number=Sing	10	conj	10:conj	_
+21	korraga	korraga	ADV	D	_	20	advmod	20:advmod	_
+22	kuni	kuni	ADV	D	_	23	advmod	23:advmod	_
+23	40	40	NUM	N	NumForm=Digit|NumType=Card	24	nummod	24:nummod	_
+24	tundi	tund	NOUN	S	Case=Par|Number=Sing	20	obl	20:obl	SpaceAfter=No
+25	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = aja_luup200202_905
+# text = Peagi hakkavad mereteede ohutust tagama seni katsetusjärgus olevad mehitamata laevad.
+1	Peagi	peagi	ADV	D	_	2	advmod	2:advmod	_
+2	hakkavad	hakkama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	mereteede	mere_tee	NOUN	S	Case=Gen|Number=Plur	4	nmod	4:nmod	_
+4	ohutust	ohutus	NOUN	S	Case=Par|Number=Sing	5	obj	5:obj	_
+5	tagama	tagama	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	2	xcomp	2:xcomp	_
+6	seni	seni	ADV	D	_	8	advmod	8:advmod	_
+7	katsetusjärgus	katsetus_järk	NOUN	S	Case=Ine|Number=Sing	8	obl	8:obl	_
+8	olevad	olev	ADJ	A	Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	10	acl	10:acl	_
+9	mehitamata	mehita=mata	ADJ	A	Case=Abe|Degree=Pos|VerbForm=Sup|Voice=Act	10	amod	10:amod	_
+10	laevad	laev	NOUN	S	Case=Nom|Number=Plur	2	nsubj	2:nsubj|5:nsubj	SpaceAfter=No
+11	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = aja_luup200202_906
+# text = Eksperimentaal-kiirpaat Owl liigub kuni 65 kilomeetrit tunnis, laeval on tehnika miinide, allveelaevade ja rakettide tabamiseks.
+1	Eksperimentaal-kiirpaat	eksperimentaal-kiir_paat	NOUN	S	Case=Nom|Number=Sing	3	nsubj	3:nsubj	_
+2	Owl	Owl	PROPN	S	Case=Nom|Number=Sing	1	appos	1:appos	NE=B-Prod
+3	liigub	liikuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	kuni	kuni	ADV	D	_	5	advmod	5:advmod	_
+5	65	65	NUM	N	NumForm=Digit|NumType=Card	6	nummod	6:nummod	_
+6	kilomeetrit	kilo_meeter	NOUN	S	Case=Par|Number=Sing	3	obl	3:obl	_
+7	tunnis	tund	NOUN	S	Case=Ine|Number=Sing	6	nmod	6:nmod	SpaceAfter=No
+8	,	,	PUNCT	Z	_	9	punct	9:punct	_
+9	laeval	laev	NOUN	S	Case=Ade|Number=Sing	3	conj	0:root|3:conj	_
+10	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
+11	tehnika	tehnika	NOUN	S	Case=Nom|Number=Sing	9	nsubj:cop	9:nsubj	_
+12	miinide	miin	NOUN	S	Case=Gen|Number=Plur	17	nmod	17:nmod	SpaceAfter=No
+13	,	,	PUNCT	Z	_	14	punct	14:punct	_
+14	allveelaevade	all_vee_laev	NOUN	S	Case=Gen|Number=Plur	12	conj	12:conj|17:nmod	_
+15	ja	ja	CCONJ	J	_	16	cc	16:cc	_
+16	rakettide	rakett	NOUN	S	Case=Gen|Number=Plur	12	conj	12:conj|17:nmod	_
+17	tabamiseks	tabamine	NOUN	S	Case=Tra|Number=Sing	11	nmod	11:nmod	SpaceAfter=No
+18	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = aja_luup200202_907
+# text = Muu hulgas töötab DARPA ka putukasuuruste lendavate robotite kallal, mis on varustatud anduritega ja saavad soovitud piirkonna kohta teavet edastada.
+1	Muu	muu	PRON	P	Case=Gen|Number=Sing|PronType=Ind	3	obl	3:obl	_
+2	hulgas	hulgas	ADP	K	AdpType=Post	1	case	1:case	_
+3	töötab	töötama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	DARPA	Darpa	PROPN	S	Case=Nom|Number=Sing	3	nsubj	3:nsubj	NE=B-Org
+5	ka	ka	ADV	D	_	8	advmod	8:advmod	_
+6	putukasuuruste	putuka_suurune	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	8	amod	8:amod	_
+7	lendavate	lendav	ADJ	A	Case=Gen|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	8	acl	8:acl	_
+8	robotite	robot	NOUN	S	Case=Gen|Number=Plur	3	obl	3:obl|13:obj	_
+9	kallal	kallal	ADP	K	AdpType=Post	8	case	8:case	SpaceAfter=No
+10	,	,	PUNCT	Z	_	13	punct	13:punct	_
+11	mis	mis	PRON	P	Case=Nom|Number=Plur|PronType=Int,Rel	13	obj	8:ref	_
+12	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	13:aux	_
+13	varustatud	varustama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	8	acl:relcl	8:acl:relcl	_
+14	anduritega	andur	NOUN	S	Case=Com|Number=Plur	13	obl	13:obl	_
+15	ja	ja	CCONJ	J	_	21	cc	21:cc	_
+16	saavad	saama	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	21:aux	_
+17	soovitud	soovi=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	18	acl	18:acl	_
+18	piirkonna	piirkond	NOUN	S	Case=Gen|Number=Sing	21	obl	21:obl	_
+19	kohta	kohta	ADP	K	AdpType=Post	18	case	18:case	_
+20	teavet	teave	NOUN	S	Case=Par|Number=Sing	21	obj	21:obj	_
+21	edastada	edastama	VERB	V	VerbForm=Inf	13	conj	8:acl:relcl|13:conj	SpaceAfter=No
+22	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = aja_luup200202_908
+# text = Töös on ka kärbse kuulmisorgani eeskujul tehtud minimikrofonid, mida vastase territooriumil vaenlase asukoha määramiseks alla visata.
+1	Töös	töö	NOUN	S	Case=Ine|Number=Sing	0	root	0:root	_
+2	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	1:cop	_
+3	ka	ka	ADV	D	_	8	advmod	8:advmod	_
+4	kärbse	kärbes	NOUN	S	Case=Gen|Number=Sing	5	nmod	5:nmod	_
+5	kuulmisorgani	kuulmis_organ	NOUN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	_
+6	eeskujul	ees_kuju	NOUN	S	Case=Ade|Number=Sing	7	obl	7:obl	_
+7	tehtud	teh=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	8	acl	8:acl	_
+8	minimikrofonid	mini_mikrofon	NOUN	S	Case=Nom|Number=Plur	1	nsubj:cop	1:nsubj|17:obj	SpaceAfter=No
+9	,	,	PUNCT	Z	_	17	punct	17:punct	_
+10	mida	mis	PRON	P	Case=Par|Number=Plur|PronType=Int,Rel	17	obj	8:ref	_
+11	vastase	vastane	NOUN	S	Case=Gen|Number=Sing	12	nmod	12:nmod	_
+12	territooriumil	territoorium	NOUN	S	Case=Ade|Number=Sing	17	obl	17:obl	_
+13	vaenlase	vaenlane	NOUN	S	Case=Gen|Number=Sing	14	nmod	14:nmod	_
+14	asukoha	asu_koht	NOUN	S	Case=Gen|Number=Sing	15	nmod	15:nmod	_
+15	määramiseks	määramine	NOUN	S	Case=Tra|Number=Sing	17	obl	17:obl	_
+16	alla	alla	ADV	D	_	17	compound:prt	17:compound	_
+17	visata	viskama	VERB	V	VerbForm=Inf	8	acl:relcl	8:acl:relcl	SpaceAfter=No
+18	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = aja_luup200202_909
+# text = Luureoperatsioon peaks kava kohaselt välja nägema järgmine: lennukilt alla visatud minimikrofonid hakkavad maapinnale saabudes kindlaks määrama helisid ja samme ning edastavad saadud informatsiooni lennuki pardal asuvale vastuvõtjale, mis arvestab välja helide täpse asukoha.
+1	Luureoperatsioon	luure_operatsioon	NOUN	S	Case=Nom|Number=Sing	6	nsubj	6:nsubj	_
+2	peaks	pidama	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
+3	kava	kava	NOUN	S	Case=Gen|Number=Sing	6	obl	6:obl	_
+4	kohaselt	kohaselt	ADP	K	AdpType=Post	3	case	3:case	_
+5	välja	välja	ADV	D	_	6	compound:prt	6:compound	_
+6	nägema	nägema	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	0	root	0:root	_
+7	järgmine	järgmine	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	6	xcomp	6:xcomp	SpaceAfter=No
+8	:	:	PUNCT	Z	_	13	punct	13:punct	_
+9	lennukilt	lennuk	NOUN	S	Case=Abl|Number=Sing	11	obl	11:obl	_
+10	alla	alla	ADV	D	_	11	advmod	11:advmod	_
+11	visatud	visa=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	12	acl	12:acl	_
+12	minimikrofonid	mini_mikrofon	NOUN	S	Case=Nom|Number=Plur	13	nsubj	13:nsubj|17:nsubj	_
+13	hakkavad	hakkama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	6:parataxis	_
+14	maapinnale	maa_pind	NOUN	S	Case=All|Number=Sing	15	obl	15:obl	_
+15	saabudes	saabuma	VERB	V	VerbForm=Conv	13	advcl	13:advcl	_
+16	kindlaks	kindel	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	17	xcomp	17:xcomp	_
+17	määrama	määrama	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	13	xcomp	13:xcomp	_
+18	helisid	heli	NOUN	S	Case=Par|Number=Plur	17	obj	17:obj	_
+19	ja	ja	CCONJ	J	_	20	cc	20:cc	_
+20	samme	samm	NOUN	S	Case=Par|Number=Plur	18	conj	17:obj|18:conj	_
+21	ning	ning	CCONJ	J	_	22	cc	22:cc	_
+22	edastavad	edastama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	6:parataxis|13:conj	_
+23	saadud	saadud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	24	acl	24:acl	_
+24	informatsiooni	informatsioon	NOUN	S	Case=Gen|Number=Sing	22	obj	22:obj	_
+25	lennuki	lennuk	NOUN	S	Case=Gen|Number=Sing	26	nmod	26:nmod	_
+26	pardal	parras	NOUN	S	Case=Ade|Number=Sing	27	obl	27:obl	_
+27	asuvale	asuv	ADJ	A	Case=All|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	28	acl	28:acl	_
+28	vastuvõtjale	vastu_võtja	NOUN	S	Case=All|Number=Sing	22	obl	22:obl|31:nsubj	SpaceAfter=No
+29	,	,	PUNCT	Z	_	31	punct	31:punct	_
+30	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	31	nsubj	28:ref	_
+31	arvestab	arvestama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	acl:relcl	28:acl:relcl	_
+32	välja	välja	ADV	D	_	31	compound:prt	31:compound	_
+33	helide	heli	NOUN	S	Case=Gen|Number=Plur	35	nmod	35:nmod	_
+34	täpse	täpne	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	35	amod	35:amod	_
+35	asukoha	asu_koht	NOUN	S	Case=Gen|Number=Sing	31	obj	31:obj	SpaceAfter=No
+36	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = aja_luup200202_910
+# text = Vaenulike vägede asukoht peaks seega olema kindlaks määratud.
+1	Vaenulike	vaenulik	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	2	amod	2:amod	_
+2	vägede	vägi	NOUN	S	Case=Gen|Number=Plur	3	nmod	3:nmod	_
+3	asukoht	asu_koht	NOUN	S	Case=Nom|Number=Sing	8	obj	8:obj	_
+4	peaks	pidama	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
+5	seega	seega	ADV	D	_	8	advmod	8:advmod	_
+6	olema	olema	AUX	V	Case=Ill|VerbForm=Sup|Voice=Act	8	aux	8:aux	_
+7	kindlaks	kindel	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	8	xcomp	8:xcomp	_
+8	määratud	määrama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	SpaceAfter=No
+9	.	.	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = aja_luup200202_911
+# text = Kärbse järgi tehtud.
+1	Kärbse	kärbes	NOUN	S	Case=Gen|Number=Sing	3	obl	3:obl	_
+2	järgi	järgi	ADP	K	AdpType=Post	1	case	1:case	_
+3	tehtud	tegema	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	SpaceAfter=No
+4	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = aja_luup200202_912
+# text = Kärbse Ormia ochracea eeskujul valmistab mikrofone rühm DARPA rahastatud teadlasi Ronald Milesi juhtimisel New Yorgi osariigis Binghamptoni ülikoolis.
+1	Kärbse	kärbes	NOUN	S	Case=Gen|Number=Sing	4	nmod	4:nmod	_
+2	Ormia	Ormia	PROPN	S	Case=Nom|Number=Sing	1	appos	1:appos	_
+3	ochracea	ochracea	NOUN	S	Case=Gen|Number=Sing	2	flat	2:flat	_
+4	eeskujul	ees_kuju	NOUN	S	Case=Ade|Number=Sing	5	obl	5:obl	_
+5	valmistab	valmistama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+6	mikrofone	mikrofon	NOUN	S	Case=Par|Number=Plur	5	obj	5:obj	_
+7	rühm	rühm	NOUN	S	Case=Nom|Number=Sing	10	nmod	10:nmod	_
+8	DARPA	Darpa	PROPN	S	Case=Gen|Number=Sing	9	obl	9:obl	NE=B-Org
+9	rahastatud	rahasta=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	10:acl	_
+10	teadlasi	teadlane	NOUN	S	Case=Par|Number=Plur	5	nsubj	5:nsubj	_
+11	Ronald	Ronald	PROPN	S	Case=Nom|Number=Sing	13	nmod	13:nmod	NE=B-Per
+12	Milesi	Miles	PROPN	S	Case=Gen|Number=Sing	11	flat	11:flat	NE=I-Per
+13	juhtimisel	juhtimine	NOUN	S	Case=Ade|Number=Sing	5	obl	5:obl	_
+14	New	New	PROPN	S	Case=Gen|Number=Sing	16	nmod	16:nmod	NE=B-Gep
+15	Yorgi	York	PROPN	S	Case=Gen|Number=Sing	14	flat	14:flat	NE=I-Gep
+16	osariigis	osa_riik	NOUN	S	Case=Ine|Number=Sing	5	obl	5:obl	_
+17	Binghamptoni	Binghampton	PROPN	S	Case=Gen|Number=Sing	18	nmod	18:nmod	NE=B-Org
+18	ülikoolis	üli_kool	NOUN	S	Case=Ine|Number=Sing	5	obl	5:obl	NE=I-Org|SpaceAfter=No
+19	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = aja_luup200202_913
+# text = Esimene mudel peaks ajalehe New York Times väitel valmis saama sel suvel, mikrofonide kasutuselevõtt nõuab veel paar aastat.
+1	Esimene	esimene	ADJ	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Ord	2	amod	2:amod	_
+2	mudel	mudel	NOUN	S	Case=Nom|Number=Sing	10	nsubj	10:nsubj	_
+3	peaks	pidama	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
+4	ajalehe	aja_leht	NOUN	S	Case=Gen|Number=Sing	8	nmod	8:nmod	_
+5	New	New	PROPN	S	Case=Nom|Number=Sing	4	appos	4:appos	NE=B-Prod
+6	York	York	PROPN	S	Case=Nom|Number=Sing	5	flat	5:flat	NE=I-Prod
+7	Times	Times	PROPN	S	Case=Nom|Number=Sing	5	flat	5:flat	NE=I-Prod
+8	väitel	väide	NOUN	S	Case=Ade|Number=Sing	10	obl	10:obl	_
+9	valmis	valmis	ADV	D	_	10	compound:prt	10:compound	_
+10	saama	saama	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	0	root	0:root	_
+11	sel	see	DET	P	Case=Ade|Number=Sing|PronType=Dem	12	det	12:det	_
+12	suvel	suvi	NOUN	S	Case=Ade|Number=Sing	10	obl	10:obl	SpaceAfter=No
+13	,	,	PUNCT	Z	_	16	punct	16:punct	_
+14	mikrofonide	mikrofon	NOUN	S	Case=Gen|Number=Plur	15	nmod	15:nmod	_
+15	kasutuselevõtt	kasutusele_võtt	NOUN	S	Case=Nom|Number=Sing	16	nsubj	16:nsubj	_
+16	nõuab	nõudma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	0:root|10:conj	_
+17	veel	veel	ADV	D	_	18	advmod	18:advmod	_
+18	paar	paar	NUM	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	19	nummod	19:nummod	_
+19	aastat	aasta	NOUN	S	Case=Par|Number=Sing	16	obj	16:obj	SpaceAfter=No
+20	.	.	PUNCT	Z	_	10	punct	10:punct	_
+
+# sent_id = aja_luup200202_914
+# text = Ormia ochracea suudab määrata helide asukoha kahekraadise täpsusega.
+1	Ormia	Ormia	PROPN	S	Case=Gen|Number=Sing	3	nsubj	3:nsubj|4:nsubj	NE=B-Prod
+2	ochracea	ochracea	NOUN	S	Case=Nom|Number=Sing	1	flat	1:flat	NE=I-Prod
+3	suudab	suutma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	määrata	määrama	VERB	V	VerbForm=Inf	3	xcomp	3:xcomp	_
+5	helide	heli	NOUN	S	Case=Gen|Number=Plur	6	nmod	6:nmod	_
+6	asukoha	asu_koht	NOUN	S	Case=Gen|Number=Sing	4	obj	4:obj	_
+7	kahekraadise	kahe_kraadine	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	8	amod	8:amod	_
+8	täpsusega	täpsus	NOUN	S	Case=Com|Number=Sing	4	obl	4:obl	SpaceAfter=No
+9	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = aja_luup200202_915
+# text = Teadlased on umbes kahe millimeetri suurused õhkõrnast membraanist tehtud mikrofonid kärbse auks nimetanud ormiafoonideks.
+1	Teadlased	teadlane	NOUN	S	Case=Nom|Number=Plur	13	nsubj	13:nsubj	_
+2	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	13:aux	_
+3	umbes	umbes	ADV	D	_	4	advmod	4:advmod	_
+4	kahe	kaks	NUM	N	Case=Gen|Number=Sing|NumForm=Word|NumType=Card	5	nummod	5:nummod	_
+5	millimeetri	milli_meeter	NOUN	S	Case=Gen|Number=Sing	6	obl	6:obl	_
+6	suurused	suurune	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	10	amod	10:amod	_
+7	õhkõrnast	õhk_õrn	ADJ	A	Case=Ela|Degree=Pos|Number=Sing	8	amod	8:amod	_
+8	membraanist	membraan	NOUN	S	Case=Ela|Number=Sing	9	obl	9:obl	_
+9	tehtud	teh=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	10:acl	_
+10	mikrofonid	mikrofon	NOUN	S	Case=Nom|Number=Plur	13	obj	13:obj	_
+11	kärbse	kärbes	NOUN	S	Case=Gen|Number=Sing	12	nmod	12:nmod	_
+12	auks	au	NOUN	S	Case=Tra|Number=Sing	13	obl	13:obl	_
+13	nimetanud	nimetama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+14	ormiafoonideks	ormia_foon	NOUN	S	Case=Tra|Number=Plur	13	xcomp	13:xcomp	SpaceAfter=No
+15	.	.	PUNCT	Z	_	13	punct	13:punct	_
+
+# sent_id = aja_luup200202_916
+# text = Tegu on seni väikseimate mikrofonidega, mida lisaks sõjandusele saab kasutada näiteks moodsate kuuldeaparaatide valmistamisel.
+1	Tegu	tegu	NOUN	S	Case=Par|Number=Sing	5	nsubj:cop	5:nsubj	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
+3	seni	seni	ADV	D	_	4	advmod	4:advmod	_
+4	väikseimate	väikseim	ADJ	A	Case=Gen|Degree=Sup|Number=Plur	5	amod	5:amod	_
+5	mikrofonidega	mikrofon	NOUN	S	Case=Com|Number=Plur	0	root	0:root|11:obj	SpaceAfter=No
+6	,	,	PUNCT	Z	_	11	punct	11:punct	_
+7	mida	mis	PRON	P	Case=Par|Number=Plur|PronType=Int,Rel	11	obj	5:ref	_
+8	lisaks	lisa	NOUN	S	Case=Tra|Number=Sing	11	obl	11:obl	_
+9	sõjandusele	sõjandus	NOUN	S	Case=All|Number=Sing	8	nmod	8:nmod	_
+10	saab	saama	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	11:aux	_
+11	kasutada	kasutama	VERB	V	VerbForm=Inf	5	acl:relcl	5:acl:relcl	_
+12	näiteks	näiteks	ADV	D	_	15	advmod	15:advmod	_
+13	moodsate	moodne	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	14	amod	14:amod	_
+14	kuuldeaparaatide	kuulde_aparaat	NOUN	S	Case=Gen|Number=Plur	15	nmod	15:nmod	_
+15	valmistamisel	valmistamine	NOUN	S	Case=Ade|Number=Sing	11	obl	11:obl	SpaceAfter=No
+16	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = aja_luup200202_917
+# text = Putukakujuline tuleb ka soojaandurite ja lõhkeainega varustatud minirobot, mis suudab soojuse põhjal määrata inimese asukoha, talle külge haakuda ja plahvatada.
+1	Putukakujuline	putuka_kujuline	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	xcomp	2:xcomp	_
+2	tuleb	tulema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	ka	ka	ADV	D	_	8	advmod	8:advmod	_
+4	soojaandurite	sooja_andur	NOUN	S	Case=Gen|Number=Plur	7	obl	7:obl	_
+5	ja	ja	CCONJ	J	_	6	cc	6:cc	_
+6	lõhkeainega	lõhke_aine	NOUN	S	Case=Com|Number=Sing	4	conj	4:conj|7:obl	_
+7	varustatud	varusta=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	8	acl	8:acl	_
+8	minirobot	mini_robot	NOUN	S	Case=Nom|Number=Sing	2	nsubj	1:nsubj|2:nsubj|11:nsubj|14:nsubj|20:nsubj|22:nsubj	SpaceAfter=No
+9	,	,	PUNCT	Z	_	11	punct	11:punct	_
+10	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	11	nsubj	8:ref|14:nsubj|20:nsubj|22:nsubj	_
+11	suudab	suutma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	8:acl:relcl	_
+12	soojuse	soojus	NOUN	S	Case=Gen|Number=Sing	14	obl	14:obl	_
+13	põhjal	põhjal	ADP	K	AdpType=Post	12	case	12:case	_
+14	määrata	määrama	VERB	V	VerbForm=Inf	11	xcomp	11:xcomp	_
+15	inimese	inimene	NOUN	S	Case=Gen|Number=Sing	16	nmod	16:nmod	_
+16	asukoha	asu_koht	NOUN	S	Case=Gen|Number=Sing	14	obj	14:obj	SpaceAfter=No
+17	,	,	PUNCT	Z	_	20	punct	20:punct	_
+18	talle	tema	PRON	P	Case=All|Number=Sing|Person=3|PronType=Prs	20	obl	20:obl	_
+19	külge	külge	ADV	D	_	20	advmod	20:advmod	_
+20	haakuda	haakuma	VERB	V	VerbForm=Inf	14	conj	11:xcomp|14:conj	_
+21	ja	ja	CCONJ	J	_	22	cc	22:cc	_
+22	plahvatada	plahvatama	VERB	V	VerbForm=Inf	14	conj	11:xcomp|14:conj	SpaceAfter=No
+23	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = aja_luup200202_918
+# text = Miinuseks on aga asjaolu, et robot ei tee vahet vaenlasel ja sõbral.
+1	Miinuseks	miinus	NOUN	S	Case=Tra|Number=Sing	0	root	0:root	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	1:cop	_
+3	aga	aga	ADV	D	_	1	advmod	1:advmod	_
+4	asjaolu	asja_olu	NOUN	S	Case=Nom|Number=Sing	1	nsubj:cop	1:nsubj	SpaceAfter=No
+5	,	,	PUNCT	Z	_	9	punct	9:punct	_
+6	et	et	SCONJ	J	_	9	mark	9:mark	_
+7	robot	robot	NOUN	S	Case=Nom|Number=Sing	9	nsubj	9:nsubj	_
+8	ei	ei	AUX	V	Polarity=Neg	9	aux	9:aux	_
+9	tee	tegema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	4:acl	_
+10	vahet	vahe	NOUN	S	Case=Par|Number=Sing	9	obj	9:obj	_
+11	vaenlasel	vaenlane	NOUN	S	Case=Ade|Number=Sing	9	obl	9:obl	_
+12	ja	ja	CCONJ	J	_	13	cc	13:cc	_
+13	sõbral	sõber	NOUN	S	Case=Ade|Number=Sing	11	conj	9:obl|11:conj	SpaceAfter=No
+14	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = aja_luup200202_919
+# text = Maavõitluseks on mehitamata süsteeme välja mõelda märksa keerulisem, sest tingimusi maapinnal on raskem ette näha kui õhus, samuti on seal rohkem väliseid tegureid.
+1	Maavõitluseks	maa_võitlus	NOUN	S	Case=Tra|Number=Sing	6	obl	6:obl	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
+3	mehitamata	mehita=mata	ADJ	A	Case=Abe|Degree=Pos|VerbForm=Sup|Voice=Act	4	amod	4:amod	_
+4	süsteeme	süsteem	NOUN	S	Case=Par|Number=Plur	6	obj	6:obj	_
+5	välja	välja	ADV	D	_	6	compound:prt	6:compound	_
+6	mõelda	mõtlema	VERB	V	VerbForm=Inf	8	csubj:cop	8:csubj	_
+7	märksa	märksa	ADV	D	_	8	advmod	8:advmod	_
+8	keerulisem	keerulisem	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	0	root	0:root	SpaceAfter=No
+9	,	,	PUNCT	Z	_	14	punct	14:punct	_
+10	sest	sest	SCONJ	J	_	14	mark	14:mark	_
+11	tingimusi	tingimus	NOUN	S	Case=Par|Number=Plur	16	obj	16:obj	_
+12	maapinnal	maa_pind	NOUN	S	Case=Ade|Number=Sing	11	nmod	11:nmod	_
+13	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	14:cop	_
+14	raskem	raskem	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	8	advcl	8:advcl	_
+15	ette	ette	ADV	D	_	16	compound:prt	16:compound	_
+16	näha	nägema	VERB	V	VerbForm=Inf	14	xcomp	14:xcomp	_
+17	kui	kui	SCONJ	J	_	18	mark	18:mark	_
+18	õhus	õhk	NOUN	S	Case=Ine|Number=Sing	14	advcl	14:advcl	SpaceAfter=No
+19	,	,	PUNCT	Z	_	22	punct	22:punct	_
+20	samuti	samuti	ADV	D	_	22	advmod	22:advmod	_
+21	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	cop	22:cop	_
+22	seal	seal	ADV	D	_	14	conj	8:advcl|14:conj	_
+23	rohkem	rohkem	ADV	D	_	25	advmod	25:advmod	_
+24	väliseid	väline	ADJ	A	Case=Par|Degree=Pos|Number=Plur	25	amod	25:amod	_
+25	tegureid	tegur	NOUN	S	Case=Par|Number=Plur	22	nsubj:cop	22:nsubj	SpaceAfter=No
+26	.	.	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = aja_luup200202_920
+# text = Kõrbe tarvis ehitatud robotitest on näiteks džunglis ja mägedes vähe kasu.
+1	Kõrbe	kõrb	NOUN	S	Case=Gen|Number=Sing	3	obl	3:obl	_
+2	tarvis	tarvis	ADP	K	AdpType=Post	1	case	1:case	_
+3	ehitatud	ehitatud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	4	acl	4:acl	_
+4	robotitest	robot	NOUN	S	Case=Ela|Number=Plur	0	root	0:root	_
+5	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+6	näiteks	näiteks	ADV	D	_	7	advmod	7:advmod	_
+7	džunglis	džungel	NOUN	S	Case=Ine|Number=Sing	4	obl	4:obl	_
+8	ja	ja	CCONJ	J	_	9	cc	9:cc	_
+9	mägedes	mägi	NOUN	S	Case=Ine|Number=Plur	7	conj	4:obl|7:conj	_
+10	vähe	vähe	ADV	D	_	11	advmod	11:advmod	_
+11	kasu	kasu	NOUN	S	Case=Par|Number=Sing	4	nsubj:cop	4:nsubj	SpaceAfter=No
+12	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = aja_luup200202_921
+# text = Udus ideaalselt tegutsevaid roboteid võivad aga häirida tuul, vihm ja palavus.
+1	Udus	udu	NOUN	S	Case=Ine|Number=Sing	3	obl	3:obl	_
+2	ideaalselt	ideaalselt	ADV	D	_	3	advmod	3:advmod	_
+3	tegutsevaid	tegutsev	ADJ	A	Case=Par|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	4	acl	4:acl	_
+4	roboteid	robot	NOUN	S	Case=Par|Number=Plur	7	obj	7:obj	_
+5	võivad	võima	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
+6	aga	aga	ADV	D	_	7	advmod	7:advmod	_
+7	häirida	häirima	VERB	V	VerbForm=Inf	0	root	0:root	_
+8	tuul	tuul	NOUN	S	Case=Nom|Number=Sing	7	nsubj	7:nsubj	SpaceAfter=No
+9	,	,	PUNCT	Z	_	10	punct	10:punct	_
+10	vihm	vihm	NOUN	S	Case=Nom|Number=Sing	8	conj	7:nsubj|8:conj	_
+11	ja	ja	CCONJ	J	_	12	cc	12:cc	_
+12	palavus	palavus	NOUN	S	Case=Nom|Number=Sing	8	conj	7:nsubj|8:conj	SpaceAfter=No
+13	.	.	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = aja_luup200202_922
+# text = Esimesed niinimetatud maarobotid tehti miinide otsimiseks.
+1	Esimesed	esimene	ADJ	N	Case=Nom|Number=Plur|NumForm=Word|NumType=Ord	3	amod	3:amod	_
+2	niinimetatud	nii_nimetatud	ADV	D	_	3	advmod	3:advmod	_
+3	maarobotid	maa_robot	NOUN	S	Case=Nom|Number=Plur	4	obj	4:obj	_
+4	tehti	tegema	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	0:root	_
+5	miinide	miin	NOUN	S	Case=Gen|Number=Plur	6	nmod	6:nmod	_
+6	otsimiseks	otsimine	NOUN	S	Case=Tra|Number=Sing	4	obl	4:obl	SpaceAfter=No
+7	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = aja_luup200202_923
+# text = Maal tegutsemiseks on robotid ka lihtsalt lollid ja saamatud.
+1	Maal	maa	NOUN	S	Case=Ade|Number=Sing	2	nmod	2:nmod	_
+2	tegutsemiseks	tegutsemine	NOUN	S	Case=Tra|Number=Sing	7	obl	7:obl	_
+3	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
+4	robotid	robot	NOUN	S	Case=Nom|Number=Plur	7	nsubj:cop	7:nsubj	_
+5	ka	ka	ADV	D	_	7	advmod	7:advmod	_
+6	lihtsalt	lihtsalt	ADV	D	_	7	advmod	7:advmod	_
+7	lollid	loll	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	0	root	0:root	_
+8	ja	ja	CCONJ	J	_	9	cc	9:cc	_
+9	saamatud	saamatu	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	7	conj	0:root|7:conj	SpaceAfter=No
+10	.	.	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = aja_luup200202_924
+# text = Nad ei oska järeldusi teha ega olukorda adekvaatselt hinnata.
+1	Nad	tema	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	3:nsubj|5:nsubj|9:nsubj	_
+2	ei	ei	AUX	V	Polarity=Neg	3	aux	3:aux	_
+3	oska	oskama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	järeldusi	järeldus	NOUN	S	Case=Par|Number=Plur	5	obj	5:obj	_
+5	teha	tegema	VERB	V	VerbForm=Inf	3	xcomp	3:xcomp	_
+6	ega	ega	CCONJ	J	Polarity=Neg	9	cc	9:cc	_
+7	olukorda	olu_kord	NOUN	S	Case=Par|Number=Sing	9	obj	9:obj	_
+8	adekvaatselt	adekvaatselt	ADV	D	_	9	advmod	9:advmod	_
+9	hinnata	hindama	VERB	V	VerbForm=Inf	5	conj	3:xcomp|5:conj	SpaceAfter=No
+10	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = aja_luup200202_925
+# text = Ja isegi kui robot oleks peaaegu sama intelligentne kui inimene, ei suudaks ta aju, musklid ja närvid koos töötada.
+1	Ja	ja	CCONJ	J	_	8	cc	8:cc	_
+2	isegi	isegi	ADV	D	_	8	advmod	8:advmod	_
+3	kui	kui	SCONJ	J	_	2	fixed	2:fixed	_
+4	robot	robot	NOUN	S	Case=Nom|Number=Sing	8	nsubj:cop	8:nsubj	_
+5	oleks	olema	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
+6	peaaegu	pea_aegu	ADV	D	_	7	advmod	7:advmod	_
+7	sama	sama	ADV	D	_	8	advmod	8:advmod	_
+8	intelligentne	intelligentne	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	13	advcl	13:advcl	_
+9	kui	kui	SCONJ	J	_	10	mark	10:mark	_
+10	inimene	inimene	NOUN	S	Case=Nom|Number=Sing	8	advcl	8:advcl	SpaceAfter=No
+11	,	,	PUNCT	Z	_	13	punct	13:punct	_
+12	ei	ei	AUX	V	Polarity=Neg	13	aux	13:aux	_
+13	suudaks	suutma	VERB	V	Connegative=Yes|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+14	ta	tema	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	15	nmod	15:nmod	_
+15	aju	aju	NOUN	S	Case=Nom|Number=Sing	13	nsubj	13:nsubj|21:nsubj	SpaceAfter=No
+16	,	,	PUNCT	Z	_	17	punct	17:punct	_
+17	musklid	muskel	NOUN	S	Case=Nom|Number=Plur	15	conj	13:nsubj|15:conj|21:nsubj	_
+18	ja	ja	CCONJ	J	_	19	cc	19:cc	_
+19	närvid	närv	NOUN	S	Case=Nom|Number=Plur	15	conj	13:nsubj|15:conj|21:nsubj	_
+20	koos	koos	ADV	D	_	21	advmod	21:advmod	_
+21	töötada	töötama	VERB	V	VerbForm=Inf	13	xcomp	13:xcomp	SpaceAfter=No
+22	.	.	PUNCT	Z	_	13	punct	13:punct	_
+
+# sent_id = aja_luup200202_926
+# text = Ei aita robotid ka diktaatoreid võimult kõrvaldada ja Osama bin Ladeni tabamiseks pole neist samuti kasu olnud.
+1	Ei	ei	AUX	V	Polarity=Neg	2	aux	2:aux	_
+2	aita	aitama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	robotid	robot	NOUN	S	Case=Nom|Number=Plur	2	nsubj	2:nsubj|7:nsubj	_
+4	ka	ka	ADV	D	_	7	advmod	7:advmod	_
+5	diktaatoreid	diktaator	NOUN	S	Case=Par|Number=Plur	7	obj	7:obj	_
+6	võimult	võim	NOUN	S	Case=Abl|Number=Sing	7	obl	7:obl	_
+7	kõrvaldada	kõrvaldama	VERB	V	VerbForm=Inf	2	xcomp	2:xcomp	_
+8	ja	ja	CCONJ	J	_	12	cc	12:cc	_
+9	Osama	Osama	PROPN	S	Case=Gen|Number=Sing	12	nmod	12:nmod	NE=B-Per
+10	bin	bin	NOUN	S	Case=Nom|Number=Sing	9	flat	9:flat	NE=I-Per
+11	Ladeni	Laden	PROPN	S	Case=Gen|Number=Sing	9	flat	9:flat	NE=I-Per
+12	tabamiseks	tabamine	NOUN	S	Case=Tra|Number=Sing	2	conj	0:root|2:conj	_
+13	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
+14	neist	see	PRON	P	Case=Ela|Number=Plur|PronType=Dem	12	obl	12:obl	_
+15	samuti	samuti	ADV	D	_	12	advmod	12:advmod	_
+16	kasu	kasu	NOUN	S	Case=Par|Number=Sing	12	nsubj:cop	12:nsubj	_
+17	olnud	olema	AUX	V	Tense=Past|VerbForm=Part|Voice=Act	12	cop	12:cop	SpaceAfter=No
+18	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = aja_luup200202_927
+# text = Asjatundjate seas tuntakse DARPAt, mis varem kandis nime ARPA, eelkõige ühe leiutise järgi - nimelt said internet ja elektronpost rohkem kui 30 aasta eest alguse just sealt Arpaneti nime all.
+1	Asjatundjate	asja_tundja	NOUN	S	Case=Gen|Number=Plur	3	obl	3:obl	_
+2	seas	seas	ADP	K	AdpType=Post	1	case	1:case	_
+3	tuntakse	tundma	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
+4	DARPAt	DARPA	PROPN	Y	Abbr=Yes|Case=Par|Number=Sing	3	obj	3:obj|8:nsubj	NE=B-Org|SpaceAfter=No
+5	,	,	PUNCT	Z	_	8	punct	8:punct	_
+6	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	8	nsubj	4:ref	_
+7	varem	varem	ADV	D	_	8	advmod	8:advmod	_
+8	kandis	kandma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	4:acl:relcl	_
+9	nime	nimi	NOUN	S	Case=Par|Number=Sing	8	obj	8:obj	_
+10	ARPA	ARPA	PROPN	Y	Abbr=Yes	9	appos	9:appos	NE=B-Org|SpaceAfter=No
+11	,	,	PUNCT	Z	_	8	punct	8:punct	_
+12	eelkõige	eel_kõige	ADV	D	_	14	advmod	14:advmod	_
+13	ühe	üks	DET	P	Case=Gen|Number=Sing|PronType=Ind	14	det	14:det	_
+14	leiutise	leiutis	NOUN	S	Case=Gen|Number=Sing	3	obl	3:obl	_
+15	järgi	järgi	ADP	K	AdpType=Post	14	case	14:case	_
+16	-	-	PUNCT	Z	_	18	punct	18:punct	_
+17	nimelt	nimelt	ADV	D	_	18	advmod	18:advmod	_
+18	said	saama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	3:parataxis	_
+19	internet	internet	NOUN	S	Case=Nom|Number=Sing	18	nsubj	18:nsubj	_
+20	ja	ja	CCONJ	J	_	21	cc	21:cc	_
+21	elektronpost	elektron_post	NOUN	S	Case=Nom|Number=Sing	19	conj	18:nsubj|19:conj	_
+22	rohkem	rohkem	ADV	D	_	25	advmod	25:advmod	_
+23	kui	kui	SCONJ	J	_	22	fixed	22:fixed	_
+24	30	30	NUM	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Card	25	nummod	25:nummod	_
+25	aasta	aasta	NOUN	S	Case=Gen|Number=Sing	18	advcl	18:advcl	_
+26	eest	eest	ADP	K	AdpType=Post	25	case	25:case	_
+27	alguse	algus	NOUN	S	Case=Gen|Number=Sing	18	obj	18:obj	_
+28	just	just	ADV	D	_	29	advmod	29:advmod	_
+29	sealt	sealt	ADV	D	_	18	advmod	18:advmod	_
+30	Arpaneti	Arpanet	PROPN	S	Case=Gen|Number=Sing	31	nmod	31:nmod	NE=B-Prod
+31	nime	nimi	NOUN	S	Case=Gen|Number=Sing	18	obl	18:obl	_
+32	all	all	ADP	K	AdpType=Post	31	case	31:case	SpaceAfter=No
+33	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = aja_luup200202_928
+# text = Legend jutustab, et tollane keskuse infotehnoloogiajuht Bob Taylor esitas oma bossidele interneti idee, mispeale kõlanud vastus: “ Suurepärane mõte!
+1	Legend	legend	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	_
+2	jutustab	jutustama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	Z	_	10	punct	10:punct	_
+4	et	et	SCONJ	J	_	10	mark	10:mark	_
+5	tollane	tollane	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	7	amod	7:amod	_
+6	keskuse	keskus	NOUN	S	Case=Gen|Number=Sing	7	nmod	7:nmod	_
+7	infotehnoloogiajuht	info_tehnoloogia_juht	NOUN	S	Case=Nom|Number=Sing	10	nsubj	10:nsubj	_
+8	Bob	Bob	PROPN	S	Case=Nom|Number=Sing	7	appos	7:appos	NE=B-Per
+9	Taylor	Taylor	PROPN	S	Case=Nom|Number=Sing	8	flat	8:flat	NE=I-Per
+10	esitas	esitama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp	_
+11	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	12	nmod	12:nmod	_
+12	bossidele	boss	NOUN	S	Case=All|Number=Plur	10	obl	10:obl	_
+13	interneti	internet	NOUN	S	Case=Gen|Number=Sing	14	nmod	14:nmod	_
+14	idee	idee	NOUN	S	Case=Gen|Number=Sing	10	obj	10:obj	SpaceAfter=No
+15	,	,	PUNCT	Z	_	17	punct	17:punct	_
+16	mispeale	mis_peale	ADV	D	_	17	advmod	17:advmod	_
+17	kõlanud	kõlama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	10	conj	2:ccomp|10:conj	_
+18	vastus	vastus	NOUN	S	Case=Nom|Number=Sing	17	nsubj	17:nsubj	SpaceAfter=No
+19	:	:	PUNCT	Z	_	17	punct	17:punct	_
+20	“	“	PUNCT	Z	_	22	punct	22:punct	_
+21	Suurepärane	suure_pärane	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	22	amod	22:amod	_
+22	mõte	mõte	NOUN	S	Case=Nom|Number=Sing	17	parataxis	17:parataxis	SpaceAfter=No
+23	!	!	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = aja_luup200202_929
+# text = Teie eelarve suurenes praegu miljoni dollari võrra. ”
+1	Teie	sina	PRON	P	Case=Gen|Number=Plur|Person=2|PronType=Prs	2	nmod	2:nmod	_
+2	eelarve	eel_arve	NOUN	S	Case=Nom|Number=Sing	3	nsubj	3:nsubj	_
+3	suurenes	suurenema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	praegu	praegu	ADV	D	_	3	advmod	3:advmod	_
+5	miljoni	miljon	NUM	N	Case=Gen|Number=Sing|NumForm=Word|NumType=Card	6	nummod	6:nummod	_
+6	dollari	dollar	NOUN	S	Case=Gen|Number=Sing	3	obl	3:obl	_
+7	võrra	võrra	ADP	K	AdpType=Post	6	case	6:case	SpaceAfter=No
+8	.	.	PUNCT	Z	_	3	punct	3:punct	_
+9	”	”	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = aja_luup200202_930
+# text = Teadlased hakkasid uurima, kuidas luua sellist arvutivõrku, mis suudaks säilitada oma funktsionaalsust ka pärast võrgu osalist hävimist (näiteks tuumarünnaku järel).
+1	Teadlased	teadlane	NOUN	S	Case=Nom|Number=Plur	2	nsubj	2:nsubj|3:nsubj	_
+2	hakkasid	hakkama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	uurima	uurima	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	2	xcomp	2:xcomp	SpaceAfter=No
+4	,	,	PUNCT	Z	_	6	punct	6:punct	_
+5	kuidas	kuidas	ADV	D	_	6	mark	6:mark	_
+6	luua	looma	VERB	V	VerbForm=Inf	3	ccomp	3:ccomp	_
+7	sellist	selline	DET	P	Case=Par|Number=Sing|PronType=Dem	8	det	8:det	_
+8	arvutivõrku	arvuti_võrk	NOUN	S	Case=Par|Number=Sing	6	obj	6:obj|11:nsubj|12:nsubj	SpaceAfter=No
+9	,	,	PUNCT	Z	_	11	punct	11:punct	_
+10	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	11	nsubj	8:ref	_
+11	suudaks	suutma	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	8:acl:relcl	_
+12	säilitada	säilitama	VERB	V	VerbForm=Inf	11	xcomp	11:xcomp	_
+13	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	14	nmod	14:nmod	_
+14	funktsionaalsust	funktsionaal=sus	NOUN	S	Case=Par|Number=Sing	11	obj	11:obj	_
+15	ka	ka	ADV	D	_	19	advmod	19:advmod	_
+16	pärast	pärast	ADP	K	AdpType=Prep	19	case	19:case	_
+17	võrgu	võrk	NOUN	S	Case=Gen|Number=Sing	19	nmod	19:nmod	_
+18	osalist	osaline	ADJ	A	Case=Par|Degree=Pos|Number=Sing	19	amod	19:amod	_
+19	hävimist	hävimine	NOUN	S	Case=Par|Number=Sing	11	obl	11:obl	_
+20	(	(	PUNCT	Z	_	22	punct	22:punct	SpaceAfter=No
+21	näiteks	näiteks	ADV	D	_	22	advmod	22:advmod	_
+22	tuumarünnaku	tuuma_rünnak	NOUN	S	Case=Gen|Number=Sing	11	parataxis	11:parataxis	_
+23	järel	järel	ADP	K	AdpType=Post	22	case	22:case	SpaceAfter=No
+24	)	)	PUNCT	Z	_	22	punct	22:punct	SpaceAfter=No
+25	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = aja_luup200202_931
+# text = Idee seisnes hajusas võrgus, millel puuduks keskne kontrollpunkt ja mille eri sõlmpunktid oleksid võrdväärsed.
+1	Idee	idee	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	_
+2	seisnes	seisnema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	hajusas	hajus	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	4	amod	4:amod	_
+4	võrgus	võrk	NOUN	S	Case=Ine|Number=Sing	2	obl	2:obl|7:obl|13:nmod	SpaceAfter=No
+5	,	,	PUNCT	Z	_	7	punct	7:punct	_
+6	millel	mis	PRON	P	Case=Ade|Number=Sing|PronType=Int,Rel	7	obl	4:ref	_
+7	puuduks	puuduma	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	4:acl:relcl	_
+8	keskne	keskne	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	9	amod	9:amod	_
+9	kontrollpunkt	kontroll_punkt	NOUN	S	Case=Nom|Number=Sing	7	nsubj	7:nsubj	_
+10	ja	ja	CCONJ	J	_	15	cc	15:cc	_
+11	mille	mis	PRON	P	Case=Gen|Number=Sing|PronType=Int,Rel	13	nmod	4:ref	_
+12	eri	eri	ADJ	A	Degree=Pos	13	amod	13:amod	_
+13	sõlmpunktid	sõlm_punkt	NOUN	S	Case=Nom|Number=Plur	15	nsubj:cop	15:nsubj	_
+14	oleksid	olema	AUX	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	15:cop	_
+15	võrdväärsed	võrd_väärne	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	7	conj	4:acl:relcl|7:conj	SpaceAfter=No
+16	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = aja_luup200202_932
+# text = Interneti sünd.
+1	Interneti	internet	NOUN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	_
+2	sünd	sünd	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
+3	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = aja_luup200202_933
+# text = Probleemile leiti järgmine lahendus - info saatmisel ühest sõlmest teise jagatakse see pakettideks, millest igaühel on allika ja sihtpunkti aadress.
+1	Probleemile	probleem	NOUN	S	Case=All|Number=Sing	2	obl	2:obl	_
+2	leiti	leidma	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	0:root	_
+3	järgmine	järgmine	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	amod	4:amod	_
+4	lahendus	lahendus	NOUN	S	Case=Nom|Number=Sing	2	obj	2:obj	_
+5	-	-	PUNCT	Z	_	11	punct	11:punct	_
+6	info	info	NOUN	S	Case=Gen|Number=Sing	7	nmod	7:nmod	_
+7	saatmisel	saatmine	NOUN	S	Case=Ade|Number=Sing	11	obl	11:obl	_
+8	ühest	üks	DET	P	Case=Ela|Number=Sing|PronType=Ind	9	det	9:det	_
+9	sõlmest	sõlm	NOUN	S	Case=Ela|Number=Sing	7	nmod	7:nmod	_
+10	teise	teine	PRON	P	Case=Add|Number=Sing|PronType=Dem	7	nmod	7:nmod	_
+11	jagatakse	jagama	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	2	parataxis	2:parataxis	_
+12	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	11	obj	11:obj	_
+13	pakettideks	pakett	NOUN	S	Case=Tra|Number=Plur	11	xcomp	11:xcomp|16:obl	SpaceAfter=No
+14	,	,	PUNCT	Z	_	16	punct	16:punct	_
+15	millest	mis	PRON	P	Case=Ela|Number=Plur|PronType=Int,Rel	16	obl	13:ref	_
+16	igaühel	iga_üks	PRON	P	Case=Ade|Number=Sing|PronType=Dem	13	acl:relcl	13:acl:relcl	_
+17	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	16:cop	_
+18	allika	allikas	NOUN	S	Case=Gen|Number=Sing	21	nmod	21:nmod	_
+19	ja	ja	CCONJ	J	_	20	cc	20:cc	_
+20	sihtpunkti	siht_punkt	NOUN	S	Case=Gen|Number=Sing	18	conj	18:conj|21:nmod	_
+21	aadress	aadress	NOUN	S	Case=Nom|Number=Sing	16	nsubj:cop	16:nsubj	SpaceAfter=No
+22	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = aja_luup200202_934
+# text = Teekond, mida mööda pakett sihtpunkti jõuab, pole oluline.
+1	Teekond	teekond	NOUN	S	Case=Nom|Number=Sing	10	nsubj:cop	7:obl|10:nsubj	SpaceAfter=No
+2	,	,	PUNCT	Z	_	7	punct	7:punct	_
+3	mida	mis	PRON	P	Case=Par|Number=Sing|PronType=Int,Rel	7	obl	1:ref	_
+4	mööda	mööda	ADP	K	AdpType=Post	3	case	3:case	_
+5	pakett	pakett	NOUN	S	Case=Nom|Number=Sing	7	nsubj	7:nsubj	_
+6	sihtpunkti	siht_punkt	NOUN	S	Case=Add|Number=Sing	7	obl	7:obl	_
+7	jõuab	jõudma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	1:acl:relcl	SpaceAfter=No
+8	,	,	PUNCT	Z	_	7	punct	7:punct	_
+9	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
+10	oluline	oluline	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	SpaceAfter=No
+11	.	.	PUNCT	Z	_	10	punct	10:punct	_
+
+# sent_id = aja_luup200202_935
+# text = Kui mingi sõlmpunkt katkeb, siis saadetakse see mööda teist sõlmpunkti, kuni jõuab määratud kohta.
+1	Kui	kui	SCONJ	J	_	4	mark	4:mark	_
+2	mingi	mingi	DET	P	Case=Nom|Number=Sing|PronType=Ind	3	det	3:det	_
+3	sõlmpunkt	sõlm_punkt	NOUN	S	Case=Nom|Number=Sing	4	nsubj	4:nsubj	_
+4	katkeb	katkema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	7:advcl	SpaceAfter=No
+5	,	,	PUNCT	Z	_	4	punct	4:punct	_
+6	siis	siis	ADV	D	_	7	advmod	7:advmod	_
+7	saadetakse	saatma	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
+8	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	7	obj	7:obj	_
+9	mööda	mööda	ADP	K	AdpType=Prep	11	case	11:case	_
+10	teist	teine	DET	P	Case=Par|Number=Sing|PronType=Dem	11	det	11:det	_
+11	sõlmpunkti	sõlm_punkt	NOUN	S	Case=Par|Number=Sing	7	obl	7:obl	SpaceAfter=No
+12	,	,	PUNCT	Z	_	14	punct	14:punct	_
+13	kuni	kuni	SCONJ	J	_	14	mark	14:mark	_
+14	jõuab	jõudma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	7:advcl	_
+15	määratud	määratud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	16	acl	16:acl	_
+16	kohta	koht	NOUN	S	Case=Add|Number=Sing	14	obl	14:obl	SpaceAfter=No
+17	.	.	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = aja_luup200202_936
+# text = 1969. aastal ehitati valmis esimene funktsioneeriv võrk, mis ühendas nelja sõlmpunkti (California Ülikooli Los Angeleses, SRId Stanfordis, California Ülikooli Santa Barbaras ja Utah' Ülikooli).
+1	1969.	1969.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	2	amod	2:amod	_
+2	aastal	aasta	NOUN	S	Case=Ade|Number=Sing	3	obl	3:obl	_
+3	ehitati	ehitama	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	0:root	_
+4	valmis	valmis	ADV	D	_	3	compound:prt	3:compound	_
+5	esimene	esimene	ADJ	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Ord	7	amod	7:amod	_
+6	funktsioneeriv	funktsioneeriv	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	acl	7:acl	_
+7	võrk	võrk	NOUN	S	Case=Nom|Number=Sing	3	obj	3:obj|10:nsubj	SpaceAfter=No
+8	,	,	PUNCT	Z	_	10	punct	10:punct	_
+9	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	10	nsubj	7:ref	_
+10	ühendas	ühendama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	7:acl:relcl	_
+11	nelja	neli	NUM	N	Case=Par|Number=Sing|NumForm=Word|NumType=Card	12	nummod	12:nummod	_
+12	sõlmpunkti	sõlm_punkt	NOUN	S	Case=Par|Number=Sing	10	obj	10:obj	_
+13	(	(	PUNCT	Z	_	15	punct	15:punct	SpaceAfter=No
+14	California	California	PROPN	S	Case=Gen|Number=Sing	15	nmod	15:nmod	NE=B-Org
+15	Ülikooli	Üli_kool	PROPN	S	Case=Par|Number=Sing	12	parataxis	12:parataxis	NE=I-Org
+16	Los	Los	PROPN	S	Case=Ine|Number=Sing	15	nmod	15:nmod	NE=B-Loc
+17	Angeleses	Angeles	PROPN	S	Case=Ine|Number=Sing	16	flat	16:flat	NE=I-Loc|SpaceAfter=No
+18	,	,	PUNCT	Z	_	19	punct	19:punct	_
+19	SRId	SRI	PROPN	Y	Abbr=Yes|Case=Par|Number=Sing	15	conj	12:parataxis|15:conj	NE=B-Org
+20	Stanfordis	Stanford	PROPN	S	Case=Ine|Number=Sing	19	nmod	19:nmod	NE=B-Loc|SpaceAfter=No
+21	,	,	PUNCT	Z	_	23	punct	23:punct	_
+22	California	California	PROPN	S	Case=Gen|Number=Sing	23	nmod	23:nmod	NE=B-Org
+23	Ülikooli	Üli_kool	PROPN	S	Case=Par|Number=Sing	15	conj	12:parataxis|15:conj	NE=I-Org
+24	Santa	Santa	PROPN	S	Case=Nom|Number=Sing	23	nmod	23:nmod	NE=B-Loc
+25	Barbaras	Barbara	PROPN	S	Case=Ine|Number=Sing	24	flat	24:flat	NE=I-Loc
+26	ja	ja	CCONJ	J	_	28	cc	28:cc	_
+27	Utah'	Utah	PROPN	S	Case=Gen|Number=Sing	28	nmod	28:nmod	NE=B-Org
+28	Ülikooli	Üli_kool	PROPN	S	Case=Par|Number=Sing	15	conj	12:parataxis|15:conj	NE=I-Org|SpaceAfter=No
+29	)	)	PUNCT	Z	_	15	punct	15:punct	SpaceAfter=No
+30	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = aja_luup200202_937
+# text = Seda võrku hakati kutsuma Arpanetiks.
+1	Seda	see	DET	P	Case=Par|Number=Sing|PronType=Dem	2	det	2:det	_
+2	võrku	võrk	NOUN	S	Case=Par|Number=Sing	4	obj	4:obj|5:nsubj	_
+3	hakati	hakkama	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	0:root	_
+4	kutsuma	kutsuma	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	3	xcomp	3:xcomp	_
+5	Arpanetiks	Arpanet	PROPN	S	Case=Tra|Number=Sing	4	xcomp	4:xcomp	NE=B-Prod|SpaceAfter=No
+6	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = aja_luup200202_938
+# text = Ühendriike ja teisigi suurriike on alati saatnud hirm teistest suurtest ja võimsatest maha jääda, ning soovist kindlustada oma ülekaalu loodi 1958. aastal ka DARPA, tollal veel ARPA.
+1	Ühendriike	Ühend_riik	PROPN	S	Case=Par|Number=Plur	7	obj	7:obj	NE=B-Gep
+2	ja	ja	CCONJ	J	_	4	cc	4:cc	_
+3	teisigi	teine	DET	P	Case=Par|Number=Plur|PronType=Dem	4	det	4:det	_
+4	suurriike	suur_riik	NOUN	S	Case=Par|Number=Plur	1	conj	1:conj|7:obj	_
+5	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
+6	alati	alati	ADV	D	_	7	advmod	7:advmod	_
+7	saatnud	saatma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+8	hirm	hirm	NOUN	S	Case=Nom|Number=Sing	7	nsubj	7:nsubj	_
+9	teistest	teine	DET	P	Case=Ela|Number=Plur|PronType=Dem	10	det	10:det	_
+10	suurtest	suur	ADJ	A	Case=Ela|Degree=Pos|Number=Plur	14	obl	14:obl	_
+11	ja	ja	CCONJ	J	_	12	cc	12:cc	_
+12	võimsatest	võimas	ADJ	A	Case=Ela|Degree=Pos|Number=Plur	10	conj	10:conj|14:obl	_
+13	maha	maha	ADV	D	_	14	compound:prt	14:compound	_
+14	jääda	jääma	VERB	V	VerbForm=Inf	8	acl	8:acl	SpaceAfter=No
+15	,	,	PUNCT	Z	_	21	punct	21:punct	_
+16	ning	ning	CCONJ	J	_	21	cc	21:cc	_
+17	soovist	soov	NOUN	S	Case=Ela|Number=Sing	21	obl	21:obl	_
+18	kindlustada	kindlustama	VERB	V	VerbForm=Inf	17	acl	17:acl	_
+19	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	20	nmod	20:nmod	_
+20	ülekaalu	üle_kaal	NOUN	S	Case=Par|Number=Sing	18	obj	18:obj	_
+21	loodi	looma	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	7	conj	0:root|7:conj	_
+22	1958.	1958.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	23	amod	23:amod	_
+23	aastal	aasta	NOUN	S	Case=Ade|Number=Sing	21	obl	21:obl	_
+24	ka	ka	ADV	D	_	25	advmod	25:advmod	_
+25	DARPA	Darpa	PROPN	S	Case=Nom|Number=Sing	21	obj	21:obj	NE=B-Org|SpaceAfter=No
+26	,	,	PUNCT	Z	_	29	punct	29:punct	_
+27	tollal	tollal	ADV	D	_	29	advmod	29:advmod	_
+28	veel	veel	ADV	D	_	29	advmod	29:advmod	_
+29	ARPA	ARPA	PROPN	Y	Abbr=Yes	25	conj	21:obj|25:conj	NE=B-Org|SpaceAfter=No
+30	.	.	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = aja_luup200202_939
+# text = Veidi enne seda lennutasid venelased ameeriklaste ehmatuseks kosmosesse esimese maavälise satelliidi.
+1	Veidi	veidi	ADV	D	_	3	advmod	3:advmod	_
+2	enne	enne	ADP	K	AdpType=Prep	3	case	3:case	_
+3	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	4	obl	4:obl	_
+4	lennutasid	lennutama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	venelased	venelane	NOUN	S	Case=Nom|Number=Plur	4	nsubj	4:nsubj	_
+6	ameeriklaste	ameeriklane	NOUN	S	Case=Gen|Number=Plur	7	nmod	7:nmod	_
+7	ehmatuseks	ehmatus	NOUN	S	Case=Tra|Number=Sing	4	obl	4:obl	_
+8	kosmosesse	kosmos	NOUN	S	Case=Ill|Number=Sing	4	obl	4:obl	_
+9	esimese	esimene	ADJ	N	Case=Gen|Number=Sing|NumForm=Word|NumType=Ord	11	amod	11:amod	_
+10	maavälise	maa_väline	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	11	amod	11:amod	_
+11	satelliidi	satelliit	NOUN	S	Case=Gen|Number=Sing	4	obj	4:obj	SpaceAfter=No
+12	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = aja_luup200202_940
+# text = Praegu on kahe miljardi dollari suuruse aastaeelarvega DARPAs töötamine mainekas ja teadlased pakuvad keskusele meelsasti oma teeneid.
+1	Praegu	praegu	ADV	D	_	10	advmod	10:advmod	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
+3	kahe	kaks	NUM	N	Case=Gen|Number=Sing|NumForm=Word|NumType=Card	4	compound	4:compound	_
+4	miljardi	miljard	NUM	N	Case=Gen|Number=Sing|NumForm=Word|NumType=Card	5	nummod	5:nummod	_
+5	dollari	dollar	NOUN	S	Case=Gen|Number=Sing	6	obl	6:obl	_
+6	suuruse	suurune	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	7	amod	7:amod	_
+7	aastaeelarvega	aasta_eel_arve	NOUN	S	Case=Com|Number=Sing	8	nmod	8:nmod	_
+8	DARPAs	DARPA	PROPN	Y	Abbr=Yes|Case=Ine|Number=Sing	9	nmod	9:nmod	NE=B-Org
+9	töötamine	töötamine	NOUN	S	Case=Nom|Number=Sing	10	nsubj:cop	10:nsubj	_
+10	mainekas	mainekas	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	_
+11	ja	ja	CCONJ	J	_	13	cc	13:cc	_
+12	teadlased	teadlane	NOUN	S	Case=Nom|Number=Plur	13	nsubj	13:nsubj	_
+13	pakuvad	pakkuma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	0:root|10:conj	_
+14	keskusele	keskus	NOUN	S	Case=All|Number=Sing	13	obl	13:obl	_
+15	meelsasti	meelsasti	ADV	D	_	13	advmod	13:advmod	_
+16	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	17	nmod	17:nmod	_
+17	teeneid	teene	NOUN	S	Case=Par|Number=Plur	13	obj	13:obj	SpaceAfter=No
+18	.	.	PUNCT	Z	_	10	punct	10:punct	_
+
+# sent_id = aja_luup200202_941
+# text = Teadlaste lemmikuks on DARPA ka seetõttu, et kui mujal uurimisasutustes ja fondides saadab idee ellurakendamist bürokraatia, siis DARPAs käib kõik kiiresti ja probleemideta.
+1	Teadlaste	teadlane	NOUN	S	Case=Gen|Number=Plur	2	nmod	2:nmod	_
+2	lemmikuks	lemmik	NOUN	S	Case=Tra|Number=Sing	0	root	0:root	_
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	2:cop	_
+4	DARPA	Darpa	PROPN	S	Case=Nom|Number=Sing	2	nsubj:cop	2:nsubj	NE=B-Org
+5	ka	ka	ADV	D	_	6	advmod	6:advmod	_
+6	seetõttu	see_tõttu	ADV	D	_	2	advmod	2:advmod	SpaceAfter=No
+7	,	,	PUNCT	Z	_	14	punct	14:punct	_
+8	et	et	SCONJ	J	_	14	mark	14:mark	_
+9	kui	kui	SCONJ	J	_	14	mark	14:mark	_
+10	mujal	mujal	ADV	D	_	11	advmod	11:advmod	_
+11	uurimisasutustes	uurimis_asutus	NOUN	S	Case=Ine|Number=Plur	14	obl	14:obl	_
+12	ja	ja	CCONJ	J	_	13	cc	13:cc	_
+13	fondides	fond	NOUN	S	Case=Ine|Number=Plur	11	conj	11:conj|14:obl	_
+14	saadab	saatma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	2:advcl	_
+15	idee	idee	NOUN	S	Case=Gen|Number=Sing	16	nmod	16:nmod	_
+16	ellurakendamist	ellu_rakendamine	NOUN	S	Case=Par|Number=Sing	14	obj	14:obj	_
+17	bürokraatia	büro_kraatia	NOUN	S	Case=Nom|Number=Sing	14	nsubj	14:nsubj	SpaceAfter=No
+18	,	,	PUNCT	Z	_	21	punct	21:punct	_
+19	siis	siis	ADV	D	_	21	advmod	21:advmod	_
+20	DARPAs	DARPA	PROPN	Y	Abbr=Yes|Case=Ine|Number=Sing	21	obl	21:obl	NE=B-Org
+21	käib	käima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	2:advcl|14:conj	_
+22	kõik	kõik	PRON	P	Case=Nom|Number=Sing|PronType=Tot	21	nsubj	21:nsubj	_
+23	kiiresti	kiiresti	ADV	D	_	21	advmod	21:advmod	_
+24	ja	ja	CCONJ	J	_	25	cc	25:cc	_
+25	probleemideta	probleem	NOUN	S	Case=Abe|Number=Plur	23	conj	21:obl|23:conj	SpaceAfter=No
+26	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = aja_luup200202_942
+# text = Seal ei otsusta ettepanekute töösse võtmise üle mitte komisjonid, vaid valdkondade eest vastutavad mänedžerid.
+1	Seal	seal	ADV	D	_	3	advmod	3:advmod	_
+2	ei	ei	AUX	V	Polarity=Neg	3	aux	3:aux	_
+3	otsusta	otsustama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	ettepanekute	ette_panek	NOUN	S	Case=Gen|Number=Plur	6	nmod	6:nmod	_
+5	töösse	töö	NOUN	S	Case=Ill|Number=Sing	6	nmod	6:nmod	_
+6	võtmise	võtmine	NOUN	S	Case=Gen|Number=Sing	3	obl	3:obl	_
+7	üle	üle	ADP	K	AdpType=Post	6	case	6:case	_
+8	mitte	mitte	ADV	D	Polarity=Neg	9	advmod	9:advmod	_
+9	komisjonid	komisjon	NOUN	S	Case=Nom|Number=Plur	3	nsubj	3:nsubj	SpaceAfter=No
+10	,	,	PUNCT	Z	_	15	punct	15:punct	_
+11	vaid	vaid	CCONJ	J	_	15	cc	15:cc	_
+12	valdkondade	valdkond	NOUN	S	Case=Gen|Number=Plur	14	obl	14:obl	_
+13	eest	eest	ADP	K	AdpType=Post	12	case	12:case	_
+14	vastutavad	vastutav	ADJ	A	Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	15	acl	15:acl	_
+15	mänedžerid	mänedžer	NOUN	S	Case=Nom|Number=Plur	9	conj	3:nsubj|9:conj	SpaceAfter=No
+16	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = aja_luup200202_943
+# text = Neil on aga käsk leida uusi noori talente, esmatähtis polegi mõelda, kus leiutist tulevikus kasutada.
+1	Neil	tema	PRON	P	Case=Ade|Number=Plur|Person=3|PronType=Prs	0	root	0:root	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	1:cop	_
+3	aga	aga	ADV	D	_	1	advmod	1:advmod	_
+4	käsk	käsk	NOUN	S	Case=Nom|Number=Sing	1	nsubj:cop	1:nsubj	_
+5	leida	leidma	VERB	V	VerbForm=Inf	4	acl	4:acl	_
+6	uusi	uus	ADJ	A	Case=Par|Degree=Pos|Number=Plur	8	amod	8:amod	_
+7	noori	noor	ADJ	A	Case=Par|Degree=Pos|Number=Plur	8	amod	8:amod	_
+8	talente	talent	NOUN	S	Case=Par|Number=Plur	5	obj	5:obj	SpaceAfter=No
+9	,	,	PUNCT	Z	_	10	punct	10:punct	_
+10	esmatähtis	esma_tähtis	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	1	conj	0:root|1:conj	_
+11	polegi	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
+12	mõelda	mõtlema	VERB	V	VerbForm=Inf	10	csubj:cop	10:csubj	SpaceAfter=No
+13	,	,	PUNCT	Z	_	17	punct	17:punct	_
+14	kus	kus	ADV	D	_	17	mark	17:mark	_
+15	leiutist	leiutis	NOUN	S	Case=Par|Number=Sing	17	obj	17:obj	_
+16	tulevikus	tulevik	NOUN	S	Case=Ine|Number=Sing	17	obl	17:obl	_
+17	kasutada	kasutama	VERB	V	VerbForm=Inf	10	advcl	10:advcl	SpaceAfter=No
+18	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = aja_luup200202_944
+# text = Tähtis on idee ja hea fantaasia.
+1	Tähtis	tähtis	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	1:cop	_
+3	idee	idee	NOUN	S	Case=Nom|Number=Sing	1	nsubj:cop	1:nsubj	_
+4	ja	ja	CCONJ	J	_	6	cc	6:cc	_
+5	hea	hea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	6	amod	6:amod	_
+6	fantaasia	fantaasia	NOUN	S	Case=Nom|Number=Sing	3	conj	1:nsubj|3:conj	SpaceAfter=No
+7	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = aja_luup200202_945
+# text = Sageli on nii, et DARPA teeb ainult eeltöö ja mõni muu firma arendab idee valmistooteni.
+1	Sageli	sageli	ADV	D	_	3	advmod	3:advmod	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
+3	nii	nii	ADV	D	_	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	Z	_	7	punct	7:punct	_
+5	et	et	SCONJ	J	_	7	mark	7:mark	_
+6	DARPA	Darpa	PROPN	S	Case=Nom|Number=Sing	7	nsubj	7:nsubj	NE=B-Org
+7	teeb	tegema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	3:advcl	_
+8	ainult	ainult	ADV	D	_	9	advmod	9:advmod	_
+9	eeltöö	eel_töö	NOUN	S	Case=Gen|Number=Sing	7	obj	7:obj	_
+10	ja	ja	CCONJ	J	_	14	cc	14:cc	_
+11	mõni	mõni	DET	P	Case=Nom|Number=Sing|PronType=Ind	12	det	12:det	_
+12	muu	muu	PRON	P	Case=Nom|Number=Sing|PronType=Ind	13	amod	13:amod	_
+13	firma	firma	NOUN	S	Case=Nom|Number=Sing	14	nsubj	14:nsubj	_
+14	arendab	arendama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	3:advcl|7:conj	_
+15	idee	idee	NOUN	S	Case=Gen|Number=Sing	14	obj	14:obj	_
+16	valmistooteni	valmis_toode	NOUN	S	Case=Ter|Number=Sing	14	obl	14:obl	SpaceAfter=No
+17	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = aja_luup200202_946
+# text = Ideest teostuseni võib kuluda 20 aastat.
+1	Ideest	idee	NOUN	S	Case=Ela|Number=Sing	4	obl	4:obl	_
+2	teostuseni	teostus	NOUN	S	Case=Ter|Number=Sing	4	obl	4:obl	_
+3	võib	võima	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
+4	kuluda	kuluma	VERB	V	VerbForm=Inf	0	root	0:root	_
+5	20	20	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	6	nummod	6:nummod	_
+6	aastat	aasta	NOUN	S	Case=Par|Number=Sing	4	obl	4:obl	SpaceAfter=No
+7	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
