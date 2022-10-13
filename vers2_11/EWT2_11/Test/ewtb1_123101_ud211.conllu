@@ -1,0 +1,890 @@
+# newdoc id = ewtb1_123101
+# sent_id = ewtb1_123101_1
+# text = või et 10 % aafriklasi on ok?
+1	või	või	CCONJ	J	_	7	cc	7:cc	_
+2	et	et	SCONJ	J	_	7	mark	7:mark	_
+3	10	10	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	4	nummod	4:nummod	_
+4	%	%	NOUN	Y	Abbr=Yes	5	nmod	5:nmod	_
+5	aafriklasi	aafriklane	NOUN	S	Case=Par|Number=Plur	7	nsubj:cop	7:nsubj	_
+6	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
+7	ok	ok	ADJ	A	Degree=Pos	0	root	0:root	SpaceAfter=No
+8	?	?	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = ewtb1_123101_2
+# text = 20 % ... ja no ma ei tea?
+1	20	20	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	2	nummod	2:nummod	_
+2	%	%	NOUN	Y	Abbr=Yes	8	parataxis	8:parataxis	_
+3	...	...	PUNCT	Z	_	8	punct	8:punct	_
+4	ja	ja	CCONJ	J	_	8	cc	8:cc	_
+5	no	no	INTJ	B	_	8	discourse	8:discourse	_
+6	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	8:nsubj	_
+7	ei	ei	AUX	V	Polarity=Neg	8	aux	8:aux	_
+8	tea	teadma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+9	?	?	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = ewtb1_123101_3
+# text = Fck, kas minister üldse teab, mis on migrantide protsent Eestis praegu?
+1	Fck	fck	INTJ	B	_	6	discourse	6:discourse	SpaceAfter=No
+2	,	,	PUNCT	Z	_	6	punct	6:punct	_
+3	kas	kas	ADV	D	_	6	advmod	6:advmod	_
+4	minister	minister	NOUN	S	Case=Nom|Number=Sing	6	nsubj	6:nsubj	_
+5	üldse	üldse	ADV	D	_	6	advmod	6:advmod	_
+6	teab	teadma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+7	,	,	PUNCT	Z	_	6	punct	6:punct	_
+8	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	11	nsubj:cop	11:nsubj	_
+9	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
+10	migrantide	migrant	NOUN	S	Case=Gen|Number=Plur	11	nmod	11:nmod	_
+11	protsent	protsent	NOUN	S	Case=Nom|Number=Sing	6	ccomp	6:ccomp	_
+12	Eestis	Eesti	PROPN	S	Case=Ine|Number=Sing	11	nmod	11:nmod	NE=B-Gep
+13	praegu	praegu	ADV	D	_	11	advmod	11:advmod	SpaceAfter=No
+14	?	?	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb1_123101_4
+# text = Kas see on ok?
+1	Kas	kas	ADV	D	_	4	advmod	4:advmod	_
+2	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	4:nsubj	_
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+4	ok	ok	ADJ	A	Degree=Pos	0	root	0:root	SpaceAfter=No
+5	?	?	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb1_123101_5
+# text = Pronksööd on juba meelest läinud?
+1	Pronksööd	pronks_öö	NOUN	S	Case=Nom|Number=Plur	5	nsubj	5:nsubj	NE=B-Eve
+2	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
+3	juba	juba	ADV	D	_	5	advmod	5:advmod	_
+4	meelest	meel	NOUN	S	Case=Ela|Number=Sing	5	obl	5:obl	_
+5	läinud	minema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
+6	?	?	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = ewtb1_123101_6
+# text = Ainus õige mõte , millega sellisel tasemel Eesti poliitik võiks mängida, on immigratsiooni täielik külmutamine ja olemasolevate sisserännanute repatrieerimine.
+1	Ainus	ainus	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	amod	3:amod	_
+2	õige	õige	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	amod	3:amod	_
+3	mõte	mõte	NOUN	S	Case=Nom|Number=Sing	16	nsubj:cop	11:obl|16:nsubj	_
+4	,	,	PUNCT	Z	_	11	punct	11:punct	_
+5	millega	mis	PRON	P	Case=Com|Number=Sing|PronType=Int,Rel	11	obl	3:ref	_
+6	sellisel	selline	DET	P	Case=Ade|Number=Sing|PronType=Dem	7	det	7:det	_
+7	tasemel	tase	NOUN	S	Case=Ade|Number=Sing	9	nmod	9:nmod	_
+8	Eesti	Eesti	PROPN	S	Case=Gen|Number=Sing	9	nmod	9:nmod	NE=B-Gep
+9	poliitik	poliitik	NOUN	S	Case=Nom|Number=Sing	11	nsubj	11:nsubj	_
+10	võiks	võima	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	11:aux	_
+11	mängida	mängima	VERB	V	VerbForm=Inf	3	acl:relcl	3:acl	SpaceAfter=No
+12	,	,	PUNCT	Z	_	16	punct	16:punct	_
+13	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	16:cop	_
+14	immigratsiooni	immigratsioon	NOUN	S	Case=Gen|Number=Sing	16	nmod	16:nmod	_
+15	täielik	täielik	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	16	amod	16:amod	_
+16	külmutamine	külmutamine	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+17	ja	ja	CCONJ	J	_	20	cc	20:cc	_
+18	olemasolevate	olemas_olev	ADJ	A	Case=Gen|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	19	acl	19:acl	_
+19	sisserännanute	sisse_rännanu	NOUN	S	Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	20	nmod	20:nmod	_
+20	repatrieerimine	repatrieeri=mine	NOUN	S	Case=Nom|Number=Sing	16	conj	16:conj	SpaceAfter=No
+21	.	.	PUNCT	Z	_	16	punct	16:punct	_
+
+# sent_id = ewtb1_123101_7
+# text = Kahjuks ei saa valida erakonda, kus tipus troonivad sellised mõttehiiglased.
+1	Kahjuks	kahjuks	ADV	D	_	4	advmod	4:advmod	_
+2	ei	ei	AUX	V	Polarity=Neg	4	aux	4:aux	_
+3	saa	saama	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
+4	valida	valima	VERB	V	VerbForm=Inf	0	root	0:root	_
+5	erakonda	erakond	NOUN	S	Case=Par|Number=Sing	4	obj	4:obj	SpaceAfter=No
+6	,	,	PUNCT	Z	_	9	punct	9:punct	_
+7	kus	kus	ADV	D	_	9	mark	9:mark	_
+8	tipus	tipp	NOUN	S	Case=Ine|Number=Sing	9	obl	9:obl	_
+9	troonivad	troonima	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl	5:acl	_
+10	sellised	selline	DET	P	Case=Nom|Number=Plur|PronType=Dem	11	det	11:det	_
+11	mõttehiiglased	mõtte_hiiglane	NOUN	S	Case=Nom|Number=Plur	9	nsubj	9:nsubj	SpaceAfter=No
+12	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb1_123101_8
+# text = Tallinna Manhattan Paljassaare sadamasse ...
+1	Tallinna	Tallinn	PROPN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	NE=B-Gep
+2	Manhattan	Manhattan	PROPN	S	Case=Nom|Number=Sing	0	root	0:root	NE=B-Loc
+3	Paljassaare	Paljas_saare	PROPN	S	Case=Gen|Number=Sing	4	nmod	4:nmod	NE=B-Loc
+4	sadamasse	sadam	NOUN	S	Case=Ill|Number=Sing	2	nmod	2:nmod	NE=I-Loc
+5	...	...	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb1_123101_9
+# text = Soome ärimehed koos Ain Hanschmidti, Cardo Remmeli ja endiste Tallinna võimupoliitikutega said enda kätte Paljassaare Sadama ehitised ja ligi 13 hektarit tootmismaad.
+1	Soome	Soome	PROPN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	NE=B-Gep
+2	ärimehed	äri_mees	NOUN	S	Case=Nom|Number=Plur	13	nsubj	13:nsubj	_
+3	koos	koos	ADP	K	AdpType=Prep	4	case	4:case	_
+4	Ain	Ain	PROPN	S	Case=Nom|Number=Sing	13	obl	13:obl	NE=B-Per
+5	Hanschmidti	Hanschmidt	PROPN	S	Case=Gen|Number=Sing	4	flat	4:flat	NE=I-Per|SpaceAfter=No
+6	,	,	PUNCT	Z	_	7	punct	7:punct	_
+7	Cardo	Cardo	PROPN	S	Case=Nom|Number=Sing	4	conj	4:conj	NE=B-Per
+8	Remmeli	Remmel	PROPN	S	Case=Gen|Number=Sing	7	flat	7:flat	NE=I-Per
+9	ja	ja	CCONJ	J	_	12	cc	12:cc	_
+10	endiste	endine	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	12	amod	12:amod	_
+11	Tallinna	Tallinn	PROPN	S	Case=Gen|Number=Sing	12	nmod	12:nmod	NE=B-Gep
+12	võimupoliitikutega	võimu_poliitik	NOUN	S	Case=Com|Number=Plur	4	conj	4:conj	_
+13	said	saama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+14	enda	ise	PRON	P	Case=Gen|Number=Sing|PronType=Prs|Reflex=Yes	13	obl	13:obl	_
+15	kätte	kätte	ADP	K	AdpType=Post	14	case	14:case	_
+16	Paljassaare	Paljas_saare	PROPN	S	Case=Gen|Number=Sing	17	nmod	17:nmod	NE=B-Org
+17	Sadama	Sadam	PROPN	S	Case=Gen|Number=Sing	18	nmod	18:nmod	NE=I-Org
+18	ehitised	ehitis	NOUN	S	Case=Nom|Number=Plur	13	obj	13:obj	_
+19	ja	ja	CCONJ	J	_	23	cc	23:cc	_
+20	ligi	ligi	ADV	D	_	21	advmod	21:advmod	_
+21	13	13	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	22	nummod	22:nummod	_
+22	hektarit	hektar	NOUN	S	Case=Par|Number=Sing	23	nmod	23:nmod	_
+23	tootmismaad	tootmis_maa	NOUN	S	Case=Par|Number=Sing	18	conj	18:conj	SpaceAfter=No
+24	.	.	PUNCT	Z	_	13	punct	13:punct	_
+
+# sent_id = ewtb1_123101_10
+# text = Plaan on lihtne - sinna tuleb lähiajal Eesti suurim ehitustanner ....
+1	Plaan	plaan	NOUN	S	Case=Nom|Number=Sing	3	nsubj:cop	3:nsubj	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
+3	lihtne	lihtne	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	_
+4	-	-	PUNCT	Z	_	6	punct	6:punct	_
+5	sinna	sinna	ADV	D	_	6	advmod	6:advmod	_
+6	tuleb	tulema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	3:parataxis	_
+7	lähiajal	lähi_aeg	NOUN	S	Case=Ade|Number=Sing	6	obl	6:obl	_
+8	Eesti	Eesti	PROPN	S	Case=Gen|Number=Sing	9	obl	9:obl	NE=B-Gep
+9	suurim	suurim	ADJ	A	Case=Nom|Degree=Sup|Number=Sing	10	amod	10:amod	_
+10	ehitustanner	ehitus_tanner	NOUN	S	Case=Nom|Number=Sing	6	nsubj	6:nsubj	_
+11	....	....	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb1_123101_11
+# text = ... Nimelt on Allan Kiil Strantumi nõukogu liige, Toivo Promm aga alates 2006. aasta märtsist (kuu pärast tehingut) Strantumi juhatuse liige.
+1	...	...	PUNCT	Z	_	8	punct	8:punct	_
+2	Nimelt	nimelt	ADV	D	_	8	advmod	8:advmod	_
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
+4	Allan	Allan	PROPN	S	Case=Nom|Number=Sing	8	nsubj:cop	8:nsubj	NE=B-Per
+5	Kiil	Kiil	PROPN	S	Case=Nom|Number=Sing	4	flat	4:flat	NE=I-Per
+6	Strantumi	Strantum	PROPN	S	Case=Gen|Number=Sing	7	nmod	7:nmod	NE=B-Org
+7	nõukogu	nõu_kogu	NOUN	S	Case=Gen|Number=Sing	8	nmod	8:nmod	NE=I-Org
+8	liige	liige	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
+9	,	,	PUNCT	Z	_	24	punct	24:punct	_
+10	Toivo	Toivo	PROPN	S	Case=Nom|Number=Sing	24	nsubj:cop	24:nsubj	NE=B-Per
+11	Promm	Promm	PROPN	S	Case=Nom|Number=Sing	10	flat	10:flat	NE=I-Per
+12	aga	aga	ADV	D	_	24	advmod	24:advmod	_
+13	alates	alates	ADP	K	_	16	case	16:case	_
+14	2006.	2006.	ADJ	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Ord	15	amod	15:amod	_
+15	aasta	aasta	NOUN	S	Case=Gen|Number=Sing	16	nmod	16:nmod	_
+16	märtsist	märts	NOUN	S	Case=Ela|Number=Sing	24	obl	24:obl	_
+17	(	(	PUNCT	Z	_	18	punct	18:punct	SpaceAfter=No
+18	kuu	kuu	NOUN	S	Case=Nom|Number=Sing	16	parataxis	16:parataxis	_
+19	pärast	pärast	ADP	K	AdpType=Prep	20	case	20:case	_
+20	tehingut	tehing	NOUN	S	Case=Par|Number=Sing	18	nmod	18:nmod	SpaceAfter=No
+21	)	)	PUNCT	Z	_	18	punct	18:punct	_
+22	Strantumi	Strantum	PROPN	S	Case=Gen|Number=Sing	23	nmod	23:nmod	NE=B-Org
+23	juhatuse	juhatus	NOUN	S	Case=Gen|Number=Sing	24	nmod	24:nmod	NE=I-Org
+24	liige	liige	NOUN	S	Case=Nom|Number=Sing	8	conj	8:conj	SpaceAfter=No
+25	.	.	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = ewtb1_123101_12
+# text = Strantumi nõukokku kuulub ka täna Tallinkis töötav Toomas Vilosius.
+1	Strantumi	Strantum	PROPN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	NE=B-Org
+2	nõukokku	nõu_kogu	NOUN	S	Case=Add|Number=Sing	3	obl	3:obl	NE=I-Org
+3	kuulub	kuuluma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	ka	ka	ADV	D	_	3	advmod	3:advmod	_
+5	täna	täna	ADV	D	_	7	advmod	7:advmod	_
+6	Tallinkis	Tallink	PROPN	S	Case=Ine|Number=Sing	7	obl	7:obl	NE=B-Org
+7	töötav	töötav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	acl	8:acl	_
+8	Toomas	Toomas	PROPN	S	Case=Nom|Number=Sing	3	nsubj	3:nsubj	NE=B-Per
+9	Vilosius	Vilosius	PROPN	S	Case=Nom|Number=Sing	8	flat	8:flat	NE=I-Per|SpaceAfter=No
+10	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb1_123101_13
+# text = Juba aastaid on viimane samuti Haapsalus töötanud Hanschmidti üks lähemaid sõpru.
+1	Juba	juba	ADV	D	_	2	advmod	2:advmod	_
+2	aastaid	aasta	NOUN	S	Case=Par|Number=Plur	11	obl	11:obl	_
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
+4	viimane	viimane	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	11	nsubj:cop	11:nsubj	_
+5	samuti	samuti	ADV	D	_	7	advmod	7:advmod	_
+6	Haapsalus	Haapsalu	PROPN	S	Case=Ine|Number=Sing	7	obl	7:obl	NE=B-Loc
+7	töötanud	tööta=nud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	acl	8:acl	_
+8	Hanschmidti	Hanschmidt	PROPN	S	Case=Gen|Number=Sing	11	nmod	11:nmod	NE=B-Per
+9	üks	üks	DET	P	Case=Nom|Number=Sing|PronType=Ind	11	det	11:det	_
+10	lähemaid	lähem	ADJ	A	Case=Par|Degree=Cmp|Number=Plur	11	amod	11:amod	_
+11	sõpru	sõber	NOUN	S	Case=Par|Number=Plur	0	root	0:root	SpaceAfter=No
+12	.	.	PUNCT	Z	_	11	punct	11:punct	_
+
+# sent_id = ewtb1_123101_14
+# text = Huvitavat nüanssi pakub asjaolu, et kõige suurem KS Holdingu osanik ja plaani ristiisa Tapani Teeriaho elab äriregistri andmetel Harkus.
+1	Huvitavat	huvitav	ADJ	A	Case=Par|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	2	acl	2:acl	_
+2	nüanssi	nüanss	NOUN	S	Case=Par|Number=Sing	3	obj	3:obj	_
+3	pakub	pakkuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	asjaolu	asja_olu	NOUN	S	Case=Nom|Number=Sing	3	nsubj	3:nsubj	SpaceAfter=No
+5	,	,	PUNCT	Z	_	17	punct	17:punct	_
+6	et	et	SCONJ	J	_	17	mark	17:mark	_
+7	kõige	kõige	ADV	D	_	8	advmod	8:advmod	_
+8	suurem	suurem	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	11	amod	11:amod	_
+9	KS	KS	PROPN	S	Case=Nom|Number=Sing	11	nmod	11:nmod	NE=B-Org
+10	Holdingu	Holding	PROPN	S	Case=Gen|Number=Sing	9	flat	9:flat	NE=I-Org
+11	osanik	osanik	NOUN	S	Case=Nom|Number=Sing	17	nsubj	17:nsubj	_
+12	ja	ja	CCONJ	J	_	14	cc	14:cc	_
+13	plaani	plaan	NOUN	S	Case=Gen|Number=Sing	14	nmod	14:nmod	_
+14	ristiisa	risti_isa	NOUN	S	Case=Nom|Number=Sing	11	conj	11:conj	_
+15	Tapani	Tapani	PROPN	S	Case=Nom|Number=Sing	11	appos	11:appos	NE=B-Per
+16	Teeriaho	Teeriaho	PROPN	S	Case=Nom|Number=Sing	15	flat	15:flat	NE=I-Per
+17	elab	elama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	4:acl	_
+18	äriregistri	äri_register	NOUN	S	Case=Gen|Number=Sing	19	nmod	19:nmod	_
+19	andmetel	andmed	NOUN	S	Case=Ade|Number=Plur	17	obl	17:obl	_
+20	Harkus	Harku	PROPN	S	Case=Ine|Number=Sing	17	obl	17:obl	NE=B-Loc|SpaceAfter=No
+21	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb1_123101_15
+# text = Kiil ja Promm on koos töötanud ka Paljassaare sadamas, mil Kiil oli sadama direktor ja Promm sealne rentnik.
+1	Kiil	Kiil	PROPN	S	Case=Nom|Number=Sing	6	nsubj	6:nsubj	NE=B-Per
+2	ja	ja	CCONJ	J	_	3	cc	3:cc	_
+3	Promm	Promm	PROPN	S	Case=Nom|Number=Sing	1	conj	1:conj	NE=B-Per
+4	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
+5	koos	koos	ADV	D	_	6	advmod	6:advmod	_
+6	töötanud	töötama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+7	ka	ka	ADV	D	_	9	advmod	9:advmod	_
+8	Paljassaare	Paljas_saare	PROPN	S	Case=Gen|Number=Sing	9	nmod	9:nmod	NE=B-Org
+9	sadamas	sadam	NOUN	S	Case=Ine|Number=Sing	6	obl	6:obl	NE=I-Org|SpaceAfter=No
+10	,	,	PUNCT	Z	_	15	punct	15:punct	_
+11	mil	mil	ADV	D	_	15	mark	15:mark	_
+12	Kiil	Kiil	PROPN	S	Case=Nom|Number=Sing	15	nsubj:cop	15:nsubj	NE=B-Per
+13	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	15:cop	_
+14	sadama	sadam	NOUN	S	Case=Gen|Number=Sing	15	nmod	15:nmod	_
+15	direktor	direktor	NOUN	S	Case=Nom|Number=Sing	6	advcl	6:advcl	_
+16	ja	ja	CCONJ	J	_	19	cc	19:cc	_
+17	Promm	Promm	PROPN	S	Case=Nom|Number=Sing	19	nsubj:cop	19:nsubj	NE=B-Per
+18	sealne	sealne	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	19	amod	19:amod	_
+19	rentnik	rentnik	NOUN	S	Case=Nom|Number=Sing	15	conj	15:conj	SpaceAfter=No
+20	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb1_123101_16
+# text = Tallinna Sadama nõukogus seisid projekti eest aga Vilja Savisaar ja Peep Aaviksoo.
+1	Tallinna	Tallinn	PROPN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	NE=B-Org
+2	Sadama	Sadam	PROPN	S	Case=Gen|Number=Sing	3	nmod	3:nmod	NE=I-Org
+3	nõukogus	nõu_kogu	NOUN	S	Case=Ine|Number=Sing	4	obl	4:obl	NE=I-Org
+4	seisid	seisma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	projekti	projekt	NOUN	S	Case=Gen|Number=Sing	4	obl	4:obl	_
+6	eest	eest	ADP	K	AdpType=Post	5	case	5:case	_
+7	aga	aga	ADV	D	_	4	advmod	4:advmod	_
+8	Vilja	Vilja	PROPN	S	Case=Nom|Number=Sing	4	nsubj	4:nsubj	NE=B-Per
+9	Savisaar	Savi_saar	PROPN	S	Case=Nom|Number=Sing	8	flat	8:flat	NE=I-Per
+10	ja	ja	CCONJ	J	_	11	cc	11:cc	_
+11	Peep	Peep	PROPN	S	Case=Nom|Number=Sing	8	conj	8:conj	NE=B-Per
+12	Aaviksoo	Aaviksoo	PROPN	S	Case=Nom|Number=Sing	11	flat	11:flat	NE=I-Per|SpaceAfter=No
+13	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb1_123101_17
+# text = Nii mõnelegi teisele nõukogu liikmetele serveeriti Paljassaare sadama ehitiste müük vabanemisena erinevate koormatistega koormatud tootmismaast.
+1	Nii	nii	ADV	D	_	2	advmod	2:advmod	_
+2	mõnelegi	mõni	DET	P	Case=All|Number=Sing|PronType=Ind	3	det	3:det	_
+3	teisele	teine	DET	P	Case=All|Number=Sing|PronType=Dem	5	det	5:det	_
+4	nõukogu	nõu_kogu	NOUN	S	Case=Gen|Number=Sing	5	nmod	5:nmod	_
+5	liikmetele	liige	NOUN	S	Case=All|Number=Plur	6	obl	6:obl	_
+6	serveeriti	serveerima	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	0:root	_
+7	Paljassaare	Paljas_saare	PROPN	S	Case=Gen|Number=Sing	8	nmod	8:nmod	NE=B-Org
+8	sadama	sadam	NOUN	S	Case=Gen|Number=Sing	9	nmod	9:nmod	NE=I-Org
+9	ehitiste	ehitis	NOUN	S	Case=Gen|Number=Plur	10	nmod	10:nmod	_
+10	müük	müük	NOUN	S	Case=Nom|Number=Sing	6	obj	6:obj	_
+11	vabanemisena	vabanemine	NOUN	S	Case=Ess|Number=Sing	6	obl	6:obl	_
+12	erinevate	erinev	ADJ	A	Case=Gen|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	13	acl	13:acl	_
+13	koormatistega	koormatis	NOUN	S	Case=Com|Number=Plur	14	obl	14:obl	_
+14	koormatud	koorma=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	15	acl	15:acl	_
+15	tootmismaast	tootmis_maa	NOUN	S	Case=Ela|Number=Sing	11	nmod	11:nmod	SpaceAfter=No
+16	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb1_123101_18
+# text = "Ma olen Paljasaare plaanidest ikka oma sõnavõttudes rääkinud. Samuti tutvustas Põhja-Tallinna linnaosavalitsus 2006. aasta mais sealseid plaane," sõnab endine Põhja-Tallinna linnaosavanem Vilja Savisaar.
+1	"	"	PUNCT	Z	_	9	punct	9:punct	SpaceAfter=No
+2	Ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	9:nsubj	_
+3	olen	olema	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
+4	Paljasaare	Paljas_saare	PROPN	S	Case=Gen|Number=Sing|Typo=Yes	5	nmod	5:nmod	NE=B-Org|CorrectForm=Paljassaare
+5	plaanidest	plaan	NOUN	S	Case=Ela|Number=Plur	9	obl	9:obl	_
+6	ikka	ikka	ADV	D	_	9	advmod	9:advmod	_
+7	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	8:nmod	_
+8	sõnavõttudes	sõna_võtt	NOUN	S	Case=Ine|Number=Plur	9	obl	9:obl	_
+9	rääkinud	rääkima	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
+10	.	.	PUNCT	Z	_	12	punct	12:punct	_
+11	Samuti	samuti	ADV	D	_	12	advmod	12:advmod	_
+12	tutvustas	tutvustama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	9:parataxis	_
+13	Põhja-Tallinna	Põhja-Tallinn	PROPN	S	Case=Gen|Number=Sing	14	nmod	14:nmod	NE=B-Org
+14	linnaosavalitsus	linna_osa_valitsus	NOUN	S	Case=Nom|Number=Sing	12	nsubj	12:nsubj	NE=I-Org
+15	2006.	2006.	ADJ	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Ord	16	amod	16:amod	_
+16	aasta	aasta	NOUN	S	Case=Gen|Number=Sing	17	nmod	17:nmod	_
+17	mais	mai	NOUN	S	Case=Ine|Number=Sing	12	obl	12:obl	_
+18	sealseid	sealne	ADJ	A	Case=Par|Degree=Pos|Number=Plur	19	amod	19:amod	_
+19	plaane	plaan	NOUN	S	Case=Par|Number=Plur	12	obj	12:obj	SpaceAfter=No
+20	,	,	PUNCT	Z	_	12	punct	12:punct	SpaceAfter=No
+21	"	"	PUNCT	Z	_	12	punct	12:punct	_
+22	sõnab	sõnama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	12:parataxis	_
+23	endine	endine	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	25	amod	25:amod	_
+24	Põhja-Tallinna	Põhja-Tallinn	PROPN	S	Case=Gen|Number=Sing	25	nmod	25:nmod	NE=B-Gep
+25	linnaosavanem	linna_osa_vanem	NOUN	S	Case=Nom|Number=Sing	22	nsubj	22:nsubj	_
+26	Vilja	Vilja	PROPN	S	Case=Nom|Number=Sing	25	appos	25:appos	NE=B-Per
+27	Savisaar	Savi_saar	PROPN	S	Case=Nom|Number=Sing	26	flat	26:flat	NE=I-Per|SpaceAfter=No
+28	.	.	PUNCT	Z	_	9	punct	9:punct	_
+
+# sent_id = ewtb1_123101_19
+# text = Tema sõnul läksid maad rentnike kätte, kuna Tallinna Sadam ei näinud Paljassaare sadamast enam perspektiivi.
+1	Tema	tema	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nmod	2:nmod	_
+2	sõnul	sõna	NOUN	S	Case=Ade|Number=Plur	3	obl	3:obl	_
+3	läksid	minema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	maad	maa	NOUN	S	Case=Nom|Number=Plur	3	nsubj	3:nsubj	_
+5	rentnike	rentnik	NOUN	S	Case=Gen|Number=Plur	3	obl	3:obl	_
+6	kätte	kätte	ADP	K	AdpType=Post	5	case	5:case	SpaceAfter=No
+7	,	,	PUNCT	Z	_	12	punct	12:punct	_
+8	kuna	kuna	SCONJ	J	_	12	mark	12:mark	_
+9	Tallinna	Tallinn	PROPN	S	Case=Gen|Number=Sing	10	nmod	10:nmod	NE=B-Org
+10	Sadam	Sadam	PROPN	S	Case=Nom|Number=Sing	12	nsubj	12:nsubj	NE=I-Org
+11	ei	ei	AUX	V	Polarity=Neg	12	aux	12:aux	_
+12	näinud	nägema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	3:advcl	_
+13	Paljassaare	Paljas_saare	PROPN	S	Case=Gen|Number=Sing	14	nmod	14:nmod	NE=B-Org
+14	sadamast	sadam	NOUN	S	Case=Ela|Number=Sing	12	obl	12:obl	NE=I-Org
+15	enam	enam	ADV	D	_	12	advmod	12:advmod	_
+16	perspektiivi	perspektiiv	NOUN	S	Case=Par|Number=Sing	12	obj	12:obj	SpaceAfter=No
+17	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb1_123101_20
+# text = Tänane kinnisvaraärimees Peep Aaviksoo kutsuti sadama nõukogust tagasi kaks kuud pärast Paljassaare ehitiste müüki, 2006. aasta aprillis.
+1	Tänane	tänane	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	2:amod	_
+2	kinnisvaraärimees	kinnis_vara_äri_mees	NOUN	S	Case=Nom|Number=Sing	5	obj	5:obj	_
+3	Peep	Peep	PROPN	S	Case=Nom|Number=Sing	2	appos	2:appos	NE=B-Per
+4	Aaviksoo	Aaviksoo	PROPN	S	Case=Nom|Number=Sing	3	flat	3:flat	NE=I-Per
+5	kutsuti	kutsuma	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	0:root	_
+6	sadama	sadam	NOUN	S	Case=Gen|Number=Sing	7	nmod	7:nmod	_
+7	nõukogust	nõu_kogu	NOUN	S	Case=Ela|Number=Sing	5	obl	5:obl	_
+8	tagasi	tagasi	ADV	D	_	5	compound:prt	5:compound	_
+9	kaks	kaks	NUM	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	10	nummod	10:nummod	_
+10	kuud	kuu	NOUN	S	Case=Par|Number=Sing	5	obl	5:obl	_
+11	pärast	pärast	ADP	K	AdpType=Prep	14	case	14:case	_
+12	Paljassaare	Paljas_saare	PROPN	S	Case=Gen|Number=Sing	13	nmod	13:nmod	NE=B-Org
+13	ehitiste	ehitis	NOUN	S	Case=Gen|Number=Plur	14	nmod	14:nmod	_
+14	müüki	müük	NOUN	S	Case=Par|Number=Sing	10	nmod	10:nmod	SpaceAfter=No
+15	,	,	PUNCT	Z	_	18	punct	18:punct	_
+16	2006.	2006.	ADJ	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Ord	17	amod	17:amod	_
+17	aasta	aasta	NOUN	S	Case=Gen|Number=Sing	18	nmod	18:nmod	_
+18	aprillis	aprill	NOUN	S	Case=Ine|Number=Sing	10	conj	10:conj	SpaceAfter=No
+19	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = ewtb1_123101_21
+# text = 2007. aasta märtsis asus ta ehitised sadamalt ostnud KS Holdingu osanikeringi.
+1	2007.	2007.	ADJ	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Ord	2	amod	2:amod	_
+2	aasta	aasta	NOUN	S	Case=Gen|Number=Sing	3	nmod	3:nmod	_
+3	märtsis	märts	NOUN	S	Case=Ine|Number=Sing	4	obl	4:obl	_
+4	asus	asuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	_
+6	ehitised	ehitis	NOUN	S	Case=Nom|Number=Plur	8	obj	8:obj	_
+7	sadamalt	sadam	NOUN	S	Case=Abl|Number=Sing	8	obl	8:obl	_
+8	ostnud	ost=nud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Act	9	acl	9:acl	_
+9	KS	KS	PROPN	S	Case=Nom|Number=Sing	11	nmod	11:nmod	NE=B-Org
+10	Holdingu	Holding	PROPN	S	Case=Gen|Number=Sing	9	flat	9:flat	NE=I-Org
+11	osanikeringi	osanike_ring	NOUN	S	Case=Add|Number=Sing	4	obl	4:obl	SpaceAfter=No
+12	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb1_123101_22
+# text = "Eks Eestis ikka asju ostetakse. Aga selle tagant mingisugust sügavat seost otsida on küll väheke problemaatiline," kommenteerib Peep Aaviksoo.
+1	"	"	PUNCT	Z	_	6	punct	6:punct	SpaceAfter=No
+2	Eks	eks	ADV	D	_	6	advmod	6:advmod	_
+3	Eestis	Eesti	PROPN	S	Case=Ine|Number=Sing	6	obl	6:obl	NE=B-Gep
+4	ikka	ikka	ADV	D	_	6	advmod	6:advmod	_
+5	asju	asi	NOUN	S	Case=Par|Number=Plur	6	obj	6:obj	_
+6	ostetakse	ostma	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	SpaceAfter=No
+7	.	.	PUNCT	Z	_	18	punct	18:punct	_
+8	Aga	aga	CCONJ	J	_	18	cc	18:cc	_
+9	selle	see	PRON	P	Case=Gen|Number=Sing|PronType=Dem	18	obl	18:obl	_
+10	tagant	tagant	ADP	K	AdpType=Post	9	case	9:case	_
+11	mingisugust	mingi_sugune	ADJ	P	Case=Par|Number=Sing|PronType=Ind	13	amod	13:amod	_
+12	sügavat	sügav	ADJ	A	Case=Par|Degree=Pos|Number=Sing	13	amod	13:amod	_
+13	seost	seos	NOUN	S	Case=Par|Number=Sing	14	obj	14:obj	_
+14	otsida	otsima	VERB	V	VerbForm=Inf	18	csubj:cop	18:csubj	_
+15	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	18:cop	_
+16	küll	küll	ADV	D	_	18	advmod	18:advmod	_
+17	väheke	väheke	ADV	D	_	18	advmod	18:advmod	_
+18	problemaatiline	problemaatiline	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	6	parataxis	6:parataxis	SpaceAfter=No
+19	,	,	PUNCT	Z	_	18	punct	18:punct	SpaceAfter=No
+20	"	"	PUNCT	Z	_	18	punct	18:punct	_
+21	kommenteerib	kommenteerima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	parataxis	18:parataxis	_
+22	Peep	Peep	PROPN	S	Case=Nom|Number=Sing	21	nsubj	21:nsubj	NE=B-Per
+23	Aaviksoo	Aaviksoo	PROPN	S	Case=Nom|Number=Sing	22	flat	22:flat	NE=I-Per|SpaceAfter=No
+24	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb1_123101_23
+# text = Mehe sõnul pakkus talle osalust Cardo Remmel.
+1	Mehe	mees	NOUN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	_
+2	sõnul	sõna	NOUN	S	Case=Ade|Number=Plur	3	obl	3:obl	_
+3	pakkus	pakkuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	talle	tema	PRON	P	Case=All|Number=Sing|Person=3|PronType=Prs	3	obl	3:obl	_
+5	osalust	osalus	NOUN	S	Case=Par|Number=Sing	3	obj	3:obj	_
+6	Cardo	Cardo	PROPN	S	Case=Nom|Number=Sing	3	nsubj	3:nsubj	NE=B-Per
+7	Remmel	Remmel	PROPN	S	Case=Nom|Number=Sing	6	flat	6:flat	NE=I-Per|SpaceAfter=No
+8	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb1_123101_24
+# text = Peep Aaviksoo, endine Tallinna abilinnapea ja Tallinna Sadama nõukogu liige 1,55 %
+1	Peep	Peep	PROPN	S	Case=Nom|Number=Sing	0	root	0:root	NE=B-Per
+2	Aaviksoo	Aaviksoo	PROPN	S	Case=Nom|Number=Sing	1	flat	1:flat	NE=I-Per|SpaceAfter=No
+3	,	,	PUNCT	Z	_	1	punct	1:punct	_
+4	endine	endine	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	6	amod	6:amod	_
+5	Tallinna	Tallinn	PROPN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	NE=B-Gep
+6	abilinnapea	abi_linna_pea	NOUN	S	Case=Nom|Number=Sing	1	appos	1:appos	_
+7	ja	ja	CCONJ	J	_	11	cc	11:cc	_
+8	Tallinna	Tallinn	PROPN	S	Case=Gen|Number=Sing	9	nmod	9:nmod	NE=B-Org
+9	Sadama	Sadam	PROPN	S	Case=Gen|Number=Sing	10	nmod	10:nmod	NE=I-Org
+10	nõukogu	nõu_kogu	NOUN	S	Case=Gen|Number=Sing	11	nmod	11:nmod	NE=I-Org
+11	liige	liige	NOUN	S	Case=Nom|Number=Sing	6	conj	6:conj	_
+12	1,55	1,55	NUM	N	NumForm=Digit|NumType=Card	13	nummod	13:nummod	_
+13	%	%	NOUN	Y	Abbr=Yes	1	parataxis	1:parataxis	_
+
+# sent_id = ewtb1_123101_25
+# text = Milline mõju on sündmuste arengule suurt võimuulatust omava Tallinna linnapea ning endise majandusministri Edgar Savisaare ja KS nõukogu liikme Ain Hanschmidti headel suhetel, jääb saladuseks ...
+1	Milline	milline	ADJ	P	Case=Nom|Number=Sing|PronType=Int,Rel	2	amod	2:amod	_
+2	mõju	mõju	NOUN	S	Case=Nom|Number=Sing	23	nsubj:cop	23:nsubj	_
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	cop	23:cop	_
+4	sündmuste	sündmus	NOUN	S	Case=Gen|Number=Plur	5	nmod	5:nmod	_
+5	arengule	areng	NOUN	S	Case=All|Number=Sing	23	obl	23:obl	_
+6	suurt	suur	ADJ	A	Case=Par|Degree=Pos|Number=Sing	7	amod	7:amod	_
+7	võimuulatust	võimu_ulatus	NOUN	S	Case=Par|Number=Sing	8	obj	8:obj	_
+8	omava	omav	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	acl	10:acl	_
+9	Tallinna	Tallinn	PROPN	S	Case=Gen|Number=Sing	10	nmod	10:nmod	NE=B-Gep
+10	linnapea	linna_pea	NOUN	S	Case=Gen|Number=Sing	23	nmod	23:nmod	_
+11	ning	ning	CCONJ	J	_	13	cc	13:cc	_
+12	endise	endine	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	13	amod	13:amod	_
+13	majandusministri	majandus_minister	NOUN	S	Case=Gen|Number=Sing	10	conj	10:conj	_
+14	Edgar	Edgar	PROPN	S	Case=Nom|Number=Sing	10	appos	10:appos	NE=B-Per
+15	Savisaare	Savi_saar	PROPN	S	Case=Gen|Number=Sing	14	flat	14:flat	NE=I-Per
+16	ja	ja	CCONJ	J	_	19	cc	19:cc	_
+17	KS	KS	PROPN	S	Case=Nom|Number=Sing	18	nmod	18:nmod	NE=B-Org
+18	nõukogu	nõu_kogu	NOUN	S	Case=Gen|Number=Sing	19	nmod	19:nmod	NE=I-Org
+19	liikme	liige	NOUN	S	Case=Gen|Number=Sing	10	conj	10:conj	_
+20	Ain	Ain	PROPN	S	Case=Nom|Number=Sing	19	appos	19:appos	NE=B-Per
+21	Hanschmidti	Hanschmidt	PROPN	S	Case=Gen|Number=Sing	20	flat	20:flat	NE=I-Per
+22	headel	hea	ADJ	A	Case=Ade|Degree=Pos|Number=Plur	23	amod	23:amod	_
+23	suhetel	suhe	NOUN	S	Case=Ade|Number=Plur	25	csubj	25:csubj	SpaceAfter=No
+24	,	,	PUNCT	Z	_	25	punct	25:punct	_
+25	jääb	jääma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+26	saladuseks	saladus	NOUN	S	Case=Tra|Number=Sing	25	xcomp	25:xcomp	_
+27	...	...	PUNCT	Z	_	25	punct	25:punct	_
+
+# sent_id = ewtb1_123101_26
+# text = KS Holding arendab üle poole ehitusmahust Soomlastele ja eestlastele kuuluv KS Holding saab endale ehitada 600000 planeeritavast miljonist ruutmeetrist.
+1	KS	KS	PROPN	S	Case=Nom|Number=Sing	3	nsubj	3:nsubj	NE=B-Org
+2	Holding	Holding	PROPN	S	Case=Nom|Number=Sing	1	flat	1:flat	NE=I-Org
+3	arendab	arendama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	üle	üle	ADP	K	AdpType=Prep	5	case	5:case	_
+5	poole	pool	NUM	N	Case=Gen|Number=Sing|NumForm=Word|NumType=Card	3	obl	3:obl	_
+6	ehitusmahust	ehitus_maht	NOUN	S	Case=Ela|Number=Sing	5	nmod	5:nmod	_
+7	Soomlastele	soomlane	NOUN	S	Case=All|Number=Plur	10	obl	10:obl	_
+8	ja	ja	CCONJ	J	_	9	cc	9:cc	_
+9	eestlastele	eestlane	NOUN	S	Case=All|Number=Plur	7	conj	7:conj	_
+10	kuuluv	kuuluv	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	acl	11:acl	_
+11	KS	KS	PROPN	S	Case=Nom|Number=Sing	13	nsubj	13:nsubj	NE=B-Org
+12	Holding	Holding	PROPN	S	Case=Nom|Number=Sing	11	flat	11:flat	NE=I-Org
+13	saab	saama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	3:conj	_
+14	endale	ise	PRON	P	Case=All|Number=Sing|PronType=Prs|Reflex=Yes	13	obl	13:obl	_
+15	ehitada	ehitama	VERB	V	VerbForm=Inf	13	xcomp	13:xcomp	_
+16	600000	600000	NUM	N	Case=Ela|Number=Sing|NumForm=Digit|NumType=Card	15	obj	15:obj	_
+17	planeeritavast	planeeri=tav	ADJ	A	Case=Ela|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	19	acl	19:acl	_
+18	miljonist	miljon	NUM	N	Case=Ela|Number=Sing|NumForm=Word|NumType=Card	19	nummod	19:nummod	_
+19	ruutmeetrist	ruut_meeter	NOUN	S	Case=Ela|Number=Sing	16	nmod	16:nmod	SpaceAfter=No
+20	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb1_123101_27
+# text = Samas on tema osakaal projekti 50 hektarist maast vaid umbes neljandik.
+1	Samas	samas	ADV	D	_	11	advmod	11:advmod	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
+3	tema	tema	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nmod	4:nmod	_
+4	osakaal	osa_kaal	NOUN	S	Case=Nom|Number=Sing	11	nsubj:cop	11:nsubj	_
+5	projekti	projekt	NOUN	S	Case=Gen|Number=Sing	8	nmod	8:nmod	_
+6	50	50	NUM	N	Case=Ela|Number=Sing|NumForm=Digit|NumType=Card	7	nummod	7:nummod	_
+7	hektarist	hektar	NOUN	S	Case=Ela|Number=Sing	8	nmod	8:nmod	_
+8	maast	maa	NOUN	S	Case=Ela|Number=Sing	4	nmod	4:nmod	_
+9	vaid	vaid	ADV	D	_	11	advmod	11:advmod	_
+10	umbes	umbes	ADV	D	_	11	advmod	11:advmod	_
+11	neljandik	neljandik	NUM	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	0	root	0:root	SpaceAfter=No
+12	.	.	PUNCT	Z	_	11	punct	11:punct	_
+
+# sent_id = ewtb1_123101_28
+# text = Praegu sadamas tegutsevad Petromaks Stividor saavad arendada ca 200000 ruutmeetrit ning ülejäänud peavad leppima kokku 200000 ruutmeetriga ...
+1	Praegu	praegu	ADV	D	_	3	advmod	3:advmod	_
+2	sadamas	sadam	NOUN	S	Case=Ine|Number=Sing	3	obl	3:obl	_
+3	tegutsevad	tegutsev	ADJ	A	Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	4	acl	4:acl	_
+4	Petromaks	Petromaks	PROPN	S	Case=Nom|Number=Sing	6	nsubj	6:nsubj	NE=B-Org
+5	Stividor	Stividor	PROPN	S	Case=Nom|Number=Sing	4	flat	4:flat	NE=I-Org
+6	saavad	saama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+7	arendada	arendama	VERB	V	VerbForm=Inf	6	xcomp	6:xcomp	_
+8	ca	ca	ADV	Y	Abbr=Yes	9	advmod	9:advmod	_
+9	200000	200000	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	10	nummod	10:nummod	_
+10	ruutmeetrit	ruut_meeter	NOUN	S	Case=Par|Number=Sing	6	obj	6:obj	_
+11	ning	ning	CCONJ	J	_	14	cc	14:cc	_
+12	ülejäänud	üle_jäänu	NOUN	S	Case=Nom|Number=Plur	14	nsubj	14:nsubj	_
+13	peavad	pidama	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
+14	leppima	leppima	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	6	conj	6:conj	_
+15	kokku	kokku	ADV	D	_	16	advmod	16:advmod	_
+16	200000	200000	NUM	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Card	17	nummod	17:nummod	_
+17	ruutmeetriga	ruut_meeter	NOUN	S	Case=Com|Number=Sing	14	obl	14:obl	_
+18	...	...	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb1_123101_29
+# text = Tore lugemine, kuigi üks pole enam käbi ega teine veel känd.
+1	Tore	tore	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	2:amod	_
+2	lugemine	lugemine	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	Z	_	8	punct	8:punct	_
+4	kuigi	kuigi	SCONJ	J	_	8	mark	8:mark	_
+5	üks	üks	PRON	P	Case=Nom|Number=Sing|PronType=Dem	8	nsubj:cop	8:nsubj	_
+6	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
+7	enam	enam	ADV	D	_	8	advmod	8:advmod	_
+8	käbi	käbi	NOUN	S	Case=Nom|Number=Sing	2	conj	2:conj	_
+9	ega	ega	CCONJ	J	Polarity=Neg	12	cc	12:cc	_
+10	teine	teine	PRON	P	Case=Nom|Number=Sing|PronType=Dem	12	nsubj	12:nsubj	_
+11	veel	veel	ADV	D	_	12	advmod	12:advmod	_
+12	känd	känd	NOUN	S	Case=Nom|Number=Sing	8	conj	8:conj	SpaceAfter=No
+13	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb1_123101_30
+# text = Meie ei tea kelle meelest vähene sallivus on seotud meie ajaloolise kogemusega, mis on meisse paratamatult teatud koguse umbusku ladestanud ...
+1	Meie	mina	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	_
+2	ei	ei	AUX	V	Polarity=Neg	3	aux	3:aux	_
+3	tea	teadma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	kelle	kes	PRON	P	Case=Gen|Number=Sing|PronType=Int,Rel	9	obl	9:obl	_
+5	meelest	meelest	ADP	K	AdpType=Post	4	case	4:case	_
+6	vähene	vähene	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	7	amod	7:amod	_
+7	sallivus	sallivus	NOUN	S	Case=Nom|Number=Sing	9	nsubj:cop	9:nsubj	_
+8	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
+9	seotud	seotud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	3:ccomp	_
+10	meie	mina	PRON	P	Case=Gen|Number=Plur|Person=1|PronType=Prs	12	nmod	12:nmod	_
+11	ajaloolise	aja_looline	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	12	amod	12:amod	_
+12	kogemusega	kogemus	NOUN	S	Case=Com|Number=Sing	9	obl	9:obl|21:nsubj	SpaceAfter=No
+13	,	,	PUNCT	Z	_	21	punct	21:punct	_
+14	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	21	nsubj	12:ref	_
+15	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	21:aux	_
+16	meisse	mina	PRON	P	Case=Ill|Number=Plur|Person=1|PronType=Prs	21	obl	21:obl	_
+17	paratamatult	paratamatult	ADV	D	_	21	advmod	21:advmod	_
+18	teatud	teatud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	19	acl	19:acl	_
+19	koguse	kogus	NOUN	S	Case=Gen|Number=Sing	20	nmod	20:nmod	_
+20	umbusku	umb_usk	NOUN	S	Case=Par|Number=Sing	21	obj	21:obj	_
+21	ladestanud	ladestama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	12	acl:relcl	12:acl	_
+22	...	...	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb1_123101_31
+# text = Kogu loo ainuke küsimus ja seeniorile: kas see oleks "sallimatus", kui küsija viisavabadusele Venemaaga kategooriliselt vastu seisaks?
+1	Kogu	kogu	DET	A	PronType=Tot	2	det	2:det	_
+2	loo	lugu	NOUN	S	Case=Gen|Number=Sing	4	nmod	4:nmod	_
+3	ainuke	ainuke	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	amod	4:amod	_
+4	küsimus	küsimus	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+5	ja	ja	CCONJ	J	_	6	cc	6:cc	_
+6	seeniorile	seenior	NOUN	S	Case=All|Number=Sing	4	conj	4:conj	SpaceAfter=No
+7	:	:	PUNCT	Z	_	12	punct	12:punct	_
+8	kas	kas	ADV	D	_	12	advmod	12:advmod	_
+9	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	12	nsubj:cop	12:nsubj	_
+10	oleks	olema	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
+11	"	"	PUNCT	Z	_	12	punct	12:punct	SpaceAfter=No
+12	sallimatus	sallimatus	NOUN	S	Case=Nom|Number=Sing	4	parataxis	4:parataxis	SpaceAfter=No
+13	"	"	PUNCT	Z	_	12	punct	12:punct	SpaceAfter=No
+14	,	,	PUNCT	Z	_	12	punct	12:punct	_
+15	kui	kui	SCONJ	J	_	21	mark	21:mark	_
+16	küsija	küsija	NOUN	S	Case=Nom|Number=Sing	21	nsubj	21:nsubj	_
+17	viisavabadusele	viisa_vabadus	NOUN	S	Case=All|Number=Sing	21	obl	21:obl	_
+18	Venemaaga	Vene_maa	PROPN	S	Case=Com|Number=Sing	17	nmod	17:nmod	NE=B-Gep
+19	kategooriliselt	kategooriliselt	ADV	D	_	21	advmod	21:advmod	_
+20	vastu	vastu	ADV	D	_	21	compound:prt	21:compound	_
+21	seisaks	seisma	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	12:advcl	SpaceAfter=No
+22	?	?	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb1_123101_32
+# text = Kahju, et pojast sotsialist saanud on.
+1	Kahju	kahju	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	Z	_	6	punct	6:punct	_
+3	et	et	SCONJ	J	_	6	mark	6:mark	_
+4	pojast	poeg	NOUN	S	Case=Ela|Number=Sing	6	obl	6:obl	_
+5	sotsialist	sotsialist	NOUN	S	Case=Nom|Number=Sing	6	nsubj	6:nsubj	_
+6	saanud	saama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	1	acl	1:acl	_
+7	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	SpaceAfter=No
+8	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ewtb1_123101_33
+# text = Tavaliselt ütlevad sotsid, et "andekamad peavadki rohkem makse maksma", tema ütleb aga lausa, et nad peavad ka rohkem pingutama.
+1	Tavaliselt	tavaliselt	ADV	D	_	2	advmod	2:advmod	_
+2	ütlevad	ütlema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	sotsid	sots	NOUN	S	Case=Nom|Number=Plur	2	nsubj	2:nsubj	SpaceAfter=No
+4	,	,	PUNCT	Z	_	11	punct	11:punct	_
+5	et	et	SCONJ	J	_	11	mark	11:mark	_
+6	"	"	PUNCT	Z	_	11	punct	11:punct	SpaceAfter=No
+7	andekamad	andekam	ADJ	A	Case=Nom|Degree=Cmp|Number=Plur	11	nsubj	11:nsubj	_
+8	peavadki	pidama	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	11:aux	_
+9	rohkem	rohkem	ADV	D	_	10	advmod	10:advmod	_
+10	makse	maks	NOUN	S	Case=Par|Number=Plur	11	obj	11:obj	_
+11	maksma	maksma	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	2	ccomp	2:ccomp	SpaceAfter=No
+12	"	"	PUNCT	Z	_	11	punct	11:punct	SpaceAfter=No
+13	,	,	PUNCT	Z	_	15	punct	15:punct	_
+14	tema	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	15	nsubj	15:nsubj	_
+15	ütleb	ütlema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	2:conj	_
+16	aga	aga	CCONJ	J	_	15	cc	15:cc	_
+17	lausa	lausa	ADV	D	_	15	advmod	15:advmod	SpaceAfter=No
+18	,	,	PUNCT	Z	_	24	punct	24:punct	_
+19	et	et	SCONJ	J	_	24	mark	24:mark	_
+20	nad	tema	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	24	nsubj	24:nsubj	_
+21	peavad	pidama	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	aux	24:aux	_
+22	ka	ka	ADV	D	_	24	advmod	24:advmod	_
+23	rohkem	rohkem	ADV	D	_	24	advmod	24:advmod	_
+24	pingutama	pingutama	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	15	ccomp	15:ccomp	SpaceAfter=No
+25	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb1_123101_34
+# text = Ning vähem andekad peavad ka "keskmise pingutamisega" saama "inimväärse elu" - teadagi kelle arvelt, nende rohkem pingutavate ja andekamate arvelt
+1	Ning	ning	CCONJ	J	_	10	cc	10:cc	_
+2	vähem	vähem	ADV	D	_	3	advmod	3:advmod	_
+3	andekad	andekas	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	10	nsubj	10:nsubj	_
+4	peavad	pidama	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
+5	ka	ka	ADV	D	_	10	advmod	10:advmod	_
+6	"	"	PUNCT	Z	_	8	punct	8:punct	SpaceAfter=No
+7	keskmise	keskmine	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	8	amod	8:amod	_
+8	pingutamisega	pinguta=mine	NOUN	S	Case=Com|Number=Sing	10	obl	10:obl	SpaceAfter=No
+9	"	"	PUNCT	Z	_	8	punct	8:punct	_
+10	saama	saama	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	0	root	0:root	_
+11	"	"	PUNCT	Z	_	13	punct	13:punct	SpaceAfter=No
+12	inimväärse	inim_väärne	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	13	amod	13:amod	_
+13	elu	elu	NOUN	S	Case=Gen|Number=Sing	10	obj	10:obj	SpaceAfter=No
+14	"	"	PUNCT	Z	_	13	punct	13:punct	_
+15	-	-	PUNCT	Z	_	16	punct	16:punct	_
+16	teadagi	teadagi	ADV	D	_	10	advcl	10:advcl	_
+17	kelle	kes	PRON	P	Case=Gen|Number=Sing|PronType=Int,Rel	16	obl	16:obl	_
+18	arvelt	arvelt	ADP	K	AdpType=Post	17	case	17:case	SpaceAfter=No
+19	,	,	PUNCT	Z	_	20	punct	20:punct	_
+20	nende	tema	DET	P	Case=Gen|Number=Plur|Person=3|PronType=Prs	22	det	22:det	_
+21	rohkem	rohkem	ADV	D	_	22	advmod	22:advmod	_
+22	pingutavate	pingutav	ADJ	A	Case=Gen|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	17	conj	17:conj	_
+23	ja	ja	CCONJ	J	_	24	cc	24:cc	_
+24	andekamate	andekam	ADJ	A	Case=Gen|Degree=Cmp|Number=Plur	22	conj	22:conj	_
+25	arvelt	arvelt	ADP	K	AdpType=Post	22	case	22:case	_
+
+# sent_id = ewtb1_123101_35
+# text = Parim kaitseminister minu meelest!
+1	Parim	parim	ADJ	A	Case=Nom|Degree=Sup|Number=Sing	2	amod	2:amod	_
+2	kaitseminister	kaitse_minister	NOUN	S	Case=Nom|Number=Sing	3	nsubj:cop	3:nsubj	_
+3	minu	mina	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	0	root	0:root	_
+4	meelest	meelest	ADP	K	AdpType=Post	3	case	3:case	SpaceAfter=No
+5	!	!	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb1_123101_36
+# text = Poeg on pigem Jan Uuspõllu nägu
+1	Poeg	poeg	NOUN	S	Case=Nom|Number=Sing	6	nsubj:cop	6:nsubj	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
+3	pigem	pigem	ADV	D	_	6	advmod	6:advmod	_
+4	Jan	Jan	PROPN	S	Case=Nom|Number=Sing	6	nmod	6:nmod	NE=B-Per
+5	Uuspõllu	Uus_põld	PROPN	S	Case=Gen|Number=Sing	4	flat	4:flat	NE=I-Per
+6	nägu	nägu	NOUN	S	Case=Par|Number=Sing	0	root	0:root	_
+
+# sent_id = ewtb1_123101_37
+# text = Vähene sallivus on absoluutselt igal maal, ka selles suures "sallivas" Euroopas.
+1	Vähene	vähene	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	2:amod	_
+2	sallivus	sallivus	NOUN	S	Case=Nom|Number=Sing	6	nsubj:cop	6:nsubj	_
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
+4	absoluutselt	absoluutselt	ADV	D	_	5	advmod	5:advmod	_
+5	igal	iga	DET	P	Case=Ade|Number=Sing|PronType=Tot	6	det	6:det	_
+6	maal	maa	NOUN	S	Case=Ade|Number=Sing	0	root	0:root	SpaceAfter=No
+7	,	,	PUNCT	Z	_	14	punct	14:punct	_
+8	ka	ka	ADV	D	_	14	advmod	14:advmod	_
+9	selles	see	DET	P	Case=Ine|Number=Sing|PronType=Dem	14	det	14:det	_
+10	suures	suur	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	14	amod	14:amod	_
+11	"	"	PUNCT	Z	_	12	punct	12:punct	SpaceAfter=No
+12	sallivas	salliv	ADJ	A	Case=Ine|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	acl	14:acl	SpaceAfter=No
+13	"	"	PUNCT	Z	_	12	punct	12:punct	_
+14	Euroopas	Euroopa	PROPN	S	Case=Ine|Number=Sing	6	conj	6:conj	NE=B-Loc|SpaceAfter=No
+15	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb1_123101_38
+# text = Elan ajutiselt välismaal, ja näen, et eestlaste sallivus ei ole mitte suurem ega väiksem kui Lääne-Euroopa riikides.
+1	Elan	elama	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	ajutiselt	ajutiselt	ADV	D	_	1	advmod	1:advmod	_
+3	välismaal	välis_maa	NOUN	S	Case=Ade|Number=Sing	1	obl	1:obl	SpaceAfter=No
+4	,	,	PUNCT	Z	_	6	punct	6:punct	_
+5	ja	ja	CCONJ	J	_	6	cc	6:cc	_
+6	näen	nägema	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	1:conj	SpaceAfter=No
+7	,	,	PUNCT	Z	_	14	punct	14:punct	_
+8	et	et	SCONJ	J	_	14	mark	14:mark	_
+9	eestlaste	eestlane	NOUN	S	Case=Gen|Number=Plur	10	nmod	10:nmod	_
+10	sallivus	sallivus	NOUN	S	Case=Nom|Number=Sing	14	nsubj:cop	14:nsubj	_
+11	ei	ei	AUX	V	Polarity=Neg	14	aux	14:aux	_
+12	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	14:cop	_
+13	mitte	mitte	ADV	D	Polarity=Neg	14	advmod	14:advmod	_
+14	suurem	suurem	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	6	ccomp	6:ccomp	_
+15	ega	ega	CCONJ	J	Polarity=Neg	16	cc	16:cc	_
+16	väiksem	väiksem	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	14	conj	14:conj	_
+17	kui	kui	ADV	D	_	19	advmod	19:advmod	_
+18	Lääne-Euroopa	Lääne-Euroopa	PROPN	S	Case=Gen|Number=Sing	19	nmod	19:nmod	NE=B-Loc
+19	riikides	riik	NOUN	S	Case=Ine|Number=Plur	14	advcl	14:advcl	SpaceAfter=No
+20	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ewtb1_123101_39
+# text = Vahel konnatiigi ajakirjandus lihtsalt tahab intriigi ja õhutab eestlaste kohta käivaid stereotüüpe a`la miks me oleme sallimatud, miks me oleme aeglased jne.
+1	Vahel	vahel	ADV	D	_	5	advmod	5:advmod	_
+2	konnatiigi	konna_tiik	NOUN	S	Case=Gen|Number=Sing	3	nmod	3:nmod	_
+3	ajakirjandus	aja_kirjandus	NOUN	S	Case=Nom|Number=Sing	5	nsubj	5:nsubj	_
+4	lihtsalt	lihtsalt	ADV	D	_	5	advmod	5:advmod	_
+5	tahab	tahtma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+6	intriigi	intriig	NOUN	S	Case=Par|Number=Sing	5	obj	5:obj	_
+7	ja	ja	CCONJ	J	_	8	cc	8:cc	_
+8	õhutab	õhutama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	5:conj	_
+9	eestlaste	eestlane	NOUN	S	Case=Gen|Number=Plur	11	obl	11:obl	_
+10	kohta	kohta	ADP	K	AdpType=Post	9	case	9:case	_
+11	käivaid	käiv	ADJ	A	Case=Par|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	acl	12:acl	_
+12	stereotüüpe	stereotüüp	NOUN	S	Case=Par|Number=Plur	8	obj	8:obj	_
+13	a`la	a’la	NOUN	Y	Abbr=Yes|Typo=Yes	17	obl	17:obl	CorrectForm=a’la
+14	miks	miks	ADV	D	_	17	mark	17:mark	_
+15	me	mina	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj:cop	17:nsubj	_
+16	oleme	olema	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	17:cop	_
+17	sallimatud	sallimatu	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	12	acl	12:acl	SpaceAfter=No
+18	,	,	PUNCT	Z	_	22	punct	22:punct	_
+19	miks	miks	ADV	D	_	22	mark	22:mark	_
+20	me	mina	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj:cop	22:nsubj	_
+21	oleme	olema	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	22	cop	22:cop	_
+22	aeglased	aeglane	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	17	conj	17:conj	_
+23	jne	jne	ADV	Y	Abbr=Yes	17	conj	17:conj	SpaceAfter=No
+24	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = ewtb1_123101_40
+# text = Lääne-Euroopas on sallimatusel teiste vastu (mitte ainult neegrite, vaid ka ida poolt tulnud inimeste) sügavad juured ja ainult vägivaldne poliitkorrektsuse poliitika hoiab inimesi tagasi ütlemast mis nende südames tegelikult keeb.
+1	Lääne-Euroopas	Lääne-Euroopa	PROPN	S	Case=Ine|Number=Sing	3	obl	3:obl	NE=B-Loc
+2	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
+3	sallimatusel	sallimatus	NOUN	S	Case=Ade|Number=Sing	0	root	0:root	_
+4	teiste	teine	PRON	P	Case=Gen|Number=Plur|PronType=Dem	3	nmod	3:nmod	_
+5	vastu	vastu	ADP	K	AdpType=Post	4	case	4:case	_
+6	(	(	PUNCT	Z	_	9	punct	9:punct	SpaceAfter=No
+7	mitte	mitte	ADV	D	Polarity=Neg	8	advmod	8:advmod	_
+8	ainult	ainult	ADV	D	_	9	advmod	9:advmod	_
+9	neegrite	neeger	NOUN	S	Case=Gen|Number=Plur	4	parataxis	4:parataxis	SpaceAfter=No
+10	,	,	PUNCT	Z	_	16	punct	16:punct	_
+11	vaid	vaid	CCONJ	J	_	16	cc	16:cc	_
+12	ka	ka	ADV	D	_	16	advmod	16:advmod	_
+13	ida	ida	NOUN	S	Case=Gen|Number=Sing	15	obl	15:obl	_
+14	poolt	poolt	ADP	K	AdpType=Post	13	case	13:case	_
+15	tulnud	tul=nud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Act	16	acl	16:acl	_
+16	inimeste	inimene	NOUN	S	Case=Gen|Number=Plur	9	conj	9:conj	SpaceAfter=No
+17	)	)	PUNCT	Z	_	9	punct	9:punct	_
+18	sügavad	sügav	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	19	amod	19:amod	_
+19	juured	juur	NOUN	S	Case=Nom|Number=Plur	3	nsubj:cop	3:nsubj	_
+20	ja	ja	CCONJ	J	_	25	cc	25:cc	_
+21	ainult	ainult	ADV	D	_	24	advmod	24:advmod	_
+22	vägivaldne	vägi_valdne	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	24	amod	24:amod	_
+23	poliitkorrektsuse	poliit_korrektsus	NOUN	S	Case=Gen|Number=Sing	24	nmod	24:nmod	_
+24	poliitika	poliitika	NOUN	S	Case=Nom|Number=Sing	25	nsubj	25:nsubj	_
+25	hoiab	hoidma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	3:conj	_
+26	inimesi	inimene	NOUN	S	Case=Par|Number=Plur	25	obj	25:obj	_
+27	tagasi	tagasi	ADV	D	_	25	compound:prt	25:compound	_
+28	ütlemast	ütlema	VERB	V	Case=Ela|VerbForm=Sup|Voice=Act	25	xcomp	25:xcomp	_
+29	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	33	nsubj	33:nsubj	_
+30	nende	tema	PRON	P	Case=Gen|Number=Plur|Person=3|PronType=Prs	31	nmod	31:nmod	_
+31	südames	süda	NOUN	S	Case=Ine|Number=Sing	33	obl	33:obl	_
+32	tegelikult	tegelikult	ADV	D	_	33	advmod	33:advmod	_
+33	keeb	keema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	ccomp	28:ccomp	SpaceAfter=No
+34	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb1_123101_41
+# text = Aga seda sa tunned, vaikne passiivne sallimatus, st. silmakirjalikkus.
+1	Aga	aga	CCONJ	J	_	4	cc	4:cc	_
+2	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	4	obj	4:obj	_
+3	sa	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	_
+4	tunned	tundma	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	Z	_	8	punct	8:punct	_
+6	vaikne	vaikne	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	8	amod	8:amod	_
+7	passiivne	passiivne	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	8	amod	8:amod	_
+8	sallimatus	sallimatus	NOUN	S	Case=Nom|Number=Sing	2	acl	2:acl	SpaceAfter=No
+9	,	,	PUNCT	Z	_	11	punct	11:punct	_
+10	st.	st	ADV	Y	Abbr=Yes	11	nmod	11:nmod	_
+11	silmakirjalikkus	silma_kirjalikkus	NOUN	S	Case=Nom|Number=Sing	8	appos	8:appos	SpaceAfter=No
+12	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb1_123101_42
+# text = Näo ees sõbralikud ja lahked, aga hinges pritsiks su mürgiga üle (ma näen neid läbi).
+1	Näo	nägu	NOUN	S	Case=Gen|Number=Sing	3	obl	3:obl	_
+2	ees	ees	ADP	K	AdpType=Post	1	case	1:case	_
+3	sõbralikud	sõbralik	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	0	root	0:root	_
+4	ja	ja	CCONJ	J	_	5	cc	5:cc	_
+5	lahked	lahke	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	3	conj	3:conj	SpaceAfter=No
+6	,	,	PUNCT	Z	_	9	punct	9:punct	_
+7	aga	aga	CCONJ	J	_	9	cc	9:cc	_
+8	hinges	hing	NOUN	S	Case=Ine|Number=Sing	9	obl	9:obl	_
+9	pritsiks	pritsima	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	3:conj	_
+10	su	sina	PRON	P	Case=Gen|Number=Sing|Person=2|PronType=Prs	9	obj	9:obj	_
+11	mürgiga	mürk	NOUN	S	Case=Com|Number=Sing	9	obl	9:obl	_
+12	üle	üle	ADV	D	_	9	compound:prt	9:compound	_
+13	(	(	PUNCT	Z	_	15	punct	15:punct	SpaceAfter=No
+14	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	15:nsubj	_
+15	näen	nägema	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	3:parataxis	_
+16	neid	tema	PRON	P	Case=Par|Number=Plur|Person=3|PronType=Prs	15	obj	15:obj	_
+17	läbi	läbi	ADV	D	_	15	compound:prt	15:compound	SpaceAfter=No
+18	)	)	PUNCT	Z	_	15	punct	15:punct	SpaceAfter=No
+19	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb1_123101_43
+# text = Kas ükski kaitseministri pojuke pole tundnud soovi Eesti kaitseväes teenida???
+1	Kas	kas	ADV	D	_	6	advmod	6:advmod	_
+2	ükski	üks	DET	P	Case=Nom|Number=Sing|PronType=Ind	4	det	4:det	_
+3	kaitseministri	kaitse_minister	NOUN	S	Case=Gen|Number=Sing	4	nmod	4:nmod	_
+4	pojuke	pojuke	NOUN	S	Case=Nom|Number=Sing	6	nsubj	6:nsubj	_
+5	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
+6	tundnud	tundma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+7	soovi	soov	NOUN	S	Case=Par|Number=Sing	6	obj	6:obj	_
+8	Eesti	Eesti	PROPN	S	Case=Gen|Number=Sing	9	nmod	9:nmod	NE=B-Org
+9	kaitseväes	kaitse_vägi	NOUN	S	Case=Ine|Number=Sing	10	obl	10:obl	NE=I-Org
+10	teenida	teenima	VERB	V	VerbForm=Inf	7	acl	7:acl	SpaceAfter=No
+11	?	?	PUNCT	Z	_	6	punct	6:punct	SpaceAfter=No
+12	?	?	PUNCT	Z	_	6	punct	6:punct	SpaceAfter=No
+13	?	?	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb1_123101_44
+# text = Tahte triumf!
+1	Tahte	tahe	NOUN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	_
+2	triumf	triumf	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
+3	!	!	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb1_123101_45
+# text = Mnjaa, ega käbi pole kaugele kukkunud.
+1	Mnjaa	mnjaa	INTJ	B	_	7	discourse	7:discourse	SpaceAfter=No
+2	,	,	PUNCT	Z	_	7	punct	7:punct	_
+3	ega	ega	ADV	D	Polarity=Neg	7	advmod	7:advmod	_
+4	käbi	käbi	NOUN	S	Case=Nom|Number=Sing	7	nsubj	7:nsubj	_
+5	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
+6	kaugele	kaugele	ADV	D	_	7	advmod	7:advmod	_
+7	kukkunud	kukkuma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
+8	.	.	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = ewtb1_123101_46
+# text = Känd sõdis riigikontrolliga, et Vabaduseristi ja teiste strateegiliste `NATO objektide rahastamise seaduslikkuse eest.
+1	Känd	känd	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	_
+2	sõdis	sõdima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	riigikontrolliga	riigi_kontroll	NOUN	S	Case=Com|Number=Sing	2	obl	2:obl	SpaceAfter=No
+4	,	,	PUNCT	Z	_	13	punct	13:punct	_
+5	et	et	SCONJ	J	_	13	mark	13:mark	_
+6	Vabaduseristi	Vabaduse_rist	PROPN	S	Case=Gen|Number=Sing	12	nmod	12:nmod	NE=B-Prod
+7	ja	ja	CCONJ	J	_	11	cc	11:cc	_
+8	teiste	teine	DET	P	Case=Gen|Number=Plur|PronType=Dem	11	det	11:det	_
+9	strateegiliste	strateegiline	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	11	amod	11:amod	_
+10	`NATO	NATO	NOUN	Y	Abbr=Yes|Typo=Yes	11	nmod	11:nmod	NE=B-Org|CorrectForm=NATO
+11	objektide	objekt	NOUN	S	Case=Gen|Number=Plur	6	conj	6:conj	_
+12	rahastamise	rahastamine	NOUN	S	Case=Gen|Number=Sing	13	nmod	13:nmod	_
+13	seaduslikkuse	seaduslikkus	NOUN	S	Case=Gen|Number=Sing	2	obl	2:obl	_
+14	eest	eest	ADP	K	AdpType=Post	13	case	13:case	SpaceAfter=No
+15	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb1_123101_47
+# text = Käbi pidas kalleid lahinguid KAPOga ametseisundi kuritarvitamise suhtes.
+1	Käbi	käbi	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	_
+2	pidas	pidama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	kalleid	kallis	ADJ	A	Case=Par|Degree=Pos|Number=Plur	4	amod	4:amod	_
+4	lahinguid	lahing	NOUN	S	Case=Par|Number=Plur	2	obj	2:obj	_
+5	KAPOga	KAPO	NOUN	Y	Abbr=Yes|Case=Com|Number=Sing	2	obl	2:obl	NE=B-Org
+6	ametseisundi	ameti_seisund	NOUN	S	Case=Gen|Number=Sing|Typo=Yes	7	nmod	7:nmod	CorrectForm=ametiseisundi
+7	kuritarvitamise	kuri_tarvitamine	NOUN	S	Case=Gen|Number=Sing	2	obl	2:obl	_
+8	suhtes	suhtes	ADP	K	AdpType=Post	7	case	7:case	SpaceAfter=No
+9	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb1_123101_48
+# text = Nii, et käbi ja känd on küll ühte tegu ja Jan Uuspõllul pole selles asja.
+1	Nii	nii	ADV	D	_	10	advmod	10:advmod	SpaceAfter=No
+2	,	,	PUNCT	Z	_	10	punct	10:punct	_
+3	et	et	SCONJ	J	_	10	mark	10:mark	_
+4	käbi	käbi	NOUN	S	Case=Nom|Number=Sing	10	nsubj:cop	10:nsubj	_
+5	ja	ja	CCONJ	J	_	6	cc	6:cc	_
+6	känd	känd	NOUN	S	Case=Nom|Number=Sing	4	conj	4:conj	_
+7	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
+8	küll	küll	ADV	D	_	10	advmod	10:advmod	_
+9	ühte	üks	DET	P	Case=Par|Number=Sing|PronType=Ind	10	det	10:det	_
+10	tegu	tegu	NOUN	S	Case=Par|Number=Sing	0	root	0:root	_
+11	ja	ja	CCONJ	J	_	15	cc	15:cc	_
+12	Jan	Jan	PROPN	S	Case=Nom|Number=Sing	15	obl	15:obl	NE=B-Per
+13	Uuspõllul	Uus_põld	PROPN	S	Case=Ade|Number=Sing	12	flat	12:flat	NE=I-Per
+14	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	15:cop	_
+15	selles	see	PRON	P	Case=Ine|Number=Sing|PronType=Dem	10	conj	10:conj	_
+16	asja	asi	NOUN	S	Case=Par|Number=Sing	15	nsubj:cop	15:nsubj	SpaceAfter=No
+17	.	.	PUNCT	Z	_	10	punct	10:punct	_
+
