@@ -1,0 +1,459 @@
+# sent_id = aja_horisont2000_1500
+# text = Pildid:
+1	Pildid	pilt	NOUN	S	Case=Nom|Number=Plur	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = aja_horisont2000_1501
+# text = -. Kaelkirjak.
+1	-.	-.	PUNCT	Z	_	2	punct	2:punct	_
+2	Kaelkirjak	kael_kirjak	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
+3	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = aja_horisont2000_1502
+# text = JUHA VALSTE foto
+1	JUHA	Juha	PROPN	S	Case=Nom|Number=Sing	3	nmod	3:nmod	NE=B-Per
+2	VALSTE	Valste	PROPN	S	Case=Gen|Number=Sing	1	flat	1:flat	NE=I-Per
+3	foto	foto	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+
+# sent_id = aja_horisont2000_1503
+# text = -. Noor albiinokaelkirjak Meru rahvuspargis Keenias.
+1	-.	-.	PUNCT	Z	_	3	punct	3:punct	_
+2	Noor	noor	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	amod	3:amod	_
+3	albiinokaelkirjak	albiino_kael_kirjak	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+4	Meru	Meru	PROPN	S	Case=Gen|Number=Sing	5	nmod	5:nmod	NE=B-Loc
+5	rahvuspargis	rahvus_park	NOUN	S	Case=Ine|Number=Sing	3	obl	3:obl	NE=I-Loc
+6	Keenias	Keenia	PROPN	S	Case=Ine|Number=Sing	5	nmod	5:nmod	NE=B-Gep|SpaceAfter=No
+7	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = aja_horisont2000_1504
+# text = Need on tüüpilised võrkkaelkirjakud (Giraffa camelopardalis reticulata).
+1	Need	see	PRON	P	Case=Nom|Number=Plur|PronType=Dem	4	nsubj:cop	4:nsubj	_
+2	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+3	tüüpilised	tüüpiline	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	4	amod	4:amod	_
+4	võrkkaelkirjakud	võrk_kael_kirjak	NOUN	S	Case=Nom|Number=Plur	0	root	0:root	_
+5	(	(	PUNCT	Z	_	6	punct	6:punct	SpaceAfter=No
+6	Giraffa	Giraffa	X	T	Foreign=Yes	4	parataxis	4:parataxis	_
+7	camelopardalis	camelopardal	X	T	Foreign=Yes	6	flat:foreign	6:flat	_
+8	reticulata	reticula	X	T	Foreign=Yes	6	flat:foreign	6:flat	SpaceAfter=No
+9	)	)	PUNCT	Z	_	6	punct	6:punct	SpaceAfter=No
+10	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = aja_horisont2000_1505
+# text = JUHA VALSTE foto
+1	JUHA	Juha	PROPN	S	Case=Nom|Number=Sing	3	nmod	3:nmod	NE=B-Per
+2	VALSTE	Valste	PROPN	S	Case=Gen|Number=Sing	1	flat	1:flat	NE=I-Per
+3	foto	foto	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+
+# sent_id = aja_horisont2000_1506
+# text = -. Kaelkirjak võib ka maas pikutada.
+1	-.	-.	PUNCT	Z	_	6	punct	6:punct	_
+2	Kaelkirjak	kael_kirjak	NOUN	S	Case=Nom|Number=Sing	6	nsubj	6:nsubj	_
+3	võib	võima	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
+4	ka	ka	ADV	D	_	5	advmod	5:advmod	_
+5	maas	maa	NOUN	S	Case=Ine|Number=Sing	6	obl	6:obl	_
+6	pikutada	pikutama	VERB	V	VerbForm=Inf	0	root	0:root	SpaceAfter=No
+7	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = aja_horisont2000_1507
+# text = Seda pilti näeb siiski harva, sest loomad üritavad turvalisuse huvides siiski jalul püsida.
+1	Seda	see	DET	P	Case=Par|Number=Sing|PronType=Dem	2	det	2:det	_
+2	pilti	pilt	NOUN	S	Case=Par|Number=Sing	3	obj	3:obj	_
+3	näeb	nägema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	siiski	siiski	ADV	D	_	5	advmod	5:advmod	_
+5	harva	harva	ADV	D	_	3	advmod	3:advmod	SpaceAfter=No
+6	,	,	PUNCT	Z	_	9	punct	9:punct	_
+7	sest	sest	SCONJ	J	_	9	mark	9:mark	_
+8	loomad	loom	NOUN	S	Case=Nom|Number=Plur	9	nsubj	9:nsubj|14:nsubj	_
+9	üritavad	üritama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	3:advcl	_
+10	turvalisuse	turvalisus	NOUN	S	Case=Gen|Number=Sing	11	nmod	11:nmod	_
+11	huvides	huvi	NOUN	S	Case=Ine|Number=Plur	9	obl	9:obl	_
+12	siiski	siiski	ADV	D	_	9	advmod	9:advmod	_
+13	jalul	jalul	ADV	D	_	14	advmod	14:advmod	_
+14	püsida	püsima	VERB	V	VerbForm=Inf	9	xcomp	9:xcomp	SpaceAfter=No
+15	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = aja_horisont2000_1508
+# text = JUHA VALSTE foto
+1	JUHA	Juha	PROPN	S	Case=Nom|Number=Sing	3	nmod	3:nmod	NE=B-Per
+2	VALSTE	Valste	PROPN	S	Case=Gen|Number=Sing	1	flat	1:flat	NE=I-Per
+3	foto	foto	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+
+# sent_id = aja_horisont2000_1509
+# text = -. Uhke kaelkirjakupull Nairobi rahvuspargist Keenias.
+1	-.	-.	PUNCT	Z	_	3	punct	3:punct	_
+2	Uhke	uhke	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	amod	3:amod	_
+3	kaelkirjakupull	kael_kirjaku_pull	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+4	Nairobi	Nairobi	PROPN	S	Case=Gen|Number=Sing	5	nmod	5:nmod	NE=B-Loc
+5	rahvuspargist	rahvus_park	NOUN	S	Case=Ela|Number=Sing	3	nmod	3:nmod	NE=I-Loc
+6	Keenias	Keenia	PROPN	S	Case=Ine|Number=Sing	5	obl	5:obl	NE=B-Gep|SpaceAfter=No
+7	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = aja_horisont2000_1510
+# text = Näha on otsa ees asuv kolmas sarv.
+1	Näha	nägema	VERB	V	VerbForm=Inf	0	root	0:root	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	1:aux	_
+3	otsa	ots	NOUN	S	Case=Gen|Number=Sing	5	obl	5:obl	_
+4	ees	ees	ADP	K	AdpType=Post	3	case	3:case	_
+5	asuv	asuv	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	acl	7:acl	_
+6	kolmas	kolmas	ADJ	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Ord	7	amod	7:amod	_
+7	sarv	sarv	NOUN	S	Case=Nom|Number=Sing	1	nsubj	1:nsubj	SpaceAfter=No
+8	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = aja_horisont2000_1511
+# text = Eesti geoloogide viimaste aastate üks huvitavamaid leide - Neugrundi madala piirkonnas end merepõhjas varjav meteoriidikraater, on täna peaaegu samasugune nagu viissada miljonit aastat tagasi.
+1	Eesti	Eesti	PROPN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	NE=B-Gep
+2	geoloogide	geoloog	NOUN	S	Case=Gen|Number=Plur	7	nmod	7:nmod	_
+3	viimaste	viimane	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	4	amod	4:amod	_
+4	aastate	aasta	NOUN	S	Case=Gen|Number=Plur	7	nmod	7:nmod	_
+5	üks	üks	DET	P	Case=Nom|Number=Sing|PronType=Ind	7	det	7:det	_
+6	huvitavamaid	huvitavam	ADJ	A	Case=Par|Degree=Cmp|Number=Plur	7	amod	7:amod	_
+7	leide	leid	NOUN	S	Case=Par|Number=Plur	20	nsubj:cop	20:nsubj	_
+8	-	-	PUNCT	Z	_	15	punct	15:punct	_
+9	Neugrundi	Neugrund	PROPN	S	Case=Gen|Number=Sing	10	nmod	10:nmod	NE=B-Loc
+10	madala	madal	NOUN	S	Case=Gen|Number=Sing	11	nmod	11:nmod	NE=I-Loc
+11	piirkonnas	piirkond	NOUN	S	Case=Ine|Number=Sing	14	obl	14:obl	_
+12	end	ise	PRON	P	Case=Par|Number=Sing|PronType=Prs|Reflex=Yes	14	obj	14:obj	_
+13	merepõhjas	mere_põhi	NOUN	S	Case=Ine|Number=Sing	14	obl	14:obl	_
+14	varjav	varjav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	acl	15:acl	_
+15	meteoriidikraater	meteoriidi_kraater	NOUN	S	Case=Nom|Number=Sing	7	appos	7:appos	SpaceAfter=No
+16	,	,	PUNCT	Z	_	20	punct	20:punct	_
+17	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	cop	20:cop	_
+18	täna	täna	ADV	D	_	20	advmod	20:advmod	_
+19	peaaegu	pea_aegu	ADV	D	_	20	advmod	20:advmod	_
+20	samasugune	sama_sugune	ADJ	P	Case=Nom|Number=Sing|PronType=Dem	0	root	0:root	_
+21	nagu	nagu	SCONJ	J	_	24	mark	24:mark	_
+22	viissada	viis_sada	NUM	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	23	compound	23:compound	_
+23	miljonit	miljon	NUM	N	Case=Par|Number=Sing|NumForm=Word|NumType=Card	24	nummod	24:nummod	_
+24	aastat	aasta	NOUN	S	Case=Par|Number=Sing	20	obl	20:obl	_
+25	tagasi	tagasi	ADP	K	AdpType=Post	24	case	24:case	SpaceAfter=No
+26	.	.	PUNCT	Z	_	20	punct	20:punct	_
+
+# sent_id = aja_horisont2000_1512
+# text = Küll on aga muutunud paari viimase aasta jooksul suuresti meie teadmised, mis selle kraatri kohta on lühidalt kirjas ka 1997. aastal ilmunud “ Horisondis ” nr 7.
+1	Küll	küll	ADV	D	_	4	advmod	4:advmod	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
+3	aga	aga	ADV	D	_	4	advmod	4:advmod	_
+4	muutunud	muutuma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+5	paari	paar	NUM	N	Case=Gen|Number=Sing|NumForm=Word|NumType=Card	7	nummod	7:nummod	_
+6	viimase	viimane	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	7	amod	7:amod	_
+7	aasta	aasta	NOUN	S	Case=Gen|Number=Sing	4	obl	4:obl	_
+8	jooksul	jooksul	ADP	K	AdpType=Post	7	case	7:case	_
+9	suuresti	suuresti	ADV	D	_	4	advmod	4:advmod	_
+10	meie	mina	PRON	P	Case=Gen|Number=Plur|Person=1|PronType=Prs	11	nmod	11:nmod	_
+11	teadmised	teadmine	NOUN	S	Case=Nom|Number=Plur	4	nsubj	4:nsubj|19:nsubj:cop	SpaceAfter=No
+12	,	,	PUNCT	Z	_	19	punct	19:punct	_
+13	mis	mis	PRON	P	Case=Nom|Number=Plur|PronType=Int,Rel	19	nsubj:cop	11:ref	_
+14	selle	see	DET	P	Case=Gen|Number=Sing|PronType=Dem	15	det	15:det	_
+15	kraatri	kraater	NOUN	S	Case=Gen|Number=Sing	19	obl	19:obl	_
+16	kohta	kohta	ADP	K	AdpType=Post	15	case	15:case	_
+17	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	19:cop	_
+18	lühidalt	lühidalt	ADV	D	_	19	advmod	19:advmod	_
+19	kirjas	kirjas	ADV	D	_	11	acl:relcl	11:acl:relcl	_
+20	ka	ka	ADV	D	_	25	advmod	25:advmod	_
+21	1997.	1997.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	22	amod	22:amod	_
+22	aastal	aasta	NOUN	S	Case=Ade|Number=Sing	23	obl	23:obl	_
+23	ilmunud	ilmu=nud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Act	25	acl	25:acl	_
+24	“	“	PUNCT	Z	_	25	punct	25:punct	NE=B-Prod
+25	Horisondis	horisont	NOUN	S	Case=Ine|Number=Sing	19	obl	19:obl	NE=I-Prod
+26	”	”	PUNCT	Z	_	25	punct	25:punct	NE=I-Prod
+27	nr	nr	NOUN	Y	Abbr=Yes	28	nmod	28:nmod	_
+28	7	7	NUM	N	NumForm=Digit|NumType=Card	25	nummod	25:nummod	SpaceAfter=No
+29	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = aja_horisont2000_1513
+# text = Kui tollal oli vaid kaunis hüpotees ja geofüüsikaliste uuringutega (seismoakustiline pidevprofileerimine) oli enam-vähem usutava tõenäosusega kindlaks tehtud meteoriidikraatrile sarnaneva struktuuri olemasolu, siis tänaseks on kõik see saanud vaieldamatuks reaalsuseks.
+1	Kui	kui	SCONJ	J	_	2	mark	2:mark	_
+2	tollal	tollal	ADV	D	_	30	advcl	30:advcl	_
+3	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	2:cop	_
+4	vaid	vaid	ADV	D	_	6	advmod	6:advmod	_
+5	kaunis	kaunis	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	6	amod	6:amod	_
+6	hüpotees	hüpotees	NOUN	S	Case=Nom|Number=Sing	2	nsubj:cop	2:nsubj	_
+7	ja	ja	CCONJ	J	_	19	cc	19:cc	_
+8	geofüüsikaliste	geo_füüsika=line	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	9	amod	9:amod	_
+9	uuringutega	uuring	NOUN	S	Case=Com|Number=Plur	19	obl	19:obl	_
+10	(	(	PUNCT	Z	_	12	punct	12:punct	SpaceAfter=No
+11	seismoakustiline	seismoakusti=line	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	12	amod	12:amod	_
+12	pidevprofileerimine	pidev_profileeri=mine	NOUN	S	Case=Nom|Number=Sing	9	parataxis	9:parataxis	SpaceAfter=No
+13	)	)	PUNCT	Z	_	12	punct	12:punct	_
+14	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	19	aux	19:aux	_
+15	enam-vähem	enam-vähem	ADV	D	_	16	advmod	16:advmod	_
+16	usutava	usutav	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	17	acl	17:acl	_
+17	tõenäosusega	tõe_näosus	NOUN	S	Case=Com|Number=Sing	19	obl	19:obl	_
+18	kindlaks	kindel	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	19	xcomp	19:xcomp	_
+19	tehtud	tegema	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	3	conj	2:cop|3:conj	_
+20	meteoriidikraatrile	meteoriidi_kraater	NOUN	S	Case=All|Number=Sing	21	obl	21:obl	_
+21	sarnaneva	sarnanev	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	22	acl	22:acl	_
+22	struktuuri	struktuur	NOUN	S	Case=Gen|Number=Sing	23	nmod	23:nmod	_
+23	olemasolu	olemas_olu	NOUN	S	Case=Nom|Number=Sing	19	obj	19:obj	SpaceAfter=No
+24	,	,	PUNCT	Z	_	30	punct	30:punct	_
+25	siis	siis	ADV	D	_	30	advmod	30:advmod	_
+26	tänaseks	tänane	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	30	obl	30:obl	ToDo=amod_err
+27	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	aux	30:aux	_
+28	kõik	kõik	DET	P	Case=Nom|Number=Sing|PronType=Tot	29	det	29:det	_
+29	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	30	nsubj	30:nsubj|32:nsubj	_
+30	saanud	saama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+31	vaieldamatuks	vaieldamatu	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	32	amod	32:amod	_
+32	reaalsuseks	reaalsus	NOUN	S	Case=Tra|Number=Sing	30	xcomp	30:xcomp	SpaceAfter=No
+33	.	.	PUNCT	Z	_	30	punct	30:punct	_
+
+# sent_id = aja_horisont2000_1514
+# text = Selle tõestamiseks pidid geoloogidest merepõhja uurijad üksjagu vaeva nägema ja ise merepõhja vajamineva informatsiooni järele sukelduma.
+1	Selle	see	PRON	P	Case=Gen|Number=Sing|PronType=Dem	2	nmod	2:nmod	_
+2	tõestamiseks	tõestamine	NOUN	S	Case=Tra|Number=Sing	9	obl	9:obl	_
+3	pidid	pidama	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
+4	geoloogidest	geoloog	NOUN	S	Case=Ela|Number=Plur	6	nmod	6:nmod	_
+5	merepõhja	mere_põhi	NOUN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	_
+6	uurijad	uurija	NOUN	S	Case=Nom|Number=Plur	9	nsubj	9:nsubj	_
+7	üksjagu	üks_jagu	ADV	D	_	8	advmod	8:advmod	_
+8	vaeva	vaev	NOUN	S	Case=Par|Number=Sing	9	obj	9:obj	_
+9	nägema	nägema	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	0	root	0:root	_
+10	ja	ja	CCONJ	J	_	16	cc	16:cc	_
+11	ise	ise	PRON	P	Case=Nom|Number=Plur|PronType=Prs|Reflex=Yes	16	obl	16:obl	_
+12	merepõhja	mere_põhi	NOUN	S	Case=Add|Number=Sing	16	obl	16:obl	_
+13	vajamineva	vaja_minev	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	acl	14:acl	_
+14	informatsiooni	informatsioon	NOUN	S	Case=Gen|Number=Sing	16	obl	16:obl	_
+15	järele	järele	ADP	K	AdpType=Post	14	case	14:case	_
+16	sukelduma	sukelduma	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	9	conj	0:root|9:conj	SpaceAfter=No
+17	.	.	PUNCT	Z	_	9	punct	9:punct	_
+
+# sent_id = aja_horisont2000_1515
+# text = Oma silm on ikkagi kuningas.
+1	Oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	2:nmod	_
+2	silm	silm	NOUN	S	Case=Nom|Number=Sing	5	nsubj:cop	5:nsubj	_
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
+4	ikkagi	ikkagi	ADV	D	_	5	advmod	5:advmod	_
+5	kuningas	kuningas	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
+6	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = aja_horisont2000_1516
+# text = Nii nagu ei seota vilja pahmava härja suud, ei saa keelata ka uurijal pöörata erilist tähelepanu tema avastatud imelistele loodusnähtustele.
+1	Nii	nii	ADV	D	_	4	advmod	4:advmod	_
+2	nagu	nagu	SCONJ	J	_	4	mark	4:mark	_
+3	ei	ei	AUX	V	Polarity=Neg	4	aux	4:aux	_
+4	seota	siduma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	12	advcl	12:advcl	_
+5	vilja	vili	NOUN	S	Case=Par|Number=Sing	6	obj	6:obj	_
+6	pahmava	pahma=v	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	acl	7:acl	_
+7	härja	härg	NOUN	S	Case=Gen|Number=Sing	8	nmod	8:nmod	_
+8	suud	suu	NOUN	S	Case=Par|Number=Sing	4	obj	4:obj	SpaceAfter=No
+9	,	,	PUNCT	Z	_	12	punct	12:punct	_
+10	ei	ei	AUX	V	Polarity=Neg	12	aux	12:aux	_
+11	saa	saama	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
+12	keelata	keelama	VERB	V	VerbForm=Inf	0	root	0:root	_
+13	ka	ka	ADV	D	_	14	advmod	14:advmod	_
+14	uurijal	uurija	NOUN	S	Case=Ade|Number=Sing	12	obl	12:obl|15:nsubj	_
+15	pöörata	pöörama	VERB	V	VerbForm=Inf	12	xcomp	12:xcomp	_
+16	erilist	eriline	ADJ	A	Case=Par|Degree=Pos|Number=Sing	17	amod	17:amod	_
+17	tähelepanu	tähele_panu	NOUN	S	Case=Par|Number=Sing	15	obj	15:obj	_
+18	tema	tema	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	19	obl	19:obl	_
+19	avastatud	avasta=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	21	acl	21:acl	_
+20	imelistele	imeline	ADJ	A	Case=All|Degree=Pos|Number=Plur	21	amod	21:amod	_
+21	loodusnähtustele	loodus_nähtus	NOUN	S	Case=All|Number=Plur	15	obl	15:obl	SpaceAfter=No
+22	.	.	PUNCT	Z	_	12	punct	12:punct	_
+
+# sent_id = aja_horisont2000_1517
+# text = Esimesed inimesed kraatrivallil
+1	Esimesed	esimene	ADJ	N	Case=Nom|Number=Plur|NumForm=Word|NumType=Ord	2	amod	2:amod	_
+2	inimesed	inimene	NOUN	S	Case=Nom|Number=Plur	0	root	0:root	_
+3	kraatrivallil	kraatri_vall	NOUN	S	Case=Ade|Number=Sing	2	nmod	2:nmod	_
+
+# sent_id = aja_horisont2000_1518
+# text = Esimene ja Neugrundi kraatri avastamise seisukohalt vahest kõige olulisem ekspeditsioon algas 1998. aasta 8. juunil uurimislaeva “ Mare ” kodusadamast Pirital.
+1	Esimene	esimene	ADJ	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Ord	10	amod	10:amod	_
+2	ja	ja	CCONJ	J	_	9	cc	9:cc	_
+3	Neugrundi	Neugrund	PROPN	S	Case=Gen|Number=Sing	4	nmod	4:nmod	NE=B-Loc
+4	kraatri	kraater	NOUN	S	Case=Gen|Number=Sing	5	nmod	5:nmod	NE=I-Loc
+5	avastamise	avastamine	NOUN	S	Case=Gen|Number=Sing	6	obl	6:obl	_
+6	seisukohalt	seisu_kohalt	ADV	D	_	9	advmod	9:advmod	_
+7	vahest	vahest	ADV	D	_	9	advmod	9:advmod	_
+8	kõige	kõige	ADV	D	_	9	advmod	9:advmod	_
+9	olulisem	olulisem	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	1	conj	1:conj|10:amod	_
+10	ekspeditsioon	ekspeditsioon	NOUN	S	Case=Nom|Number=Sing	11	nsubj	11:nsubj	_
+11	algas	algama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+12	1998.	1998.	ADJ	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Ord	13	amod	13:amod	_
+13	aasta	aasta	NOUN	S	Case=Gen|Number=Sing	15	nmod	15:nmod	_
+14	8.	8.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	15	amod	15:amod	_
+15	juunil	juuni	NOUN	S	Case=Ade|Number=Sing	11	obl	11:obl	_
+16	uurimislaeva	uurimis_laev	NOUN	S	Case=Gen|Number=Sing	20	nmod	20:nmod	NE=B-Prod
+17	“	“	PUNCT	Z	_	18	punct	18:punct	NE=I-Prod
+18	Mare	Mare	PROPN	S	Case=Nom|Number=Sing	16	nmod	16:nmod	NE=B-Per
+19	”	”	PUNCT	Z	_	18	punct	18:punct	_
+20	kodusadamast	kodu_sadam	NOUN	S	Case=Ela|Number=Sing	11	obl	11:obl	_
+21	Pirital	Pirita	PROPN	S	Case=Ade|Number=Sing	20	nmod	20:nmod	NE=B-Loc|SpaceAfter=No
+22	.	.	PUNCT	Z	_	11	punct	11:punct	_
+
+# sent_id = aja_horisont2000_1519
+# text = Ajaloolised sündmused hakkasid hargnema juba järgmisel päeval - 9. juunil, kui ligikaudu 4 meremiili kaugusel Osmussaarest kirdes heideti ankur.
+1	Ajaloolised	aja_looline	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	2	amod	2:amod	_
+2	sündmused	sündmus	NOUN	S	Case=Nom|Number=Plur	3	nsubj	3:nsubj|4:nsubj	_
+3	hakkasid	hakkama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	hargnema	hargnema	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	3	xcomp	3:xcomp	_
+5	juba	juba	ADV	D	_	6	advmod	6:advmod	_
+6	järgmisel	järgmine	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	7	amod	7:amod	_
+7	päeval	päev	NOUN	S	Case=Ade|Number=Sing	3	obl	3:obl	ToDo=xcomp_err
+8	-	-	PUNCT	Z	_	10	punct	10:punct	_
+9	9.	9.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	10	amod	10:amod	_
+10	juunil	juuni	NOUN	S	Case=Ade|Number=Sing	7	appos	7:appos	SpaceAfter=No
+11	,	,	PUNCT	Z	_	19	punct	19:punct	_
+12	kui	kui	SCONJ	J	_	19	mark	19:mark	_
+13	ligikaudu	ligi_kaudu	ADV	D	_	14	advmod	14:advmod	_
+14	4	4	NUM	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Card	15	nummod	15:nummod	_
+15	meremiili	mere_miil	NOUN	S	Case=Gen|Number=Sing	19	obl	19:obl	_
+16	kaugusel	kaugusel	ADP	K	AdpType=Post	15	case	15:case	_
+17	Osmussaarest	Osmus_saar	PROPN	S	Case=Ela|Number=Sing	18	nmod	18:nmod	NE=B-Loc
+18	kirdes	kirre	NOUN	S	Case=Ine|Number=Sing	19	obl	19:obl	_
+19	heideti	heitma	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	3	advcl	3:advcl	_
+20	ankur	ankur	NOUN	S	Case=Nom|Number=Sing	19	obj	19:obj	SpaceAfter=No
+21	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = aja_horisont2000_1520
+# text = Keskpäeva paiku laskusid allveearheoloogidest sukeldujad Vello Mäss ja Andres Eero merepõhja, jättes hetke otsustavusest närveldavad geoloogid laevatekile tammuma.
+1	Keskpäeva	kesk_päev	NOUN	S	Case=Gen|Number=Sing	3	obl	3:obl	_
+2	paiku	paiku	ADP	K	AdpType=Post	1	case	1:case	_
+3	laskusid	laskuma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	allveearheoloogidest	all_vee_arheoloog	NOUN	S	Case=Ela|Number=Plur	5	nmod	5:nmod	_
+5	sukeldujad	sukeldu=ja	NOUN	S	Case=Nom|Number=Plur	3	nsubj	3:nsubj	_
+6	Vello	Vello	PROPN	S	Case=Nom|Number=Sing	5	appos	5:appos	NE=B-Per
+7	Mäss	Mäss	PROPN	S	Case=Nom|Number=Sing	6	flat	6:flat	NE=I-Per
+8	ja	ja	CCONJ	J	_	9	cc	9:cc	_
+9	Andres	Andres	PROPN	S	Case=Nom|Number=Sing	5	conj	3:nsubj|5:conj	NE=B-Per
+10	Eero	Eero	PROPN	S	Case=Nom|Number=Sing	9	flat	9:flat	NE=I-Per
+11	merepõhja	mere_põhi	NOUN	S	Case=Add|Number=Sing	3	obl	3:obl	SpaceAfter=No
+12	,	,	PUNCT	Z	_	3	punct	3:punct	_
+13	jättes	jätma	VERB	V	VerbForm=Conv	3	advcl	3:advcl	_
+14	hetke	hetk	NOUN	S	Case=Gen|Number=Sing	15	nmod	15:nmod	_
+15	otsustavusest	otsustavus	NOUN	S	Case=Ela|Number=Sing	16	obl	16:obl	_
+16	närveldavad	närvelda=v	ADJ	A	Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	17	acl	17:acl	_
+17	geoloogid	geoloog	NOUN	S	Case=Nom|Number=Plur	13	obj	13:obj|19:nsubj	_
+18	laevatekile	laeva_tekk	NOUN	S	Case=All|Number=Sing	13	obl	13:obl	_
+19	tammuma	tammuma	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	13	xcomp	13:xcomp	SpaceAfter=No
+20	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = aja_horisont2000_1521
+# text = Pool tundi ärevat ootust, ja juba kerkisidki laeva kõrvalt mullikobarad, mõni hetk hiljem ka sukeldujad ise, kaasas sibulavõrgust konstrueeritud koti põhjas esimene saak.
+1	Pool	pool	NUM	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	2	nummod	2:nummod	_
+2	tundi	tund	NOUN	S	Case=Par|Number=Sing	4	nmod	4:nmod	_
+3	ärevat	ärev	ADJ	A	Case=Par|Degree=Pos|Number=Sing	4	amod	4:amod	_
+4	ootust	ootus	NOUN	S	Case=Par|Number=Sing	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	Z	_	8	punct	8:punct	_
+6	ja	ja	CCONJ	J	_	8	cc	8:cc	_
+7	juba	juba	ADV	D	_	8	advmod	8:advmod	_
+8	kerkisidki	kerkima	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	0:root|4:conj	_
+9	laeva	laev	NOUN	S	Case=Gen|Number=Sing	8	obl	8:obl	_
+10	kõrvalt	kõrvalt	ADP	K	AdpType=Post	9	case	9:case	_
+11	mullikobarad	mulli_kobar	NOUN	S	Case=Nom|Number=Plur	8	nsubj	8:nsubj	SpaceAfter=No
+12	,	,	PUNCT	Z	_	17	punct	17:punct	_
+13	mõni	mõni	DET	P	Case=Nom|Number=Sing|PronType=Ind	14	det	14:det	_
+14	hetk	hetk	NOUN	S	Case=Nom|Number=Sing	15	obl	15:obl	_
+15	hiljem	hiljem	ADV	D	_	17	advmod	17:advmod	_
+16	ka	ka	ADV	D	_	17	advmod	17:advmod	_
+17	sukeldujad	sukeldu=ja	NOUN	S	Case=Nom|Number=Plur	11	conj	8:nsubj|11:conj	_
+18	ise	ise	PRON	P	Case=Nom|Number=Plur|PronType=Prs|Reflex=Yes	17	nmod	17:nmod	SpaceAfter=No
+19	,	,	PUNCT	Z	_	26	punct	26:punct	_
+20	kaasas	kaasas	ADV	D	_	26	advmod	26:advmod	_
+21	sibulavõrgust	sibula_võrk	NOUN	S	Case=Ela|Number=Sing	22	obl	22:obl	_
+22	konstrueeritud	konstrueeri=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	23	acl	23:acl	_
+23	koti	kott	NOUN	S	Case=Gen|Number=Sing	24	nmod	24:nmod	_
+24	põhjas	põhi	NOUN	S	Case=Ine|Number=Sing	26	nmod	26:nmod	_
+25	esimene	esimene	ADJ	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Ord	26	amod	26:amod	_
+26	saak	saak	NOUN	S	Case=Nom|Number=Sing	11	conj	8:nsubj|11:conj	SpaceAfter=No
+27	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = aja_horisont2000_1522
+# text = Kivid!
+1	Kivid	kivi	NOUN	S	Case=Nom|Number=Plur	0	root	0:root	SpaceAfter=No
+2	!	!	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = aja_horisont2000_1523
+# text = Parasjagu suured, parasjagu rasked ja … Jah, just sellised nagu geoloogid olid oodanud - kunagises hiidplahvatuses purustatud kristalse aluskorra moondekivimid 1.
+1	Parasjagu	paras_jagu	ADV	D	_	2	advmod	2:advmod	_
+2	suured	suur	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	Z	_	5	punct	5:punct	_
+4	parasjagu	paras_jagu	ADV	D	_	5	advmod	5:advmod	_
+5	rasked	raske	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	2	conj	0:root|2:conj	_
+6	ja	ja	CCONJ	J	_	11	cc	11:cc	_
+7	…	…	PUNCT	Z	_	11	punct	11:punct	_
+8	Jah	jah	ADV	D	_	11	advmod	11:advmod	SpaceAfter=No
+9	,	,	PUNCT	Z	_	11	punct	11:punct	_
+10	just	just	ADV	D	_	11	advmod	11:advmod	_
+11	sellised	selline	ADJ	P	Case=Nom|Number=Plur|PronType=Dem	2	conj	0:root|2:conj	_
+12	nagu	nagu	SCONJ	J	_	15	mark	15:mark	_
+13	geoloogid	geoloog	NOUN	S	Case=Nom|Number=Plur	15	nsubj	15:nsubj	_
+14	olid	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	aux	15:aux	_
+15	oodanud	ootama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	11	advcl	11:advcl	_
+16	-	-	PUNCT	Z	_	15	punct	15:punct	_
+17	kunagises	kunagine	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	18	amod	18:amod	_
+18	hiidplahvatuses	hiid_plahvatus	NOUN	S	Case=Ine|Number=Sing	19	obl	19:obl	_
+19	purustatud	purusta=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	21	acl	21:acl	_
+20	kristalse	kristalne	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	21	amod	21:amod	_
+21	aluskorra	alus_kord	NOUN	S	Case=Gen|Number=Sing	22	nmod	22:nmod	_
+22	moondekivimid	moonde_kivim	NOUN	S	Case=Nom|Number=Plur	15	parataxis	15:parataxis	_
+23	1	1	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	22	nummod	22:nummod	SpaceAfter=No
+24	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = aja_horisont2000_1524
+# text = Piisas ainsamast pilgust neile, et öelda: just need on Loode- ja Lääne-Eestis ning sealsetel saartel nii tihti ette tulevad bretšarahnude lähtekivimid.
+1	Piisas	piisama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	ainsamast	ainsam	ADJ	A	Case=Ela|Degree=Cmp|Number=Sing	3	amod	3:amod	_
+3	pilgust	pilk	NOUN	S	Case=Ela|Number=Sing	1	obl	1:obl	_
+4	neile	see	PRON	P	Case=All|Number=Plur|PronType=Dem	3	nmod	3:nmod	SpaceAfter=No
+5	,	,	PUNCT	Z	_	7	punct	7:punct	_
+6	et	et	SCONJ	J	_	7	mark	7:mark	_
+7	öelda	ütlema	VERB	V	VerbForm=Inf	1	advcl	1:advcl	SpaceAfter=No
+8	:	:	PUNCT	Z	_	7	punct	7:punct	_
+9	just	just	ADV	D	_	10	advmod	10:advmod	_
+10	need	see	PRON	P	Case=Nom|Number=Plur|PronType=Dem	23	nsubj:cop	23:nsubj	_
+11	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	cop	23:cop	_
+12	Loode-	Loode	PROPN	S	Case=Nom|Hyph=Yes|Number=Sing	23	obl	23:obl	NE=B-Loc
+13	ja	ja	CCONJ	J	_	14	cc	14:cc	_
+14	Lääne-Eestis	Lääne-Eesti	PROPN	S	Case=Ine|Number=Sing	12	conj	12:conj|23:obl	NE=B-Loc
+15	ning	ning	CCONJ	J	_	17	cc	17:cc	_
+16	sealsetel	sealne	ADJ	A	Case=Ade|Degree=Pos|Number=Plur	17	amod	17:amod	_
+17	saartel	saar	NOUN	S	Case=Ade|Number=Plur	12	conj	12:conj|23:obl	_
+18	nii	nii	ADV	D	_	19	advmod	19:advmod	_
+19	tihti	tihti	ADV	D	_	21	advmod	21:advmod	_
+20	ette	ette	ADV	D	_	21	advmod	21:advmod	_
+21	tulevad	tulev	ADJ	A	Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	23	amod	23:amod	_
+22	bretšarahnude	bretša_rahn	NOUN	S	Case=Gen|Number=Plur	23	nmod	23:nmod	_
+23	lähtekivimid	lähte_kivim	NOUN	S	Case=Nom|Number=Plur	7	parataxis	7:parataxis	SpaceAfter=No
+24	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = aja_horisont2000_1525
+# text = See, mida oli otsitud, mille olemasolusse vargsi usutud, oli kinnitust leidnud.
+1	See	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	14	nsubj	5:obj|8:nmod|14:nsubj	SpaceAfter=No
+2	,	,	PUNCT	Z	_	5	punct	5:punct	_
+3	mida	mis	PRON	P	Case=Par|Number=Sing|PronType=Int,Rel	5	obj	1:ref	_
+4	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
+5	otsitud	otsima	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	1	acl:relcl	1:acl:relcl	SpaceAfter=No
+6	,	,	PUNCT	Z	_	10	punct	10:punct	_
+7	mille	mis	PRON	P	Case=Gen|Number=Sing|PronType=Int,Rel	8	nmod	1:ref	_
+8	olemasolusse	olemasolu	NOUN	S	Case=Ill|Number=Sing	10	obl	10:obl	_
+9	vargsi	vargsi	ADV	D	_	10	advmod	10:advmod	_
+10	usutud	uskuma	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	1:acl:relcl|5:conj	SpaceAfter=No
+11	,	,	PUNCT	Z	_	14	punct	14:punct	_
+12	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
+13	kinnitust	kinnitus	NOUN	S	Case=Par|Number=Sing	14	obj	14:obj	_
+14	leidnud	leidma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
+15	.	.	PUNCT	Z	_	14	punct	14:punct	_
+
+# sent_id = aja_horisont2000_1526
+# text = Merepõhjast pinnale toodu ja silmaga kaetu rääkis selgemast selgemat keelt sellest, et otsitud Neugrundi meteoriidikraater on leitud!
+1	Merepõhjast	mere_põhi	NOUN	S	Case=Ela|Number=Sing	3	nmod	3:nmod	_
+2	pinnale	pind	NOUN	S	Case=All|Number=Sing	3	nmod	3:nmod	_
+3	toodu	toodu	NOUN	S	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	nsubj	7:nsubj	_
+4	ja	ja	CCONJ	J	_	6	cc	6:cc	_
+5	silmaga	silm	NOUN	S	Case=Com|Number=Sing	6	nmod	6:nmod	_
+6	kaetu	kaetu	NOUN	S	Case=Nom|Number=Sing	3	conj	3:conj|7:nsubj	_
+7	rääkis	rääkima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+8	selgemast	selgem	ADJ	A	Case=Ela|Degree=Cmp|Number=Sing	9	obl	9:obl	ToDo=amod_err
+9	selgemat	selgem	ADJ	A	Case=Par|Degree=Cmp|Number=Sing	10	amod	10:amod	_
+10	keelt	keel	NOUN	S	Case=Par|Number=Sing	7	obj	7:obj	_
+11	sellest	see	PRON	P	Case=Ela|Number=Sing|PronType=Dem	7	obl	7:obl	SpaceAfter=No
+12	,	,	PUNCT	Z	_	18	punct	18:punct	_
+13	et	et	SCONJ	J	_	18	mark	18:mark	_
+14	otsitud	otsitud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	16	acl	16:acl	_
+15	Neugrundi	Neugrund	PROPN	S	Case=Gen|Number=Sing	16	nmod	16:nmod	NE=B-Loc
+16	meteoriidikraater	meteoriidi_kraater	NOUN	S	Case=Nom|Number=Sing	18	obj	18:obj	NE=I-Loc
+17	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	18:aux	_
+18	leitud	leidma	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	11	acl	11:acl	SpaceAfter=No
+19	!	!	PUNCT	Z	_	7	punct	7:punct	_
+
