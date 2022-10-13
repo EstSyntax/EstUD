@@ -1,0 +1,2 @@
+aja_ee200110_osa_10_ud28.enhanced.conllu
+aja_ee200110_osa_11_ud28.enhanced.treex.conllu
