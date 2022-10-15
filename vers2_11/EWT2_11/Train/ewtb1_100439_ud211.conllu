@@ -1,0 +1,663 @@
+# newdoc id = ewtb1_100439
+# sent_id = ewtb1_100439_1
+# text = Kätte on jõudnud aasta kõige pimedam kuu, mida valgustama on igale poole säravad tuled põlema pandud.
+1	Kätte	käsi	NOUN	S	Case=Add|Number=Sing	3	obl	3:obl	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	3:aux	_
+3	jõudnud	jõudma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+4	aasta	aasta	NOUN	S	Case=Gen|Number=Sing	6	obl	6:obl	_
+5	kõige	kõige	ADV	D	_	6	advmod	6:advmod	_
+6	pimedam	pimedam	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	7	amod	7:amod	_
+7	kuu	kuu	NOUN	S	Case=Nom|Number=Sing	3	nsubj	3:nsubj|10:obj	SpaceAfter=No
+8	,	,	PUNCT	Z	_	17	punct	17:punct	_
+9	mida	mis	PRON	P	Case=Par|Number=Sing|PronType=Int,Rel	10	obj	7:ref	_
+10	valgustama	valgustama	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	17	xcomp	17:xcomp	_
+11	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	17:aux	_
+12	igale	iga	PRON	P	Case=All|Number=Sing|PronType=Tot	17	obl	17:obl	_
+13	poole	poole	ADV	D	_	12	fixed	12:fixed	_
+14	säravad	särav	ADJ	A	Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	15	acl	15:acl	_
+15	tuled	tuli	NOUN	S	Case=Nom|Number=Plur	17	obj	17:obj	_
+16	põlema	põlema	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	17	xcomp	17:xcomp	_
+17	pandud	panema	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	7	acl:relcl	7:acl	SpaceAfter=No
+18	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb1_100439_2
+# text = Kaubamajade põrgukõlaritest kostab hooajale kohane taustamuusika, mida alatasa katkestavad meeldetuletused jõulude põhisõnumist: OSTKE, OSTKE!
+1	Kaubamajade	kauba_maja	NOUN	S	Case=Gen|Number=Plur	2	nmod	2:nmod	_
+2	põrgukõlaritest	põrgu_kõlar	NOUN	S	Case=Ela|Number=Plur	3	obl	3:obl	_
+3	kostab	kostma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	hooajale	hoo_aeg	NOUN	S	Case=All|Number=Sing	5	obl	5:obl	_
+5	kohane	kohane	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	6	amod	6:amod	_
+6	taustamuusika	tausta_muusika	NOUN	S	Case=Nom|Number=Sing	3	nsubj	3:nsubj|10:obj	SpaceAfter=No
+7	,	,	PUNCT	Z	_	10	punct	10:punct	_
+8	mida	mis	PRON	P	Case=Par|Number=Sing|PronType=Int,Rel	10	obj	6:ref	_
+9	alatasa	ala_tasa	ADV	D	_	10	advmod	10:advmod	_
+10	katkestavad	katkestama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	6:acl	_
+11	meeldetuletused	meelde_tuletus	NOUN	S	Case=Nom|Number=Plur	10	nsubj	10:nsubj	_
+12	jõulude	jõulud	NOUN	S	Case=Gen|Number=Plur	13	nmod	13:nmod	_
+13	põhisõnumist	põhi_sõnum	NOUN	S	Case=Ela|Number=Sing	11	nmod	11:nmod	SpaceAfter=No
+14	:	:	PUNCT	Z	_	15	punct	15:punct	_
+15	OSTKE	ostma	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	10:parataxis	SpaceAfter=No
+16	,	,	PUNCT	Z	_	17	punct	17:punct	_
+17	OSTKE	ostma	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	15:conj	SpaceAfter=No
+18	!	!	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb1_100439_3
+# text = Laste jaoks on see suur muinasjutt, suurematele võib see laste kaudu kaasa elamine paremal juhul kaasa aidata jõulude stressi eemal hoida.
+1	Laste	laps	NOUN	S	Case=Gen|Number=Plur	6	obl	6:obl	_
+2	jaoks	jaoks	ADP	K	AdpType=Post	1	case	1:case	_
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
+4	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	6	nsubj:cop	6:nsubj	_
+5	suur	suur	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	6	amod	6:amod	_
+6	muinasjutt	muinas_jutt	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
+7	,	,	PUNCT	Z	_	18	punct	18:punct	_
+8	suurematele	suurem	ADJ	A	Case=All|Degree=Cmp|Number=Plur	18	obl	18:obl	_
+9	võib	võima	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	18:aux	_
+10	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	14	det	14:det	_
+11	laste	laps	NOUN	S	Case=Gen|Number=Plur	14	nmod	14:nmod	_
+12	kaudu	kaudu	ADP	K	AdpType=Post	11	case	11:case	_
+13	kaasa	kaasa	ADV	D	_	14	compound:prt	14:compound	_
+14	elamine	elamine	NOUN	S	Case=Nom|Number=Sing	18	obj	18:obj	_
+15	paremal	parem	ADJ	A	Case=Ade|Degree=Cmp|Number=Sing	16	amod	16:amod	_
+16	juhul	juht	NOUN	S	Case=Ade|Number=Sing	18	obl	18:obl	_
+17	kaasa	kaasa	ADV	D	_	18	compound:prt	18:compound	_
+18	aidata	aitama	VERB	V	VerbForm=Inf	6	conj	6:conj	_
+19	jõulude	jõulud	NOUN	S	Case=Gen|Number=Plur	20	nmod	20:nmod	_
+20	stressi	stress	NOUN	S	Case=Par|Number=Sing	22	obj	22:obj	_
+21	eemal	eemal	ADV	D	_	22	advmod	22:advmod	_
+22	hoida	hoidma	VERB	V	VerbForm=Inf	18	xcomp	18:xcomp	SpaceAfter=No
+23	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb1_100439_4
+# text = Kohe alustuseks tuleb Larkol hoiatus kirja panna.
+1	Kohe	kohe	ADV	D	_	3	advmod	3:advmod	_
+2	alustuseks	alustus	NOUN	S	Case=Tra|Number=Sing	3	xcomp	3:xcomp	_
+3	tuleb	tulema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	Larkol	Larko	PROPN	S	Case=Ade|Number=Sing	3	obl	3:obl	NE=B-Per
+5	hoiatus	hoiatus	NOUN	S	Case=Nom|Number=Sing	7	obj	7:obj	_
+6	kirja	kiri	NOUN	S	Case=Add|Number=Sing	7	obl	7:obl	_
+7	panna	panema	VERB	V	VerbForm=Inf	3	csubj	3:csubj	SpaceAfter=No
+8	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb1_100439_5
+# text = Kui käesoleva lehekülje juhuslik lugeja peaks vastselt tähestiku selgeks õpinud laps olema, kelle juurde Jõuluvana tavapäraselt just sel ajal tuleb, kus issi on korraks veebimarsruuteri juurde läinud, (vanasti läks ta hobusele süüa andma, aga see oli juba ammu) palun lugemine kohe katkestada ja veebist midagi muud üles otsida.
+1	Kui	kui	SCONJ	J	_	5	mark	5:mark	_
+2	käesoleva	käes_olev	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	acl	3:acl	_
+3	lehekülje	lehe_külg	NOUN	S	Case=Gen|Number=Sing	5	nmod	5:nmod	_
+4	juhuslik	juhuslik	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	5:amod	_
+5	lugeja	lugeja	NOUN	S	Case=Nom|Number=Sing	45	advcl	45:advcl	_
+6	peaks	pidama	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
+7	vastselt	vastselt	ADV	D	_	10	advmod	10:advmod	_
+8	tähestiku	tähestik	NOUN	S	Case=Gen|Number=Sing	10	obj	10:obj	_
+9	selgeks	selge	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	10	xcomp	10:xcomp	_
+10	õpinud	õppi=nud	ADJ	A	Degree=Pos|Tense=Past|Typo=Yes|VerbForm=Part|Voice=Act	11	acl	11:acl	CorrectForm=õppinud
+11	laps	laps	NOUN	S	Case=Nom|Number=Sing	5	nsubj:cop	5:nsubj|21:obl	_
+12	olema	olema	AUX	V	Case=Ill|VerbForm=Sup|Voice=Act	5	cop	5:cop	SpaceAfter=No
+13	,	,	PUNCT	Z	_	21	punct	21:punct	_
+14	kelle	kes	PRON	P	Case=Gen|Number=Sing|PronType=Int,Rel	21	obl	11:ref	_
+15	juurde	juurde	ADP	K	AdpType=Post	14	case	14:case	_
+16	Jõuluvana	Jõulu_vana	PROPN	S	Case=Nom|Number=Sing	21	nsubj	21:nsubj	NE=B-Per
+17	tavapäraselt	tava_päraselt	ADV	D	_	21	advmod	21:advmod	_
+18	just	just	ADV	D	_	19	advmod	19:advmod	_
+19	sel	see	DET	P	Case=Ade|Number=Sing|PronType=Dem	20	det	20:det	_
+20	ajal	aeg	NOUN	S	Case=Ade|Number=Sing	21	obl	21:obl	_
+21	tuleb	tulema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	11:acl	SpaceAfter=No
+22	,	,	PUNCT	Z	_	21	punct	21:punct	_
+23	kus	kus	ADV	D	_	29	mark	29:mark	_
+24	issi	issi	NOUN	S	Case=Nom|Number=Sing	29	nsubj	29:nsubj	_
+25	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	aux	29:aux	_
+26	korraks	korraks	ADV	D	_	29	advmod	29:advmod	_
+27	veebimarsruuteri	veebi_marsruuter	NOUN	S	Case=Gen|Number=Sing	29	obl	29:obl	_
+28	juurde	juurde	ADP	K	AdpType=Post	27	case	27:case	_
+29	läinud	minema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	21	advcl	21:advcl	SpaceAfter=No
+30	,	,	PUNCT	Z	_	33	punct	33:punct	_
+31	(	(	PUNCT	Z	_	33	punct	33:punct	SpaceAfter=No
+32	vanasti	vanasti	ADV	D	_	33	advmod	33:advmod	_
+33	läks	minema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	29	parataxis	29:parataxis	_
+34	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	33	nsubj	33:nsubj	_
+35	hobusele	hobune	NOUN	S	Case=All|Number=Sing	37	obl	37:obl	_
+36	süüa	sööma	VERB	V	VerbForm=Inf	37	xcomp	37:xcomp	_
+37	andma	andma	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	33	xcomp	33:xcomp	SpaceAfter=No
+38	,	,	PUNCT	Z	_	41	punct	41:punct	_
+39	aga	aga	CCONJ	J	_	41	cc	41:cc	_
+40	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	41	nsubj	41:nsubj	_
+41	oli	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	33	conj	33:conj	_
+42	juba	juba	ADV	D	_	43	advmod	43:advmod	_
+43	ammu	ammu	ADV	D	_	41	advmod	41:advmod	SpaceAfter=No
+44	)	)	PUNCT	Z	_	33	punct	33:punct	_
+45	palun	paluma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+46	lugemine	lugemine	NOUN	S	Case=Nom|Number=Sing	48	obj	48:obj	_
+47	kohe	kohe	ADV	D	_	48	advmod	48:advmod	_
+48	katkestada	katkestama	VERB	V	VerbForm=Inf	45	xcomp	45:xcomp	_
+49	ja	ja	CCONJ	J	_	54	cc	54:cc	_
+50	veebist	veeb	NOUN	S	Case=Ela|Number=Sing	54	obl	54:obl	_
+51	midagi	miski	PRON	P	Case=Par|Number=Sing|PronType=Ind	54	obj	54:obj	_
+52	muud	muu	PRON	P	Case=Par|Number=Sing|PronType=Ind	51	amod	51:amod	_
+53	üles	üles	ADV	D	_	54	compound:prt	54:compound	_
+54	otsida	otsima	VERB	V	VerbForm=Inf	48	conj	48:conj	SpaceAfter=No
+55	.	.	PUNCT	Z	_	45	punct	45:punct	_
+
+# sent_id = ewtb1_100439_6
+# text = Siin ajetakse nimelt täiskasvanute juttu, mis Sinu silmadele ei sobi mitte.
+1	Siin	siin	ADV	D	_	2	advmod	2:advmod	_
+2	ajetakse	ajama	VERB	V	Mood=Ind|Tense=Pres|Typo=Yes|VerbForm=Fin|Voice=Pass	0	root	0:root	CorrectForm=aetakse
+3	nimelt	nimelt	ADV	D	_	2	advmod	2:advmod	_
+4	täiskasvanute	täis_kasvanu	NOUN	S	Case=Gen|Number=Plur	5	nmod	5:nmod	_
+5	juttu	jutt	NOUN	S	Case=Par|Number=Sing	2	obj	2:obj|11:nsubj	SpaceAfter=No
+6	,	,	PUNCT	Z	_	11	punct	11:punct	_
+7	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	11	nsubj	5:ref	_
+8	Sinu	sina	PRON	P	Case=Gen|Number=Sing|Person=2|PronType=Prs	9	nmod	9:nmod	_
+9	silmadele	silm	NOUN	S	Case=All|Number=Plur	11	obl	11:obl	_
+10	ei	ei	AUX	V	Polarity=Neg	11	aux	11:aux	_
+11	sobi	sobima	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	5:acl	_
+12	mitte	mitte	ADV	D	Polarity=Neg	11	advmod	11:advmod	SpaceAfter=No
+13	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb1_100439_7
+# text = Seda sama soovitab Larko ka täiskasvanud lugejal teha, kes tahab oma südames jõulude illusiooni alles hoida.
+1	Seda	see	DET	P	Case=Par|Number=Sing|PronType=Dem	2	det	2:det	_
+2	sama	sama	ADJ	P	Case=Par|Number=Sing|PronType=Dem	8	obj	8:obj	_
+3	soovitab	soovitama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	Larko	Larko	PROPN	S	Case=Nom|Number=Sing	3	nsubj	3:nsubj	NE=B-Per
+5	ka	ka	ADV	D	_	6	advmod	6:advmod	_
+6	täiskasvanud	täis_kasvanud	ADJ	A	Degree=Pos	7	amod	7:amod	_
+7	lugejal	lugeja	NOUN	S	Case=Ade|Number=Sing	3	obl	3:obl|11:nsubj	_
+8	teha	tegema	VERB	V	VerbForm=Inf	3	xcomp	3:xcomp	SpaceAfter=No
+9	,	,	PUNCT	Z	_	11	punct	11:punct	_
+10	kes	kes	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	11	nsubj	7:ref	_
+11	tahab	tahtma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	7:acl	_
+12	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	13	nmod	13:nmod	_
+13	südames	süda	NOUN	S	Case=Ine|Number=Sing	17	obl	17:obl	_
+14	jõulude	jõulud	NOUN	S	Case=Gen|Number=Plur	15	nmod	15:nmod	_
+15	illusiooni	illusioon	NOUN	S	Case=Par|Number=Sing	17	obj	17:obj	_
+16	alles	alles	ADV	D	_	17	advmod	17:advmod	_
+17	hoida	hoidma	VERB	V	VerbForm=Inf	11	xcomp	11:xcomp	SpaceAfter=No
+18	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb1_100439_8
+# text = Kes meist seda enam mäletab, milleks jõule esialgselt tähistati?
+1	Kes	kes	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	5	nsubj	5:nsubj	_
+2	meist	mina	PRON	P	Case=Ela|Number=Plur|Person=1|PronType=Prs	1	nmod	1:nmod	_
+3	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	5	obj	5:obj	_
+4	enam	enam	ADV	D	_	5	advmod	5:advmod	_
+5	mäletab	mäletama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+6	,	,	PUNCT	Z	_	5	punct	5:punct	_
+7	milleks	milleks	ADV	D	_	10	mark	10:mark	_
+8	jõule	jõulud	NOUN	S	Case=Par|Number=Plur	10	obj	10:obj	_
+9	esialgselt	esi_algselt	ADV	D	_	10	advmod	10:advmod	_
+10	tähistati	tähistama	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	3	acl	3:acl	SpaceAfter=No
+11	?	?	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = ewtb1_100439_9
+# text = Viikingitel seondus see tõepoolest valguse võiduga pimeda talve üle.
+1	Viikingitel	viiking	NOUN	S	Case=Ade|Number=Plur	2	obl	2:obl	_
+2	seondus	seonduma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	2:nsubj	_
+4	tõepoolest	tõe_poolest	ADV	D	_	2	advmod	2:advmod	_
+5	valguse	valgus	NOUN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	_
+6	võiduga	võit	NOUN	S	Case=Com|Number=Sing	2	obl	2:obl	_
+7	pimeda	pime	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	8	amod	8:amod	_
+8	talve	talv	NOUN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	_
+9	üle	üle	ADP	K	AdpType=Post	8	case	8:case	SpaceAfter=No
+10	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb1_100439_10
+# text = Hiljem võtsid kristlased juba välja kujunenud pidutsemise hooaja oma eesmärkide käsutusse.
+1	Hiljem	hiljem	ADV	D	_	2	advmod	2:advmod	_
+2	võtsid	võtma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	kristlased	kristlane	NOUN	S	Case=Nom|Number=Plur	2	nsubj	2:nsubj	_
+4	juba	juba	ADV	D	_	6	advmod	6:advmod	_
+5	välja	välja	ADV	D	_	6	compound:prt	6:compound	_
+6	kujunenud	kujune=nud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	acl	8:acl	_
+7	pidutsemise	pidutse=mine	NOUN	S	Case=Gen|Number=Sing	8	nmod	8:nmod	_
+8	hooaja	hoo_aeg	NOUN	S	Case=Gen|Number=Sing	2	obj	2:obj	_
+9	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	10	nmod	10:nmod	_
+10	eesmärkide	ees_märk	NOUN	S	Case=Gen|Number=Plur	11	nmod	11:nmod	_
+11	käsutusse	käsutus	NOUN	S	Case=Add|Number=Sing	2	obl	2:obl	SpaceAfter=No
+12	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb1_100439_11
+# text = Sekulaarsel ajastul on jõuludega seondunud loosungid usulises kontekstis neutraalsemaks läinud: kõneldakse rahust maailmas ja heast tahtest inimeste vahel.
+1	Sekulaarsel	sekulaarne	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	2	amod	2:amod	_
+2	ajastul	ajastu	NOUN	S	Case=Ade|Number=Sing	10	obl	10:obl	_
+3	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
+4	jõuludega	jõulud	NOUN	S	Case=Com|Number=Plur	5	obl	5:obl	_
+5	seondunud	seondu=nud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Act	6	acl	6:acl	_
+6	loosungid	loosung	NOUN	S	Case=Nom|Number=Plur	10	nsubj	10:nsubj	_
+7	usulises	usuline	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	8	amod	8:amod	_
+8	kontekstis	kontekst	NOUN	S	Case=Ine|Number=Sing	10	obl	10:obl	_
+9	neutraalsemaks	neutraalsem	ADJ	A	Case=Tra|Degree=Cmp|Number=Sing	10	xcomp	10:xcomp	_
+10	läinud	minema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
+11	:	:	PUNCT	Z	_	12	punct	12:punct	_
+12	kõneldakse	kõnelema	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	10	parataxis	10:parataxis	_
+13	rahust	rahu	NOUN	S	Case=Ela|Number=Sing	12	obl	12:obl	_
+14	maailmas	maa_ilm	NOUN	S	Case=Ine|Number=Sing	13	nmod	13:nmod	_
+15	ja	ja	CCONJ	J	_	17	cc	17:cc	_
+16	heast	hea	ADJ	A	Case=Ela|Degree=Pos|Number=Sing	17	amod	17:amod	_
+17	tahtest	tahe	NOUN	S	Case=Ela|Number=Sing	13	conj	13:conj	_
+18	inimeste	inimene	NOUN	S	Case=Gen|Number=Plur	17	nmod	17:nmod	_
+19	vahel	vahel	ADP	K	AdpType=Post	18	case	18:case	SpaceAfter=No
+20	.	.	PUNCT	Z	_	10	punct	10:punct	_
+
+# sent_id = ewtb1_100439_12
+# text = Seega justkui saaksid peale end kristlasteks pidavate ka teised enesepetuse korras põhjendada, mispärast ikkagi jõulude sisulist sõnumit kuulda võetakse: osta, osta ja veel kord osta!
+1	Seega	seega	ADV	D	_	12	advmod	12:advmod	_
+2	justkui	just_kui	ADV	D	_	12	mark	12:mark	_
+3	saaksid	saama	AUX	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
+4	peale	peale	ADP	K	AdpType=Prep	7	case	7:case	_
+5	end	ise	PRON	P	Case=Par|Number=Sing|PronType=Prs|Reflex=Yes	7	obj	7:obj	_
+6	kristlasteks	kristlane	NOUN	S	Case=Tra|Number=Plur	7	xcomp	7:xcomp	_
+7	pidavate	pidav	ADJ	A	Case=Gen|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	obl	12:obl	_
+8	ka	ka	ADV	D	_	9	advmod	9:advmod	_
+9	teised	teine	PRON	P	Case=Nom|Number=Plur|PronType=Dem	12	nsubj	12:nsubj	_
+10	enesepetuse	enese_pettus	NOUN	S	Case=Gen|Number=Sing|Typo=Yes	11	nmod	11:nmod	CorrectForm=enesepettuse
+11	korras	kord	NOUN	S	Case=Ine|Number=Sing	12	obl	12:obl	_
+12	põhjendada	põhjendama	VERB	V	VerbForm=Inf	0	root	0:root	SpaceAfter=No
+13	,	,	PUNCT	Z	_	12	punct	12:punct	_
+14	mispärast	mis_pärast	ADV	D	_	20	advmod	20:advmod	_
+15	ikkagi	ikkagi	ADV	D	_	20	advmod	20:advmod	_
+16	jõulude	jõulud	NOUN	S	Case=Gen|Number=Plur	18	nmod	18:nmod	_
+17	sisulist	sisuline	ADJ	A	Case=Par|Degree=Pos|Number=Sing	18	amod	18:amod	_
+18	sõnumit	sõnum	NOUN	S	Case=Par|Number=Sing	20	obj	20:obj	_
+19	kuulda	kuulma	VERB	V	VerbForm=Inf	20	xcomp	20:xcomp	_
+20	võetakse	võtma	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	12	ccomp	12:ccomp	SpaceAfter=No
+21	:	:	PUNCT	Z	_	22	punct	22:punct	_
+22	osta	ostma	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	20	parataxis	20:parataxis	SpaceAfter=No
+23	,	,	PUNCT	Z	_	24	punct	24:punct	_
+24	osta	ostma	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	22	conj	22:conj	_
+25	ja	ja	CCONJ	J	_	28	cc	28:cc	_
+26	veel	veel	ADV	D	_	27	advmod	27:advmod	_
+27	kord	kord	ADV	D	_	28	advmod	28:advmod	_
+28	osta	ostma	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	22	conj	22:conj	SpaceAfter=No
+29	!	!	PUNCT	Z	_	12	punct	12:punct	_
+
+# sent_id = ewtb1_100439_13
+# text = Ostmine ja tarbimine on tõesti jõulude pöhjenduseks, sisuks ja tähistamise eesmärgiks kujunenud.
+1	Ostmine	ostmine	NOUN	S	Case=Nom|Number=Sing	13	nsubj	13:nsubj	_
+2	ja	ja	CCONJ	J	_	3	cc	3:cc	_
+3	tarbimine	tarbimine	NOUN	S	Case=Nom|Number=Sing	1	conj	1:conj	_
+4	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	13:aux	_
+5	tõesti	tõesti	ADV	D	_	13	advmod	13:advmod	_
+6	jõulude	jõulud	NOUN	S	Case=Gen|Number=Plur	7	nmod	7:nmod	_
+7	pöhjenduseks	põhjen=dus	NOUN	S	Case=Tra|Number=Sing|Typo=Yes	13	xcomp	13:xcomp	SpaceAfter=No|CorrectForm=põhjenduseks
+8	,	,	PUNCT	Z	_	9	punct	9:punct	_
+9	sisuks	sisu	NOUN	S	Case=Tra|Number=Sing	7	conj	7:conj	_
+10	ja	ja	CCONJ	J	_	12	cc	12:cc	_
+11	tähistamise	tähistamine	NOUN	S	Case=Gen|Number=Sing	12	nmod	12:nmod	_
+12	eesmärgiks	ees_märk	NOUN	S	Case=Tra|Number=Sing	7	conj	7:conj	_
+13	kujunenud	kujunema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
+14	.	.	PUNCT	Z	_	13	punct	13:punct	_
+
+# sent_id = ewtb1_100439_14
+# text = Kaupmeeste jaoks on see üleoluline hooaeg, mis kassadesse arvestatava osa aastakäibest sisse toob.
+1	Kaupmeeste	kaup_mees	NOUN	S	Case=Gen|Number=Plur	6	obl	6:obl	_
+2	jaoks	jaoks	ADP	K	AdpType=Post	1	case	1:case	_
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
+4	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	6	nsubj:cop	6:nsubj	_
+5	üleoluline	üli_oluline	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Typo=Yes	6	amod	6:amod	CorrectForm=ülioluline
+6	hooaeg	hoo_aeg	NOUN	S	Case=Nom|Number=Sing	0	root	0:root|14:nsubj	SpaceAfter=No
+7	,	,	PUNCT	Z	_	14	punct	14:punct	_
+8	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	14	nsubj	6:ref	_
+9	kassadesse	kassa	NOUN	S	Case=Ill|Number=Plur	14	obl	14:obl	_
+10	arvestatava	arvestatav	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	acl	11:acl	_
+11	osa	osa	NOUN	S	Case=Gen|Number=Sing	14	obj	14:obj	_
+12	aastakäibest	aasta_käive	NOUN	S	Case=Ela|Number=Sing	11	nmod	11:nmod	_
+13	sisse	sisse	ADV	D	_	14	compound:prt	14:compound	_
+14	toob	tooma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	6:acl	SpaceAfter=No
+15	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb1_100439_15
+# text = Üks puha kas Sa kristlane, musulmaan või pagan oled, ostma ja tarbima pead Sa nii kui nii.
+1	Üks	üks	PRON	P	Case=Nom|Number=Sing|PronType=Dem	2	obl	2:obl	_
+2	puha	puha	ADV	D	_	5	advcl	5:advcl	_
+3	kas	kas	ADV	D	_	5	advmod	5:advmod	_
+4	Sa	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj:cop	5:nsubj	_
+5	kristlane	kristlane	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
+6	,	,	PUNCT	Z	_	7	punct	7:punct	_
+7	musulmaan	musulman	NOUN	S	Case=Nom|Number=Sing|Typo=Yes	5	conj	5:conj	CorrectForm=musulman
+8	või	või	CCONJ	J	_	9	cc	9:cc	_
+9	pagan	pagan	NOUN	S	Case=Nom|Number=Sing	5	conj	5:conj	_
+10	oled	olema	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	SpaceAfter=No
+11	,	,	PUNCT	Z	_	12	punct	12:punct	_
+12	ostma	ostma	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	5	conj	5:conj	_
+13	ja	ja	CCONJ	J	_	14	cc	14:cc	_
+14	tarbima	tarbima	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	12	conj	12:conj	_
+15	pead	pidama	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
+16	Sa	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	12:nsubj	_
+17	nii	nii	ADV	D	_	12	advmod	12:advmod	_
+18	kui	kui	SCONJ	J	_	17	fixed	17:fixed	_
+19	nii	nii	ADV	D	_	17	fixed	17:fixed	SpaceAfter=No
+20	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = ewtb1_100439_16
+# text = Ja ära Sa sellele mõtlegi, et see sama kaup , kui seda üldse vaja, oleks pärast jõule poole hinna eest kätte saadav!
+1	Ja	ja	CCONJ	J	_	5	cc	5:cc	_
+2	ära	ära	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
+3	Sa	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	_
+4	sellele	see	PRON	P	Case=All|Number=Sing|PronType=Dem	5	obl	5:obl	_
+5	mõtlegi	mõtlema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+6	,	,	PUNCT	Z	_	5	punct	5:punct	_
+7	et	et	SCONJ	J	_	24	mark	24:mark	_
+8	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	9	det	9:det	_
+9	sama	sama	DET	P	Case=Nom|Number=Sing|PronType=Dem	10	det	10:det	_
+10	kaup	kaup	NOUN	S	Case=Nom|Number=Sing	24	nsubj:cop	24:nsubj	CorrectSpaceAfter=No
+11	,	,	PUNCT	Z	_	13	punct	13:punct	_
+12	kui	kui	SCONJ	J	_	13	mark	13:mark	_
+13	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	24	advcl	24:advcl	_
+14	üldse	üldse	ADV	D	_	13	advmod	13:advmod	_
+15	vaja	vaja	ADV	D	_	13	advmod	13:advmod	SpaceAfter=No
+16	,	,	PUNCT	Z	_	24	punct	24:punct	_
+17	oleks	olema	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	24	cop	24:cop	_
+18	pärast	pärast	ADP	K	AdpType=Prep	19	case	19:case	_
+19	jõule	jõulud	NOUN	S	Case=Par|Number=Plur	24	obl	24:obl	_
+20	poole	pool	NUM	N	Case=Gen|Number=Sing|NumForm=Word|NumType=Card	21	nummod	21:nummod	_
+21	hinna	hind	NOUN	S	Case=Gen|Number=Sing	24	obl	24:obl	_
+22	eest	eest	ADP	K	AdpType=Post	21	case	21:case	_
+23	kätte	käsi	NOUN	S	Case=Add|Number=Sing	24	obl	24:obl	_
+24	saadav	saadav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	acl	4:acl	SpaceAfter=No
+25	!	!	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = ewtb1_100439_17
+# text = Ja kui see kõik rutamine üks kord otsa saab ja pühad juba käes, siis oledki kõige pingelisema katsetuse juurde jõudnud.
+1	Ja	ja	CCONJ	J	_	21	cc	21:cc	_
+2	kui	kui	SCONJ	J	_	9	mark	9:mark	_
+3	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	5	det	5:det	_
+4	kõik	kõik	DET	P	Case=Nom|Number=Sing|PronType=Tot	5	det	5:det	_
+5	rutamine	rutta=mine	NOUN	S	Case=Nom|Number=Sing|Typo=Yes	9	nsubj	9:nsubj	CorrectForm=ruttamine
+6	üks	ükskord	ADV	D	Typo=Yes	9	obl	9:obl	CorrectForm=ükskord
+7	kord	_	X	_	_	6	goeswith	6:goeswith	_
+8	otsa	otsa	ADV	D	_	9	compound:prt	9:compound	_
+9	saab	saama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	advcl	21:advcl	_
+10	ja	ja	CCONJ	J	_	13	cc	13:cc	_
+11	pühad	püha	NOUN	S	Case=Nom|Number=Plur	13	nsubj:cop	13:nsubj	_
+12	juba	juba	ADV	D	_	11	advmod	11:advmod	_
+13	käes	käsi	NOUN	S	Case=Ine|Number=Sing	9	conj	9:conj	SpaceAfter=No
+14	,	,	PUNCT	Z	_	21	punct	21:punct	_
+15	siis	siis	ADV	D	_	21	advmod	21:advmod	_
+16	oledki	olema	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	21:aux	_
+17	kõige	kõige	ADV	D	_	18	advmod	18:advmod	_
+18	pingelisema	pingelisem	ADJ	A	Case=Gen|Degree=Cmp|Number=Sing	19	amod	19:amod	_
+19	katsetuse	katsetus	NOUN	S	Case=Gen|Number=Sing	21	obl	21:obl	_
+20	juurde	juurde	ADP	K	AdpType=Post	19	case	19:case	_
+21	jõudnud	jõudma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
+22	.	.	PUNCT	Z	_	21	punct	21:punct	_
+
+# sent_id = ewtb1_100439_18
+# text = Pead oma sugulastega suhtlema ja rõõmsa näo üles sätima, ehkki kõige parema meelega tahaksid välja hüüda, mida Sa oma lihase suguvõsa kõige hullematest liikmetest tegelikult mõtled.
+1	Pead	pidama	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
+2	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	3	nmod	3:nmod	_
+3	sugulastega	sugulane	NOUN	S	Case=Com|Number=Plur	4	obl	4:obl	_
+4	suhtlema	suhtlema	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	0	root	0:root	_
+5	ja	ja	CCONJ	J	_	9	cc	9:cc	_
+6	rõõmsa	rõõmus	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	7	amod	7:amod	_
+7	näo	nägu	NOUN	S	Case=Gen|Number=Sing	9	obj	9:obj	_
+8	üles	üles	ADV	D	_	9	compound:prt	9:compound	_
+9	sätima	sättima	VERB	V	Case=Ill|Typo=Yes|VerbForm=Sup|Voice=Act	4	conj	4:conj	SpaceAfter=No|CorrectForm=sättima
+10	,	,	PUNCT	Z	_	15	punct	15:punct	_
+11	ehkki	ehkki	SCONJ	J	_	15	mark	15:mark	_
+12	kõige	kõige	ADV	D	_	13	advmod	13:advmod	_
+13	parema	parem	ADJ	A	Case=Gen|Degree=Cmp|Number=Sing	14	amod	14:amod	_
+14	meelega	meel	NOUN	S	Case=Com|Number=Sing	15	obl	15:obl	_
+15	tahaksid	tahtma	VERB	V	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	4:conj	_
+16	välja	välja	ADV	D	_	17	compound:prt	17:compound	_
+17	hüüda	hüüdma	VERB	V	VerbForm=Inf	15	xcomp	15:xcomp	SpaceAfter=No
+18	,	,	PUNCT	Z	_	28	punct	28:punct	_
+19	mida	mis	PRON	P	Case=Par|Number=Sing|PronType=Int,Rel	28	obj	28:obj	_
+20	Sa	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	28	nsubj	28:nsubj	_
+21	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	23	nmod	23:nmod	_
+22	lihase	lihane	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	23	amod	23:amod	_
+23	suguvõsa	sugu_võsa	NOUN	S	Case=Gen|Number=Sing	26	nmod	26:nmod	_
+24	kõige	kõige	ADV	D	_	25	advmod	25:advmod	_
+25	hullematest	hullem	ADJ	A	Case=Ela|Degree=Cmp|Number=Plur	26	amod	26:amod	_
+26	liikmetest	liige	NOUN	S	Case=Ela|Number=Plur	28	obl	28:obl	_
+27	tegelikult	tegelikult	ADV	D	_	28	advmod	28:advmod	_
+28	mõtled	mõtlema	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	17	ccomp	17:ccomp	SpaceAfter=No
+29	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb1_100439_19
+# text = Jõuluvanausuliste laste puhul on see kuidagi talutav, sest nende süütu rõõmustamise pealt vaastamine aitab kaasa negatiivset energiat eemale tõugata.
+1	Jõuluvanausuliste	jõulu_vana_usuline	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	2	amod	2:amod	_
+2	laste	laps	NOUN	S	Case=Gen|Number=Plur	7	obl	7:obl	_
+3	puhul	puhul	ADP	K	AdpType=Post	2	case	2:case	_
+4	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
+5	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	7	nsubj:cop	7:nsubj	_
+6	kuidagi	kuidagi	ADV	D	_	7	advmod	7:advmod	_
+7	talutav	talutav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
+8	,	,	PUNCT	Z	_	15	punct	15:punct	_
+9	sest	sest	SCONJ	J	_	15	mark	15:mark	_
+10	nende	tema	PRON	P	Case=Gen|Number=Plur|Person=3|PronType=Prs	12	nmod	12:nmod	_
+11	süütu	süütu	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	12	amod	12:amod	_
+12	rõõmustamise	rõõmusta=mine	NOUN	S	Case=Gen|Number=Sing	14	obj	14:obj	_
+13	pealt	pealt	ADV	D	_	14	compound:prt	14:compound	_
+14	vaastamine	vaata=mine	NOUN	S	Case=Nom|Number=Sing|Typo=Yes	15	nsubj	15:nsubj	CorrectForm=vaatamine
+15	aitab	aitama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	7:advcl	_
+16	kaasa	kaasa	ADV	D	_	15	compound:prt	15:compound	_
+17	negatiivset	negatiivne	ADJ	A	Case=Par|Degree=Pos|Number=Sing	18	amod	18:amod	_
+18	energiat	energia	NOUN	S	Case=Par|Number=Sing	20	obj	20:obj	_
+19	eemale	eemale	ADV	D	_	20	compound:prt	20:compound	_
+20	tõugata	tõukama	VERB	V	VerbForm=Inf	15	xcomp	15:xcomp	SpaceAfter=No
+21	.	.	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = ewtb1_100439_20
+# text = Kui aga läheb laste vanematega suhtlemiseks, pead tohutult kannatust kaasa varama.
+1	Kui	kui	SCONJ	J	_	3	mark	3:mark	_
+2	aga	aga	CCONJ	J	_	3	cc	3:cc	_
+3	läheb	minema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	12:advcl	_
+4	laste	laps	NOUN	S	Case=Gen|Number=Plur	5	nmod	5:nmod	_
+5	vanematega	vanem	NOUN	S	Case=Com|Number=Plur	6	nmod	6:nmod	_
+6	suhtlemiseks	suhtlemine	NOUN	S	Case=Tra|Number=Sing	3	obl	3:obl	SpaceAfter=No
+7	,	,	PUNCT	Z	_	12	punct	12:punct	_
+8	pead	pidama	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
+9	tohutult	tohutult	ADV	D	_	10	advmod	10:advmod	_
+10	kannatust	kannatus	NOUN	S	Case=Par|Number=Sing	12	obj	12:obj	_
+11	kaasa	kaasa	ADV	D	_	12	advmod	12:advmod	_
+12	varama	varuma	VERB	V	Case=Ill|Typo=Yes|VerbForm=Sup|Voice=Act	0	root	0:root	SpaceAfter=No|CorrectForm=varuma
+13	.	.	PUNCT	Z	_	12	punct	12:punct	_
+
+# sent_id = ewtb1_100439_21
+# text = Larko on alati püüdnud kõike teisiti teha, kui seda on kombeks.
+1	Larko	Larko	PROPN	S	Case=Nom|Number=Sing	4	nsubj	4:nsubj	NE=B-Per
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
+3	alati	alati	ADV	D	_	4	advmod	4:advmod	_
+4	püüdnud	püüdma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+5	kõike	kõik	PRON	P	Case=Par|Number=Sing|PronType=Tot	7	obj	7:obj	_
+6	teisiti	teisiti	ADV	D	_	7	advmod	7:advmod	_
+7	teha	tegema	VERB	V	VerbForm=Inf	4	xcomp	4:xcomp	SpaceAfter=No
+8	,	,	PUNCT	Z	_	12	punct	12:punct	_
+9	kui	kui	SCONJ	J	_	12	mark	12:mark	_
+10	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	12	nsubj:cop	12:nsubj	_
+11	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
+12	kombeks	komme	NOUN	S	Case=Tra|Number=Sing	4	advcl	4:advcl	SpaceAfter=No
+13	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb1_100439_22
+# text = Seega ei tulnud jõulude tarbimise ideoloogiat kuulda võtta ka sel ajal, kui selleks oleks raha olnud.
+1	Seega	seega	ADV	D	_	3	advmod	3:advmod	_
+2	ei	ei	AUX	V	Polarity=Neg	3	aux	3:aux	_
+3	tulnud	tulema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	jõulude	jõulud	NOUN	S	Case=Gen|Number=Plur	6	nmod	6:nmod	_
+5	tarbimise	tarbimine	NOUN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	_
+6	ideoloogiat	ideoloogia	NOUN	S	Case=Par|Number=Sing	8	obj	8:obj	_
+7	kuulda	kuulma	VERB	V	VerbForm=Inf	8	advcl	8:advcl	_
+8	võtta	võtma	VERB	V	VerbForm=Inf	3	csubj	3:csubj	_
+9	ka	ka	ADV	D	_	10	advmod	10:advmod	_
+10	sel	see	DET	P	Case=Ade|Number=Sing|PronType=Dem	11	det	11:det	_
+11	ajal	aeg	NOUN	S	Case=Ade|Number=Sing	8	obl	8:obl	SpaceAfter=No
+12	,	,	PUNCT	Z	_	14	punct	14:punct	_
+13	kui	kui	SCONJ	J	_	14	mark	14:mark	_
+14	selleks	see	PRON	P	Case=Tra|Number=Sing|PronType=Dem	11	acl	11:acl	_
+15	oleks	olema	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
+16	raha	raha	NOUN	S	Case=Par|Number=Sing	14	nsubj:cop	14:nsubj	_
+17	olnud	olema	AUX	V	Tense=Past|VerbForm=Part|Voice=Act	14	cop	14:cop	SpaceAfter=No
+18	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb1_100439_23
+# text = Järelikult ei Larkol ole erilisi raskusi oma ostmise ja tarbimise harjumusi rahakotiga kooskõlla viia, seda tuleb nii kui nii aastaringselt teha.
+1	Järelikult	järelikult	ADV	D	_	3	advmod	3:advmod	_
+2	ei	ei	AUX	V	Polarity=Neg	3	aux	3:aux	_
+3	Larkol	Larko	PROPN	S	Case=Ade|Number=Sing	0	root	0:root	NE=B-Per
+4	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
+5	erilisi	eriline	ADJ	A	Case=Par|Degree=Pos|Number=Plur	6	amod	6:amod	_
+6	raskusi	raskus	NOUN	S	Case=Par|Number=Plur	3	nsubj:cop	3:nsubj	_
+7	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	11	nmod	11:nmod	_
+8	ostmise	ostmine	NOUN	S	Case=Gen|Number=Sing	11	nmod	11:nmod	_
+9	ja	ja	CCONJ	J	_	10	cc	10:cc	_
+10	tarbimise	tarbimine	NOUN	S	Case=Gen|Number=Sing	8	conj	8:conj	_
+11	harjumusi	harjumus	NOUN	S	Case=Par|Number=Plur	14	obj	14:obj	_
+12	rahakotiga	raha_kott	NOUN	S	Case=Com|Number=Sing	14	obl	14:obl	_
+13	kooskõlla	koos_kõla	NOUN	S	Case=Add|Number=Sing	14	obl	14:obl	_
+14	viia	viima	VERB	V	VerbForm=Inf	6	acl	6:acl	SpaceAfter=No
+15	,	,	PUNCT	Z	_	17	punct	17:punct	_
+16	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	22	obj	22:obj	_
+17	tuleb	tulema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	3:conj	_
+18	nii	nii	ADV	D	_	22	advmod	22:advmod	_
+19	kui	kui	SCONJ	J	_	18	fixed	18:fixed	_
+20	nii	nii	ADV	D	_	18	fixed	18:fixed	_
+21	aastaringselt	aasta_ringselt	ADV	D	_	22	advmod	22:advmod	_
+22	teha	tegema	VERB	V	VerbForm=Inf	17	csubj	17:csubj	SpaceAfter=No
+23	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb1_100439_24
+# text = Raskem on nendel, kes väga tahaksid sõnakuulelikud tarbijad olla, kuid ei suuda oma tahtmist ellu viia.
+1	Raskem	raskem	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	0	root	0:root	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	1:cop	_
+3	nendel	tema	PRON	P	Case=Ade|Number=Plur|Person=3|PronType=Prs	1	obl	1:obl|7:nsubj	SpaceAfter=No
+4	,	,	PUNCT	Z	_	7	punct	7:punct	_
+5	kes	kes	PRON	P	Case=Nom|Number=Plur|PronType=Int,Rel	7	nsubj	3:ref	_
+6	väga	väga	ADV	D	_	7	advmod	7:advmod	_
+7	tahaksid	tahtma	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	3:acl	_
+8	sõnakuulelikud	sõna_kuulelik	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	9	amod	9:amod	_
+9	tarbijad	tarbija	NOUN	S	Case=Nom|Number=Plur	7	xcomp	7:xcomp	_
+10	olla	olema	AUX	V	VerbForm=Inf	9	cop	9:cop	SpaceAfter=No
+11	,	,	PUNCT	Z	_	14	punct	14:punct	_
+12	kuid	kuid	CCONJ	J	_	14	cc	14:cc	_
+13	ei	ei	AUX	V	Polarity=Neg	14	aux	14:aux	_
+14	suuda	suutma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	7:conj	_
+15	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	16	nmod	16:nmod	_
+16	tahtmist	tahtmine	NOUN	S	Case=Par|Number=Sing	18	obj	18:obj	_
+17	ellu	elu	NOUN	S	Case=Add|Number=Sing	18	obl	18:obl	_
+18	viia	viima	VERB	V	VerbForm=Inf	14	xcomp	14:xcomp	SpaceAfter=No
+19	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ewtb1_100439_25
+# text = Õnneks nendele käivituvad jõulupealsed allahindlused efektiivsuse huvides järjest varem.
+1	Õnneks	õnn	NOUN	S	Case=Tra|Number=Sing	3	obl	3:obl	_
+2	nendele	tema	PRON	P	Case=All|Number=Plur|Person=3|PronType=Prs	3	obl	3:obl	_
+3	käivituvad	käivituma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	jõulupealsed	jõulu_pealne	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	5	amod	5:amod	_
+5	allahindlused	alla_hindlus	NOUN	S	Case=Nom|Number=Plur	3	nsubj	3:nsubj	_
+6	efektiivsuse	efektiivsus	NOUN	S	Case=Gen|Number=Sing	7	nmod	7:nmod	_
+7	huvides	huvi	NOUN	S	Case=Ine|Number=Plur	3	obl	3:obl	_
+8	järjest	järjest	ADV	D	_	9	advmod	9:advmod	_
+9	varem	varem	ADV	D	_	3	advmod	3:advmod	SpaceAfter=No
+10	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb1_100439_26
+# text = Seega jõuab jõulude asemel nääri taskukohasemalt tähistama, vene õigeusu jõuluajast rääkimatagi.
+1	Seega	seega	ADV	D	_	2	advmod	2:advmod	_
+2	jõuab	jõudma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	jõulude	jõulud	NOUN	S	Case=Gen|Number=Plur	7	obl	7:obl	_
+4	asemel	asemel	ADP	K	AdpType=Post	3	case	3:case	_
+5	nääri	näär	NOUN	S	Case=Par|Number=Sing	7	obj	7:obj	_
+6	taskukohasemalt	tasku_kohase=malt	ADV	D	_	7	advmod	7:advmod	_
+7	tähistama	tähistama	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	2	xcomp	2:xcomp	SpaceAfter=No
+8	,	,	PUNCT	Z	_	12	punct	12:punct	_
+9	vene	vene	NOUN	S	Case=Gen|Number=Sing	10	nmod	10:nmod	_
+10	õigeusu	õige_usk	NOUN	S	Case=Gen|Number=Sing	11	nmod	11:nmod	_
+11	jõuluajast	jõulu_aeg	NOUN	S	Case=Ela|Number=Sing	12	obl	12:obl	_
+12	rääkimatagi	rääkima	VERB	V	Case=Abe|VerbForm=Sup|Voice=Act	2	advcl	2:advcl	SpaceAfter=No
+13	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb1_100439_27
+# text = Larko kavatseb käivitunud advendiajal kõigest muust kui jõuludest mõelda ja jõudumööda kaubamajade säravatest tuledest pimeduse poole käia.
+1	Larko	Larko	PROPN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	NE=B-Per
+2	kavatseb	kavatsema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	käivitunud	käivitu=nud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	acl	4:acl	_
+4	advendiajal	advendi_aeg	NOUN	S	Case=Ade|Number=Sing	9	obl	9:obl	_
+5	kõigest	kõik	DET	P	Case=Ela|Number=Sing|PronType=Tot	6	det	6:det	_
+6	muust	muu	PRON	P	Case=Ela|Number=Sing|PronType=Ind	9	obl	9:obl	_
+7	kui	kui	SCONJ	J	_	8	mark	8:mark	_
+8	jõuludest	jõulud	NOUN	S	Case=Ela|Number=Plur	6	advcl	6:advcl	_
+9	mõelda	mõtlema	VERB	V	VerbForm=Inf	2	xcomp	2:xcomp	_
+10	ja	ja	CCONJ	J	_	17	cc	17:cc	_
+11	jõudumööda	jõudu_mööda	ADV	D	_	17	advmod	17:advmod	_
+12	kaubamajade	kauba_maja	NOUN	S	Case=Gen|Number=Plur	14	nmod	14:nmod	_
+13	säravatest	särav	ADJ	A	Case=Ela|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	14	acl	14:acl	_
+14	tuledest	tuli	NOUN	S	Case=Ela|Number=Plur	17	obl	17:obl	_
+15	pimeduse	pimedus	NOUN	S	Case=Gen|Number=Sing	17	obl	17:obl	_
+16	poole	poole	ADP	K	AdpType=Post	15	case	15:case	_
+17	käia	käima	VERB	V	VerbForm=Inf	9	conj	9:conj	SpaceAfter=No
+18	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb1_100439_28
+# text = Ehk saab kuidagi nendest suurtest pühadestki mööda; õnneks pole tänavu ükski sugulane püüdnud koosviibimse teemal ettepanekuid teha.
+1	Ehk	ehk	ADV	D	_	2	advmod	2:advmod	_
+2	saab	saama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	kuidagi	kuidagi	ADV	D	_	2	advmod	2:advmod	_
+4	nendest	see	DET	P	Case=Ela|Number=Plur|PronType=Dem	6	det	6:det	_
+5	suurtest	suur	ADJ	A	Case=Ela|Degree=Pos|Number=Plur	6	amod	6:amod	_
+6	pühadestki	püha	NOUN	S	Case=Ela|Number=Plur	2	obl	2:obl	_
+7	mööda	mööda	ADV	D	_	2	compound:prt	2:compound	SpaceAfter=No
+8	;	;	PUNCT	Z	_	14	punct	14:punct	_
+9	õnneks	õnn	NOUN	S	Case=Tra|Number=Sing	14	obl	14:obl	_
+10	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
+11	tänavu	tänavu	ADV	D	_	14	advmod	14:advmod	_
+12	ükski	üks	DET	P	Case=Nom|Number=Sing|PronType=Ind	13	det	13:det	_
+13	sugulane	sugulane	NOUN	S	Case=Nom|Number=Sing	14	nsubj	14:nsubj	_
+14	püüdnud	püüdma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	2	conj	2:conj	_
+15	koosviibimse	koos_viibimine	NOUN	S	Case=Gen|Number=Sing|Typo=Yes	16	nmod	16:nmod	CorrectForm=koosviibimise
+16	teemal	teema	NOUN	S	Case=Ade|Number=Sing	18	obl	18:obl	_
+17	ettepanekuid	ette_panek	NOUN	S	Case=Par|Number=Plur	18	obj	18:obj	_
+18	teha	tegema	VERB	V	VerbForm=Inf	14	xcomp	14:xcomp	SpaceAfter=No
+19	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb1_100439_29
+# text = Kui aastanumber juba vahetunud, läheb asi kergemaks.
+1	Kui	kui	SCONJ	J	_	4	mark	4:mark	_
+2	aastanumber	aasta_number	NOUN	S	Case=Nom|Number=Sing	4	nsubj	4:nsubj	_
+3	juba	juba	ADV	D	_	4	advmod	4:advmod	_
+4	vahetunud	vahetuma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	6	advcl	6:advcl	SpaceAfter=No
+5	,	,	PUNCT	Z	_	6	punct	6:punct	_
+6	läheb	minema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+7	asi	asi	NOUN	S	Case=Nom|Number=Sing	6	nsubj	6:nsubj	_
+8	kergemaks	kergem	ADJ	A	Case=Tra|Degree=Cmp|Number=Sing	6	xcomp	6:xcomp	SpaceAfter=No
+9	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb1_100439_30
+# text = Siis saab juba legitiimselt hakata jaanipäeva ootama.
+1	Siis	siis	ADV	D	_	5	advmod	5:advmod	_
+2	saab	saama	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
+3	juba	juba	ADV	D	_	4	advmod	4:advmod	_
+4	legitiimselt	legitiimselt	ADV	D	_	5	advmod	5:advmod	_
+5	hakata	hakkama	VERB	V	VerbForm=Inf	0	root	0:root	_
+6	jaanipäeva	jaani_päev	NOUN	S	Case=Par|Number=Sing	7	obj	7:obj	_
+7	ootama	ootama	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	5	xcomp	5:xcomp	SpaceAfter=No
+8	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = ewtb1_100439_31
+# text = Ja seda tegelikult oodata tasubki, jöule niivõrd mitte, sest nad tulevad nii kui nii.
+1	Ja	ja	CCONJ	J	_	5	cc	5:cc	_
+2	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	4	obj	4:obj	_
+3	tegelikult	tegelikult	ADV	D	_	5	advmod	5:advmod	_
+4	oodata	ootama	VERB	V	VerbForm=Inf	5	csubj	5:csubj	_
+5	tasubki	tasuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+6	,	,	PUNCT	Z	_	7	punct	7.1:punct	_
+7	jöule	jõulud	NOUN	S	Case=Par|Number=Plur|Typo=Yes	4	conj	7.1:obj	CorrectForm=jõule
+7.1	oodata	ootama	VERB	V	VerbForm=Inf	_	_	4:conj	Empty=7.1|Place=8
+8	niivõrd	nii_võrd	ADV	D	_	7	orphan	7.1:advmod	_
+9	mitte	mitte	ADV	D	Polarity=Neg	7	orphan	7.1:advmod	SpaceAfter=No
+10	,	,	PUNCT	Z	_	13	punct	13:punct	_
+11	sest	sest	SCONJ	J	_	13	mark	13:mark	_
+12	nad	tema	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	13:nsubj	_
+13	tulevad	tulema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	7.1:advcl	_
+14	nii	nii	ADV	D	_	13	advmod	13:advmod	_
+15	kui	kui	SCONJ	J	_	14	fixed	14:fixed	_
+16	nii	nii	ADV	D	_	14	fixed	14:fixed	SpaceAfter=No
+17	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = ewtb1_100439_32
+# text = Kas oled valmis?
+1	Kas	kas	ADV	D	_	3	advmod	3:advmod	_
+2	oled	olema	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
+3	valmis	valmis	ADJ	A	Degree=Pos	0	root	0:root	SpaceAfter=No
+4	?	?	PUNCT	Z	_	3	punct	3:punct	_
+
