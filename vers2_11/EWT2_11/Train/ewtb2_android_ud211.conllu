@@ -1,0 +1,1502 @@
+# newdoc id = ewtb2_android
+# sent_id = ewtb2_android_1
+# text = Nu jaa kass viib klaveri ka viiendale korrusele kui õieti peksta
+1	Nu	Nu	INTJ	B	_	4	discourse	4:discourse	_
+2	jaa	jaa	ADV	D	_	4	advmod	4:advmod	_
+3	kass	kass	NOUN	S	Case=Nom|Number=Sing	4	nsubj	4:nsubj	_
+4	viib	viima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	klaveri	klaver	NOUN	S	Case=Gen|Number=Sing	4	obj	4:obj	_
+6	ka	ka	ADV	D	_	4	advmod	4:advmod	_
+7	viiendale	viies	ADJ	N	Case=All|Number=Sing|NumForm=Word|NumType=Ord	8	amod	8:amod	_
+8	korrusele	korrus	NOUN	S	Case=All|Number=Sing	4	obl	4:obl	_
+9	kui	kui	SCONJ	J	_	11	mark	11:mark	_
+10	õieti	õieti	ADV	D	_	11	advmod	11:advmod	_
+11	peksta	peksma	VERB	V	VerbForm=Inf	4	advcl	4:advcl	_
+
+# sent_id = ewtb2_android_2
+# text = Sellel S3-el on ka raputamis- keeramis- ja peksmis jurasid tohhujaa ja bolshe, pooled keerasin kinni, sest nii kontrollimatut elu ei saa telole ka lubada aga teema oli ju, et telokaameras miski koliseb.
+1	Sellel	see	DET	P	Case=Ade|Number=Sing|PronType=Dem	2	det	2:det	_
+2	S3-el	S3	SYM	Y	Abbr=Yes|Case=Ade|Number=Sing	0	root	0:root	NE=B-Prod
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	2:cop	_
+4	ka	ka	ADV	D	_	2	advmod	2:advmod	_
+5	raputamis-	raputamis	NOUN	S	Hyph=Yes	9	nmod	9:nmod	_
+6	keeramis-	keeramis	NOUN	S	Hyph=Yes	5	conj	5:conj	_
+7	ja	ja	CCONJ	J	_	8	cc	8:cc	_
+8	peksmis	peksmis	NOUN	S	_	5	conj	5:conj	_
+9	jurasid	jura	NOUN	S	Case=Par|Number=Plur	2	nsubj:cop	2:nsubj	_
+10	tohhujaa	tohhujaa	ADV	D	_	2	advmod	2:advmod	_
+11	ja	ja	CCONJ	J	_	12	cc	12:cc	_
+12	bolshe	bolshe	ADV	D	_	10	conj	10:conj	SpaceAfter=No
+13	,	,	PUNCT	Z	_	15	punct	15:punct	_
+14	pooled	pool	NOUN	S	Case=Nom|Number=Plur	15	obj	15:obj	_
+15	keerasin	keerama	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	2:conj	_
+16	kinni	kinni	ADV	D	_	15	compound:prt	15:compound	SpaceAfter=No
+17	,	,	PUNCT	Z	_	26	punct	26:punct	_
+18	sest	sest	SCONJ	J	_	26	mark	26:mark	_
+19	nii	nii	ADV	D	_	20	advmod	20:advmod	_
+20	kontrollimatut	kontrolli=matu	ADJ	A	Case=Par|Degree=Pos|Number=Sing	21	amod	21:amod	_
+21	elu	elu	NOUN	S	Case=Par|Number=Sing	26	obj	26:obj	_
+22	ei	ei	AUX	V	Polarity=Neg	26	aux	26:aux	_
+23	saa	saama	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	26	aux	26:aux	_
+24	telole	telo	NOUN	S	Case=All|Number=Sing	26	obl	26:obl	_
+25	ka	ka	ADV	D	_	26	advmod	26:advmod	_
+26	lubada	lubama	VERB	V	VerbForm=Inf	15	advcl	15:advcl	_
+27	aga	aga	CCONJ	J	_	28	cc	28:cc	_
+28	teema	teema	NOUN	S	Case=Nom|Number=Sing	2	conj	2:conj	_
+29	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	28	cop	28:cop	_
+30	ju	ju	ADV	D	_	28	advmod	28:advmod	SpaceAfter=No
+31	,	,	PUNCT	Z	_	35	punct	35:punct	_
+32	et	et	SCONJ	J	_	35	mark	35:mark	_
+33	telokaameras	telo_kaamera	NOUN	S	Case=Ine|Number=Sing	35	obl	35:obl	_
+34	miski	miski	PRON	P	Case=Nom|Number=Sing|PronType=Ind	35	nsubj	35:nsubj	_
+35	koliseb	kolisema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	csubj	28:csubj	SpaceAfter=No
+36	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb2_android_3
+# text = Tabasalulauri kirjutas: kui nüüd õigesti mäletan siis sama probleem oli ka iphone 4s-il.
+1	Tabasalulauri	Tabasalu_lauri	PROPN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	NE=B-Per
+2	kirjutas	kirjutama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+3	:	:	PUNCT	Z	_	13	punct	13:punct	_
+4	kui	kui	SCONJ	J	_	7	mark	7:mark	_
+5	nüüd	nüüd	ADV	D	_	7	advmod	7:advmod	_
+6	õigesti	õigesti	ADV	D	_	7	advmod	7:advmod	_
+7	mäletan	mäletama	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	13:advcl	_
+8	siis	siis	ADV	D	_	13	advmod	13:advmod	_
+9	sama	sama	DET	P	Case=Nom|Number=Sing|PronType=Dem	10	det	10:det	_
+10	probleem	probleem	NOUN	S	Case=Nom|Number=Sing	13	nsubj:cop	13:nsubj	_
+11	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	13:cop	_
+12	ka	ka	ADV	D	_	13	advmod	13:advmod	_
+13	iphone	iPhone	PROPN	S	Case=Nom|Number=Sing	2	parataxis	2:parataxis	NE=B-Prod
+14	4s-il	4s	NOUN	Y	Abbr=Yes|Case=Ade|Number=Sing	13	flat	13:flat	NE=I-Prod|SpaceAfter=No
+15	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb2_android_4
+# text = kui kaamera juurest koputad siis kostub mingi krõbin.
+1	kui	kui	SCONJ	J	_	4	mark	4:mark	_
+2	kaamera	kaamera	NOUN	S	Case=Gen|Number=Sing	4	obl	4:obl	_
+3	juurest	juurest	ADP	K	AdpType=Post	2	case	2:case	_
+4	koputad	koputama	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	6:advcl	_
+5	siis	siis	ADV	D	_	6	advmod	6:advmod	_
+6	kostub	kostuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+7	mingi	mingi	DET	P	Case=Nom|Number=Sing|PronType=Ind	8	det	8:det	_
+8	krõbin	krõbin	NOUN	S	Case=Nom|Number=Sing	6	nsubj	6:nsubj	SpaceAfter=No
+9	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb2_android_5
+# text = sellest oli juttu juba päris ammu aga kui nüüd õigesti mäletan siis seda häält teeb kaamera fookus.
+1	sellest	see	PRON	P	Case=Ela|Number=Sing|PronType=Dem	0	root	0:root	_
+2	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	cop	1:cop	_
+3	juttu	jutt	NOUN	S	Case=Par|Number=Sing	1	nsubj:cop	1:nsubj	_
+4	juba	juba	ADV	D	_	5	advmod	5:advmod	_
+5	päris	päris	ADV	D	_	6	advmod	6:advmod	_
+6	ammu	ammu	ADV	D	_	1	advmod	1:advmod	_
+7	aga	aga	CCONJ	J	_	15	cc	15:cc	_
+8	kui	kui	SCONJ	J	_	11	mark	11:mark	_
+9	nüüd	nüüd	ADV	D	_	11	advmod	11:advmod	_
+10	õigesti	õigesti	ADV	D	_	11	advmod	11:advmod	_
+11	mäletan	mäletama	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	15:advcl	_
+12	siis	siis	ADV	D	_	15	advmod	15:advmod	_
+13	seda	see	DET	P	Case=Par|Number=Sing|PronType=Dem	14	det	14:det	_
+14	häält	hääl	NOUN	S	Case=Par|Number=Sing	15	obj	15:obj	_
+15	teeb	tegema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	1:conj	_
+16	kaamera	kaamera	NOUN	S	Case=Gen|Number=Sing	17	nmod	17:nmod	_
+17	fookus	fookus	NOUN	S	Case=Nom|Number=Sing	15	nsubj	15:nsubj	SpaceAfter=No
+18	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ewtb2_android_6
+# text = proovi kaamera app sisse lülitada ja siis peaks klõbin läinud olema.
+1	proovi	proovima	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	kaamera	kaamera	NOUN	S	Case=Gen|Number=Sing	3	nmod	3:nmod	_
+3	app	app	NOUN	S	Case=Nom|Number=Sing	5	obj	5:obj	_
+4	sisse	sisse	ADV	D	_	5	compound:prt	5:compound	_
+5	lülitada	lülitama	VERB	V	VerbForm=Inf	1	xcomp	1:xcomp	_
+6	ja	ja	CCONJ	J	_	10	cc	10:cc	_
+7	siis	siis	ADV	D	_	10	advmod	10:advmod	_
+8	peaks	pidama	AUX	V	Mood=Cnd|Number=Sing|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
+9	klõbin	klõbin	NOUN	S	Case=Nom|Number=Sing	10	nsubj	10:nsubj	_
+10	läinud	minema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	1	conj	1:conj	_
+11	olema	olema	AUX	V	Case=Ill|VerbForm=Sup|Voice=Act	10	aux	10:aux	SpaceAfter=No
+12	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ewtb2_android_7
+# text = Seda lugesin ise ka kuskilt, kuid see ei aidanud midagi.
+1	Seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	2	obj	2:obj	_
+2	lugesin	lugema	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	ise	ise	ADV	D	_	2	advmod	2:advmod	_
+4	ka	ka	ADV	D	_	2	advmod	2:advmod	_
+5	kuskilt	kuskilt	ADV	D	_	2	advmod	2:advmod	SpaceAfter=No
+6	,	,	PUNCT	Z	_	10	punct	10:punct	_
+7	kuid	kuid	CCONJ	J	_	10	cc	10:cc	_
+8	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	10	nsubj	10:nsubj	_
+9	ei	ei	AUX	V	Polarity=Neg	10	aux	10:aux	_
+10	aidanud	aitama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	2:conj	_
+11	midagi	miski	PRON	P	Case=Par|Number=Sing|PronType=Ind	10	obl	10:obl	SpaceAfter=No
+12	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb2_android_8
+# text = Panin kaamera peale ja ikka endistmoodi kõrin.
+1	Panin	panema	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	kaamera	kaamera	NOUN	S	Case=Gen|Number=Sing	1	obj	1:obj	_
+3	peale	peale	ADV	D	_	1	compound:prt	1:compound	_
+4	ja	ja	CCONJ	J	_	5	cc	5:cc	_
+5	ikka	ikka	ADV	D	_	1	conj	1:conj	_
+6	endistmoodi	endist_moodi	ADJ	A	Degree=Pos	7	amod	7:amod	_
+7	kõrin	kõrin	NOUN	S	Case=Nom|Number=Sing	5	nsubj:cop	5:nsubj	SpaceAfter=No
+8	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ewtb2_android_9
+# text = reps kirjutas: A miks peab telefoni raputama või taguma, kas see on sheiker või uks millele koputatakse
+1	reps	reps	PROPN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	NE=B-Per
+2	kirjutas	kirjutama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+3	:	:	PUNCT	Z	_	8	punct	8:punct	_
+4	A	a	SCONJ	J	_	8	mark	8:mark	_
+5	miks	miks	ADV	D	_	8	mark	8:mark	_
+6	peab	pidama	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
+7	telefoni	telefon	NOUN	S	Case=Par|Number=Sing	8	obj	8:obj	_
+8	raputama	raputama	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	2	parataxis	2:parataxis	_
+9	või	või	CCONJ	J	_	10	cc	10:cc	_
+10	taguma	taguma	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	8	conj	8:conj	SpaceAfter=No
+11	,	,	PUNCT	Z	_	15	punct	15:punct	_
+12	kas	kas	ADV	D	_	15	advmod	15:advmod	_
+13	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	15	nsubj:cop	15:nsubj	_
+14	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	15:cop	_
+15	sheiker	šeiker	NOUN	S	Case=Nom|Number=Sing|Typo=Yes	8	conj	8:conj	CorrectForm=šeiker
+16	või	või	CCONJ	J	_	17	cc	17:cc	_
+17	uks	uks	NOUN	S	Case=Nom|Number=Sing	15	conj	15:conj|19:obl	_
+18	millele	mis	PRON	P	Case=All|Number=Sing|PronType=Int,Rel	19	obl	17:ref	_
+19	koputatakse	koputama	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	17	acl:relcl	17:acl	_
+
+# sent_id = ewtb2_android_10
+# text = Muideks ka fotokad logisevad väljalülitatuna, sest kõik need stabika ja fokusseerimissüsteemid peavad saama vabalt liikuda.
+1	Muideks	muideks	ADV	D	_	4	advmod	4:advmod	_
+2	ka	ka	ADV	D	_	3	advmod	3:advmod	_
+3	fotokad	fotokas	NOUN	S	Case=Nom|Number=Plur	4	nsubj	4:nsubj	_
+4	logisevad	logisema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	väljalülitatuna	välja_lülita=tu	NOUN	S	Case=Ess|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	obl	4:obl	SpaceAfter=No
+6	,	,	PUNCT	Z	_	16	punct	16:punct	_
+7	sest	sest	SCONJ	J	_	16	mark	16:mark	_
+8	kõik	kõik	DET	P	Case=Nom|Number=Plur|PronType=Tot	10	det	10:det	_
+9	need	see	DET	P	Case=Nom|Number=Plur|PronType=Dem	10	det	10:det	_
+10	stabika	stabika	NOUN	S	Case=Gen|Number=Sing	16	nsubj	16:nsubj	_
+11	ja	ja	CCONJ	J	_	12	cc	12:cc	_
+12	fokusseerimissüsteemid	fokusseeri=mis_süsteem	NOUN	S	Case=Nom|Number=Plur	10	conj	10:conj	_
+13	peavad	pidama	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	16:aux	_
+14	saama	saama	AUX	V	Case=Ill|VerbForm=Sup|Voice=Act	16	aux	16:aux	_
+15	vabalt	vabalt	ADV	D	_	16	advmod	16:advmod	_
+16	liikuda	liikuma	VERB	V	VerbForm=Inf	4	advcl	4:advcl	SpaceAfter=No
+17	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb2_android_11
+# text = Keegi ei raputagi, lihtsalt mina märkasin seda nt kui lauale olen asetanud ka
+1	Keegi	keegi	PRON	P	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	3:nsubj	_
+2	ei	ei	AUX	V	Polarity=Neg	3	aux	3:aux	_
+3	raputagi	raputama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	Z	_	7	punct	7:punct	_
+5	lihtsalt	lihtsalt	ADV	D	_	7	advmod	7:advmod	_
+6	mina	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	_
+7	märkasin	märkama	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	3:conj	_
+8	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	7	obj	7:obj	_
+9	nt	nt	ADV	Y	Abbr=Yes	13	obl	13:obl	_
+10	kui	kui	SCONJ	J	_	13	mark	13:mark	_
+11	lauale	laud	NOUN	S	Case=All|Number=Sing	13	obl	13:obl	_
+12	olen	olema	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	13:aux	_
+13	asetanud	asetama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	7	advcl	7:advcl	_
+14	ka	ka	ADV	D	_	13	advmod	13:advmod	_
+
+# sent_id = ewtb2_android_12
+# text = Ega jah, teema oli jah kõrin telefonis.
+1	Ega	ega	ADV	D	Polarity=Neg	2	advmod	2:advmod	_
+2	jah	jah	ADV	D	_	4	advmod	4:advmod	SpaceAfter=No
+3	,	,	PUNCT	Z	_	4	punct	4:punct	_
+4	teema	teema	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+5	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+6	jah	jah	ADV	D	_	4	advmod	4:advmod	_
+7	kõrin	kõrin	NOUN	S	Case=Nom|Number=Sing	4	nsubj:cop	4:nsubj	_
+8	telefonis	telefon	NOUN	S	Case=Ine|Number=Sing	7	nmod	7:nmod	SpaceAfter=No
+9	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb2_android_13
+# text = Aga kui ma kirjutasin sellest Samsungi Tehnilisse abise facebookis, siis seal öeldi ainult, et mine garantiisse
+1	Aga	aga	CCONJ	J	_	4	cc	4:cc	_
+2	kui	kui	SCONJ	J	_	4	mark	4:mark	_
+3	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	_
+4	kirjutasin	kirjutama	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	13	advcl	13:advcl	_
+5	sellest	see	PRON	P	Case=Ela|Number=Sing|PronType=Dem	4	obl	4:obl	_
+6	Samsungi	Samsung	PROPN	S	Case=Gen|Number=Sing	8	nmod	8:nmod	NE=B-Org
+7	Tehnilisse	tehniline	ADJ	A	Case=Add|Degree=Pos|Number=Sing	8	amod	8:amod	NE=I-Org
+8	abise	abi	NOUN	S	Case=Ill|Number=Sing|Typo=Yes	4	obl	4:obl	NE=I-Org|CorrectForm=abisse
+9	facebookis	Facebook	PROPN	S	Case=Ine|Number=Sing	4	obl	4:obl	NE=B-Prod|SpaceAfter=No
+10	,	,	PUNCT	Z	_	13	punct	13:punct	_
+11	siis	siis	SCONJ	J	_	13	mark	13:mark	_
+12	seal	seal	ADV	D	_	13	advmod	13:advmod	_
+13	öeldi	ütlema	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	0:root	_
+14	ainult	ainult	ADV	D	_	13	advmod	13:advmod	SpaceAfter=No
+15	,	,	PUNCT	Z	_	17	punct	17:punct	_
+16	et	et	SCONJ	J	_	17	mark	17:mark	_
+17	mine	minema	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	13	ccomp	13:ccomp	_
+18	garantiisse	garantii	NOUN	S	Case=Ill|Number=Sing	17	obl	17:obl	_
+
+# sent_id = ewtb2_android_14
+# text = Kogu selle jutu peale: "Ah midaignes"
+1	Kogu	kogu	DET	A	PronType=Tot	3	det	3:det	_
+2	selle	see	DET	P	Case=Gen|Number=Sing|PronType=Dem	3	det	3:det	_
+3	jutu	jutt	NOUN	S	Case=Gen|Number=Sing	0	root	0:root	_
+4	peale	peale	ADP	K	AdpType=Post	3	case	3:case	SpaceAfter=No
+5	:	:	PUNCT	Z	_	8	punct	8:punct	_
+6	"	"	PUNCT	Z	_	8	punct	8:punct	SpaceAfter=No
+7	Ah	ah	INTJ	B	_	8	discourse	8:discourse	_
+8	midaignes	mida_iganes	ADV	D	Typo=Yes	3	parataxis	3:parataxis	SpaceAfter=No|CorrectForm=midaiganes|ErrCompound=Yes
+9	"	"	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = ewtb2_android_15
+# text = (Kõik on korras, töötab ilusti ja ei häiri)
+1	(	(	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
+2	Kõik	kõik	PRON	P	Case=Nom|Number=Sing|PronType=Tot	4	nsubj:cop	4:nsubj	_
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+4	korras	kord	NOUN	S	Case=Ine|Number=Sing	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	Z	_	6	punct	6:punct	_
+6	töötab	töötama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	4:conj	_
+7	ilusti	ilusti	ADV	D	_	6	advmod	6:advmod	_
+8	ja	ja	CCONJ	J	_	10	cc	10:cc	_
+9	ei	ei	AUX	V	Polarity=Neg	10	aux	10:aux	_
+10	häiri	häirima	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	4:conj	SpaceAfter=No
+11	)	)	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb2_android_16
+# text = Tabasalulauri kirjutas: see krõbin ei ole mitte mingitest lahtistest kruvidest või muudest vidinatest vaid kaamera stabilisaatorist.
+1	Tabasalulauri	Tabasalu_lauri	PROPN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	NE=B-Per
+2	kirjutas	kirjutama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+3	:	:	PUNCT	Z	_	11	punct	11:punct	_
+4	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	5	det	5:det	_
+5	krõbin	krõbin	NOUN	S	Case=Nom|Number=Sing	11	nsubj:cop	11:nsubj	_
+6	ei	ei	AUX	V	Polarity=Neg	11	aux	11:aux	_
+7	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
+8	mitte	mitte	ADV	D	Polarity=Neg	11	advmod	11:advmod	_
+9	mingitest	mingi	DET	P	Case=Ela|Number=Plur|PronType=Ind	11	det	11:det	_
+10	lahtistest	lahtine	ADJ	A	Case=Ela|Degree=Pos|Number=Plur	11	amod	11:amod	_
+11	kruvidest	kruvi	NOUN	S	Case=Ela|Number=Plur	2	parataxis	2:parataxis	_
+12	või	või	CCONJ	J	_	14	cc	14:cc	_
+13	muudest	muu	PRON	P	Case=Ela|Number=Plur|PronType=Ind	14	amod	14:amod	_
+14	vidinatest	vidin	NOUN	S	Case=Ela|Number=Plur	11	conj	11:conj	_
+15	vaid	vaid	CCONJ	J	_	17	cc	17:cc	_
+16	kaamera	kaamera	NOUN	S	Case=Gen|Number=Sing	17	nmod	17:nmod	_
+17	stabilisaatorist	stabilisaator	NOUN	S	Case=Ela|Number=Sing	11	conj	11:conj	SpaceAfter=No
+18	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb2_android_17
+# text = mis ilma kaamera appi töötamiseta seal niisama kõigub.
+1	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	8	nsubj	8:nsubj	_
+2	ilma	ilma	ADP	K	AdpType=Prep	5	case	5:case	_
+3	kaamera	kaamera	NOUN	S	Case=Gen|Number=Sing	4	nmod	4:nmod	_
+4	appi	app	NOUN	S	Case=Gen|Number=Sing	5	nmod	5:nmod	_
+5	töötamiseta	töötamine	NOUN	S	Case=Abe|Number=Sing	8	obl	8:obl	_
+6	seal	seal	ADV	D	_	8	advmod	8:advmod	_
+7	niisama	nii_sama	ADV	D	_	8	advmod	8:advmod	_
+8	kõigub	kõikuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+9	.	.	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = ewtb2_android_18
+# text = Pole vahet, kas kasutada kaamerat või ei, sama vali klõbin on ikka.
+1	Pole	olema	VERB	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	vahet	vahe	NOUN	S	Case=Par|Number=Sing	1	nsubj	1:nsubj	SpaceAfter=No
+3	,	,	PUNCT	Z	_	5	punct	5:punct	_
+4	kas	kas	ADV	D	_	5	cc:preconj	5:cc	_
+5	kasutada	kasutama	VERB	V	VerbForm=Inf	2	acl	2:acl	_
+6	kaamerat	kaamera	NOUN	S	Case=Par|Number=Sing	5	obj	5:obj	_
+7	või	või	CCONJ	J	_	8	cc	8:cc	_
+8	ei	ei	ADV	D	_	6	conj	6:conj	SpaceAfter=No
+9	,	,	PUNCT	Z	_	13	punct	13:punct	_
+10	sama	sama	ADV	D	_	11	advmod	11:advmod	_
+11	vali	vali	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	12	amod	12:amod	_
+12	klõbin	klõbin	NOUN	S	Case=Nom|Number=Sing	13	nsubj	13:nsubj	_
+13	on	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	1:conj	_
+14	ikka	ikka	ADV	D	_	13	advmod	13:advmod	SpaceAfter=No
+15	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ewtb2_android_19
+# text = Veel huvitaks mind selline asi, kuidas sai kriimustusekindlale gorilla glassile imepeenike kriim tekkida?
+1	Veel	veel	ADV	D	_	2	advmod	2:advmod	_
+2	huvitaks	huvitama	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	mind	mina	PRON	P	Case=Par|Number=Sing|Person=1|PronType=Prs	2	obj	2:obj	_
+4	selline	selline	DET	P	Case=Nom|Number=Sing|PronType=Dem	5	det	5:det	_
+5	asi	asi	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	SpaceAfter=No
+6	,	,	PUNCT	Z	_	14	punct	14:punct	_
+7	kuidas	kuidas	ADV	D	_	14	mark	14:mark	_
+8	sai	saama	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
+9	kriimustusekindlale	kriimustuse_kindel	ADJ	A	Case=All|Degree=Pos|Number=Sing	10	amod	10:amod	_
+10	gorilla	Gorilla	PROPN	S	Case=Nom|Number=Sing	14	obl	14:obl	NE=B-Prod
+11	glassile	Glass	PROPN	S	Case=All|Number=Sing	10	flat	10:flat	NE=I-Prod
+12	imepeenike	ime_peenike	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	13	amod	13:amod	_
+13	kriim	kriim	NOUN	S	Case=Nom|Number=Sing	14	nsubj	14:nsubj	_
+14	tekkida	tekkima	VERB	V	VerbForm=Inf	5	acl	5:acl	SpaceAfter=No
+15	?	?	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb2_android_20
+# text = Enda meelest hoian oma Samsungi üsna hoolega, lisaks on ta alati koti sees ka, kui taskus või laual või kuskil on.
+1	Enda	ise	PRON	P	Case=Gen|Number=Sing|PronType=Prs|Reflex=Yes	3	obl	3:obl	_
+2	meelest	meelest	ADP	K	AdpType=Post	1	case	1:case	_
+3	hoian	hoidma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	5:nmod	_
+5	Samsungi	Samsungi	PROPN	S	Case=Par|Number=Sing	3	obj	3:obj	NE=B-Prod
+6	üsna	üsna	ADV	D	_	7	advmod	7:advmod	_
+7	hoolega	hool	NOUN	S	Case=Com|Number=Sing	3	obl	3:obl	SpaceAfter=No
+8	,	,	PUNCT	Z	_	13	punct	13:punct	_
+9	lisaks	lisa	NOUN	S	Case=Tra|Number=Sing	13	obl	13:obl	_
+10	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	13:cop	_
+11	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	13	nsubj:cop	13:nsubj	_
+12	alati	alati	ADV	D	_	13	advmod	13:advmod	_
+13	koti	kott	NOUN	S	Case=Gen|Number=Sing	3	conj	3:conj	_
+14	sees	sees	ADP	K	AdpType=Post	13	case	13:case	_
+15	ka	ka	ADV	D	_	13	advmod	13:advmod	SpaceAfter=No
+16	,	,	PUNCT	Z	_	18	punct	18:punct	_
+17	kui	kui	SCONJ	J	_	18	mark	18:mark	_
+18	taskus	tasku	NOUN	S	Case=Ine|Number=Sing	13	advcl	13:advcl	_
+19	või	või	CCONJ	J	_	20	cc	20:cc	_
+20	laual	laud	NOUN	S	Case=Ade|Number=Sing	18	conj	18:conj	_
+21	või	või	CCONJ	J	_	22	cc	22:cc	_
+22	kuskil	kuskil	ADV	D	_	18	conj	18:conj	_
+23	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	18:cop	SpaceAfter=No
+24	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb2_android_21
+# text = Ei mäleta ka, et miski oleks vastu läinud niimoodi.
+1	Ei	ei	AUX	V	Polarity=Neg	2	aux	2:aux	_
+2	mäleta	mäletama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	ka	ka	ADV	D	_	2	advmod	2:advmod	SpaceAfter=No
+4	,	,	PUNCT	Z	_	9	punct	9:punct	_
+5	et	et	SCONJ	J	_	9	mark	9:mark	_
+6	miski	miski	PRON	P	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	9:nsubj	_
+7	oleks	olema	AUX	V	Mood=Cnd|Number=Sing|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
+8	vastu	vastu	ADV	D	_	9	compound:prt	9:compound	_
+9	läinud	minema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	2	ccomp	2:ccomp	_
+10	niimoodi	nii_moodi	ADV	D	_	9	advmod	9:advmod	SpaceAfter=No
+11	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb2_android_22
+# text = Gorilla klaas pn eesti keeles katastatud klaas.
+1	Gorilla	gorilla	PROPN	S	Case=Nom|Number=Sing	2	nmod	2:nmod	NE=B-Prod
+2	klaas	klaas	NOUN	S	Case=Nom|Number=Sing	7	nsubj:cop	7:nsubj	NE=I-Prod
+3	pn	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin|Voice=Act	7	cop	7:cop	CorrectForm=on
+4	eesti	eesti	ADJ	G	_	5	amod	5:amod	_
+5	keeles	keel	NOUN	S	Case=Ine|Number=Sing	7	obl	7:obl	_
+6	katastatud	karasta=tud	ADJ	A	Degree=Pos|Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass	7	amod	7:amod	CorrectForm=karastatud
+7	klaas	klaas	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
+8	.	.	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = ewtb2_android_23
+# text = Aga ega see ei ole 100% kriimu kindel
+1	Aga	aga	CCONJ	J	_	9	cc	9:cc	_
+2	ega	ega	CCONJ	J	Polarity=Neg	9	cc	9:cc	_
+3	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	9	nsubj:cop	9:nsubj	_
+4	ei	ei	AUX	V	Connegative=Yes	9	aux	9:aux	_
+5	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
+6	100	100	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	7	nummod	7:nummod	SpaceAfter=No
+7	%	%	SYM	X	_	9	obl	9:obl	_
+8	kriimu	kriim	NOUN	S	Case=Gen|Number=Sing	9	obl	9:obl	_
+9	kindel	kindel	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	_
+
+# sent_id = ewtb2_android_24
+# text = Kile kuluks ikka ära
+1	Kile	kile	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	_
+2	kuluks	kuluma	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	ikka	ikka	ADV	D	_	2	advmod	2:advmod	_
+4	ära	ära	ADV	D	_	2	compound:prt	2:compound	_
+
+# sent_id = ewtb2_android_25
+# text = see gorilla glass tähendab põhimõtteliselt seda, et kui telefoni maha viskad siis ei lähe praod üle terve ekraani.
+1	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	2	det	2:det	_
+2	gorilla	Gorilla	PROPN	S	Case=Nom|Number=Sing	4	nsubj	4:nsubj	NE=B-Prod
+3	glass	Glass	PROPN	S	Case=Nom|Number=Sing	2	flat	2:flat	NE=I-Prod
+4	tähendab	tähendama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	põhimõtteliselt	põhi_mõtteliselt	ADV	D	_	4	advmod	4:advmod	_
+6	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	4	obj	4:obj	SpaceAfter=No
+7	,	,	PUNCT	Z	_	15	punct	15:punct	_
+8	et	et	SCONJ	J	_	15	mark	15:mark	_
+9	kui	kui	SCONJ	J	_	12	mark	12:mark	_
+10	telefoni	telefon	NOUN	S	Case=Gen|Number=Sing	12	obj	12:obj	_
+11	maha	maha	ADV	D	_	12	compound:prt	12:compound	_
+12	viskad	viskama	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	15:advcl	_
+13	siis	siis	ADV	D	_	15	advmod	15:advmod	_
+14	ei	ei	AUX	V	Polarity=Neg	15	aux	15:aux	_
+15	lähe	minema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl	6:acl	_
+16	praod	pragu	NOUN	S	Case=Nom|Number=Plur	15	nsubj	15:nsubj	_
+17	üle	üle	ADP	K	AdpType=Prep	19	case	19:case	_
+18	terve	terve	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	19	amod	19:amod	_
+19	ekraani	ekraan	NOUN	S	Case=Gen|Number=Sing	15	obl	15:obl	SpaceAfter=No
+20	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb2_android_26
+# text = Vastupidi, karastatud klaas on tugevam paindele, läbipaindele ja kriimude suhtes ...
+1	Vastupidi	vastu_pidi	ADV	D	_	6	advmod	6:advmod	SpaceAfter=No
+2	,	,	PUNCT	Z	_	6	punct	6:punct	_
+3	karastatud	karasta=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	4	acl	4:acl	_
+4	klaas	klaas	NOUN	S	Case=Nom|Number=Sing	6	nsubj:cop	6:nsubj	_
+5	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
+6	tugevam	tugevam	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	0	root	0:root	_
+7	paindele	paine	NOUN	S	Case=All|Number=Sing	6	obl	6:obl	SpaceAfter=No
+8	,	,	PUNCT	Z	_	9	punct	9:punct	_
+9	läbipaindele	läbi_paine	NOUN	S	Case=All|Number=Sing	7	conj	7:conj	_
+10	ja	ja	CCONJ	J	_	11	cc	11:cc	_
+11	kriimude	kriim	NOUN	S	Case=Gen|Number=Plur	7	conj	7:conj	_
+12	suhtes	suhtes	ADP	K	AdpType=Post	11	case	11:case	_
+13	...	...	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb2_android_27
+# text = kui peale astud siis on ebatõenäolisem et ekraani katki astud ...
+1	kui	kui	SCONJ	J	_	3	mark	3:mark	_
+2	peale	peale	ADV	D	_	3	compound:prt	3:compound	_
+3	astud	astuma	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	6:advcl	_
+4	siis	siis	ADV	D	_	6	advmod	6:advmod	_
+5	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
+6	ebatõenäolisem	eba_tõe_näolise=m	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	0	root	0:root	_
+7	et	et	SCONJ	J	_	10	mark	10:mark	_
+8	ekraani	ekraan	NOUN	S	Case=Gen|Number=Sing	10	obj	10:obj	_
+9	katki	katki	ADV	D	_	10	compound:prt	10:compound	_
+10	astud	astuma	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	csubj:cop	6:csubj	_
+11	...	...	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb2_android_28
+# text = Karastatud klaas on ainuke mõistlik klaas suurte ja õhukeste telefonide puhul, see lisab telefonile tugevust.
+1	Karastatud	karasta=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	2:acl	_
+2	klaas	klaas	NOUN	S	Case=Nom|Number=Sing	6	nsubj:cop	6:nsubj	_
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
+4	ainuke	ainuke	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	6	amod	6:amod	_
+5	mõistlik	mõistlik	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	6	amod	6:amod	_
+6	klaas	klaas	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+7	suurte	suur	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	10	amod	10:amod	_
+8	ja	ja	CCONJ	J	_	9	cc	9:cc	_
+9	õhukeste	õhuke	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	7	conj	7:conj	_
+10	telefonide	telefon	NOUN	S	Case=Gen|Number=Plur	6	obl	6:obl	_
+11	puhul	puhul	ADP	K	AdpType=Post	10	case	10:case	SpaceAfter=No
+12	,	,	PUNCT	Z	_	14	punct	14:punct	_
+13	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	14	nsubj	14:nsubj	_
+14	lisab	lisama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	6:conj	_
+15	telefonile	telefon	NOUN	S	Case=All|Number=Sing	14	obl	14:obl	_
+16	tugevust	tugevus	NOUN	S	Case=Par|Number=Sing	14	obj	14:obj	SpaceAfter=No
+17	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb2_android_29
+# text = sama klaasi paksuse juures on karastatud klaas oluliselt tugevam, st karastatud klaasi kasutades saab telefonist võtta natuke paksust vähemaks ... st, sama tugevuse saab lihtsalt õhema klaasiga.
+1	sama	sama	DET	P	Case=Gen|Number=Sing|PronType=Dem	3	det	3:det	_
+2	klaasi	klaas	NOUN	S	Case=Gen|Number=Sing	3	nmod	3:nmod	_
+3	paksuse	paksus	NOUN	S	Case=Gen|Number=Sing	9	obl	9:obl	_
+4	juures	juures	ADP	K	AdpType=Post	3	case	3:case	_
+5	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
+6	karastatud	karasta=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	7:acl	_
+7	klaas	klaas	NOUN	S	Case=Nom|Number=Sing	9	nsubj:cop	9:nsubj	_
+8	oluliselt	oluliselt	ADV	D	_	9	advmod	9:advmod	_
+9	tugevam	tugevam	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	0	root	0:root	SpaceAfter=No
+10	,	,	PUNCT	Z	_	17	punct	17:punct	_
+11	st	st	ADV	Y	Abbr=Yes	17	obl	17:obl	_
+12	karastatud	karasta=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	13	acl	13:acl	_
+13	klaasi	klaas	NOUN	S	Case=Par|Number=Sing	14	obj	14:obj	_
+14	kasutades	kasutama	VERB	V	VerbForm=Conv	17	advcl	17:advcl	_
+15	saab	saama	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	17:aux	_
+16	telefonist	telefon	NOUN	S	Case=Ela|Number=Sing	17	obl	17:obl	_
+17	võtta	võtma	VERB	V	VerbForm=Inf	9	conj	9:conj	_
+18	natuke	natuke	ADV	D	_	17	advmod	17:advmod	_
+19	paksust	paksus	NOUN	S	Case=Par|Number=Sing	17	obj	17:obj	_
+20	vähemaks	vähem	ADJ	A	Case=Tra|Degree=Cmp|Number=Sing	17	xcomp	17:xcomp	_
+21	...	...	PUNCT	Z	_	9	punct	9:punct	_
+22	st	st	ADV	Y	Abbr=Yes	26	obl	26:obl	SpaceAfter=No
+23	,	,	PUNCT	Z	_	26	punct	26:punct	_
+24	sama	sama	DET	P	Case=Gen|Number=Sing|PronType=Dem	25	det	25:det	_
+25	tugevuse	tugevus	NOUN	S	Case=Gen|Number=Sing	26	obj	26:obj	_
+26	saab	saama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	9:conj	_
+27	lihtsalt	lihtsalt	ADV	D	_	26	advmod	26:advmod	_
+28	õhema	õhem	ADJ	A	Case=Gen|Degree=Cmp|Number=Sing	29	amod	29:amod	_
+29	klaasiga	klaas	NOUN	S	Case=Com|Number=Sing	26	obl	26:obl	SpaceAfter=No
+30	.	.	PUNCT	Z	_	9	punct	9:punct	_
+
+# sent_id = ewtb2_android_30
+# text = Karastatud klas ei võrdu kriimuvaba klaas.
+1	Karastatud	karasta=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	2:acl	_
+2	klas	klaas	NOUN	S	Case=Nom|Number=Sing|Typo=Yes	4	nsubj	4:nsubj	CorrectForm=klaas
+3	ei	ei	AUX	V	Polarity=Neg	4	aux	4:aux	_
+4	võrdu	võrduma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	kriimuvaba	kriimu_vaba	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	6	amod	6:amod	_
+6	klaas	klaas	NOUN	S	Case=Nom|Number=Sing	4	obl	4:obl	SpaceAfter=No
+7	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb2_android_31
+# text = Samas karastatud klaas, või kui soovid siis pärdikklaas, on väga õrn nurga löökide suhtes.
+1	Samas	samas	ADV	D	_	13	advmod	13:advmod	_
+2	karastatud	karasta=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	3:acl	_
+3	klaas	klaas	NOUN	S	Case=Nom|Number=Sing	13	nsubj:cop	13:nsubj	SpaceAfter=No
+4	,	,	PUNCT	Z	_	9	punct	9:punct	_
+5	või	või	CCONJ	J	_	9	cc	9:cc	_
+6	kui	kui	SCONJ	J	_	7	mark	7:mark	_
+7	soovid	soovima	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	9:advcl	_
+8	siis	siis	ADV	D	_	9	advmod	9:advmod	_
+9	pärdikklaas	pärdik_klaas	NOUN	S	Case=Nom|Number=Sing	3	conj	3:conj	SpaceAfter=No
+10	,	,	PUNCT	Z	_	13	punct	13:punct	_
+11	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	13:cop	_
+12	väga	väga	ADV	D	_	13	advmod	13:advmod	_
+13	õrn	õrn	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	_
+14	nurga	nurk	NOUN	S	Case=Gen|Number=Sing	15	nmod	15:nmod	_
+15	löökide	löök	NOUN	S	Case=Gen|Number=Plur	13	obl	13:obl	_
+16	suhtes	suhtes	ADP	K	AdpType=Post	15	case	15:case	SpaceAfter=No
+17	.	.	PUNCT	Z	_	13	punct	13:punct	_
+
+# sent_id = ewtb2_android_32
+# text = ja kui saab tugeva löögi nurka siis on ekraan totaalselt puru, samas kui tavalisel klaasile võib teha vaid ühe pooliku prao, kui sedagi.
+1	ja	ja	CCONJ	J	_	3	cc	3:cc	_
+2	kui	kui	SCONJ	J	_	3	mark	3:mark	_
+3	saab	saama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	11:advcl	_
+4	tugeva	tugev	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	5	amod	5:amod	_
+5	löögi	löök	NOUN	S	Case=Gen|Number=Sing	3	obj	3:obj	_
+6	nurka	nurk	NOUN	S	Case=Add|Number=Sing	3	obl	3:obl	_
+7	siis	siis	ADV	D	_	11	advmod	11:advmod	_
+8	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
+9	ekraan	ekraan	NOUN	S	Case=Nom|Number=Sing	11	nsubj:cop	11:nsubj	_
+10	totaalselt	totaalselt	ADV	D	_	11	advmod	11:advmod	_
+11	puru	puru	ADV	D	_	0	root	0:root	SpaceAfter=No
+12	,	,	PUNCT	Z	_	18	punct	18:punct	_
+13	samas	samas	ADV	D	_	18	advmod	18:advmod	_
+14	kui	kui	SCONJ	J	_	13	fixed	13:fixed	_
+15	tavalisel	tavaline	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	16	amod	16:amod	CorrectCase=All|CorrectForm=tavalisele
+16	klaasile	klaas	NOUN	S	Case=All|Number=Sing	18	obl	18:obl	_
+17	võib	võima	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	18:aux	_
+18	teha	tegema	VERB	V	VerbForm=Inf	11	advcl	11:advcl	_
+19	vaid	vaid	ADV	D	_	22	advmod	22:advmod	_
+20	ühe	üks	NUM	N	Case=Gen|Number=Sing|NumForm=Word|NumType=Card	22	nummod	22:nummod	_
+21	pooliku	poolik	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	22	amod	22:amod	_
+22	prao	pragu	NOUN	S	Case=Gen|Number=Sing	18	obj	18:obj	SpaceAfter=No
+23	,	,	PUNCT	Z	_	25	punct	25:punct	_
+24	kui	kui	SCONJ	J	_	25	mark	25:mark	_
+25	sedagi	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	18	advcl	18:advcl	SpaceAfter=No
+26	.	.	PUNCT	Z	_	11	punct	11:punct	_
+
+# sent_id = ewtb2_android_33
+# text = Selge, tänud vastuste eest!
+1	Selge	selge	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	Z	_	1	punct	1:punct	_
+3	tänud	tänu	NOUN	S	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	1	nsubj	1:nsubj	_
+4	vastuste	vastus	NOUN	S	Case=Gen|Number=Plur	3	nmod	3:nmod	_
+5	eest	eest	ADP	K	AdpType=Post	4	case	4:case	SpaceAfter=No
+6	!	!	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ewtb2_android_34
+# text = Kas keegi teab, kust saaks ekraani kaitsekilet osta?
+1	Kas	kas	ADV	D	_	3	advmod	3:advmod	_
+2	keegi	keegi	PRON	P	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	3:nsubj	_
+3	teab	teadma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	Z	_	9	punct	9:punct	_
+5	kust	kust	ADV	D	_	9	mark	9:mark	_
+6	saaks	saama	AUX	V	Mood=Cnd|Number=Sing|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
+7	ekraani	ekraan	NOUN	S	Case=Gen|Number=Sing	8	nmod	8:nmod	_
+8	kaitsekilet	kaitse_kile	NOUN	S	Case=Par|Number=Sing	9	obj	9:obj	_
+9	osta	ostma	VERB	V	VerbForm=Inf	3	ccomp	3:ccomp	SpaceAfter=No
+10	?	?	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb2_android_35
+# text = Tere, kas keegi oskaks öelda, mis tekitab sellist kõrisevat häält telefoni ülaosas, kui seda veidi raputada või sõrmega kergelt toksata?
+1	Tere	tere	INTJ	B	_	5	discourse	5:discourse	SpaceAfter=No
+2	,	,	PUNCT	Z	_	5	punct	5:punct	_
+3	kas	kas	ADV	D	_	5	advmod	5:advmod	_
+4	keegi	keegi	PRON	P	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	5:nsubj	_
+5	oskaks	oskama	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+6	öelda	ütlema	VERB	V	VerbForm=Inf	5	xcomp	5:xcomp	SpaceAfter=No
+7	,	,	PUNCT	Z	_	9	punct	9:punct	_
+8	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	9	nsubj	9:nsubj	_
+9	tekitab	tekitama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	6:ccomp	_
+10	sellist	selline	DET	P	Case=Par|Number=Sing|PronType=Dem	12	det	12:det	_
+11	kõrisevat	kõrise=v	ADJ	A	Case=Par|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	acl	12:acl	_
+12	häält	hääl	NOUN	S	Case=Par|Number=Sing	9	obj	9:obj	_
+13	telefoni	telefon	NOUN	S	Case=Gen|Number=Sing	14	nmod	14:nmod	_
+14	ülaosas	üla_osa	NOUN	S	Case=Ine|Number=Sing	9	obl	9:obl	SpaceAfter=No
+15	,	,	PUNCT	Z	_	19	punct	19:punct	_
+16	kui	kui	SCONJ	J	_	19	mark	19:mark	_
+17	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	19	obj	19:obj	_
+18	veidi	veidi	ADV	D	_	19	advmod	19:advmod	_
+19	raputada	raputama	VERB	V	VerbForm=Inf	9	advcl	9:advcl	_
+20	või	või	CCONJ	J	_	23	cc	23:cc	_
+21	sõrmega	sõrm	NOUN	S	Case=Com|Number=Sing	23	obl	23:obl	_
+22	kergelt	kergelt	ADV	D	_	23	advmod	23:advmod	_
+23	toksata	toksama	VERB	V	VerbForm=Inf	19	conj	19:conj	SpaceAfter=No
+24	?	?	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = ewtb2_android_36
+# text = Umbkaudu kaamera / flashi lähedal ma pakun, kuigi kindlalt ei tea.
+1	Umbkaudu	umb_kaudu	ADV	D	_	2	advmod	2:advmod	_
+2	kaamera	kaamera	NOUN	S	Case=Gen|Number=Sing	7	obl	7:obl	_
+3	/	/	PUNCT	Z	_	4	punct	4:punct	_
+4	flashi	flash	NOUN	S	Case=Gen|Number=Sing	2	conj	2:conj	_
+5	lähedal	lähedal	ADP	K	AdpType=Post	2	case	2:case	_
+6	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	_
+7	pakun	pakkuma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+8	,	,	PUNCT	Z	_	12	punct	12:punct	_
+9	kuigi	kuigi	SCONJ	J	_	12	mark	12:mark	_
+10	kindlalt	kindlalt	ADV	D	_	12	advmod	12:advmod	_
+11	ei	ei	AUX	V	Polarity=Neg	12	aux	12:aux	_
+12	tea	teadma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	7:conj	SpaceAfter=No
+13	.	.	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = ewtb2_android_37
+# text = Kui tagumise kaane ära võtsin, ei leidnud sealt midagi lahtist.
+1	Kui	kui	SCONJ	J	_	5	mark	5:mark	_
+2	tagumise	tagumine	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	3	amod	3:amod	_
+3	kaane	kaas	NOUN	S	Case=Gen|Number=Sing	5	obj	5:obj	_
+4	ära	ära	ADV	D	_	5	compound:prt	5:compound	_
+5	võtsin	võtma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	8:advcl	SpaceAfter=No
+6	,	,	PUNCT	Z	_	5	punct	5:punct	_
+7	ei	ei	AUX	V	Polarity=Neg	8	aux	8:aux	_
+8	leidnud	leidma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+9	sealt	sealt	ADV	D	_	8	advmod	8:advmod	_
+10	midagi	miski	PRON	P	Case=Par|Number=Sing|PronType=Ind	8	obj	8:obj	_
+11	lahtist	lahtine	ADJ	A	Case=Par|Degree=Pos|Number=Sing	10	amod	10:amod	SpaceAfter=No
+12	.	.	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = ewtb2_android_38
+# text = Mis see olla võib?
+1	Mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	0	root	0:root	_
+2	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	1	nsubj:cop	1:nsubj	_
+3	olla	olema	AUX	V	VerbForm=Inf	1	cop	1:cop	_
+4	võib	võima	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	1:aux	SpaceAfter=No
+5	?	?	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ewtb2_android_39
+# text = Äkki on leviantenn lahti kuskil?
+1	Äkki	äkki	ADV	D	_	4	advmod	4:advmod	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+3	leviantenn	levi_antenn	NOUN	S	Case=Nom|Number=Sing	4	nsubj:cop	4:nsubj	_
+4	lahti	lahti	ADV	D	_	0	root	0:root	_
+5	kuskil	kuskil	ADV	D	_	4	advmod	4:advmod	SpaceAfter=No
+6	?	?	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb2_android_40
+# text = Tohoh
+1	Tohoh	tohoh	INTJ	B	_	0	root	0:root	_
+
+# sent_id = ewtb2_android_41
+# text = Enda telefonidel pole küll kuulnud, ja ka sellist juttu kuulan esimest korda.
+1	Enda	ise	PRON	P	Case=Gen|Number=Sing|PronType=Prs|Reflex=Yes	2	nmod	2:nmod	_
+2	telefonidel	telefon	NOUN	S	Case=Ade|Number=Plur	5	obl	5:obl	_
+3	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
+4	küll	küll	ADV	D	_	5	advmod	5:advmod	_
+5	kuulnud	kuulma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
+6	,	,	PUNCT	Z	_	11	punct	11:punct	_
+7	ja	ja	CCONJ	J	_	11	cc	11:cc	_
+8	ka	ka	ADV	D	_	11	advmod	11:advmod	_
+9	sellist	selline	DET	P	Case=Par|Number=Sing|PronType=Dem	10	det	10:det	_
+10	juttu	jutt	NOUN	S	Case=Par|Number=Sing	11	obj	11:obj	_
+11	kuulan	kuulama	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	5:conj	_
+12	esimest	esimene	ADJ	N	Case=Par|Number=Sing|NumForm=Word|NumType=Ord	13	amod	13:amod	_
+13	korda	kord	NOUN	S	Case=Par|Number=Sing	11	obl	11:obl	SpaceAfter=No
+14	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = ewtb2_android_42
+# text = Nokia N95'el sai jah mingid kaitse läätse tagand maha raputada, see oli kord lahti siis raputat ja läks ise kinni.
+1	Nokia	Nokia	PROPN	S	Case=Nom|Number=Sing	10	obl	10:obl	NE=B-Prod
+2	N95'el	N95	PROPN	S	Case=Ade|Number=Sing	1	flat	1:flat	NE=I-Prod
+3	sai	saama	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
+4	jah	jah	ADV	D	_	10	advmod	10:advmod	_
+5	mingid	mingi	DET	P	Case=Nom|Number=Plur|PronType=Ind	7	det	7:det	CorrectCase=Gen|CorrectNumber=Sing|CorrectForm=mingi
+6	kaitse	kaitse	NOUN	S	Case=Gen|Number=Sing	7	nmod	7:nmod	_
+7	läätse	lääts	NOUN	S	Case=Par|Number=Sing	10	obj	10:obj	_
+8	tagand	tagant	ADV	D	Typo=Yes	10	advmod	10:advmod	CorrectForm=tagant
+9	maha	maha	ADV	D	_	10	compound:prt	10:compound	_
+10	raputada	raputama	VERB	V	VerbForm=Inf	0	root	0:root	SpaceAfter=No
+11	,	,	PUNCT	Z	_	15	punct	15:punct	_
+12	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	15	nsubj:cop	15:nsubj	_
+13	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	15:cop	_
+14	kord	kord	NOUN	S	Case=Nom|Number=Sing	15	obl	15:obl	_
+15	lahti	lahti	ADV	D	_	10	conj	10:conj	_
+16	siis	siis	ADV	D	_	17	advmod	17:advmod	_
+17	raputat	raputama	VERB	V	Mood=Ind|Tense=Past|Typo=Yes|VerbForm=Fin|Voice=Pass	15	conj	15:conj	CorrectForm=raputati
+18	ja	ja	CCONJ	J	_	19	cc	19:cc	_
+19	läks	minema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	conj	15:conj	_
+20	ise	ise	ADV	D	_	19	advmod	19:advmod	_
+21	kinni	kinni	ADV	D	_	19	compound:prt	19:compound	SpaceAfter=No
+22	.	.	PUNCT	Z	_	10	punct	10:punct	_
+
+# sent_id = ewtb2_android_43
+# text = Aga mingid häält küll polnd.
+1	Aga	aga	CCONJ	J	_	5	cc	5:cc	_
+2	mingid	mingi	DET	P	Case=Par|Number=Sing|PronType=Ind|Typo=Yes	3	det	3:det	CorrectForm=mingit
+3	häält	hääl	NOUN	S	Case=Par|Number=Sing	5	nsubj	5:nsubj	_
+4	küll	küll	ADV	D	_	5	advmod	5:advmod	_
+5	polnd	olema	VERB	V	Mood=Ind|Polarity=Neg|Tense=Past|Typo=Yes|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No|CorrectForm=polnud
+6	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = ewtb2_android_44
+# text = Praegusel telefonil on küll nõrgalt kuulda fokuseerimis häält, aga telefoni raputades pole miskid kuulda.
+1	Praegusel	praegune	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	2	amod	2:amod	_
+2	telefonil	telefon	NOUN	S	Case=Ade|Number=Sing	6	obl	6:obl	_
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
+4	küll	küll	ADV	D	_	6	advmod	6:advmod	_
+5	nõrgalt	nõrgalt	ADV	D	_	6	advmod	6:advmod	_
+6	kuulda	kuulma	VERB	V	VerbForm=Inf	0	root	0:root	_
+7	fokuseerimis	fokusseerimine	NOUN	S	Case=Gen|Number=Sing|Typo=Yes	8	nmod	8:nmod	CorrectForm=fokusseerimise
+8	häält	hääl	NOUN	S	Case=Par|Number=Sing	6	obj	6:obj	SpaceAfter=No
+9	,	,	PUNCT	Z	_	15	punct	15:punct	_
+10	aga	aga	CCONJ	J	_	15	cc	15:cc	_
+11	telefoni	telefon	NOUN	S	Case=Par|Number=Sing	12	obj	12:obj	_
+12	raputades	raputama	VERB	V	VerbForm=Conv	15	advcl	15:advcl	_
+13	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	15:aux	_
+14	miskid	miski	NOUN	S	Case=Par|Number=Sing|Typo=Yes	15	obj	15:obj	CorrectForm=miskit
+15	kuulda	kuulma	VERB	V	VerbForm=Inf	6	conj	6:conj	SpaceAfter=No
+16	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb2_android_45
+# text = reps kirjutas: Vot, selliste ja muude jamade pärast ma jeliizast ära tulingi.
+1	reps	reps	PROPN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	NE=B-Per
+2	kirjutas	kirjutama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+3	:	:	PUNCT	Z	_	14	punct	14:punct	_
+4	Vot	vot	INTJ	B	_	14	discourse	14:discourse	SpaceAfter=No
+5	,	,	PUNCT	Z	_	14	punct	14:punct	_
+6	selliste	selline	DET	P	Case=Gen|Number=Plur|PronType=Dem	9	det	9:det	_
+7	ja	ja	CCONJ	J	_	8	cc	8:cc	_
+8	muude	muu	PRON	P	Case=Gen|Number=Plur|PronType=Ind	6	conj	6:conj	_
+9	jamade	jama	NOUN	S	Case=Gen|Number=Plur	14	obl	14:obl	_
+10	pärast	pärast	ADP	K	AdpType=Post	9	case	9:case	_
+11	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	14:nsubj	_
+12	jeliizast	jeliiza	PROPN	S	Case=Ela|Number=Sing	14	obl	14:obl	NE=B-Org
+13	ära	ära	ADV	D	_	14	compound:prt	14:compound	_
+14	tulingi	tulema	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	2:parataxis	SpaceAfter=No
+15	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb2_android_46
+# text = Huvitav mis seos on katkise samsungi ja elisa vahel ...
+1	Huvitav	huvitav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	0:root	_
+2	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	3	nmod	3:nmod	_
+3	seos	seos	NOUN	S	Case=Nom|Number=Sing	6	nsubj:cop	6:nsubj	_
+4	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
+5	katkise	katkine	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	6	amod	6:amod	_
+6	samsungi	Samsung	PROPN	S	Case=Gen|Number=Sing	1	csubj:cop	1:csubj	NE=B-Prod
+7	ja	ja	CCONJ	J	_	8	cc	8:cc	_
+8	elisa	Elisa	PROPN	S	Case=Gen|Number=Sing	6	conj	6:conj	NE=B-Org
+9	vahel	vahel	ADP	K	AdpType=Post	6	case	6:case	_
+10	...	...	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ewtb2_android_47
+# text = Ega elisa katkiseid telefone ei tooda ega ka neid paranda.
+1	Ega	ega	ADV	D	Polarity=Neg	6	advmod	6:advmod	_
+2	elisa	Elisa	PROPN	S	Case=Nom|Number=Sing	6	nsubj	6:nsubj	NE=B-Org
+3	katkiseid	katkine	ADJ	A	Case=Par|Degree=Pos|Number=Plur	4	amod	4:amod	_
+4	telefone	telefon	NOUN	S	Case=Par|Number=Plur	6	obj	6:obj	_
+5	ei	ei	AUX	V	Connegative=Yes	6	aux	6:aux	_
+6	tooda	tootma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+7	ega	ega	CCONJ	J	Polarity=Neg	10	cc	10:cc	_
+8	ka	ka	ADV	D	_	10	advmod	10:advmod	_
+9	neid	see	PRON	P	Case=Par|Number=Plur|PronType=Dem	10	obj	10:obj	_
+10	paranda	parandama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	6:conj	SpaceAfter=No
+11	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb2_android_48
+# text = Ära aja udu
+1	Ära	ära	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	2:aux	_
+2	aja	ajama	VERB	V	Connegative=Yes|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	udu	udu	NOUN	S	Case=Par|Number=Sing	2	obj	2:obj	_
+
+# sent_id = ewtb2_android_49
+# text = sa enne seda postitust ka lugesid?
+1	sa	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj	_
+2	enne	enne	ADV	D	_	6	advmod	6:advmod	_
+3	seda	see	DET	P	Case=Par|Number=Sing|PronType=Dem	4	det	4:det	_
+4	postitust	postitus	NOUN	S	Case=Par|Number=Sing	6	obj	6:obj	_
+5	ka	ka	ADV	D	_	6	advmod	6:advmod	_
+6	lugesid	lugema	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+7	?	?	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb2_android_50
+# text = ma spets lõpetasin ülejäänud jutu sirvimise ja seost ikka ei leidnud - üks ütleb et levi kehv ja siis vastuseks "selliset ja muude jamade pärast...."
+1	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	_
+2	spets	spets	ADV	D	_	3	advmod	3:advmod	_
+3	lõpetasin	lõpetama	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	ülejäänud	üle_jäänud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	acl	5:acl	_
+5	jutu	jutt	NOUN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	_
+6	sirvimise	sirvimine	NOUN	S	Case=Gen|Number=Sing	3	obj	3:obj	_
+7	ja	ja	CCONJ	J	_	11	cc	11:cc	_
+8	seost	seos	NOUN	S	Case=Par|Number=Sing	11	obj	11:obj	_
+9	ikka	ikka	ADV	D	_	11	advmod	11:advmod	_
+10	ei	ei	AUX	V	Polarity=Neg	11	aux	11:aux	_
+11	leidnud	leidma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	3:conj	_
+12	-	-	PUNCT	Z	_	14	punct	14:punct	_
+13	üks	üks	PRON	P	Case=Nom|Number=Sing|PronType=Dem	14	nsubj	14:nsubj	_
+14	ütleb	ütlema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	3:parataxis	_
+15	et	et	SCONJ	J	_	17	mark	17:mark	_
+16	levi	levi	NOUN	S	Case=Nom|Number=Sing	17	nsubj:cop	17:nsubj	_
+17	kehv	kehv	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	14	ccomp	14:ccomp	_
+18	ja	ja	CCONJ	J	_	20	cc	20:cc	_
+19	siis	siis	ADV	D	_	20	advmod	20:advmod	_
+20	vastuseks	vastus	NOUN	S	Case=Tra|Number=Sing	17	conj	17:conj	_
+21	"	"	PUNCT	Z	_	25	punct	25:punct	SpaceAfter=No
+22	selliset	selline	DET	P	Case=Gen|Number=Plur|PronType=Dem|Typo=Yes	25	det	25:det	CorrectForm=selliste
+23	ja	ja	CCONJ	J	_	24	cc	24:cc	_
+24	muude	muu	PRON	P	Case=Gen|Number=Plur|PronType=Ind	22	conj	22:conj	_
+25	jamade	jama	NOUN	S	Case=Gen|Number=Plur	20	acl	20:acl	_
+26	pärast	pärast	ADP	K	AdpType=Post	25	case	25:case	SpaceAfter=No
+27	.	.	PUNCT	Z	_	25	punct	25:punct	SpaceAfter=No
+28	.	.	PUNCT	Z	_	25	punct	25:punct	SpaceAfter=No
+29	.	.	PUNCT	Z	_	25	punct	25:punct	SpaceAfter=No
+30	.	.	PUNCT	Z	_	25	punct	25:punct	SpaceAfter=No
+31	"	"	PUNCT	Z	_	25	punct	25:punct	_
+
+# sent_id = ewtb2_android_51
+# text = Ehk, et elisa on süüdi telefonide krõbinas, kehvas levis, maailma lõpus ja selles, et antikristust keegi näind ei ole.
+1	Ehk	ehk	CCONJ	J	_	6	cc	6:cc	SpaceAfter=No
+2	,	,	PUNCT	Z	_	6	punct	6:punct	_
+3	et	et	SCONJ	J	_	6	mark	6:mark	_
+4	elisa	Elisa	PROPN	S	Case=Nom|Number=Sing	6	nsubj:cop	6:nsubj	NE=B-Org
+5	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
+6	süüdi	süüdi	ADV	D	_	0	root	0:root	_
+7	telefonide	telefon	NOUN	S	Case=Gen|Number=Plur	8	nmod	8:nmod	_
+8	krõbinas	krõbin	NOUN	S	Case=Ine|Number=Sing	6	obl	6:obl	SpaceAfter=No
+9	,	,	PUNCT	Z	_	11	punct	11:punct	_
+10	kehvas	kehv	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	11	amod	11:amod	_
+11	levis	levi	NOUN	S	Case=Ine|Number=Sing	8	conj	8:conj	SpaceAfter=No
+12	,	,	PUNCT	Z	_	14	punct	14:punct	_
+13	maailma	maa_ilm	NOUN	S	Case=Gen|Number=Sing	14	nmod	14:nmod	_
+14	lõpus	lõpp	NOUN	S	Case=Ine|Number=Sing	8	conj	8:conj	_
+15	ja	ja	CCONJ	J	_	16	cc	16:cc	_
+16	selles	see	PRON	P	Case=Ine|Number=Sing|PronType=Dem	8	conj	8:conj	SpaceAfter=No
+17	,	,	PUNCT	Z	_	21	punct	21:punct	_
+18	et	et	SCONJ	J	_	21	mark	21:mark	_
+19	antikristust	antikristus	NOUN	S	Case=Par|Number=Sing	21	obj	21:obj	_
+20	keegi	keegi	PRON	P	Case=Nom|Number=Sing|PronType=Ind	21	nsubj	21:nsubj	_
+21	näind	nägema	VERB	V	Tense=Past|Typo=Yes|VerbForm=Part|Voice=Act	16	acl	16:acl	CorrectForm=näinud
+22	ei	ei	AUX	V	Polarity=Neg	21	aux	21:aux	_
+23	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	21:aux	SpaceAfter=No
+24	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb2_android_52
+# text = Võibolla liiga hommik ja ma ei saa päris täpselt pihta millise seose eelneva lugemine andma pidi
+1	Võibolla	võib_olla	ADV	D	_	3	advmod	3:advmod	_
+2	liiga	liiga	ADV	D	_	3	advmod	3:advmod	_
+3	hommik	hommik	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+4	ja	ja	CCONJ	J	_	7	cc	7:cc	_
+5	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	_
+6	ei	ei	AUX	V	Polarity=Neg	7	aux	7:aux	_
+7	saa	saama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	3:conj	_
+8	päris	päris	ADV	D	_	9	advmod	9:advmod	_
+9	täpselt	täpselt	ADV	D	_	7	advmod	7:advmod	_
+10	pihta	pihta	ADV	D	_	7	compound:prt	7:compound	_
+11	millise	milline	ADJ	P	Case=Gen|Number=Sing|PronType=Int,Rel	12	amod	12:amod	_
+12	seose	seos	NOUN	S	Case=Gen|Number=Sing	15	obj	15:obj	_
+13	eelneva	eelnev	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	acl	14:acl	_
+14	lugemine	lugemine	NOUN	S	Case=Nom|Number=Sing	15	nsubj	15:nsubj	_
+15	andma	andma	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	7	xcomp	7:xcomp	_
+16	pidi	pidama	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	aux	15:aux	_
+
+# sent_id = ewtb2_android_53
+# text = Tulles vastu töörahva soovidele ja muidu vähemtaibukatele selgituseks: Põhjuseks olid leviprobleemid ja ülisitt klienditeenindus.
+1	Tulles	tulema	VERB	V	VerbForm=Conv	10	parataxis	10:parataxis	_
+2	vastu	vastu	ADV	D	_	1	compound:prt	1:compound	_
+3	töörahva	töö_rahvas	NOUN	S	Case=Gen|Number=Sing	4	nmod	4:nmod	_
+4	soovidele	soov	NOUN	S	Case=All|Number=Plur	1	obl	1:obl	_
+5	ja	ja	CCONJ	J	_	8	cc	8:cc	_
+6	muidu	muidu	ADV	D	_	7	advmod	7:advmod	_
+7	vähemtaibukatele	vähem_taibukas	ADJ	A	Case=All|Degree=Pos|Number=Plur	8	amod	8:amod	_
+8	selgituseks	selgitus	NOUN	S	Case=Tra|Number=Sing	1	conj	1:conj	SpaceAfter=No
+9	:	:	PUNCT	Z	_	10	punct	10:punct	_
+10	Põhjuseks	põhjus	NOUN	S	Case=Tra|Number=Sing	0	root	0:root	_
+11	olid	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
+12	leviprobleemid	levi_probleem	NOUN	S	Case=Nom|Number=Plur	10	nsubj:cop	10:nsubj	_
+13	ja	ja	CCONJ	J	_	15	cc	15:cc	_
+14	ülisitt	üli_sitt	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	15	amod	15:amod	_
+15	klienditeenindus	kliendi_teenindus	NOUN	S	Case=Nom|Number=Sing	12	conj	12:conj	SpaceAfter=No
+16	.	.	PUNCT	Z	_	10	punct	10:punct	_
+
+# sent_id = ewtb2_android_54
+# text = Ei viitsi mina niisama kedagi materdada nagu siin mõni arvab, pigem reageerin jalgadega ja lähen teise liivakasti.
+1	Ei	ei	AUX	V	Polarity=Neg	2	aux	2:aux	_
+2	viitsi	viitsima	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	mina	mina	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	_
+4	niisama	nii_sama	ADV	D	_	6	advmod	6:advmod	_
+5	kedagi	keegi	PRON	P	Case=Par|Number=Sing|PronType=Ind	6	obj	6:obj	_
+6	materdada	materdama	VERB	V	VerbForm=Inf	2	xcomp	2:xcomp	_
+7	nagu	nagu	SCONJ	J	_	10	mark	10:mark	_
+8	siin	siin	ADV	D	_	10	advmod	10:advmod	_
+9	mõni	mõni	ADJ	P	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	10:nsubj	_
+10	arvab	arvama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	2:advcl	SpaceAfter=No
+11	,	,	PUNCT	Z	_	13	punct	13:punct	_
+12	pigem	pigem	ADV	D	_	13	advmod	13:advmod	_
+13	reageerin	reageerima	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	2:conj	_
+14	jalgadega	jalg	NOUN	S	Case=Com|Number=Plur	13	obl	13:obl	_
+15	ja	ja	CCONJ	J	_	16	cc	16:cc	_
+16	lähen	minema	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	2:conj	_
+17	teise	teine	DET	P	Case=Ill|Number=Sing|PronType=Dem	18	det	18:det	_
+18	liivakasti	liiva_kast	NOUN	S	Case=Gen|Number=Sing	16	obl	16:obl	SpaceAfter=No
+19	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb2_android_55
+# text = Ei ole mures, lihtsalt üllatav tähele panek - selline püss, selline piibel ja astus ämbrisse kuna üks kruvi jäi panematta ja nüüd kõriseb.
+1	Ei	ei	AUX	V	Polarity=Neg	3	aux	3:aux	_
+2	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
+3	mures	mure	NOUN	S	Case=Ine|Number=Sing	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	Z	_	7	punct	7:punct	_
+5	lihtsalt	lihtsalt	ADV	D	_	7	advmod	7:advmod	_
+6	üllatav	üllatav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	acl	7:acl	_
+7	tähele	tähelepanek	NOUN	S	Case=Nom|Number=Sing|Typo=Yes	3	parataxis	3:parataxis	CorrectForm=tähelepanek
+8	panek	_	X	_	_	7	goeswith	7:goeswith	_
+9	-	-	PUNCT	Z	_	11	punct	11:punct	_
+10	selline	selline	DET	P	Case=Nom|Number=Sing|PronType=Dem	11	det	11:det	_
+11	püss	püss	NOUN	S	Case=Nom|Number=Sing	7	parataxis	7:parataxis	SpaceAfter=No
+12	,	,	PUNCT	Z	_	14	punct	14:punct	_
+13	selline	selline	DET	P	Case=Nom|Number=Sing|PronType=Dem	14	det	14:det	_
+14	piibel	piibel	NOUN	S	Case=Nom|Number=Sing	11	conj	11:conj	_
+15	ja	ja	CCONJ	J	_	16	cc	16:cc	_
+16	astus	astuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	11:conj	_
+17	ämbrisse	ämber	NOUN	S	Case=Ill|Number=Sing	16	obl	16:obl	_
+18	kuna	kuna	SCONJ	J	_	21	mark	21:mark	_
+19	üks	üks	DET	P	Case=Nom|Number=Sing|PronType=Ind	20	det	20:det	_
+20	kruvi	kruvi	NOUN	S	Case=Nom|Number=Sing	21	nsubj	21:nsubj	_
+21	jäi	jääma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	advcl	16:advcl	_
+22	panematta	panema	VERB	V	Case=Abe|Typo=Yes|VerbForm=Sup|Voice=Act	21	advcl	21:advcl	CorrectForm=panemata
+23	ja	ja	CCONJ	J	_	25	cc	25:cc	_
+24	nüüd	nüüd	ADV	D	_	25	advmod	25:advmod	_
+25	kõriseb	kõrisema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	conj	21:conj	SpaceAfter=No
+26	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb2_android_56
+# text = Nagunäha siis mõnda häirib nii ohtralt et igasugu kohtades abi peab otsima.
+1	Nagunäha	nagu_näha	ADV	D	_	4	advmod	4:advmod	ErrCompound=Yes
+2	siis	siis	ADV	D	_	4	advmod	4:advmod	_
+3	mõnda	mõni	ADJ	P	Case=Par|Number=Sing|PronType=Ind	4	obj	4:obj	_
+4	häirib	häirima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	nii	nii	ADV	D	_	6	advmod	6:advmod	_
+6	ohtralt	ohtralt	ADV	D	_	4	advmod	4:advmod	_
+7	et	et	SCONJ	J	_	12	mark	12:mark	_
+8	igasugu	iga_sugu	DET	P	Case=Nom|Number=Sing|PronType=Ind	9	det	9:det	_
+9	kohtades	koht	NOUN	S	Case=Ine|Number=Plur	12	obl	12:obl	_
+10	abi	abi	NOUN	S	Case=Par|Number=Sing	12	obj	12:obj	_
+11	peab	pidama	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
+12	otsima	otsima	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	4	advcl	4:advcl	SpaceAfter=No
+13	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb2_android_57
+# text = Tunnista fronius, et võta mis klots tahes kuid ühest nurgast on nad kõik pahnad :D
+1	Tunnista	tunnistama	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	fronius	fronius	PROPN	S	Case=Nom|Number=Sing	1	vocative	1:vocative	NE=B-Per|SpaceAfter=No
+3	,	,	PUNCT	Z	_	5	punct	5:punct	_
+4	et	et	SCONJ	J	_	5	mark	5:mark	_
+5	võta	võtma	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	1:ccomp	_
+6	mis	mis	DET	P	Case=Nom|Number=Sing|PronType=Int,Rel	7	det	7:det	_
+7	klots	klots	NOUN	S	Case=Nom|Number=Sing	5	obj	5:obj	_
+8	tahes	tahes	ADV	D	_	7	advmod	7:advmod	_
+9	kuid	kuid	CCONJ	J	_	15	cc	15:cc	_
+10	ühest	üks	DET	P	Case=Ela|Number=Sing|PronType=Ind	11	det	11:det	_
+11	nurgast	nurk	NOUN	S	Case=Ela|Number=Sing	15	obl	15:obl	_
+12	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	15:cop	_
+13	nad	tema	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj:cop	15:nsubj	_
+14	kõik	kõik	DET	P	Case=Nom|Number=Plur|PronType=Tot	13	det	13:det	_
+15	pahnad	pahn	NOUN	S	Case=Nom|Number=Plur	5	conj	5:conj	_
+16	:D	:D	SYM	Z	_	15	discourse	15:discourse	_
+
+# sent_id = ewtb2_android_58
+# text = Kohe tuleb päikese torm ja siis hakkame soomlastega võistlema telefoni heitmises (teatavasti selline ala soomes spordis olemas :D)
+1	Kohe	kohe	ADV	D	_	2	advmod	2:advmod	_
+2	tuleb	tulema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	päikese	päike	NOUN	S	Case=Gen|Number=Sing	4	nmod	4:nmod	_
+4	torm	torm	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	_
+5	ja	ja	CCONJ	J	_	7	cc	7:cc	_
+6	siis	siis	ADV	D	_	7	advmod	7:advmod	_
+7	hakkame	hakkama	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	2:conj	_
+8	soomlastega	soomlane	NOUN	S	Case=Com|Number=Plur	9	obl	9:obl	_
+9	võistlema	võistlema	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	7	xcomp	7:xcomp	_
+10	telefoni	telefon	NOUN	S	Case=Gen|Number=Sing	11	nmod	11:nmod	_
+11	heitmises	heitmine	NOUN	S	Case=Ine|Number=Sing	9	obl	9:obl	_
+12	(	(	PUNCT	Z	_	15	punct	15:punct	SpaceAfter=No
+13	teatavasti	teatavasti	ADV	D	_	15	advmod	15:advmod	_
+14	selline	selline	DET	P	Case=Nom|Number=Sing|PronType=Dem	15	det	15:det	_
+15	ala	ala	NOUN	S	Case=Nom|Number=Sing	2	parataxis	2:parataxis	_
+16	soomes	Soome	PROPN	S	Case=Ine|Number=Sing	18	obl	18:obl	NE=B-Gep
+17	spordis	sport	NOUN	S	Case=Ine|Number=Sing	18	obl	18:obl	_
+18	olemas	olema	VERB	V	Case=Ine|VerbForm=Sup|Voice=Act	15	xcomp	15:xcomp	_
+19	:D	:D	INTJ	E	_	15	discourse	15:discourse	SpaceAfter=No
+20	)	)	PUNCT	Z	_	15	punct	15:punct	_
+
+# sent_id = ewtb2_android_59
+# text = Aga eks Samsa mehed arvestasidki sellega et kui läheb lutsu viskamiseks, siis on S3'med parimate hulgas
+1	Aga	aga	CCONJ	J	_	5	cc	5:cc	_
+2	eks	eks	ADV	D	_	5	advmod	5:advmod	_
+3	Samsa	Samsa	PROPN	S	Case=Gen|Number=Sing	4	nmod	4:nmod	NE=B-Unk
+4	mehed	mees	NOUN	S	Case=Nom|Number=Plur	5	nsubj	5:nsubj	_
+5	arvestasidki	arvestama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+6	sellega	see	PRON	P	Case=Com|Number=Sing|PronType=Dem	5	obl	5:obl	_
+7	et	et	SCONJ	J	_	16	mark	16:mark	_
+8	kui	kui	SCONJ	J	_	9	mark	9:mark	_
+9	läheb	minema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	16:advcl	_
+10	lutsu	luts	NOUN	S	Case=Gen|Number=Sing	11	nmod	11:nmod	_
+11	viskamiseks	viskamine	NOUN	S	Case=Tra|Number=Sing	9	obl	9:obl	SpaceAfter=No
+12	,	,	PUNCT	Z	_	16	punct	16:punct	_
+13	siis	siis	ADV	D	_	16	advmod	16:advmod	_
+14	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	16:cop	_
+15	S3'med	S3	SYM	S	Case=Nom|Number=Plur	16	nsubj:cop	16:nsubj	NE=B-Prod
+16	parimate	parim	ADJ	A	Case=Gen|Degree=Sup|Number=Plur	6	acl	6:acl	_
+17	hulgas	hulgas	ADP	K	AdpType=Post	16	case	16:case	_
+
+# sent_id = ewtb2_android_60
+# text = SIII võibolla tõesti on saanud endale krõbiseva ja niisama kõikuva stabilisaatori, ma ei imestagi.
+1	SIII	SIII	PROPN	S	Case=Nom|Number=Sing	5	nsubj	5:nsubj	NE=B-Prod
+2	võibolla	võib_olla	ADV	D	_	5	advmod	5:advmod	_
+3	tõesti	tõesti	ADV	D	_	5	advmod	5:advmod	_
+4	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
+5	saanud	saama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+6	endale	ise	PRON	P	Case=All|Number=Sing|PronType=Prs|Reflex=Yes	5	obl	5:obl	_
+7	krõbiseva	krõbisev	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	acl	11:acl	_
+8	ja	ja	CCONJ	J	_	10	cc	10:cc	_
+9	niisama	nii_sama	ADV	D	_	10	advmod	10:advmod	_
+10	kõikuva	kõikuv	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	conj	7:conj	_
+11	stabilisaatori	stabilisaator	NOUN	S	Case=Gen|Number=Sing	5	obj	5:obj	SpaceAfter=No
+12	,	,	PUNCT	Z	_	15	punct	15:punct	_
+13	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	15:nsubj	_
+14	ei	ei	AUX	V	Polarity=Neg	15	aux	15:aux	_
+15	imestagi	imestama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	5:conj	SpaceAfter=No
+16	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = ewtb2_android_61
+# text = kuid teema pealkirjas on mainiutd Galaxy S Advance millel kindlasti kõikuvat stabilisaatorit ei ole.
+1	kuid	kuid	CCONJ	J	_	5	cc	5:cc	_
+2	teema	teema	NOUN	S	Case=Gen|Number=Sing	3	nmod	3:nmod	_
+3	pealkirjas	peal_kiri	NOUN	S	Case=Ine|Number=Sing	5	obl	5:obl	_
+4	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
+5	mainiutd	mainima	VERB	V	Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass	0	root	0:root	CorrectForm=mainitud
+6	Galaxy	Galaxy	PROPN	S	Case=Nom|Number=Sing	5	obj	5:obj	NE=B-Prod
+7	S	S	NOUN	Y	Abbr=Yes	6	flat	6:flat	NE=I-Prod
+8	Advance	Advance	PROPN	S	Case=Nom|Number=Sing	6	flat	6:flat	NE=I-Prod
+9	millel	mis	PRON	P	Case=Ade|Number=Sing|PronType=Int,Rel	6	acl	6:acl	_
+10	kindlasti	kindlasti	ADV	D	_	9	advmod	9:advmod	_
+11	kõikuvat	kõikuv	ADJ	A	Case=Par|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	acl	12:acl	_
+12	stabilisaatorit	stabilisaator	NOUN	S	Case=Par|Number=Sing	9	nsubj:cop	9:nsubj	_
+13	ei	ei	AUX	V	Polarity=Neg	9	aux	9:aux	_
+14	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	SpaceAfter=No
+15	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = ewtb2_android_62
+# text = See on iseenesest kena Sony poolt, et nende telefonides niisama kõkuvaid ja krõvisevaid asju ei ole.
+1	See	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	4:nsubj	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+3	iseenesest	ise_enesest	ADV	D	_	4	advmod	4:advmod	_
+4	kena	kena	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	_
+5	Sony	Sony	PROPN	S	Case=Gen|Number=Sing	4	obl	4:obl	NE=B-Org
+6	poolt	poolt	ADP	K	AdpType=Post	5	case	5:case	SpaceAfter=No
+7	,	,	PUNCT	Z	_	10	punct	10:punct	_
+8	et	et	SCONJ	J	_	10	mark	10:mark	_
+9	nende	tema	PRON	P	Case=Gen|Number=Plur|Person=3|PronType=Prs	10	nmod	10:nmod	_
+10	telefonides	telefon	NOUN	S	Case=Ine|Number=Plur	1	acl	1:acl	_
+11	niisama	nii_sama	ADV	D	_	12	advmod	12:advmod	_
+12	kõkuvaid	kõiku=v	ADJ	A	Case=Par|Degree=Pos|Number=Plur|Tense=Pres|Typo=Yes|VerbForm=Part|Voice=Act	15	acl	15:acl	CorrectForm=kõikuvaid
+13	ja	ja	CCONJ	J	_	14	cc	14:cc	_
+14	krõvisevaid	krõbise=v	ADJ	A	Case=Par|Degree=Pos|Number=Plur|Tense=Pres|Typo=Yes|VerbForm=Part|Voice=Act	12	conj	12:conj	CorrectForm=krõbisevaid
+15	asju	asi	NOUN	S	Case=Par|Number=Plur	10	nsubj:cop	10:nsubj	_
+16	ei	ei	AUX	V	Polarity=Neg	10	aux	10:aux	_
+17	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop	SpaceAfter=No
+18	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb2_android_63
+# text = Heh, ega jah, kiita see elisa pole.
+1	Heh	heh	INTJ	B	_	6	discourse	6:discourse	SpaceAfter=No
+2	,	,	PUNCT	Z	_	4	punct	4:punct	_
+3	ega	ega	ADV	D	Polarity=Neg	4	advmod	4:advmod	_
+4	jah	jah	ADV	D	_	6	advmod	6:advmod	SpaceAfter=No
+5	,	,	PUNCT	Z	_	6	punct	6:punct	_
+6	kiita	kiitma	VERB	V	VerbForm=Inf	0	root	0:root	_
+7	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	8	det	8:det	_
+8	elisa	Elisa	PROPN	S	Case=Nom|Number=Sing	6	nsubj:cop	6:nsubj	NE=B-Org
+9	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	SpaceAfter=No
+10	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb2_android_64
+# text = Aga kindel, et mingi levijuhe ei saaks lahti olla ja kõrinat tekitada?
+1	Aga	aga	CCONJ	J	_	2	cc	2:cc	_
+2	kindel	kindel	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	Z	_	10	punct	10:punct	_
+4	et	et	SCONJ	J	_	10	mark	10:mark	_
+5	mingi	mingi	DET	P	Case=Nom|Number=Sing|PronType=Ind	6	det	6:det	_
+6	levijuhe	levi_juhe	NOUN	S	Case=Nom|Number=Sing	10	nsubj	10:nsubj	_
+7	ei	ei	AUX	V	Polarity=Neg	10	aux	10:aux	_
+8	saaks	saama	AUX	V	Mood=Cnd|Number=Sing|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
+9	lahti	lahti	ADV	D	_	10	compound:prt	10:compound	_
+10	olla	olema	VERB	V	VerbForm=Inf	2	csubj:cop	2:csubj	_
+11	ja	ja	CCONJ	J	_	13	cc	13:cc	_
+12	kõrinat	kõrin	NOUN	S	Case=Par|Number=Sing	13	obj	13:obj	_
+13	tekitada	tekitama	VERB	V	VerbForm=Inf	10	conj	10:conj	SpaceAfter=No
+14	?	?	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb2_android_65
+# text = Kus see üldse asuks Samsungil?
+1	Kus	kus	ADV	D	_	4	mark	4:mark	_
+2	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	4	nsubj	4:nsubj	_
+3	üldse	üldse	ADV	D	_	4	advmod	4:advmod	_
+4	asuks	asuma	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	Samsungil	Samsung	PROPN	S	Case=Ade|Number=Sing	4	obl	4:obl	NE=B-Prod|SpaceAfter=No
+6	?	?	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb2_android_66
+# text = Siin ei ole loogikaga midagi pistmist.
+1	Siin	siin	ADV	D	_	4	advmod	4:advmod	_
+2	ei	ei	AUX	V	Polarity=Neg	4	aux	4:aux	_
+3	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+4	loogikaga	loogika	NOUN	S	Case=Com|Number=Sing	0	root	0:root	_
+5	midagi	miski	PRON	P	Case=Par|Number=Sing|PronType=Ind	6	nmod	6:nmod	_
+6	pistmist	pistmine	NOUN	S	Case=Par|Number=Sing	4	nsubj:cop	4:nsubj	SpaceAfter=No
+7	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb2_android_67
+# text = Telefonide sisu jooniseid ja fotosid vöib netist leida pea iga toote kohta.
+1	Telefonide	telefon	NOUN	S	Case=Gen|Number=Plur	2	nmod	2:nmod	_
+2	sisu	sisu	NOUN	S	Case=Gen|Number=Sing	3	nmod	3:nmod	_
+3	jooniseid	joonis	NOUN	S	Case=Par|Number=Plur	8	obj	8:obj	_
+4	ja	ja	CCONJ	J	_	5	cc	5:cc	_
+5	fotosid	foto	NOUN	S	Case=Par|Number=Plur	3	conj	3:conj	_
+6	vöib	võima	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin|Voice=Act	8	aux	8:aux	CorrectForm=võib
+7	netist	nett	NOUN	S	Case=Ela|Number=Sing	8	obl	8:obl	_
+8	leida	leidma	VERB	V	VerbForm=Inf	0	root	0:root	_
+9	pea	pea	ADV	D	_	10	advmod	10:advmod	_
+10	iga	iga	DET	P	Case=Gen|Number=Sing|PronType=Tot	11	det	11:det	_
+11	toote	toode	NOUN	S	Case=Gen|Number=Sing	8	obl	8:obl	_
+12	kohta	kohta	ADP	K	AdpType=Post	11	case	11:case	SpaceAfter=No
+13	.	.	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = ewtb2_android_68
+# text = Körin vöib olla mingist lahtisest asjast ja hooldus voi garantii teeb selle korda.
+1	Körin	kõrin	NOUN	S	Case=Nom|Number=Sing|Typo=Yes	6	nsubj:cop	6:nsubj	CorrectForm=Kõrin
+2	vöib	võima	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin|Voice=Act	6	aux	6:aux	CorrectForm=võib
+3	olla	olema	AUX	V	VerbForm=Inf	6	cop	6:cop	_
+4	mingist	mingi	DET	P	Case=Ela|Number=Sing|PronType=Ind	6	det	6:det	_
+5	lahtisest	lahtine	ADJ	A	Case=Ela|Degree=Pos|Number=Sing	6	amod	6:amod	_
+6	asjast	asi	NOUN	S	Case=Ela|Number=Sing	0	root	0:root	_
+7	ja	ja	CCONJ	J	_	11	cc	11:cc	_
+8	hooldus	hooldus	NOUN	S	Case=Nom|Number=Sing	11	nsubj	11:nsubj	_
+9	voi	või	CCONJ	J	Typo=Yes	10	cc	10:cc	CorrectForm=või
+10	garantii	garantii	NOUN	S	Case=Nom|Number=Sing	8	conj	8:conj	_
+11	teeb	tegema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	6:conj	_
+12	selle	see	PRON	P	Case=Gen|Number=Sing|PronType=Dem	11	obj	11:obj	_
+13	korda	kord	NOUN	S	Case=Add|Number=Sing	11	obl	11:obl	SpaceAfter=No
+14	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb2_android_69
+# text = Ikka juhtub et hiina nobenäppudel on mingi kruvi lahti jäänud.
+1	Ikka	ikka	ADV	D	_	2	advmod	2:advmod	_
+2	juhtub	juhtuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	et	et	SCONJ	J	_	10	mark	10:mark	_
+4	hiina	hiina	ADJ	G	_	5	amod	5:amod	_
+5	nobenäppudel	nobe_näpp	NOUN	S	Case=Ade|Number=Plur	10	obl	10:obl	_
+6	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
+7	mingi	mingi	DET	P	Case=Nom|Number=Sing|PronType=Ind	8	det	8:det	_
+8	kruvi	kruvi	NOUN	S	Case=Nom|Number=Sing	10	nsubj	10:nsubj	_
+9	lahti	lahti	ADV	D	_	10	compound:prt	10:compound	_
+10	jäänud	jääma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	2	csubj	2:csubj	SpaceAfter=No
+11	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb2_android_70
+# text = Aga kus on kirjas, et telo on katki, kõik ju väidavad, et neil ka krõbiseb ja mitte ainult sungid.
+1	Aga	aga	CCONJ	J	_	4	cc	4:cc	_
+2	kus	kus	ADV	D	_	4	mark	4:mark	_
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+4	kirjas	kiri	NOUN	S	Case=Ine|Number=Sing	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	Z	_	9	punct	9:punct	_
+6	et	et	SCONJ	J	_	9	mark	9:mark	_
+7	telo	telo	NOUN	S	Case=Nom|Number=Sing	9	nsubj:cop	9:nsubj	_
+8	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
+9	katki	katki	ADV	D	_	4	csubj:cop	4:csubj	SpaceAfter=No
+10	,	,	PUNCT	Z	_	13	punct	13:punct	_
+11	kõik	kõik	PRON	P	Case=Nom|Number=Plur|PronType=Tot	13	nsubj	13:nsubj	_
+12	ju	ju	ADV	D	_	13	advmod	13:advmod	_
+13	väidavad	väitma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	4:conj	SpaceAfter=No
+14	,	,	PUNCT	Z	_	18	punct	18:punct	_
+15	et	et	SCONJ	J	_	18	mark	18:mark	_
+16	neil	tema	PRON	P	Case=Ade|Number=Plur|Person=3|PronType=Prs	18	obl	18:obl	_
+17	ka	ka	ADV	D	_	18	advmod	18:advmod	_
+18	krõbiseb	krõbisema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	ccomp	13:ccomp	_
+19	ja	ja	CCONJ	J	_	22	cc	22:cc	_
+20	mitte	mitte	ADV	D	Polarity=Neg	21	advmod	21:advmod	_
+21	ainult	ainult	ADV	D	_	22	advmod	22:advmod	_
+22	sungid	sung	PROPN	S	Case=Nom|Number=Plur	18	conj	18:conj	NE=B-Unk|SpaceAfter=No
+23	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb2_android_71
+# text = Kas Sa väidad, et tegemist on massilise katkiste telode konsentratsiooniga siin?
+1	Kas	kas	ADV	D	_	3	advmod	3:advmod	_
+2	Sa	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	_
+3	väidad	väitma	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	Z	_	11	punct	11:punct	_
+5	et	et	SCONJ	J	_	11	mark	11:mark	_
+6	tegemist	tegemine	NOUN	S	Case=Par|Number=Sing	11	nsubj:cop	11:nsubj	_
+7	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
+8	massilise	massiline	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	11	amod	11:amod	_
+9	katkiste	katkine	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	10	amod	10:amod	_
+10	telode	telo	NOUN	S	Case=Gen|Number=Plur	11	nmod	11:nmod	_
+11	konsentratsiooniga	kontsentratsioon	NOUN	S	Case=Com|Number=Sing|Typo=Yes	3	ccomp	3:ccomp	CorrectForm=kontsentratsiooniga
+12	siin	siin	ADV	D	_	11	advmod	11:advmod	SpaceAfter=No
+13	?	?	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb2_android_72
+# text = Aga jeliiza on saast
+1	Aga	aga	CCONJ	J	_	4	cc	4:cc	_
+2	jeliiza	jeliiza	PROPN	S	Case=Nom|Number=Sing	4	nsubj:cop	4:nsubj	NE=B-Org
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+4	saast	saast	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+
+# sent_id = ewtb2_android_73
+# text = Kui kõriseb, siis järelikult on ju ....
+1	Kui	kui	SCONJ	J	_	2	mark	2:mark	_
+2	kõriseb	kõrisema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	6:advcl	SpaceAfter=No
+3	,	,	PUNCT	Z	_	6	punct	6:punct	_
+4	siis	siis	SCONJ	J	_	6	mark	6:mark	_
+5	järelikult	järelikult	ADV	D	_	6	advmod	6:advmod	_
+6	on	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+7	ju	ju	ADV	D	_	6	advmod	6:advmod	_
+8	....	....	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb2_android_74
+# text = "katki" ei pea imtingimata ainult ekraan kohta ütlema.
+1	"	"	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+2	katki	katki	ADV	D	_	10	ccomp	10:ccomp	SpaceAfter=No
+3	"	"	PUNCT	Z	_	2	punct	2:punct	_
+4	ei	ei	AUX	V	Polarity=Neg	10	aux	10:aux	_
+5	pea	pidama	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
+6	imtingimata	ilm_tingimata	ADV	D	Typo=Yes	10	advmod	10:advmod	CorrectForm=ilmtingimata
+7	ainult	ainult	ADV	D	_	8	advmod	8:advmod	_
+8	ekraan	ekraan	NOUN	S	Case=Gen|Number=Sing|Typo=Yes	10	obl	10:obl	CorrectForm=ekraani
+9	kohta	kohta	ADP	K	AdpType=Post	8	case	8:case	_
+10	ütlema	ütlema	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	0	root	0:root	SpaceAfter=No
+11	.	.	PUNCT	Z	_	10	punct	10:punct	_
+
+# sent_id = ewtb2_android_75
+# text = See lihtsalt viitab sellele, et midagi on sees nii nagu ei peaks olema.
+1	See	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	3	nsubj	3:nsubj	_
+2	lihtsalt	lihtsalt	ADV	D	_	3	advmod	3:advmod	_
+3	viitab	viitama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	sellele	see	PRON	P	Case=All|Number=Sing|PronType=Dem	3	obl	3:obl	SpaceAfter=No
+5	,	,	PUNCT	Z	_	9	punct	9:punct	_
+6	et	et	SCONJ	J	_	9	mark	9:mark	_
+7	midagi	miski	PRON	P	Case=Par|Number=Sing|PronType=Ind	9	nsubj:cop	9:nsubj	_
+8	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
+9	sees	sees	ADV	D	_	4	acl	4:acl	_
+10	nii	nii	ADV	D	_	9	advmod	9:advmod	_
+11	nagu	nagu	SCONJ	J	_	14	mark	14:mark	_
+12	ei	ei	AUX	V	Polarity=Neg	14	aux	14:aux	_
+13	peaks	pidama	AUX	V	Mood=Cnd|Number=Sing|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
+14	olema	olema	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	9	advcl	9:advcl	SpaceAfter=No
+15	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb2_android_76
+# text = 1 ei ole massiline, ja võttes konsentratsiooniks see siin + froniuse oma siis on see väga väike konsentratsioon.
+1	1	1	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	4	nsubj:cop	4:nsubj	_
+2	ei	ei	AUX	V	Polarity=Neg	4	aux	4:aux	_
+3	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+4	massiline	massiline	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	Z	_	19	punct	19:punct	_
+6	ja	ja	CCONJ	J	_	19	cc	19:cc	_
+7	võttes	võtma	VERB	V	VerbForm=Conv	19	advcl	19:advcl	_
+8	konsentratsiooniks	kontsentratsioon	NOUN	S	Case=Tra|Number=Sing|Typo=Yes	7	obl	7:obl	CorrectForm=kontsentratsiooniga
+9	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	7	obj	7:obj	_
+10	siin	siin	ADV	D	_	9	advmod	9:advmod	_
+11	+	+	PUNCT	Z	_	13	punct	13:punct	_
+12	froniuse	fronius	PROPN	S	Case=Gen|Number=Sing	13	nmod	13:nmod	NE=B-Per
+13	oma	oma	PRON	P	Case=Nom|Number=Sing|Poss=Yes|PronType=Prs	9	conj	9:conj	_
+14	siis	siis	ADV	D	_	19	advmod	19:advmod	_
+15	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	19:cop	_
+16	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	19	nsubj:cop	19:nsubj	_
+17	väga	väga	ADV	D	_	18	advmod	18:advmod	_
+18	väike	väike	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	19	amod	19:amod	_
+19	konsentratsioon	kontsentratsioon	NOUN	S	Case=Nom|Number=Sing|Typo=Yes	4	conj	4:conj	SpaceAfter=No|CorrectForm=kontsentratsioon
+20	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb2_android_77
+# text = Arvesta, et keskmine selliste toodete koosteliini kvaliteeditase on 98% mis tähendab et igast 100st 2 lähevad liiini tagumisest otsast kõrvale ... ja kui sa arvad et need ka kõrvale jäävad siis eksid.
+1	Arvesta	arvestama	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	Z	_	11	punct	11:punct	_
+3	et	et	SCONJ	J	_	11	mark	11:mark	_
+4	keskmine	keskmine	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	8	amod	8:amod	_
+5	selliste	selline	DET	P	Case=Gen|Number=Plur|PronType=Dem	6	det	6:det	_
+6	toodete	toode	NOUN	S	Case=Gen|Number=Plur	7	nmod	7:nmod	_
+7	koosteliini	kooste_liin	NOUN	S	Case=Gen|Number=Sing	8	nmod	8:nmod	_
+8	kvaliteeditase	kvaliteedi_tase	NOUN	S	Case=Nom|Number=Sing	11	nsubj:cop	11:nsubj	_
+9	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
+10	98	98	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	11	nummod	11:nummod	SpaceAfter=No
+11	%	%	SYM	X	_	1	ccomp	1:ccomp	_
+12	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	13	nsubj	13:nsubj	_
+13	tähendab	tähendama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	1:conj	_
+14	et	et	SCONJ	J	_	18	mark	18:mark	_
+15	igast	iga	DET	P	Case=Ela|Number=Sing|PronType=Tot	16	det	16:det	_
+16	100st	100	NUM	N	Case=Ela|Number=Sing|NumForm=Digit|NumType=Card	18	obl	18:obl	_
+17	2	2	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	18	nsubj	18:nsubj	_
+18	lähevad	minema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	ccomp	13:ccomp	_
+19	liiini	liin	NOUN	S	Case=Gen|Number=Sing|Typo=Yes	21	nmod	21:nmod	CorrectForm=liini
+20	tagumisest	tagumine	ADJ	A	Case=Ela|Degree=Pos|Number=Sing	21	amod	21:amod	_
+21	otsast	ots	NOUN	S	Case=Ela|Number=Sing	18	obl	18:obl	_
+22	kõrvale	kõrvale	ADV	D	_	18	compound:prt	18:compound	_
+23	...	...	PUNCT	Z	_	34	punct	34:punct	_
+24	ja	ja	CCONJ	J	_	34	cc	34:cc	_
+25	kui	kui	SCONJ	J	_	27	mark	27:mark	_
+26	sa	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	27	nsubj	27:nsubj	_
+27	arvad	arvama	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	34	advcl	34:advcl	_
+28	et	et	SCONJ	J	_	32	mark	32:mark	_
+29	need	see	PRON	P	Case=Nom|Number=Plur|PronType=Dem	32	nsubj	32:nsubj	_
+30	ka	ka	ADV	D	_	32	advmod	32:advmod	_
+31	kõrvale	kõrvale	ADV	D	_	32	compound:prt	32:compound	_
+32	jäävad	jääma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	ccomp	27:ccomp	_
+33	siis	siis	ADV	D	_	34	advmod	34:advmod	_
+34	eksid	eksima	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	18:conj	SpaceAfter=No
+35	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ewtb2_android_78
+# text = tehakse midagi ja suurem osa neist lähevad karpi ja letile.
+1	tehakse	tegema	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
+2	midagi	miski	PRON	P	Case=Par|Number=Sing|PronType=Ind	1	obj	1:obj	_
+3	ja	ja	CCONJ	J	_	7	cc	7:cc	_
+4	suurem	suurem	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	5	amod	5:amod	_
+5	osa	osa	NOUN	S	Case=Nom|Number=Sing	7	nsubj	7:nsubj	_
+6	neist	see	PRON	P	Case=Ela|Number=Plur|PronType=Dem	5	nmod	5:nmod	_
+7	lähevad	minema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	1:conj	_
+8	karpi	karp	NOUN	S	Case=Add|Number=Sing	7	obl	7:obl	_
+9	ja	ja	CCONJ	J	_	10	cc	10:cc	_
+10	letile	lett	NOUN	S	Case=All|Number=Sing	8	conj	8:conj	SpaceAfter=No
+11	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ewtb2_android_79
+# text = Lisaks on asju mida lõpptestides kinni ei võeta ja tulevad välja mingi aja jooksul kasutades.
+1	Lisaks	lisa	NOUN	S	Case=Tra|Number=Sing	2	obl	2:obl	_
+2	on	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	asju	asi	NOUN	S	Case=Par|Number=Plur	2	nsubj	2:nsubj|8:obj	_
+4	mida	mis	PRON	P	Case=Par|Number=Plur|PronType=Int,Rel	8	obj	3:ref	_
+5	lõpptestides	lõpp_test	NOUN	S	Case=Ine|Number=Plur	8	obl	8:obl	_
+6	kinni	kinni	ADV	D	_	8	compound:prt	8:compound	_
+7	ei	ei	AUX	V	Polarity=Neg	8	aux	8:aux	_
+8	võeta	võtma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	3	acl:relcl	3:acl	_
+9	ja	ja	CCONJ	J	_	10	cc	10:cc	_
+10	tulevad	tulema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	8:conj	_
+11	välja	välja	ADV	D	_	10	compound:prt	10:compound	_
+12	mingi	mingi	DET	P	Case=Gen|Number=Sing|PronType=Ind	13	det	13:det	_
+13	aja	aeg	NOUN	S	Case=Gen|Number=Sing	10	obl	10:obl	_
+14	jooksul	jooksul	ADP	K	AdpType=Post	13	case	13:case	_
+15	kasutades	kasutama	VERB	V	VerbForm=Conv	10	advcl	10:advcl	SpaceAfter=No
+16	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb2_android_80
+# text = Krõbin kül ei ole normaalne ...
+1	Krõbin	krõbin	NOUN	S	Case=Nom|Number=Sing	5	nsubj:cop	5:nsubj	_
+2	kül	küll	ADV	D	Typo=Yes	5	advmod	5:advmod	CorrectForm=küll
+3	ei	ei	AUX	V	Polarity=Neg	5	aux	5:aux	_
+4	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
+5	normaalne	normaalne	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	_
+6	...	...	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = ewtb2_android_81
+# text = kui samsungi ja ifööno mehed seda normaalseks peavad siis edu teile.
+1	kui	kui	SCONJ	J	_	8	mark	8:mark	_
+2	samsungi	Samsung	PROPN	S	Case=Gen|Number=Sing	5	nmod	5:nmod	NE=B-Org
+3	ja	ja	CCONJ	J	_	4	cc	4:cc	_
+4	ifööno	ifööno	NOUN	S	Case=Gen|Number=Sing	2	conj	2:conj	NE=B-Org
+5	mehed	mees	NOUN	S	Case=Nom|Number=Plur	8	nsubj	8:nsubj	_
+6	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	8	obj	8:obj	_
+7	normaalseks	normaalne	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	8	xcomp	8:xcomp	_
+8	peavad	pidama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	10:advcl	_
+9	siis	siis	ADV	D	_	10	advmod	10:advmod	_
+10	edu	edu	NOUN	S	Case=Par|Number=Sing	0	root	0:root	_
+11	teile	sina	PRON	P	Case=All|Number=Plur|Person=2|PronType=Prs	10	obl	10:obl	Orphan=Yes|SpaceAfter=No
+12	.	.	PUNCT	Z	_	10	punct	10:punct	_
+
+# sent_id = ewtb2_android_82
+# text = Garantii on ilmselt selle pärast välja mõeldud et 100% kvaliteeti ei taga keegi, ega suuda välistada väiksemaid defekte toodetel, mis kasutades esile tulevad .. isegi see puuvilja firma mitte, rääkimata pesumasina firmast.
+1	Garantii	garantii	NOUN	S	Case=Nom|Number=Sing	7	obj	7:obj	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
+3	ilmselt	ilmselt	ADV	D	_	7	advmod	7:advmod	_
+4	selle	see	PRON	P	Case=Gen|Number=Sing|PronType=Dem	7	obl	7:obl	_
+5	pärast	pärast	ADP	K	AdpType=Post	4	case	4:case	_
+6	välja	välja	ADV	D	_	7	compound:prt	7:compound	_
+7	mõeldud	mõtlema	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+8	et	et	SCONJ	J	_	13	mark	13:mark	_
+9	100	100	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	10	nummod	10:nummod	SpaceAfter=No
+10	%	%	SYM	X	_	11	nmod	11:nmod	_
+11	kvaliteeti	kvaliteet	NOUN	S	Case=Par|Number=Sing	13	obj	13:obj	_
+12	ei	ei	AUX	V	Polarity=Neg	13	aux	13:aux	_
+13	taga	tagama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	7:advcl	_
+14	keegi	keegi	PRON	P	Case=Nom|Number=Sing|PronType=Ind	13	nsubj	13:nsubj	SpaceAfter=No
+15	,	,	PUNCT	Z	_	17	punct	17:punct	_
+16	ega	ega	CCONJ	J	Polarity=Neg	17	cc	17:cc	_
+17	suuda	suutma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	13:conj	_
+18	välistada	välistama	VERB	V	VerbForm=Inf	17	xcomp	17:xcomp	_
+19	väiksemaid	väiksem	ADJ	A	Case=Par|Degree=Cmp|Number=Plur	20	amod	20:amod	_
+20	defekte	defekt	NOUN	S	Case=Par|Number=Plur	18	obj	18:obj|26:nsubj	_
+21	toodetel	toode	NOUN	S	Case=Ade|Number=Plur	18	obl	18:obl	SpaceAfter=No
+22	,	,	PUNCT	Z	_	26	punct	26:punct	_
+23	mis	mis	PRON	P	Case=Nom|Number=Plur|PronType=Int,Rel	26	nsubj	20:ref	_
+24	kasutades	kasutama	VERB	V	VerbForm=Conv	26	advcl	26:advcl	_
+25	esile	esile	ADV	D	_	26	compound:prt	26:compound	_
+26	tulevad	tulema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	20:acl	_
+27	..	..	PUNCT	Z	_	26	punct	26:punct	_
+28	isegi	isegi	ADV	D	_	31	advmod	31:advmod	_
+29	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	31	det	31:det	_
+30	puuvilja	puu_vili	NOUN	S	Case=Gen|Number=Sing	31	nmod	31:nmod	_
+31	firma	firma	NOUN	S	Case=Nom|Number=Sing	13	conj	31.1:nsubj	_
+31.1	tagab	tagama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	13:conj	Empty=31.1
+32	mitte	mitte	ADV	D	Polarity=Neg	31	orphan	31.1:advmod	SpaceAfter=No
+33	,	,	PUNCT	Z	_	34	punct	34:punct	_
+34	rääkimata	rääkima	VERB	V	Case=Abe|VerbForm=Sup|Voice=Act	31	advcl	31.1:advcl	_
+35	pesumasina	pesu_masin	NOUN	S	Case=Gen|Number=Sing	36	nmod	36:nmod	_
+36	firmast	firma	NOUN	S	Case=Ela|Number=Sing	34	obl	34:obl	SpaceAfter=No
+37	.	.	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = ewtb2_android_83
+# text = Aga Chris ... mis siis katki saab olla kui kõik asjad ilusti töötavad?
+1	Aga	aga	CCONJ	J	_	2	cc	2:cc	_
+2	Chris	Chris	PROPN	S	Case=Nom|Number=Sing	6	vocative	6:vocative	NE=B-Per
+3	...	...	PUNCT	Z	_	6	punct	6:punct	_
+4	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	6	nsubj:cop	6:nsubj	_
+5	siis	siis	ADV	D	_	6	advmod	6:advmod	_
+6	katki	katki	ADV	D	_	0	root	0:root	_
+7	saab	saama	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
+8	olla	olema	AUX	V	VerbForm=Inf	6	cop	6:cop	_
+9	kui	kui	SCONJ	J	_	13	mark	13:mark	_
+10	kõik	kõik	DET	P	Case=Nom|Number=Plur|PronType=Tot	11	det	11:det	_
+11	asjad	asi	NOUN	S	Case=Nom|Number=Plur	13	nsubj	13:nsubj	_
+12	ilusti	ilusti	ADV	D	_	13	advmod	13:advmod	_
+13	töötavad	töötama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	6:advcl	SpaceAfter=No
+14	?	?	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb2_android_84
+# text = Huvi pärast peakski nüüd tuttavate telefone uurima.
+1	Huvi	huvi	NOUN	S	Case=Gen|Number=Sing	7	obl	7:obl	_
+2	pärast	pärast	ADP	K	AdpType=Post	1	case	1:case	_
+3	peakski	pidama	AUX	V	Mood=Cnd|Number=Sing|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
+4	nüüd	nüüd	ADV	D	_	7	advmod	7:advmod	_
+5	tuttavate	tuttav	NOUN	S	Case=Gen|Number=Plur	6	nmod	6:nmod	_
+6	telefone	telefon	NOUN	S	Case=Par|Number=Plur	7	obj	7:obj	_
+7	uurima	uurima	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	0	root	0:root	SpaceAfter=No
+8	.	.	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = ewtb2_android_85
+# text = Ja muideks see krõbin on kohe algusest saati mu telefonil olnud, peale pakist väljavõttu panin tähele.
+1	Ja	ja	CCONJ	J	_	2	cc	2:cc	_
+2	muideks	muideks	ADV	D	_	10	discourse	10:discourse	_
+3	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	4	det	4:det	_
+4	krõbin	krõbin	NOUN	S	Case=Nom|Number=Sing	10	nsubj:cop	10:nsubj	_
+5	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
+6	kohe	kohe	ADV	D	_	7	advmod	7:advmod	_
+7	algusest	algus	NOUN	S	Case=Ela|Number=Sing	10	obl	10:obl	_
+8	saati	saati	ADP	K	AdpType=Post	7	case	7:case	_
+9	mu	mina	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	10	nmod	10:nmod	_
+10	telefonil	telefon	NOUN	S	Case=Ade|Number=Sing	0	root	0:root	_
+11	olnud	olema	AUX	V	Tense=Past|VerbForm=Part|Voice=Act	10	cop	10:cop	SpaceAfter=No
+12	,	,	PUNCT	Z	_	16	punct	16:punct	_
+13	peale	peale	ADP	K	AdpType=Prep	15	case	15:case	_
+14	pakist	pakk	NOUN	S	Case=Ela|Number=Sing	15	nmod	15:nmod	_
+15	väljavõttu	välja_võtt	NOUN	S	Case=Par|Number=Sing	16	obl	16:obl	_
+16	panin	panema	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	10:conj	_
+17	tähele	tähele	ADV	D	_	16	advmod	16:advmod	SpaceAfter=No
+18	.	.	PUNCT	Z	_	10	punct	10:punct	_
+
+# sent_id = ewtb2_android_86
+# text = Telefon on isegi korra softi teemaga garantiis käinud aga mitte miskit seoses selle krõbinaga.
+1	Telefon	telefon	NOUN	S	Case=Nom|Number=Sing	8	nsubj	8:nsubj	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
+3	isegi	isegi	ADV	D	_	8	advmod	8:advmod	_
+4	korra	kord	NOUN	S	Case=Gen|Number=Sing	8	obl	8:obl	_
+5	softi	soft	NOUN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	_
+6	teemaga	teema	NOUN	S	Case=Com|Number=Sing	8	obl	8:obl	_
+7	garantiis	garantii	NOUN	S	Case=Ine|Number=Sing	8	obl	8:obl	_
+8	käinud	käima	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+9	aga	aga	CCONJ	J	_	11	cc	11.1:cc	_
+10	mitte	mitte	ADV	D	Polarity=Neg	11	advmod	11:advmod	_
+11	miskit	miski	NOUN	S	Case=Par|Number=Sing	8	conj	11.1:obj	_
+11.1	leitud	leidma	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	_	_	8:conj	Empty=11.1
+12	seoses	seoses	ADP	K	AdpType=Prep	14	case	14:case	_
+13	selle	see	DET	P	Case=Gen|Number=Sing|PronType=Dem	14	det	14:det	_
+14	krõbinaga	krõbin	NOUN	S	Case=Com|Number=Sing	11	orphan	11.1:obl	SpaceAfter=No
+15	.	.	PUNCT	Z	_	8	punct	8:punct	_
+
