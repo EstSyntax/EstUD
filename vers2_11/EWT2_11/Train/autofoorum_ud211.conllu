@@ -2097,11 +2097,11 @@
 10	või	või	CCONJ	J	_	13	cc	13:cc	_
 11	lähiajal	lähi_aeg	NOUN	S	Case=Ade|Number=Sing	13	obl	13:obl	_
 12	tegemist	tegemine	NOUN	S	Case=Par|Number=Sing	13	obl	13:obl	_
-13	vajavast	vajav	ADJ	A	Case=Ela|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	conj	4:conj	SpaceAfter=No
+13	vajavast	vajav	ADJ	A	Case=Ela|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	conj	4:conj|20:obj	SpaceAfter=No
 14	,	,	PUNCT	Z	_	17	punct	17:punct	_
-15	mida	mis	PRON	P	Case=Par|Number=Sing|PronType=Int,Rel	20	obj	20:obj	_
+15	mida	mis	PRON	P	Case=Par|Number=Sing|PronType=Int,Rel	20	obj	13:ref	_
 16	ei	ei	AUX	V	Polarity=Neg	17	aux	17:aux	_
-17	ole	olema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	13:acl	ToDo=UnknownRef
+17	ole	olema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	13:acl	_
 18	vaja	vaja	ADV	D	_	17	compound:prt	17:compound	_
 19	kohe	kohe	ADV	D	_	20	advmod	20:advmod	_
 20	teha	tegema	VERB	V	VerbForm=Inf	17	csubj	17:csubj	_
