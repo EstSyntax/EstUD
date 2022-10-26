@@ -801,7 +801,7 @@
 27	pakutakse	pakkuma	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	8	acl:relcl	8:acl	_
 28	ka	ka	ADV	D	_	27	advmod	27:advmod	_
 29	120	120	NUM	N	NumForm=Digit|NumType=Card	30	nummod	30:nummod	SpaceAfter=No|CorrectSpaceAfter=Yes
-30	mm	mm	NUM	N	Abbr=Yes	31	nmod	31:nmod	_
+30	mm	mm	NOUN	S	Abbr=Yes	31	nmod	31:nmod	_
 31	suurtükki	suur_tükk	NOUN	S	Case=Par|Number=Sing	27	obj	27:obj	_
 32	NATO	NATO	PROPN	Y	Abbr=Yes	33	nmod	33:nmod	NE=B-Org
 33	standardi	standard	NOUN	S	Case=Gen|Number=Sing	34	nmod	34:nmod	_

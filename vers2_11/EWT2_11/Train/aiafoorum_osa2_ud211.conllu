@@ -2222,7 +2222,7 @@
 10	ei	ei	AUX	V	Polarity=Neg	14	aux	14:aux	_
 11	tohi	tohtima	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
 12	nagu	nagu	SCONJ	J	_	13	mark	13:mark	_
-13	anemooni	anemoon	NOUN	S	Case=Par|Number=Sing	14	obj	14:obj	_
+13	anemooni	anemoon	NOUN	S	Case=Par|Number=Sing	14	advcl	14:advcl	_
 14	leotada	leotama	VERB	V	VerbForm=Inf	6	ccomp	6:ccomp	SpaceAfter=No
 15	.	.	PUNCT	Z	_	2	punct	2:punct	_
 

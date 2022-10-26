@@ -556,7 +556,7 @@
 3	Pinnast	pinnas	NOUN	S	Case=Par|Number=Sing	4	obj	4:obj	_
 4	tahavad	tahtma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	ilmselt	ilmselt	ADV	D	_	4	advmod	4:advmod	_
-6	sellist	selline	PRON	P	Case=Par|Number=Sing|PronType=Dem	4	obj	4:obj	SpaceAfter=No
+6	sellist	selline	PRON	P	Case=Par|Number=Sing|PronType=Dem	4	xcomp	4:xcomp	SpaceAfter=No
 7	,	,	PUNCT	Z	_	12	punct	12:punct	_
 8	nagu	nagu	SCONJ	J	_	12	mark	12:mark	_
 9	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
