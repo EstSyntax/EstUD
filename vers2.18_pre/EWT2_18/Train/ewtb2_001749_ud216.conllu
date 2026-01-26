@@ -1,0 +1,503 @@
+# newdoc id = ewtb2_001749
+# sent_id = ewtb2_001749_1
+# text = ..... no see inetu lugu korstnapühkija oli ikka küll, et korstnasse panna ... aga matsid on matsid nagu vene revolutsionärid, et kohe köik ära lõhkuda, hävitada ... matsid
+1	.....	.....	PUNCT	Z	_	5	punct	5:punct	_
+2	no	no	INTJ	B	_	5	discourse	5:discourse	_
+3	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	5	det	5:det	_
+4	inetu	inetu	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	5:amod	_
+5	lugu	lugu	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+6	korstnapühkija	korstna_pühki=ja	NOUN	S	Case=Nom|Number=Sing	9	nsubj:cop	9:nsubj	_
+7	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
+8	ikka	ikka	ADV	D	_	9	advmod	9:advmod	_
+9	küll	küll	ADV	D	_	5	parataxis	5:parataxis	SpaceAfter=No
+10	,	,	PUNCT	Z	_	13	punct	13:punct	_
+11	et	et	SCONJ	J	_	13	mark	13:mark	_
+12	korstnasse	korsten	NOUN	S	Case=Ill|Number=Sing	13	obl	13:obl	_
+13	panna	panema	VERB	V	VerbForm=Inf	5	parataxis	5:parataxis	_
+14	...	...	PUNCT	Z	_	5	punct	5:punct	_
+15	aga	aga	CCONJ	J	_	18	cc	18:cc	_
+16	matsid	mats	NOUN	S	Case=Nom|Number=Plur	18	nsubj:cop	18:nsubj	_
+17	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	18:cop	_
+18	matsid	mats	NOUN	S	Case=Nom|Number=Plur	5	conj	0:root|5:conj	_
+19	nagu	nagu	SCONJ	J	_	21	mark	21:mark	_
+20	vene	vene	ADJ	G	_	21	amod	21:amod	_
+21	revolutsionärid	revolutsionäär	NOUN	S	Case=Nom|Number=Plur|Typo=Yes	18	advcl	18:advcl	SpaceAfter=No|CorrectForm=revolutsionäärid
+22	,	,	PUNCT	Z	_	27	punct	27:punct	_
+23	et	et	SCONJ	J	_	27	mark	27:mark	_
+24	kohe	kohe	ADV	D	_	27	advmod	27:advmod	_
+25	köik	kõik	PRON	P	Case=Nom|Number=Sing|PronType=Tot|Typo=Yes	27	obj	27:obj	CorrectForm=kõik
+26	ära	ära	ADV	D	_	27	compound:prt	27:compound	_
+27	lõhkuda	lõhkuma	VERB	V	VerbForm=Inf	21	advcl	21:advcl	SpaceAfter=No
+28	,	,	PUNCT	Z	_	29	punct	29:punct	_
+29	hävitada	hävitama	VERB	V	VerbForm=Inf	27	conj	21:advcl|27:conj	_
+30	...	...	PUNCT	Z	_	5	punct	5:punct	_
+31	matsid	mats	NOUN	S	Case=Nom|Number=Plur	5	advcl	5:advcl	_
+
+# sent_id = ewtb2_001749_2
+# text = Nägin unes, et Kangro maksis kõik võlad ära
+1	Nägin	nägema	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	unes	uni	NOUN	S	Case=Ine|Number=Sing	1	obl	1:obl	SpaceAfter=No
+3	,	,	PUNCT	Z	_	6	punct	6:punct	_
+4	et	et	SCONJ	J	_	6	mark	6:mark	_
+5	Kangro	Kangro	PROPN	S	Case=Nom|Number=Sing	6	nsubj	6:nsubj	NE=B-Per
+6	maksis	maksma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	ccomp	1:ccomp	_
+7	kõik	kõik	DET	P	Case=Nom|Number=Plur|PronType=Tot	8	det	8:det	_
+8	võlad	võlg	NOUN	S	Case=Nom|Number=Plur	6	obj	6:obj	_
+9	ära	ära	ADV	D	_	6	compound:prt	6:compound	_
+
+# sent_id = ewtb2_001749_3
+# text = Täiesti nõus Lugejaga - parim kaasaegne skulptor!
+1	Täiesti	täiesti	ADV	D	_	2	advmod	2:advmod	_
+2	nõus	nõus	ADV	D	_	0	root	0:root	_
+3	Lugejaga	Lugeja	PROPN	S	Case=Com|Number=Sing	2	obl	2:obl	NE=B-Per
+4	-	-	PUNCT	Z	_	2	punct	2:punct	_
+5	parim	parim	ADJ	A	Case=Nom|Degree=Sup|Number=Sing	7	amod	7:amod	_
+6	kaasaegne	kaas_aegne	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	7	amod	7:amod	_
+7	skulptor	skulptor	NOUN	S	Case=Nom|Number=Sing	2	parataxis	2:parataxis	SpaceAfter=No
+8	!	!	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb2_001749_4
+# text = juba see Kangro kottimine.
+1	juba	juba	ADV	D	_	4	advmod	4:advmod	_
+2	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	4	det	4:det	_
+3	Kangro	Kangro	PROPN	S	Case=Gen|Number=Sing	4	nmod	4:nmod	NE=B-Per
+4	kottimine	kotti=mine	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
+5	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb2_001749_5
+# text = Kõigil on lastud erastada, aga mees maksab ikka renti ruumide eest, mille on ammu juba korda teinud.
+1	Kõigil	kõik	PRON	P	Case=Ade|Number=Plur|PronType=Tot	3	obl	3:obl|4:nsubj	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	3:aux	_
+3	lastud	laskma	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+4	erastada	erastama	VERB	V	VerbForm=Inf	3	xcomp	3:xcomp	SpaceAfter=No
+5	,	,	PUNCT	Z	_	8	punct	8:punct	_
+6	aga	aga	CCONJ	J	_	8	cc	8:cc	_
+7	mees	mees	NOUN	S	Case=Nom|Number=Sing	8	nsubj	8:nsubj	_
+8	maksab	maksma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	0:root|3:conj	_
+9	ikka	ikka	ADV	D	_	8	advmod	8:advmod	_
+10	renti	rent	NOUN	S	Case=Par|Number=Sing	8	obj	8:obj	_
+11	ruumide	ruum	NOUN	S	Case=Gen|Number=Plur	8	obl	8:obl|19:obj	_
+12	eest	eest	ADP	K	AdpType=Post	11	case	11:case	SpaceAfter=No
+13	,	,	PUNCT	Z	_	19	punct	19:punct	_
+14	mille	mis	PRON	P	Case=Gen|Number=Sing|PronType=Int,Rel	19	obj	11:ref	_
+15	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	19:aux	_
+16	ammu	ammu	ADV	D	_	19	advmod	19:advmod	_
+17	juba	juba	ADV	D	_	19	advmod	19:advmod	_
+18	korda	kord	NOUN	S	Case=Add|Number=Sing	19	obl	19:obl	_
+19	teinud	tegema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	11	acl:relcl	11:acl	SpaceAfter=No
+20	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb2_001749_6
+# text = Kaua linn võib ühe mehe käest raha välja pumbata?
+1	Kaua	kaua	ADV	D	_	9	advmod	9:advmod	_
+2	linn	linn	NOUN	S	Case=Nom|Number=Sing	9	nsubj	9:nsubj	_
+3	võib	võima	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
+4	ühe	üks	DET	P	Case=Gen|Number=Sing|PronType=Ind	5	det	5:det	_
+5	mehe	mees	NOUN	S	Case=Gen|Number=Sing	9	obl	9:obl	_
+6	käest	käest	ADP	K	AdpType=Post	5	case	5:case	_
+7	raha	raha	NOUN	S	Case=Par|Number=Sing	9	obj	9:obj	_
+8	välja	välja	ADV	D	_	9	compound:prt	9:compound	_
+9	pumbata	pumpama	VERB	V	VerbForm=Inf	0	root	0:root	SpaceAfter=No
+10	?	?	PUNCT	Z	_	9	punct	9:punct	_
+
+# sent_id = ewtb2_001749_7
+# text = Noh, kui oskab linnaisadega äri teha, siis muidugi parim (äritegija).
+1	Noh	noh	INTJ	B	_	4	discourse	4:discourse	SpaceAfter=No
+2	,	,	PUNCT	Z	_	4	punct	4:punct	_
+3	kui	kui	SCONJ	J	_	4	mark	4:mark	_
+4	oskab	oskama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	11:advcl	_
+5	linnaisadega	linna_isa	NOUN	S	Case=Com|Number=Plur	7	obl	7:obl	_
+6	äri	äri	NOUN	S	Case=Par|Number=Sing	7	obj	7:obj	_
+7	teha	tegema	VERB	V	VerbForm=Inf	4	xcomp	4:xcomp	SpaceAfter=No
+8	,	,	PUNCT	Z	_	11	punct	11:punct	_
+9	siis	siis	SCONJ	J	_	11	mark	11:mark	_
+10	muidugi	muidugi	ADV	D	_	11	advmod	11:advmod	_
+11	parim	parim	ADJ	A	Case=Nom|Degree=Sup|Number=Sing	0	root	0:root	_
+12	(	(	PUNCT	Z	_	13	punct	13:punct	SpaceAfter=No
+13	äritegija	äri_tegija	NOUN	S	Case=Nom|Number=Sing	11	parataxis	11:parataxis	SpaceAfter=No
+14	)	)	PUNCT	Z	_	13	punct	13:punct	SpaceAfter=No
+15	.	.	PUNCT	Z	_	11	punct	11:punct	_
+
+# sent_id = ewtb2_001749_8
+# text = Kui näeks linnaruumis ka teiste skuptorite taieseid, siis saaks võrrelda.
+1	Kui	kui	SCONJ	J	_	2	mark	2:mark	_
+2	näeks	nägema	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	11:advcl	_
+3	linnaruumis	linna_ruum	NOUN	S	Case=Ine|Number=Sing	2	obl	2:obl	_
+4	ka	ka	ADV	D	_	5	advmod	5:advmod	_
+5	teiste	teine	DET	P	Case=Gen|Number=Plur|PronType=Dem	6	det	6:det	_
+6	skuptorite	skulptor	NOUN	S	Case=Gen|Number=Plur|Typo=Yes	7	nmod	7:nmod	CorrectForm=skulptorite
+7	taieseid	taies	NOUN	S	Case=Par|Number=Plur	2	obj	2:obj	SpaceAfter=No
+8	,	,	PUNCT	Z	_	11	punct	11:punct	_
+9	siis	siis	ADV	D	_	11	advmod	11:advmod	_
+10	saaks	saama	AUX	V	Mood=Cnd|Number=Sing|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	11:aux	_
+11	võrrelda	võrdlema	VERB	V	VerbForm=Inf	0	root	0:root	SpaceAfter=No
+12	.	.	PUNCT	Z	_	11	punct	11:punct	_
+
+# sent_id = ewtb2_001749_9
+# text = Praegu see võimalus puudub.
+1	Praegu	praegu	ADV	D	_	4	advmod	4:advmod	_
+2	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	3	det	3:det	_
+3	võimalus	võimalus	NOUN	S	Case=Nom|Number=Sing	4	nsubj	4:nsubj	_
+4	puudub	puuduma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+5	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb2_001749_10
+# text = Pall käib vaid ühe mehe väravasse ja konkurents puudub.
+1	Pall	pall	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	_
+2	käib	käima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	vaid	vaid	ADV	D	_	4	advmod	4:advmod	_
+4	ühe	üks	NUM	N	Case=Gen|Number=Sing|NumForm=Word|NumType=Card	5	nummod	5:nummod	_
+5	mehe	mees	NOUN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	_
+6	väravasse	värav	NOUN	S	Case=Ill|Number=Sing	2	obl	2:obl	_
+7	ja	ja	CCONJ	J	_	9	cc	9:cc	_
+8	konkurents	konkurents	NOUN	S	Case=Nom|Number=Sing	9	nsubj	9:nsubj	_
+9	puudub	puuduma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	SpaceAfter=No
+10	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb2_001749_11
+# text = Õnneks pole tema Kalevipoega veel pandud merre mune leotama ....
+1	Õnneks	õnneks	ADV	D	_	6	advmod	6:advmod	_
+2	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
+3	tema	tema	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nmod	4:nmod	_
+4	Kalevipoega	Kalevi_poeg	PROPN	S	Case=Par|Number=Sing	6	obj	6:obj|9:nsubj	NE=B-Prod
+5	veel	veel	ADV	D	_	6	advmod	6:advmod	_
+6	pandud	panema	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+7	merre	meri	NOUN	S	Case=Add|Number=Sing	6	obl	6:obl	_
+8	mune	muna	NOUN	S	Case=Par|Number=Plur	9	obj	9:obj	_
+9	leotama	leotama	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	6	xcomp	6:xcomp	_
+10	....	....	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb2_001749_12
+# text = gunztiasjatundjatelt küsiks hääl meelel, kas nad sellist võõrast nime nagu Mati Karmin on kuulnud?
+1	gunztiasjatundjatelt	gunzti_asja_tundja	NOUN	S	Case=Abl|Number=Plur	2	obl	2:obl	_
+2	küsiks	küsima	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	hääl	hää	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	4	amod	4:amod	_
+4	meelel	meel	NOUN	S	Case=Ade|Number=Sing	2	obl	2:obl	SpaceAfter=No
+5	,	,	PUNCT	Z	_	15	punct	15:punct	_
+6	kas	kas	ADV	D	_	15	advmod	15:advmod	_
+7	nad	tema	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	15:nsubj	_
+8	sellist	selline	DET	P	Case=Par|Number=Sing|PronType=Dem	10	det	10:det	_
+9	võõrast	võõras	ADJ	A	Case=Par|Degree=Pos|Number=Sing	10	amod	10:amod	_
+10	nime	nimi	NOUN	S	Case=Par|Number=Sing	15	obj	15:obj	_
+11	nagu	nagu	SCONJ	J	_	12	mark	12:mark	_
+12	Mati	Mati	PROPN	S	Case=Nom|Number=Sing	10	advcl	10:advcl	NE=B-Per
+13	Karmin	Karmin	PROPN	S	Case=Nom|Number=Sing	12	flat	12:flat	NE=I-Per
+14	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	15:aux	_
+15	kuulnud	kuulma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	2	ccomp	2:ccomp	SpaceAfter=No
+16	?	?	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb2_001749_13
+# text = .. nõus Lugejaga
+1	..	..	PUNCT	Z	_	2	punct	2:punct	_
+2	nõus	nõus	ADV	D	_	0	root	0:root	_
+3	Lugejaga	Lugeja	PROPN	S	Case=Com|Number=Sing	2	obl	2:obl	NE=B-Per
+
+# sent_id = ewtb2_001749_14
+# text = Siin pole midagi tegemist üldsuse või kunstiteadlaste hinnanguga.
+1	Siin	siin	ADV	D	_	8	advmod	8:advmod	_
+2	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
+3	midagi	miski	PRON	P	Case=Par|Number=Sing|PronType=Ind	4	nmod	4:nmod	_
+4	tegemist	tegemine	NOUN	S	Case=Par|Number=Sing	8	nsubj:cop	8:nsubj	_
+5	üldsuse	üldsus	NOUN	S	Case=Gen|Number=Sing	8	nmod	8:nmod	_
+6	või	või	CCONJ	J	_	7	cc	7:cc	_
+7	kunstiteadlaste	kunsti_teadlane	NOUN	S	Case=Gen|Number=Plur	5	conj	5:conj|8:nmod	_
+8	hinnanguga	hinnang	NOUN	S	Case=Com|Number=Sing	0	root	0:root	SpaceAfter=No
+9	.	.	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = ewtb2_001749_15
+# text = Piisab vaid teatud ametimehele meeldimisest - ning igale järjekordsele skulptuurile on linnas koht garanteeritud.
+1	Piisab	piisama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	vaid	vaid	ADV	D	_	5	advmod	5:advmod	_
+3	teatud	teatud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	4	acl	4:acl	_
+4	ametimehele	ameti_mees	NOUN	S	Case=All|Number=Sing	5	nmod	5:nmod	_
+5	meeldimisest	meeldimine	NOUN	S	Case=Ela|Number=Sing	1	obl	1:obl	_
+6	-	-	PUNCT	Z	_	1	punct	1:punct	_
+7	ning	ning	CCONJ	J	_	14	cc	14:cc	_
+8	igale	iga	DET	P	Case=All|Number=Sing|PronType=Tot	10	det	10:det	_
+9	järjekordsele	järje_kordne	ADJ	A	Case=All|Degree=Pos|Number=Sing	10	amod	10:amod	_
+10	skulptuurile	skulptuur	NOUN	S	Case=All|Number=Sing	14	obl	14:obl	_
+11	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
+12	linnas	linn	NOUN	S	Case=Ine|Number=Sing	14	obl	14:obl	_
+13	koht	koht	NOUN	S	Case=Nom|Number=Sing	14	obj	14:obj	_
+14	garanteeritud	garanteerima	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	1	conj	0:root|1:conj	SpaceAfter=No
+15	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ewtb2_001749_16
+# text = Põhjenduski on olemas - turistidele meeldivat nende juures pildistada.
+1	Põhjenduski	põhjendus	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj|3:nsubj	_
+2	on	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	olemas	olema	VERB	V	Case=Ine|VerbForm=Sup|Voice=Act	2	xcomp	2:xcomp	_
+4	-	-	PUNCT	Z	_	6	punct	6:punct	_
+5	turistidele	turist	NOUN	S	Case=All|Number=Plur	6	obl	6:obl	_
+6	meeldivat	meeldima	VERB	V	Mood=Qot|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	2:parataxis	_
+7	nende	see	PRON	P	Case=Gen|Number=Plur|PronType=Dem	9	obl	9:obl	_
+8	juures	juures	ADP	K	AdpType=Post	7	case	7:case	_
+9	pildistada	pildistama	VERB	V	VerbForm=Inf	6	csubj	6:csubj	SpaceAfter=No
+10	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb2_001749_17
+# text = Tegelikult pildistatakse kõige sagedamini ikka eriti veidrate ja grotesksete objektide kõrval, kuna ilus objekt varjutaks pildistatava väärtused.
+1	Tegelikult	tegelikult	ADV	D	_	2	advmod	2:advmod	_
+2	pildistatakse	pildistama	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
+3	kõige	kõige	ADV	D	_	4	advmod	4:advmod	_
+4	sagedamini	sagedamini	ADV	D	_	2	advmod	2:advmod	_
+5	ikka	ikka	ADV	D	_	2	advmod	2:advmod	_
+6	eriti	eriti	ADV	D	_	7	advmod	7:advmod	_
+7	veidrate	veider	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	10	amod	10:amod	_
+8	ja	ja	CCONJ	J	_	9	cc	9:cc	_
+9	grotesksete	groteskne	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	7	conj	7:conj|10:amod	_
+10	objektide	objekt	NOUN	S	Case=Gen|Number=Plur	2	obl	2:obl	_
+11	kõrval	kõrval	ADP	K	AdpType=Post	10	case	10:case	SpaceAfter=No
+12	,	,	PUNCT	Z	_	16	punct	16:punct	_
+13	kuna	kuna	SCONJ	J	_	16	mark	16:mark	_
+14	ilus	ilus	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	15	amod	15:amod	_
+15	objekt	objekt	NOUN	S	Case=Nom|Number=Sing	16	obl	16:obl	_
+16	varjutaks	varjutama	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	2:advcl	_
+17	pildistatava	pildistatav	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	18	acl	18:acl	_
+18	väärtused	väärtus	NOUN	S	Case=Nom|Number=Plur	16	obj	16:obj	SpaceAfter=No
+19	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb2_001749_18
+# text = Niipalju Kangro taiestest.
+1	Niipalju	nii_palju	ADV	D	_	0	root	0:root	_
+2	Kangro	Kangro	PROPN	S	Case=Gen|Number=Sing	3	nmod	3:nmod	NE=B-Per
+3	taiestest	taies	NOUN	S	Case=Ela|Number=Plur	1	obl	1:obl	SpaceAfter=No
+4	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ewtb2_001749_19
+# text = Võlad on muidugi iseasi.
+1	Võlad	võlg	NOUN	S	Case=Nom|Number=Plur	4	nsubj:cop	4:nsubj	_
+2	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+3	muidugi	muidugi	ADV	D	_	4	advmod	4:advmod	_
+4	iseasi	ise_asi	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
+5	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb2_001749_20
+# text = Loomulikult teeb Kangro linnaga korruptsiooni.
+1	Loomulikult	loomulikult	ADV	D	_	2	advmod	2:advmod	_
+2	teeb	tegema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	Kangro	Kangro	PROPN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	NE=B-Per
+4	linnaga	linn	NOUN	S	Case=Com|Number=Sing	2	obl	2:obl	_
+5	korruptsiooni	korruptsioon	NOUN	S	Case=Par|Number=Sing	2	obj	2:obj	SpaceAfter=No
+6	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb2_001749_21
+# text = Kust see raha tuli ??
+1	Kust	kust	ADV	D	_	4	mark	4:mark	_
+2	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	3	det	3:det	_
+3	raha	raha	NOUN	S	Case=Nom|Number=Sing	4	nsubj	4:nsubj	_
+4	tuli	tulema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	??	??	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb2_001749_22
+# text = linna kassast loomulikult.
+1	linna	linn	NOUN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	_
+2	kassast	kassa	NOUN	S	Case=Ela|Number=Sing	0	root	0:root	_
+3	loomulikult	loomulikult	ADV	D	_	2	advmod	2:advmod	SpaceAfter=No
+4	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb2_001749_23
+# text = Hea jah et Kalevipoega pole tulnud !!
+1	Hea	hea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	_
+2	jah	jah	ADV	D	_	1	advmod	1:advmod	_
+3	et	et	SCONJ	J	_	6	mark	6:mark	_
+4	Kalevipoega	Kalevi_poeg	PROPN	S	Case=Par|Number=Sing	6	nsubj	6:nsubj	NE=B-Per
+5	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
+6	tulnud	tulema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	1	csubj	1:csubj	CorrectSpaceAfter=No
+7	!!	!!	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ewtb2_001749_24
+# text = see on ju täielik jama mida Kangro teeb.
+1	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	5:nsubj	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
+3	ju	ju	ADV	D	_	5	advmod	5:advmod	_
+4	täielik	täielik	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	5:amod	_
+5	jama	jama	NOUN	S	Case=Nom|Number=Sing	0	root	0:root|8:obj	_
+6	mida	mis	PRON	P	Case=Par|Number=Sing|PronType=Int,Rel	8	obj	5:ref	_
+7	Kangro	Kangro	PROPN	S	Case=Nom|Number=Sing	8	nsubj	8:nsubj	NE=B-Per
+8	teeb	tegema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	5:acl	SpaceAfter=No
+9	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = ewtb2_001749_25
+# text = Järgmine K-kalevipoeg
+1	Järgmine	järgmine	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	2:amod	_
+2	K-kalevipoeg	K-kalevi_poeg	PROPN	S	Case=Nom|Number=Sing	0	root	0:root	NE=B-Prod
+
+# sent_id = ewtb2_001749_26
+# text = Tegelikult peaks kalevipoeg ikka lahte üles pandama, siis saaksid turistid paadiga selle kuju kõrval pildistamas käia.
+1	Tegelikult	tegelikult	ADV	D	_	7	advmod	7:advmod	_
+2	peaks	pidama	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
+3	kalevipoeg	Kalevi_poeg	PROPN	S	Case=Nom|Number=Sing	7	obj	7:obj	NE=B-Per
+4	ikka	ikka	ADV	D	_	7	advmod	7:advmod	_
+5	lahte	laht	NOUN	S	Case=Add|Number=Sing	7	obl	7:obl	_
+6	üles	üles	ADV	D	_	7	compound:prt	7:compound	_
+7	pandama	panema	VERB	V	VerbForm=Sup|Voice=Pass	0	root	0:root	SpaceAfter=No
+8	,	,	PUNCT	Z	_	17	punct	17:punct	_
+9	siis	siis	ADV	D	_	17	advmod	17:advmod	_
+10	saaksid	saama	AUX	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	17:aux	_
+11	turistid	turist	NOUN	S	Case=Nom|Number=Plur	17	nsubj	16:nsubj|17:nsubj	_
+12	paadiga	paat	NOUN	S	Case=Com|Number=Sing	17	obl	17:obl	_
+13	selle	see	DET	P	Case=Gen|Number=Sing|PronType=Dem	14	det	14:det	_
+14	kuju	kuju	NOUN	S	Case=Gen|Number=Sing	17	obl	17:obl	_
+15	kõrval	kõrval	ADP	K	AdpType=Post	14	case	14:case	_
+16	pildistamas	pildistama	VERB	V	Case=Ine|VerbForm=Sup|Voice=Act	17	xcomp	17:xcomp	_
+17	käia	käima	VERB	V	VerbForm=Inf	7	advcl	7:advcl	SpaceAfter=No
+18	.	.	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = ewtb2_001749_27
+# text = Ja paadilaenutusfirma saaks tööd.
+1	Ja	ja	CCONJ	J	_	3	cc	3:cc	_
+2	paadilaenutusfirma	paadi_laenutus_firma	NOUN	S	Case=Nom|Number=Sing	3	nsubj	3:nsubj	_
+3	saaks	saama	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	tööd	töö	NOUN	S	Case=Par|Number=Sing	3	obj	3:obj	SpaceAfter=No
+5	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb2_001749_28
+# text = Iseasi muidugi, kas see seal lainetes ka püsib.
+1	Iseasi	ise_asi	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+2	muidugi	muidugi	ADV	D	_	1	advmod	1:advmod	SpaceAfter=No
+3	,	,	PUNCT	Z	_	9	punct	9:punct	_
+4	kas	kas	ADV	D	_	9	advmod	9:advmod	_
+5	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	9	nsubj	9:nsubj	_
+6	seal	seal	ADV	D	_	7	advmod	7:advmod	_
+7	lainetes	laine	NOUN	S	Case=Ine|Number=Plur	9	obl	9:obl	_
+8	ka	ka	ADV	D	_	9	advmod	9:advmod	_
+9	püsib	püsima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj:cop	1:csubj	SpaceAfter=No
+10	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ewtb2_001749_29
+# text = Hiidlained ja torm juba kolmapäeval platsis ....
+1	Hiidlained	hiid_laine	NOUN	S	Case=Nom|Number=Plur	6	nsubj:cop	6:nsubj	_
+2	ja	ja	CCONJ	J	_	3	cc	3:cc	_
+3	torm	torm	NOUN	S	Case=Nom|Number=Sing	1	conj	1:conj|6:nsubj:cop	_
+4	juba	juba	ADV	D	_	5	advmod	5:advmod	_
+5	kolmapäeval	kolma_päev	NOUN	S	Case=Ade|Number=Sing	6	obl	6:obl	_
+6	platsis	plats	NOUN	S	Case=Ine|Number=Sing	0	root	0:root	_
+7	....	....	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb2_001749_30
+# text = Väide, et linnas puuduvad teiste kunstnike tööd on räme vale.
+1	Väide	väide	NOUN	S	Case=Nom|Number=Sing	11	nsubj:cop	11:nsubj	SpaceAfter=No
+2	,	,	PUNCT	Z	_	5	punct	5:punct	_
+3	et	et	SCONJ	J	_	5	mark	5:mark	_
+4	linnas	linn	NOUN	S	Case=Ine|Number=Sing	5	obl	5:obl	_
+5	puuduvad	puuduma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl	1:acl	_
+6	teiste	teine	DET	P	Case=Gen|Number=Plur|PronType=Dem	7	det	7:det	_
+7	kunstnike	kunstnik	NOUN	S	Case=Gen|Number=Plur	8	nmod	8:nmod	_
+8	tööd	töö	NOUN	S	Case=Nom|Number=Plur	5	nsubj	5:nsubj	_
+9	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
+10	räme	räme	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	11	amod	11:amod	_
+11	vale	vale	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
+12	.	.	PUNCT	Z	_	11	punct	11:punct	_
+
+# sent_id = ewtb2_001749_31
+# text = Tallinna Skulptuurisümpoosionite ajal 2003 - 2008 on linnaruumi paigutatud 48 erinevate skulptorite taiest.
+1	Tallinna	Tallinn	PROPN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	NE=B-Eve
+2	Skulptuurisümpoosionite	skulptuuri_sümpoosion	NOUN	S	Case=Gen|Number=Plur	9	obl	9:obl	NE=I-Eve
+3	ajal	ajal	ADP	K	AdpType=Post	2	case	2:case	_
+4	2003	2003	NUM	N	NumForm=Digit|NumType=Card	2	nummod	2:nummod	_
+5	-	-	PUNCT	Z	_	6	punct	6:punct	_
+6	2008	2008	NUM	N	NumForm=Digit|NumType=Card	4	conj	2:nummod|4:conj	_
+7	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
+8	linnaruumi	linna_ruum	NOUN	S	Case=Add|Number=Sing	9	obl	9:obl	_
+9	paigutatud	paigutama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+10	48	48	NUM	N	NumForm=Digit|NumType=Card	13	nummod	13:nummod	_
+11	erinevate	erinev	ADJ	A	Case=Gen|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	acl	12:acl	_
+12	skulptorite	skulptor	NOUN	S	Case=Gen|Number=Plur	13	nmod	13:nmod	_
+13	taiest	taies	NOUN	S	Case=Par|Number=Sing	9	obj	9:obj	SpaceAfter=No
+14	.	.	PUNCT	Z	_	9	punct	9:punct	_
+
+# sent_id = ewtb2_001749_32
+# text = Millegipärast ka need ei meeldi meie lugupeetud "Gunstigurmaanidele".
+1	Millegipärast	millegi_pärast	ADV	D	_	5	advmod	5:advmod	_
+2	ka	ka	ADV	D	_	3	advmod	3:advmod	_
+3	need	see	PRON	P	Case=Nom|Number=Plur|PronType=Dem	5	nsubj	5:nsubj	_
+4	ei	ei	AUX	V	Polarity=Neg	5	aux	5:aux	_
+5	meeldi	meeldima	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+6	meie	mina	PRON	P	Case=Gen|Number=Plur|Person=1|PronType=Prs	9	nmod	9:nmod	_
+7	lugupeetud	lugu_peetud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	9	acl	9:acl	_
+8	"	"	PUNCT	Z	_	9	punct	9:punct	SpaceAfter=No
+9	Gunstigurmaanidele	gunsti_gurmaan	NOUN	S	Case=All|Number=Plur	5	obl	5:obl	NE=B-Per|SpaceAfter=No
+10	"	"	PUNCT	Z	_	9	punct	9:punct	SpaceAfter=No
+11	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = ewtb2_001749_33
+# text = Perverdist irisejate meelest on tõsised kunstiprojektid igatmasti poolepeeretajaist äpude installatsioonid, mis aga millegipärast laiema publiku poolehoidu ei pälvi.
+1	Perverdist	pervert	NOUN	S	Case=Ela|Number=Sing	2	nmod	2:nmod	_
+2	irisejate	iriseja	NOUN	S	Case=Gen|Number=Plur	10	obl	10:obl	_
+3	meelest	meelest	ADP	K	AdpType=Post	2	case	2:case	_
+4	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
+5	tõsised	tõsine	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	6	amod	6:amod	_
+6	kunstiprojektid	kunsti_projekt	NOUN	S	Case=Nom|Number=Plur	10	nsubj:cop	10:nsubj	_
+7	igatmasti	igat_mast	NOUN	S	Case=Gen|Number=Sing	9	nmod	9:nmod	_
+8	poolepeeretajaist	poole_peereta=ja	NOUN	S	Case=Ela|Number=Plur	9	nmod	9:nmod	_
+9	äpude	äpu	NOUN	S	Case=Gen|Number=Plur	10	amod	10:amod	_
+10	installatsioonid	installatsioon	NOUN	S	Case=Nom|Number=Plur	0	root	0:root|19:nsubj	SpaceAfter=No
+11	,	,	PUNCT	Z	_	19	punct	19:punct	_
+12	mis	mis	PRON	P	Case=Nom|Number=Plur|PronType=Int,Rel	19	nsubj	10:ref	_
+13	aga	aga	ADV	D	_	19	advmod	19:advmod	_
+14	millegipärast	millegi_pärast	ADV	D	_	19	advmod	19:advmod	_
+15	laiema	laiem	ADJ	A	Case=Gen|Degree=Cmp|Number=Sing	16	amod	16:amod	_
+16	publiku	publik	NOUN	S	Case=Gen|Number=Sing	17	nmod	17:nmod	_
+17	poolehoidu	poole_hoid	NOUN	S	Case=Par|Number=Sing	19	obj	19:obj	_
+18	ei	ei	AUX	V	Polarity=Neg	19	aux	19:aux	_
+19	pälvi	pälvima	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	10:acl	SpaceAfter=No
+20	.	.	PUNCT	Z	_	10	punct	10:punct	_
+
+# sent_id = ewtb2_001749_34
+# text = mis mull selle loo löpus nyyd siis oli ??
+1	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	2	nmod	2:nmod	_
+2	mull	mull	NOUN	S	Case=Nom|Number=Sing	8	nsubj	8:nsubj	_
+3	selle	see	DET	P	Case=Gen|Number=Sing|PronType=Dem	4	det	4:det	_
+4	loo	lugu	NOUN	S	Case=Gen|Number=Sing	5	nmod	5:nmod	_
+5	löpus	lõpp	NOUN	S	Case=Ine|Number=Sing|Typo=Yes	8	obl	8:obl	CorrectForm=lõpus
+6	nyyd	nüüd	ADV	D	Typo=Yes	8	advmod	8:advmod	CorrectForm=nüüd
+7	siis	siis	ADV	D	_	8	advmod	8:advmod	_
+8	oli	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	CorrectSpaceAfter=No
+9	??	??	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = ewtb2_001749_35
+# text = yleeelmise aasta uudised?
+1	yleeelmise	üle_eelmine	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Typo=Yes	2	amod	2:amod	CorrectForm=üle-eemise
+2	aasta	aasta	NOUN	S	Case=Gen|Number=Sing	3	nmod	3:nmod	_
+3	uudised	uudis	NOUN	S	Case=Nom|Number=Plur	0	root	0:root	SpaceAfter=No
+4	?	?	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb2_001749_36
+# text = "Kesklinnavalitsus oli hoiatanud Kangrot üürilepingu erakorralise ülesütlemise eest."
+1	"	"	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
+2	Kesklinnavalitsus	kesk_linna_valitsus	NOUN	S	Case=Nom|Number=Sing	4	nsubj	4:nsubj	_
+3	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
+4	hoiatanud	hoiatama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+5	Kangrot	Kangro	PROPN	S	Case=Par|Number=Sing	4	obj	4:obj	NE=B-Per
+6	üürilepingu	üüri_leping	NOUN	S	Case=Gen|Number=Sing	8	nmod	8:nmod	_
+7	erakorralise	era_korraline	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	8	amod	8:amod	_
+8	ülesütlemise	üles_ütlemine	NOUN	S	Case=Gen|Number=Sing	4	obl	4:obl	_
+9	eest	eest	ADP	K	AdpType=Post	8	case	8:case	SpaceAfter=No
+10	.	.	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
+11	"	"	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ewtb2_001749_37
+# text = Siin oli ju lehtedest laia seakisa kuulda kui Kangro oma eluruumid ärastas - mis jutt see üürilepingust siin veel on?
+1	Siin	siin	ADV	D	_	7	advmod	7:advmod	_
+2	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
+3	ju	ju	ADV	D	_	7	advmod	7:advmod	_
+4	lehtedest	leht	NOUN	S	Case=Ela|Number=Plur	7	obl	7:obl	_
+5	laia	lai	ADJ	A	Case=Par|Degree=Pos|Number=Sing	6	amod	6:amod	_
+6	seakisa	sea_kisa	NOUN	S	Case=Par|Number=Sing	7	obj	7:obj	_
+7	kuulda	kuulma	VERB	V	VerbForm=Inf	0	root	0:root	_
+8	kui	kui	SCONJ	J	_	12	mark	12:mark	_
+9	Kangro	Kangro	PROPN	S	Case=Nom|Number=Sing	12	nsubj	12:nsubj	NE=B-Per
+10	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	11	nmod	11:nmod	_
+11	eluruumid	elu_ruum	NOUN	S	Case=Nom|Number=Plur	12	obj	12:obj	_
+12	ärastas	ärastama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	7:advcl	_
+13	-	-	PUNCT	Z	_	15	punct	15:punct	_
+14	mis	mis	DET	P	Case=Nom|Number=Plur|PronType=Int,Rel	15	det	15:det	_
+15	jutt	jutt	NOUN	S	Case=Nom|Number=Sing	7	parataxis	7:parataxis	_
+16	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	15	nsubj:cop	15:nsubj	_
+17	üürilepingust	üüri_leping	NOUN	S	Case=Ela|Number=Sing	15	obl	15:obl	_
+18	siin	siin	ADV	D	_	15	advmod	15:advmod	_
+19	veel	veel	ADV	D	_	15	advmod	15:advmod	_
+20	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	15:cop	SpaceAfter=No
+21	?	?	PUNCT	Z	_	7	punct	7:punct	_
+

@@ -1,0 +1,219 @@
+# newdoc id = ewtb1_167048
+# sent_id = ewtb1_167048_1
+# text = On juba traditsiooniks saamas, et Eesti Lennuakadeemia üliõpilased saavad kevadel enda julguse proovile panna ning teha oma esimesed langevarjuhüpped.
+1	On	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	juba	juba	ADV	D	_	1	advmod	1:advmod	_
+3	traditsiooniks	traditsioon	NOUN	S	Case=Tra|Number=Sing	4	xcomp	4:xcomp	_
+4	saamas	saama	VERB	V	Case=Ine|VerbForm=Sup|Voice=Act	1	xcomp	1:xcomp	SpaceAfter=No
+5	,	,	PUNCT	Z	_	15	punct	15:punct	_
+6	et	et	SCONJ	J	_	15	mark	15:mark	_
+7	Eesti	Eesti	PROPN	S	Case=Gen|Number=Sing	8	nmod	8:nmod	NE=B-Org
+8	Lennuakadeemia	Lennu_akadeemia	PROPN	S	Case=Gen|Number=Sing	9	nmod	9:nmod	NE=I-Org
+9	üliõpilased	üli_õpilane	NOUN	S	Case=Nom|Number=Plur	15	nsubj	15:nsubj|17:nsubj	_
+10	saavad	saama	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	15:aux	_
+11	kevadel	kevad	NOUN	S	Case=Ade|Number=Sing	15	obl	15:obl	_
+12	enda	ise	PRON	P	Case=Gen|Number=Sing|PronType=Prs|Reflex=Yes	13	nmod	13:nmod	_
+13	julguse	julgus	NOUN	S	Case=Gen|Number=Sing	15	obj	15:obj	_
+14	proovile	proov	NOUN	S	Case=All|Number=Sing	15	obl	15:obl	_
+15	panna	panema	VERB	V	VerbForm=Inf	1	csubj	1:csubj|3:csubj|4:csubj	_
+16	ning	ning	CCONJ	J	_	17	cc	17:cc	_
+17	teha	tegema	VERB	V	VerbForm=Inf	15	conj	1:csubj|3:csubj|4:csubj|15:conj	_
+18	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	20	nmod	20:nmod	_
+19	esimesed	esimene	ADJ	N	Case=Nom|Number=Plur|NumForm=Word|NumType=Ord	20	amod	20:amod	_
+20	langevarjuhüpped	lange_varju_hüpe	NOUN	S	Case=Nom|Number=Plur	17	obj	17:obj	SpaceAfter=No
+21	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ewtb1_167048_2
+# text = Nii ka sel aastal.
+1	Nii	nii	ADV	D	_	0	root	0:root	_
+2	ka	ka	ADV	D	_	1	advmod	1:advmod	_
+3	sel	see	DET	P	Case=Ade|Number=Sing|PronType=Dem	4	det	4:det	_
+4	aastal	aasta	NOUN	S	Case=Ade|Number=Sing	1	obl	1:obl	SpaceAfter=No
+5	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ewtb1_167048_3
+# text = Meeldivaks üllatuseks oli, et huvilisi on väga palju ning sel aastal hüppab esmakordselt lennukist välja lausa kolm kursusetäit hulljulgeid.
+1	Meeldivaks	meeldiv	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	2	amod	2:amod	_
+2	üllatuseks	üllatus	NOUN	S	Case=Tra|Number=Sing	0	root	0:root	_
+3	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	2:cop	SpaceAfter=No
+4	,	,	PUNCT	Z	_	9	punct	9:punct	_
+5	et	et	SCONJ	J	_	9	mark	9:mark	_
+6	huvilisi	huviline	NOUN	S	Case=Par|Number=Plur	9	nsubj:cop	9:nsubj	_
+7	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
+8	väga	väga	ADV	D	_	9	advmod	9:advmod	_
+9	palju	palju	ADV	D	_	2	csubj:cop	2:csubj	_
+10	ning	ning	CCONJ	J	_	13	cc	13:cc	_
+11	sel	see	DET	P	Case=Ade|Number=Sing|PronType=Dem	12	det	12:det	_
+12	aastal	aasta	NOUN	S	Case=Ade|Number=Sing	13	obl	13:obl	_
+13	hüppab	hüppama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	2:csubj|9:conj	_
+14	esmakordselt	esma_kordselt	ADV	D	_	13	advmod	13:advmod	_
+15	lennukist	lennuk	NOUN	S	Case=Ela|Number=Sing	13	obl	13:obl	_
+16	välja	välja	ADV	D	_	13	compound:prt	13:compound	_
+17	lausa	lausa	ADV	D	_	18	advmod	18:advmod	_
+18	kolm	kolm	NUM	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	19	nummod	19:nummod	_
+19	kursusetäit	kursuse_täis	NOUN	S	Case=Par|Number=Sing	20	nmod	20:nmod	_
+20	hulljulgeid	hull_julge	ADJ	A	Case=Par|Degree=Pos|Number=Plur	13	nsubj	13:nsubj	SpaceAfter=No
+21	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb1_167048_4
+# text = Langevari sobib selga nagu valatult.
+1	Langevari	lange_vari	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	_
+2	sobib	sobima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	selga	selg	NOUN	S	Case=Add|Number=Sing	2	obl	2:obl	_
+4	nagu	nagu	SCONJ	J	_	5	mark	5:mark	_
+5	valatult	vala=tult	ADV	D	_	2	advcl	2:advcl	SpaceAfter=No
+6	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb1_167048_5
+# text = Esimene teooriakoolitus toimus 19. aprillil Ülenurmel.
+1	Esimene	esimene	ADJ	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Ord	2	amod	2:amod	_
+2	teooriakoolitus	teooria_koolitus	NOUN	S	Case=Nom|Number=Sing	3	nsubj	3:nsubj	_
+3	toimus	toimuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	19.	19.	ADJ	N	NumForm=Digit|NumType=Ord	5	amod	5:amod	_
+5	aprillil	aprill	NOUN	S	Case=Ade|Number=Sing	3	obl	3:obl	_
+6	Ülenurmel	Üle_nurme	PROPN	S	Case=Ade|Number=Sing	3	obl	3:obl	NE=B-Loc|SpaceAfter=No
+7	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb1_167048_6
+# text = Järgmised koolitused on kavas 26. aprillil ja 3. mail.
+1	Järgmised	järgmine	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	2	amod	2:amod	_
+2	koolitused	koolitus	NOUN	S	Case=Nom|Number=Plur	3	nsubj	3:nsubj	_
+3	on	olema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	kavas	kava	NOUN	S	Case=Ine|Number=Sing	3	obl	3:obl	_
+5	26.	26.	ADJ	N	NumForm=Digit|NumType=Ord	6	amod	6:amod	_
+6	aprillil	aprill	NOUN	S	Case=Ade|Number=Sing	3	obl	3:obl	_
+7	ja	ja	CCONJ	J	_	9	cc	9:cc	_
+8	3.	3.	ADJ	N	NumForm=Digit|NumType=Ord	9	amod	9:amod	_
+9	mail	mai	NOUN	S	Case=Ade|Number=Sing	6	conj	3:obl|6:conj	SpaceAfter=No
+10	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb1_167048_7
+# text = Hüppajatele saab kaasa elama tulla juba järgmisel nädalavahetusel, 28.-29. aprillil Koigi lennuväljale.
+1	Hüppajatele	hüppaja	NOUN	S	Case=All|Number=Plur	4	obl	4:obl	_
+2	saab	saama	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
+3	kaasa	kaasa	ADV	D	_	4	compound:prt	4:compound	_
+4	elama	elama	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	5	xcomp	5:xcomp	_
+5	tulla	tulema	VERB	V	VerbForm=Inf	0	root	0:root	_
+6	juba	juba	ADV	D	_	7	advmod	7:advmod	_
+7	järgmisel	järgmine	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	8	amod	8:amod	_
+8	nädalavahetusel	nädala_vahetus	NOUN	S	Case=Ade|Number=Sing	5	obl	5:obl	SpaceAfter=No
+9	,	,	PUNCT	Z	_	13	punct	13:punct	_
+10	28.	28.	ADJ	N	NumForm=Digit|NumType=Ord	13	amod	13:amod	SpaceAfter=No
+11	-	-	PUNCT	Z	_	12	punct	12:punct	SpaceAfter=No
+12	29.	29.	ADJ	N	NumForm=Digit|NumType=Ord	10	conj	10:conj|13:amod	_
+13	aprillil	aprill	NOUN	S	Case=Ade|Number=Sing	8	appos	8:appos	_
+14	Koigi	Koigi	PROPN	S	Case=Gen|Number=Sing	15	nmod	15:nmod	NE=B-Loc
+15	lennuväljale	lennu_väli	NOUN	S	Case=All|Number=Sing	5	obl	5:obl	NE=I-Loc|SpaceAfter=No
+16	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = ewtb1_167048_8
+# text = Esimesest koolitusest võttis osa 11 esmahüppajat.
+1	Esimesest	esimene	ADJ	N	Case=Ela|Number=Sing|NumForm=Word|NumType=Ord	2	amod	2:amod	_
+2	koolitusest	koolitus	NOUN	S	Case=Ela|Number=Sing	3	obl	3:obl	_
+3	võttis	võtma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	osa	osa	NOUN	S	Case=Par|Number=Sing	3	obj	3:obj	_
+5	11	11	NUM	N	NumForm=Digit|NumType=Card	6	nummod	6:nummod	_
+6	esmahüppajat	esma_hüppaja	NOUN	S	Case=Par|Number=Sing	3	nsubj	3:nsubj	SpaceAfter=No
+7	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ewtb1_167048_9
+# text = Sealhulgas meie kõik kuus Erasmuse tudengit.
+1	Sealhulgas	seal_hulgas	ADV	D	_	6	advmod	6:advmod	_
+2	meie	mina	PRON	P	Case=Gen|Number=Plur|Person=1|PronType=Prs	4	nmod	4:nmod	_
+3	kõik	kõik	DET	P	Case=Nom|Number=Plur|PronType=Tot	4	det	4:det	_
+4	kuus	kuus	NUM	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	6	nummod	6:nummod	_
+5	Erasmuse	Erasmus	PROPN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	NE=B-Org
+6	tudengit	tudeng	NOUN	S	Case=Par|Number=Sing	0	root	0:root	SpaceAfter=No
+7	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = ewtb1_167048_10
+# text = Lisaks tulid mälu värskendama ka paar üliõpilast, kel soov taas töötavast lennukist väljuda.
+1	Lisaks	lisa	NOUN	S	Case=Tra|Number=Sing	2	obl	2:obl	_
+2	tulid	tulema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	mälu	mälu	NOUN	S	Case=Par|Number=Sing	4	obj	4:obj	_
+4	värskendama	värskendama	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	2	xcomp	2:xcomp	_
+5	ka	ka	ADV	D	_	6	advmod	6:advmod	_
+6	paar	paar	NUM	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	7	nummod	7:nummod	_
+7	üliõpilast	üli_õpilane	NOUN	S	Case=Par|Number=Sing	2	nsubj	2:nsubj|4:nsubj	SpaceAfter=No
+8	,	,	PUNCT	Z	_	9	punct	9:punct	_
+9	kel	kes	PRON	P	Case=Ade|Number=Sing|PronType=Int,Rel	7	acl:relcl	7:ref	_
+10	soov	soov	NOUN	S	Case=Nom|Number=Sing	9	nsubj:cop	7:nsubj	_
+11	taas	taas	ADV	D	_	14	advmod	14:advmod	_
+12	töötavast	töötav	ADJ	A	Case=Ela|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	13	acl	13:acl	_
+13	lennukist	lennuk	NOUN	S	Case=Ela|Number=Sing	14	obl	14:obl	_
+14	väljuda	väljuma	VERB	V	VerbForm=Inf	10	acl	10:acl	SpaceAfter=No
+15	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb1_167048_11
+# text = Koolitus kestis ligikaudu 3 ja pool tundi ning kõik said proovida , mis tunne on varju seljas kanda, kuidas tehakse daisy chaini ning näha seda, mida õhus olles keegi näha ei soovi – varuvarju.
+1	Koolitus	koolitus	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	_
+2	kestis	kestma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	ligikaudu	ligi_kaudu	ADV	D	_	4	advmod	4:advmod	_
+4	3	3	NUM	N	NumForm=Digit|NumType=Card	7	nummod	7:nummod	_
+5	ja	ja	CCONJ	J	_	6	cc	6:cc	_
+6	pool	pool	NUM	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Frac	4	conj	4:conj|7:nummod	_
+7	tundi	tund	NOUN	S	Case=Par|Number=Sing	2	obl	2:obl	_
+8	ning	ning	CCONJ	J	_	11	cc	11:cc	_
+9	kõik	kõik	PRON	P	Case=Nom|Number=Plur|PronType=Tot	11	nsubj	11:nsubj|25:nsubj	_
+10	said	saama	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	aux	11:aux	_
+11	proovida	proovima	VERB	V	VerbForm=Inf	2	conj	0:root|2:conj	_
+12	,	,	PUNCT	Z	_	18	punct	18:punct	_
+13	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	14	nmod	14:nmod	_
+14	tunne	tunne	NOUN	S	Case=Nom|Number=Sing	18	nsubj:cop	18:nsubj	_
+15	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	18:cop	_
+16	varju	vari	NOUN	S	Case=Par|Number=Sing	18	obj	18:obj	_
+17	seljas	selg	NOUN	S	Case=Ine|Number=Sing	18	obl	18:obl	_
+18	kanda	kandma	VERB	V	VerbForm=Inf	11	ccomp	11:ccomp	SpaceAfter=No
+19	,	,	PUNCT	Z	_	21	punct	21:punct	_
+20	kuidas	kuidas	ADV	D	_	21	mark	21:mark	_
+21	tehakse	tegema	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	18	conj	11:ccomp|18:conj	_
+22	daisy	daisy	NOUN	T	Number=Sing	23	nmod	23:nmod	Lang=en
+23	chaini	chain	NOUN	S	Case=Par|Foreign=Yes|Number=Sing	21	obj	21:obj	OrigLang=en
+24	ning	ning	CCONJ	J	_	25	cc	25:cc	_
+25	näha	nägema	VERB	V	VerbForm=Inf	11	conj	11:conj	_
+26	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	25	obj	25:obj|32:obj	SpaceAfter=No
+27	,	,	PUNCT	Z	_	34	punct	34:punct	_
+28	mida	mis	PRON	P	Case=Par|Number=Sing|PronType=Int,Rel	32	obj	26:ref	_
+29	õhus	õhk	NOUN	S	Case=Ine|Number=Sing	30	obl	30:obl	_
+30	olles	olema	AUX	V	VerbForm=Conv	34	advcl	34:advcl	_
+31	keegi	keegi	PRON	P	Case=Nom|Number=Sing|PronType=Ind	34	nsubj	32:nsubj|34:nsubj	_
+32	näha	nägema	VERB	V	VerbForm=Inf	34	xcomp	34:xcomp	_
+33	ei	ei	AUX	V	Polarity=Neg	34	aux	34:aux	_
+34	soovi	soovima	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	26	acl:relcl	26:acl	_
+35	–	-	PUNCT	Z	_	34	punct	34:punct	_
+36	varuvarju	varu_vari	NOUN	S	Case=Par|Number=Sing	26	appos	26:appos	SpaceAfter=No
+37	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ewtb1_167048_12
+# text = Kui oled juba hüpanud ja soovid taas adrenaliinisüsti, siis on võimalik põhitõed meelde tuletada koos koolikaaslastega 26. aprillil ja 3. mail.
+1	Kui	kui	SCONJ	J	_	4	mark	4:mark	_
+2	oled	olema	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
+3	juba	juba	ADV	D	_	4	advmod	4:advmod	_
+4	hüpanud	hüppama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	12	advcl	12:advcl	_
+5	ja	ja	CCONJ	J	_	6	cc	6:cc	_
+6	soovid	soovima	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	4:conj|12:advcl	_
+7	taas	taas	ADV	D	_	6	advmod	6:advmod	_
+8	adrenaliinisüsti	adrenaliini_süst	NOUN	S	Case=Par|Number=Sing	6	obj	6:obj	SpaceAfter=No
+9	,	,	PUNCT	Z	_	12	punct	12:punct	_
+10	siis	siis	SCONJ	J	_	12	mark	12:mark	_
+11	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
+12	võimalik	võimalik	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	_
+13	põhitõed	põhi_tõde	NOUN	S	Case=Nom|Number=Plur	15	obj	15:obj	_
+14	meelde	meel	NOUN	S	Case=Add|Number=Sing	15	obl	15:obl	_
+15	tuletada	tuletama	VERB	V	VerbForm=Inf	12	csubj:cop	12:csubj	_
+16	koos	koos	ADP	K	AdpType=Prep	17	case	17:case	_
+17	koolikaaslastega	kooli_kaaslane	NOUN	S	Case=Com|Number=Plur	15	obl	15:obl	_
+18	26.	26.	ADJ	N	NumForm=Digit|NumType=Ord	19	amod	19:amod	_
+19	aprillil	aprill	NOUN	S	Case=Ade|Number=Sing	12	obl	12:obl	_
+20	ja	ja	CCONJ	J	_	22	cc	22:cc	_
+21	3.	3.	ADJ	N	NumForm=Digit|NumType=Ord	22	amod	22:amod	_
+22	mail	mai	NOUN	S	Case=Ade|Number=Sing	19	conj	12:obl|19:conj	SpaceAfter=No
+23	.	.	PUNCT	Z	_	12	punct	12:punct	_
+
+# sent_id = ewtb1_167048_13
+# text = Anna endast ainult teada
+1	Anna	andma	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	endast	ise	PRON	P	Case=Ela|Number=Sing|PronType=Prs|Reflex=Yes	4	obl	4:obl	_
+3	ainult	ainult	ADV	D	_	1	advmod	1:advmod	_
+4	teada	teadma	VERB	V	VerbForm=Inf	1	xcomp	1:xcomp	_
+

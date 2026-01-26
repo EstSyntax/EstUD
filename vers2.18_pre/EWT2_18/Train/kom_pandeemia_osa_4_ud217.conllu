@@ -1,0 +1,1897 @@
+# sent_id = kom_pandeemia_906
+# text = On alust arvata, et kogu jutt on maailma erinevatest keeltest tõlgitud.
+1	On	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	alust	alus	NOUN	S	Case=Par|Number=Sing	1	nsubj	1:nsubj	_
+3	arvata	arvama	VERB	V	VerbForm=Inf	2	acl	2:acl	SpaceAfter=No
+4	,	,	PUNCT	Z	_	12	punct	12:punct	_
+5	et	et	SCONJ	J	_	12	mark	12:mark	_
+6	kogu	kogu	DET	A	PronType=Tot	7	det	7:det	_
+7	jutt	jutt	NOUN	S	Case=Nom|Number=Sing	12	obj	12:obj	_
+8	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
+9	maailma	maa_ilm	NOUN	S	Case=Gen|Number=Sing	11	nmod	11:nmod	_
+10	erinevatest	erinev	ADJ	A	Case=Ela|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	11	acl	11:acl	_
+11	keeltest	keel	NOUN	S	Case=Ela|Number=Plur	12	obl	12:obl	_
+12	tõlgitud	tõlkima	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	3:ccomp	SpaceAfter=No
+13	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = kom_pandeemia_907
+# text = Ilmsesti keegi toimetaja "silub" teksti ja siis avaldab.
+1	Ilmsesti	ilmsesti	ADV	D	_	5	advmod	5:advmod	_
+2	keegi	keegi	DET	P	Case=Nom|Number=Sing|PronType=Ind	3	det	3:det	_
+3	toimetaja	toimetaja	NOUN	S	Case=Nom|Number=Sing	5	nsubj	5:nsubj|10:nsubj	_
+4	"	"	PUNCT	Z	_	5	punct	5:punct	SpaceAfter=No
+5	silub	siluma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+6	"	"	PUNCT	Z	_	5	punct	5:punct	_
+7	teksti	tekst	NOUN	S	Case=Par|Number=Sing	5	obj	5:obj	_
+8	ja	ja	CCONJ	J	_	10	cc	10:cc	_
+9	siis	siis	ADV	D	_	10	advmod	10:advmod	_
+10	avaldab	avaldama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	0:root|5:conj	SpaceAfter=No
+11	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = kom_pandeemia_908
+# text = Keegi meist ei tea kui palju läheb tõlkes kaduma.
+1	Keegi	keegi	PRON	P	Case=Nom|Number=Sing|PronType=Ind	4	nsubj	4:nsubj	_
+2	meist	mina	PRON	P	Case=Ela|Number=Plur|Person=1|PronType=Prs	1	nmod	1:nmod	_
+3	ei	ei	AUX	V	Polarity=Neg	4	aux	4:aux	_
+4	tea	teadma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	kui	kui	ADV	D	_	6	mark	6:mark	_
+6	palju	palju	ADV	D	_	7	advcl	7:advcl	_
+7	läheb	minema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	4:ccomp	_
+8	tõlkes	tõlge	NOUN	S	Case=Ine|Number=Sing	7	obl	7:obl	_
+9	kaduma	kaduma	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	7	xcomp	7:xcomp	SpaceAfter=No
+10	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = kom_pandeemia_909
+# text = Teada on, et levib mingi tundmatu päritolu ravimatu viirus ja see on ka kõik.
+1	Teada	teadma	VERB	V	VerbForm=Inf	0	root	0:root	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	1:aux	SpaceAfter=No
+3	,	,	PUNCT	Z	_	5	punct	5:punct	_
+4	et	et	SCONJ	J	_	5	mark	5:mark	_
+5	levib	levima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	1:ccomp	_
+6	mingi	mingi	DET	P	Case=Nom|Number=Sing|PronType=Ind	10	det	10:det	_
+7	tundmatu	tundmatu	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	8	amod	8:amod	_
+8	päritolu	pärit_olu	NOUN	S	Case=Gen|Number=Sing	10	nmod	10:nmod	_
+9	ravimatu	ravimatu	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	10	amod	10:amod	_
+10	viirus	viirus	NOUN	S	Case=Nom|Number=Sing	5	nsubj	5:nsubj	_
+11	ja	ja	CCONJ	J	_	15	cc	15:cc	_
+12	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	15	nsubj:cop	15:nsubj	_
+13	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	15:cop	_
+14	ka	ka	ADV	D	_	15	advmod	15:advmod	_
+15	kõik	kõik	PRON	P	Case=Nom|Number=Sing|PronType=Tot	5	conj	1:ccomp|5:conj	SpaceAfter=No
+16	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = kom_pandeemia_910
+# text = Keegi ei julge kõvasti arvatagi, kas levib või on levitatud.
+1	Keegi	keegi	PRON	P	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	3:nsubj|5:nsubj	_
+2	ei	ei	AUX	V	Polarity=Neg	3	aux	3:aux	_
+3	julge	julgema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	kõvasti	kõvasti	ADV	D	_	5	advmod	5:advmod	_
+5	arvatagi	arvama	VERB	V	VerbForm=Inf	3	xcomp	3:xcomp	SpaceAfter=No
+6	,	,	PUNCT	Z	_	8	punct	8:punct	_
+7	kas	kas	ADV	D	_	8	advmod	8:advmod	_
+8	levib	levima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	5:ccomp	_
+9	või	või	CCONJ	J	_	11	cc	11:cc	_
+10	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	11:aux	_
+11	levitatud	levitama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	8	conj	5:ccomp|8:conj	SpaceAfter=No
+12	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = kom_pandeemia_911
+# text = Kas loodus jagab või on loodusele jagatud.
+1	Kas	kas	ADV	D	_	3	advmod	3:advmod	_
+2	loodus	loodus	NOUN	S	Case=Nom|Number=Sing	3	nsubj	3:nsubj	_
+3	jagab	jagama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	või	või	CCONJ	J	_	7	cc	7:cc	_
+5	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
+6	loodusele	loodus	NOUN	S	Case=All|Number=Sing	7	obl	7:obl	_
+7	jagatud	jagama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	3	conj	0:root|3:conj	SpaceAfter=No
+8	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = kom_pandeemia_912
+# text = Suuresti oleme me kõik äraootaval seisukohal.
+1	Suuresti	suuresti	ADV	D	_	6	advmod	6:advmod	_
+2	oleme	olema	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
+3	me	mina	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj:cop	6:nsubj	_
+4	kõik	kõik	PRON	P	Case=Nom|Number=Plur|PronType=Tot	3	nmod	3:nmod	_
+5	äraootaval	ära_ootav	ADJ	A	Case=Ade|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	6	acl	6:acl	_
+6	seisukohal	seisu_koht	NOUN	S	Case=Ade|Number=Sing	0	root	0:root	SpaceAfter=No
+7	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = kom_pandeemia_913
+# text = K
+1	K	K	NOUN	Y	Abbr=Yes	0	root	0:root	_
+
+# sent_id = kom_pandeemia_914
+# text = Kas Eestis hakatakse lõpuks testima olenemata vanusest vähemalt 1 sümptomi korral ja kindlasti neid kes kokkupuutes olnud koroonapositiivsega?
+1	Kas	kas	ADV	D	_	3	advmod	3:advmod	_
+2	Eestis	Eesti	PROPN	S	Case=Ine|Number=Sing	3	obl	3:obl	NE=B-Gep
+3	hakatakse	hakkama	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
+4	lõpuks	lõpuks	ADV	D	_	3	advmod	3:advmod	_
+5	testima	testima	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	3	xcomp	3:xcomp	_
+6	olenemata	olenema	VERB	V	Case=Abe|VerbForm=Sup|Voice=Act	5	advcl	5:advcl	_
+7	vanusest	vanus	NOUN	S	Case=Ela|Number=Sing	6	obl	6:obl	_
+8	vähemalt	vähemalt	ADV	D	_	9	advmod	9:advmod	_
+9	1	1	NUM	N	NumForm=Digit|NumType=Card	10	nummod	10:nummod	_
+10	sümptomi	sümptom	NOUN	S	Case=Gen|Number=Sing	5	obl	5:obl	_
+11	korral	korral	ADP	K	AdpType=Post	10	case	10:case	_
+12	ja	ja	CCONJ	J	_	14	cc	13.1:cc	_
+13	kindlasti	kindlasti	ADV	D	_	14	orphan	13.1:advmod	_
+13.1	testima	testima	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	_	_	5:conj	Empty=13.1
+14	neid	see	PRON	P	Case=Par|Number=Plur|PronType=Dem	5	conj	13.1:obj|16:nsubj	_
+15	kes	kes	PRON	P	Case=Nom|Number=Plur|PronType=Int,Rel	16	nsubj:cop	14:ref	_
+16	kokkupuutes	kokku_puude	NOUN	S	Case=Ine|Number=Sing	14	acl:relcl	14:acl	_
+17	olnud	olema	AUX	V	Tense=Past|VerbForm=Part|Voice=Act	16	cop	16:cop	_
+18	koroonapositiivsega	koroona_positiivne	ADJ	A	Case=Com|Degree=Pos|Number=Sing	16	obl	16:obl	SpaceAfter=No
+19	?	?	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = kom_pandeemia_915
+# text = Või soovib valitsus teatud hukkunute arvu enne näha kui sulgeb suu ebakompetentsuse tippasutusel Terviseamet?
+1	Või	või	CCONJ	J	_	2	cc	2:cc	_
+2	soovib	soovima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	valitsus	valitsus	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj|8:nsubj	_
+4	teatud	teatud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	6:acl	_
+5	hukkunute	hukkunu	NOUN	S	Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	6	acl	6:acl	_
+6	arvu	arv	NOUN	S	Case=Par|Number=Sing	8	obj	8:obj	_
+7	enne	enne	ADV	D	_	8	advmod	8:advmod	_
+8	näha	nägema	VERB	V	VerbForm=Inf	2	xcomp	2:xcomp	_
+9	kui	kui	SCONJ	J	_	10	mark	10:mark	_
+10	sulgeb	sulgema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	2:advcl	_
+11	suu	suu	NOUN	S	Case=Gen|Number=Sing	10	obj	10:obj	_
+12	ebakompetentsuse	eba_kompetentsus	NOUN	S	Case=Gen|Number=Sing	13	nmod	13:nmod	_
+13	tippasutusel	tipp_asutus	NOUN	S	Case=Ade|Number=Sing	10	obl	10:obl	_
+14	Terviseamet	Tervise_amet	PROPN	S	Case=Nom|Number=Sing	13	appos	13:appos	NE=B-Org|SpaceAfter=No
+15	?	?	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = kom_pandeemia_916
+# text = Leelotaja
+1	Leelotaja	Leelotaja	PROPN	S	Case=Nom|Number=Sing	0	root	0:root	NE=B-Per
+
+# sent_id = kom_pandeemia_917
+# text = Kui oleks minu otsustada, ma testiks vaid neid, kes peavad praegu iga päev tööl olema, et ülejäänud saaksid karantiinis istuda.
+1	Kui	kui	SCONJ	J	_	4	mark	4:mark	_
+2	oleks	olema	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
+3	minu	mina	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	obl:agent	4:obl:agent	_
+4	otsustada	otsustama	VERB	V	VerbForm=Inf	7	advcl	7:advcl	SpaceAfter=No
+5	,	,	PUNCT	Z	_	4	punct	4:punct	_
+6	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj:cop	7:nsubj	_
+7	testiks	testima	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+8	vaid	vaid	ADV	D	_	9	advmod	9:advmod	_
+9	neid	see	PRON	P	Case=Par|Number=Plur|PronType=Dem	7	obj	7:obj|16:nsubj:cop	SpaceAfter=No
+10	,	,	PUNCT	Z	_	16	punct	16:punct	_
+11	kes	kes	PRON	P	Case=Nom|Number=Plur|PronType=Int,Rel	16	nsubj:cop	9:ref	_
+12	peavad	pidama	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	16:aux	_
+13	praegu	praegu	ADV	D	_	16	advmod	16:advmod	_
+14	iga	iga	DET	P	Case=Nom|Number=Sing|PronType=Tot	15	det	15:det	_
+15	päev	päev	NOUN	S	Case=Nom|Number=Sing	16	obl	16:obl	_
+16	tööl	töö	NOUN	S	Case=Ade|Number=Sing	9	acl:relcl	9:acl	_
+17	olema	olema	AUX	V	Case=Ill|VerbForm=Sup|Voice=Act	16	cop	16:cop	SpaceAfter=No
+18	,	,	PUNCT	Z	_	23	punct	23:punct	_
+19	et	et	SCONJ	J	_	23	mark	23:mark	_
+20	ülejäänud	üle_jäänu	NOUN	S	Case=Nom|Number=Plur	23	nsubj	23:nsubj	_
+21	saaksid	saama	AUX	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	23:aux	_
+22	karantiinis	karantiin	NOUN	S	Case=Ine|Number=Sing	23	obl	23:obl	_
+23	istuda	istuma	VERB	V	VerbForm=Inf	16	advcl	16:advcl	SpaceAfter=No
+24	.	.	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = kom_pandeemia_918
+# text = Ja siis nii, nagu praegu, sümptomite raskuse põhjal.
+1	Ja	ja	CCONJ	J	_	3	cc	3:cc	_
+2	siis	siis	ADV	D	_	3	advmod	3:advmod	_
+3	nii	nii	ADV	D	_	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	Z	_	6	punct	6:punct	_
+5	nagu	nagu	SCONJ	J	_	6	mark	6:mark	_
+6	praegu	praegu	ADV	D	_	3	advcl	3:advcl	SpaceAfter=No
+7	,	,	PUNCT	Z	_	9	punct	9:punct	_
+8	sümptomite	sümptom	NOUN	S	Case=Gen|Number=Plur	9	nmod	9:nmod	_
+9	raskuse	raskus	NOUN	S	Case=Gen|Number=Sing	3	conj	0:root|3:conj	_
+10	põhjal	põhjal	ADP	K	AdpType=Post	9	case	9:case	SpaceAfter=No
+11	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = kom_pandeemia_919
+# text = Kerged juhud saadetakse ju nii ehk naa koju põdema.
+1	Kerged	kerge	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	2	amod	2:amod	_
+2	juhud	juht	NOUN	S	Case=Nom|Number=Plur	3	obj	3:obj|9:nsubj	_
+3	saadetakse	saatma	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
+4	ju	ju	ADV	D	_	3	advmod	3:advmod	_
+5	nii	nii	ADV	D	_	3	advmod	3:advmod	_
+6	ehk	ehk	CCONJ	I	_	7	cc	7:cc	_
+7	naa	naa	ADV	D	_	5	conj	3:advmod|5:conj	_
+8	koju	kodu	NOUN	S	Case=Add|Number=Sing	3	obl	3:obl	_
+9	põdema	põdema	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	3	xcomp	3:xcomp	SpaceAfter=No
+10	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = kom_pandeemia_920
+# text = Põeb läbi ka ilma testita.
+1	Põeb	põdema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	läbi	läbi	ADV	D	_	1	compound:prt	1:compound	_
+3	ka	ka	ADV	D	_	5	advmod	5:advmod	_
+4	ilma	ilma	ADP	K	AdpType=Prep	5	case	5:case	_
+5	testita	test	NOUN	S	Case=Abe|Number=Sing	1	obl	1:obl	SpaceAfter=No
+6	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = kom_pandeemia_921
+# text = Ärgem uinutagem inimesi!
+1	Ärgem	ära	AUX	V	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	2:aux	_
+2	uinutagem	uinutama	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	inimesi	inimene	NOUN	S	Case=Par|Number=Plur	2	obj	2:obj	SpaceAfter=No
+4	!	!	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = kom_pandeemia_922
+# text = Kriisides on ainult 3 tähtsat asja.
+1	Kriisides	kriis	NOUN	S	Case=Ine|Number=Plur	0	root	0:root	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	1:cop	_
+3	ainult	ainult	ADV	D	_	4	advmod	4:advmod	_
+4	3	3	NUM	N	NumForm=Digit|NumType=Card	6	nummod	6:nummod	_
+5	tähtsat	tähtis	ADJ	A	Case=Par|Degree=Pos|Number=Sing	6	amod	6:amod	_
+6	asja	asi	NOUN	S	Case=Par|Number=Sing	1	nsubj:cop	1:nsubj	SpaceAfter=No
+7	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = kom_pandeemia_923
+# text = TEGUTSEDA, TEGUTSEDA, TEGUTSEDA!
+1	TEGUTSEDA	tegutsema	VERB	V	VerbForm=Inf	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	Z	_	3	punct	3:punct	_
+3	TEGUTSEDA	tegutsema	VERB	V	VerbForm=Inf	1	conj	0:root|1:conj	SpaceAfter=No
+4	,	,	PUNCT	Z	_	5	punct	5:punct	_
+5	TEGUTSEDA	tegutsema	VERB	V	VerbForm=Inf	1	conj	0:root|1:conj	SpaceAfter=No
+6	!	!	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = kom_pandeemia_924
+# text = Hiljem on aega targutada ja heietada!
+1	Hiljem	hiljem	ADV	D	_	0	root	0:root	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	1:cop	_
+3	aega	aeg	NOUN	S	Case=Par|Number=Sing	1	nsubj:cop	1:nsubj	_
+4	targutada	targutama	VERB	V	VerbForm=Inf	3	acl	3:acl	_
+5	ja	ja	CCONJ	J	_	6	cc	6:cc	_
+6	heietada	heietama	VERB	V	VerbForm=Inf	4	conj	3:acl|4:conj	SpaceAfter=No
+7	!	!	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = kom_pandeemia_925
+# text = Leelotaja
+1	Leelotaja	Leelotaja	PROPN	S	Case=Nom|Number=Sing	0	root	0:root	NE=B-Per
+
+# sent_id = kom_pandeemia_926
+# text = Millega sa käsid siis tegutseda?
+1	Millega	mis	PRON	P	Case=Com|Number=Sing|PronType=Int,Rel	3	obl	3:obl	_
+2	sa	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	_
+3	käsid	käskima	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	siis	siis	ADV	D	_	3	advmod	3:advmod	_
+5	tegutseda	tegutsema	VERB	V	VerbForm=Inf	3	xcomp	3:xcomp	SpaceAfter=No
+6	?	?	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = kom_pandeemia_927
+# text = mis te siin jahvatate?!
+1	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	4	obj	4:obj	_
+2	te	sina	PRON	P	Case=Nom|Number=Plur|Person=2|PronType=Prs	4	nsubj	4:nsubj	_
+3	siin	siin	ADV	D	_	4	advmod	4:advmod	_
+4	jahvatate	jahvatama	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+5	?	?	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
+6	!	!	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = kom_pandeemia_928
+# text = Ka meil keegi ajakirjak- või keegi teadjam- nopiks üles selle antikehade testi teema ja hakkaks tegelema?
+1	Ka	ka	ADV	D	_	2	advmod	2:advmod	_
+2	meil	mina	PRON	P	Case=Ade|Number=Plur|Person=1|PronType=Prs	8	obl	8:obl	_
+3	keegi	keegi	DET	P	Case=Nom|Number=Sing|PronType=Ind	4	det	4:det	_
+4	ajakirjak-	aja_kirjanik	NOUN	S	Case=Nom|Hyph=Yes|Number=Sing|Typo=Yes	8	nsubj	8:nsubj|15:nsubj|16:nsubj	CorrectForm=ajakirjanik
+5	või	või	CCONJ	J	_	7	cc	7:cc	_
+6	keegi	keegi	DET	P	Case=Nom|Number=Sing|PronType=Ind	7	det	7:det	_
+7	teadjam-	teadjam	NOUN	S	Case=Nom|Number=Sing	4	conj	4:conj|8:nsubj|15:nsubj|16:nsubj	_
+8	nopiks	noppima	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+9	üles	üles	ADV	D	_	8	compound:prt	8:compound	_
+10	selle	see	DET	P	Case=Gen|Number=Sing|PronType=Dem	11	det	11:det	_
+11	antikehade	antikeha	NOUN	S	Case=Gen|Number=Plur	12	nmod	12:nmod	_
+12	testi	test	NOUN	S	Case=Gen|Number=Sing	13	nmod	13:nmod	_
+13	teema	teema	NOUN	S	Case=Gen|Number=Sing	8	obj	8:obj	_
+14	ja	ja	CCONJ	J	_	15	cc	15:cc	_
+15	hakkaks	hakkama	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	0:root|8:conj	_
+16	tegelema	tegelema	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	15	xcomp	15:xcomp	SpaceAfter=No
+17	?	?	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = kom_pandeemia_929
+# text = Mina arvan, et see oleks küll oluline, et läbi põdenud tööle, kooli, ja kuhu vaja tagasi hakkaks jõudma.
+1	Mina	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	_
+2	arvan	arvama	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	Z	_	8	punct	8:punct	_
+4	et	et	SCONJ	J	_	8	mark	8:mark	_
+5	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	8	nsubj:cop	8:nsubj	_
+6	oleks	olema	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
+7	küll	küll	ADV	D	_	8	advmod	8:advmod	_
+8	oluline	oluline	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	ccomp	2:ccomp	SpaceAfter=No
+9	,	,	PUNCT	Z	_	21	punct	21:punct	_
+10	et	et	SCONJ	J	_	21	mark	21:mark	_
+11	läbi	läbi	ADV	D	_	12	compound:prt	12:compound	_
+12	põdenud	põde=nu	NOUN	S	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	21	nsubj	21:nsubj|22:nsubj	_
+13	tööle	töö	NOUN	S	Case=All|Number=Sing	22	obl	22:obl	SpaceAfter=No
+14	,	,	PUNCT	Z	_	15	punct	15:punct	_
+15	kooli	kool	NOUN	S	Case=Add|Number=Sing	13	conj	13:conj|22:obl	SpaceAfter=No
+16	,	,	PUNCT	Z	_	19	punct	19:punct	_
+17	ja	ja	CCONJ	J	_	19	cc	19:cc	_
+18	kuhu	kuhu	ADV	D	_	19	advmod	19:advmod	_
+19	vaja	vaja	ADV	D	_	13	conj	13:conj|22:advmod	_
+20	tagasi	tagasi	ADV	D	_	22	compound:prt	22:compound	_
+21	hakkaks	hakkama	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	8:advcl	_
+22	jõudma	jõudma	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	21	xcomp	21:xcomp	SpaceAfter=No
+23	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = kom_pandeemia_930
+# text = N aprilli lõpust, maist.
+1	N	N	ADV	Y	Abbr=Yes	3	advmod	3:advmod	_
+2	aprilli	aprill	NOUN	S	Case=Gen|Number=Sing	3	nmod	3:nmod	_
+3	lõpust	lõpp	NOUN	S	Case=Ela|Number=Sing	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	Z	_	5	punct	5:punct	_
+5	maist	mai	NOUN	S	Case=Ela|Number=Sing	3	conj	0:root|3:conj	SpaceAfter=No
+6	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = kom_pandeemia_931
+# text = Ja ei ole vaja mingeid teoreetikute targutusi niipidi ja naapidi kõrvale.
+1	Ja	ja	CCONJ	J	_	3	cc	3:cc	_
+2	ei	ei	AUX	V	Polarity=Neg	3	aux	3:aux	_
+3	ole	olema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	vaja	vaja	ADV	D	_	3	compound:prt	3:compound	_
+5	mingeid	mingi	DET	P	Case=Par|Number=Plur|PronType=Ind	7	det	7:det	_
+6	teoreetikute	teoreetik	NOUN	S	Case=Gen|Number=Plur	7	nmod	7:nmod	_
+7	targutusi	targutus	NOUN	S	Case=Par|Number=Plur	3	nsubj	3:nsubj	_
+8	niipidi	nii_pidi	ADV	D	_	3	advmod	3:advmod	_
+9	ja	ja	CCONJ	J	_	10	cc	10:cc	_
+10	naapidi	naa_pidi	ADV	D	_	8	conj	3:advmod|8:conj	_
+11	kõrvale	kõrvale	ADV	D	_	3	advmod	3:advmod	SpaceAfter=No
+12	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = kom_pandeemia_932
+# text = Ainult praktikute teema oleks ja tarnijate.
+1	Ainult	ainult	ADV	D	_	2	advmod	2:advmod	_
+2	praktikute	praktik	NOUN	S	Case=Gen|Number=Plur	3	nmod	3:nmod	_
+3	teema	teema	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+4	oleks	olema	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
+5	ja	ja	CCONJ	J	_	6	cc	6:cc	_
+6	tarnijate	tarnija	NOUN	S	Case=Gen|Number=Plur	3	conj	0:root|3:conj	SpaceAfter=No
+7	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = kom_pandeemia_933
+# text = maskid
+1	maskid	mask	NOUN	S	Case=Nom|Number=Plur	0	root	0:root	_
+
+# sent_id = kom_pandeemia_934
+# text = Inimesed ja ettevõtted tellige ise maske, et inimestele müüa.
+1	Inimesed	inimene	NOUN	S	Case=Nom|Number=Plur	4	vocative	4:vocative	_
+2	ja	ja	CCONJ	J	_	3	cc	3:cc	_
+3	ettevõtted	ette_võte	NOUN	S	Case=Nom|Number=Plur	1	conj	1:conj|4:vocative	_
+4	tellige	tellima	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	ise	ise	ADV	D	_	4	advmod	4:advmod	_
+6	maske	mask	NOUN	S	Case=Par|Number=Plur	4	obj	4:obj	SpaceAfter=No
+7	,	,	PUNCT	Z	_	10	punct	10:punct	_
+8	et	et	SCONJ	J	_	10	mark	10:mark	_
+9	inimestele	inimene	NOUN	S	Case=All|Number=Plur	10	obl	10:obl	_
+10	müüa	müüma	VERB	V	VerbForm=Inf	4	advcl	4:advcl	SpaceAfter=No
+11	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = kom_pandeemia_935
+# text = Parim hind turul 11,5 eurot karp ja korraga saab osta 40 karpi.
+1	Parim	parim	ADJ	A	Case=Nom|Degree=Sup|Number=Sing	2	amod	2:amod	_
+2	hind	hind	NOUN	S	Case=Nom|Number=Sing	6	nsubj:cop	6:nsubj	_
+3	turul	turg	NOUN	S	Case=Ade|Number=Sing	6	obl	6:obl	_
+4	11,5	11,5	NUM	N	NumForm=Digit|NumType=Card	5	nummod	5:nummod	_
+5	eurot	euro	NOUN	S	Case=Par|Number=Sing	6	nmod	6:nmod	_
+6	karp	karp	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+7	ja	ja	CCONJ	J	_	10	cc	10:cc	_
+8	korraga	korraga	ADV	D	_	10	advmod	10:advmod	_
+9	saab	saama	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
+10	osta	ostma	VERB	V	VerbForm=Inf	6	conj	0:root|6:conj	_
+11	40	40	NUM	N	NumForm=Digit|NumType=Card	12	nummod	12:nummod	_
+12	karpi	karp	NOUN	S	Case=Par|Number=Sing	10	obj	10:obj	SpaceAfter=No
+13	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = kom_pandeemia_936
+# text = 3-5 päevaga kohal DHL.
+1	3-5	3-5	NUM	N	NumForm=Digit|NumType=Range	2	nummod	2:nummod	_
+2	päevaga	päev	NOUN	S	Case=Com|Number=Sing	3	obl	3:obl	_
+3	kohal	kohal	ADV	D	_	0	root	0:root	_
+4	DHL	DHL	PROPN	Y	Abbr=Yes	3	nsubj:cop	3:nsubj	NE=B-Org|SpaceAfter=No
+5	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = kom_pandeemia_937
+# text = Lingiga saate ka soodustust.
+1	Lingiga	link	NOUN	S	Case=Com|Number=Sing	2	obl	2:obl	_
+2	saate	saama	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	ka	ka	ADV	D	_	4	advmod	4:advmod	_
+4	soodustust	soodustus	NOUN	S	Case=Par|Number=Sing	2	obj	2:obj	SpaceAfter=No
+5	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = kom_pandeemia_938
+# text = Reaalne
+1	Reaalne	reaalne	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	_
+
+# sent_id = kom_pandeemia_939
+# text = Reaalselt oli ammu aru saaada
+1	Reaalselt	reaalselt	ADV	D	_	5	advmod	5:advmod	_
+2	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
+3	ammu	ammu	ADV	D	_	5	advmod	5:advmod	_
+4	aru	aru	NOUN	S	Case=Par|Number=Sing	5	obj	5:obj	_
+5	saaada	saama	VERB	V	Typo=Yes|VerbForm=Inf	0	root	0:root	CorrectForm=saada
+
+# sent_id = kom_pandeemia_940
+# text = Et kapitalism pole muud kui laenamine tulevikust.
+1	Et	et	SCONJ	J	_	4	mark	4:mark	_
+2	kapitalism	kapitalism	NOUN	S	Case=Nom|Number=Sing	4	nsubj:cop	4:nsubj	_
+3	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+4	muud	muu	PRON	P	Case=Par|Number=Sing|PronType=Ind	0	root	0:root	_
+5	kui	kui	SCONJ	J	_	6	mark	6:mark	_
+6	laenamine	laenamine	NOUN	S	Case=Nom|Number=Sing	4	advcl	4:advcl	_
+7	tulevikust	tulevik	NOUN	S	Case=Ela|Number=Sing	6	nmod	6:nmod	SpaceAfter=No
+8	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = kom_pandeemia_941
+# text = See tulevik on nüüd käes, nüüd koputab reaalsus kõigi uksele
+1	See	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	2	det	2:det	_
+2	tulevik	tulevik	NOUN	S	Case=Nom|Number=Sing	5	nsubj:cop	5:nsubj	_
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
+4	nüüd	nüüd	ADV	D	_	5	advmod	5:advmod	_
+5	käes	käsi	NOUN	S	Case=Ine|Number=Sing	0	root	0:root	SpaceAfter=No
+6	,	,	PUNCT	Z	_	8	punct	8:punct	_
+7	nüüd	nüüd	ADV	D	_	8	advmod	8:advmod	_
+8	koputab	koputama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	0:root|5:conj	_
+9	reaalsus	reaalsus	NOUN	S	Case=Nom|Number=Sing	8	nsubj	8:nsubj	_
+10	kõigi	kõik	PRON	P	Case=Gen|Number=Plur|PronType=Tot	11	nmod	11:nmod	_
+11	uksele	uks	NOUN	S	Case=All|Number=Sing	8	obl	8:obl	_
+
+# sent_id = kom_pandeemia_942
+# text = Tulemus, on see et kaovad 80 % kindlasti väike ettevõtted ja kõik läheb koperatatiividele.
+1	Tulemus	tulemus	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	Z	_	3	punct	3:punct	_
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	1:cop	_
+4	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	1	nsubj:cop	1:nsubj	_
+5	et	et	SCONJ	J	_	6	mark	6:mark	_
+6	kaovad	kaduma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	4:acl	_
+7	80	80	NUM	N	NumForm=Digit|NumType=Card	8	nummod	8:nummod	_
+8	%	%	SYM	X	_	6	advmod	6:advmod	_
+9	kindlasti	kindlasti	ADV	D	_	6	advmod	6:advmod	_
+10	väike	väike	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	11	amod	11:amod	_
+11	ettevõtted	ette_võte	NOUN	S	Case=Nom|Number=Plur	6	nsubj	6:nsubj	_
+12	ja	ja	CCONJ	J	_	14	cc	14:cc	_
+13	kõik	kõik	PRON	P	Case=Nom|Number=Sing|PronType=Tot	14	nsubj	14:nsubj	_
+14	läheb	minema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	4:acl|6:conj	_
+15	koperatatiividele	kooperatiiv	NOUN	S	Case=All|Number=Plur|Typo=Yes	14	obl	14:obl	SpaceAfter=No|CorrectForm=kooperatiividele
+16	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = kom_pandeemia_943
+# text = See suur küllus ja rikkus oli laen nüüd on aeg hakata laene tagasi maksma lõputult see pidu ei saanudki kesta.
+1	See	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	3	det	3:det	_
+2	suur	suur	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	amod	3:amod	_
+3	küllus	küllus	NOUN	S	Case=Nom|Number=Sing	7	nsubj:cop	7:nsubj	_
+4	ja	ja	CCONJ	J	_	5	cc	5:cc	_
+5	rikkus	rikkus	NOUN	S	Case=Nom|Number=Sing	3	conj	3:conj|7:nsubj:cop	_
+6	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
+7	laen	laen	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+8	nüüd	nüüd	ADV	D	_	7	conj	7:conj	_
+9	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
+10	aeg	aeg	NOUN	S	Case=Nom|Number=Sing	8	nsubj:cop	8:nsubj	_
+11	hakata	hakkama	VERB	V	VerbForm=Inf	10	acl	10:acl	_
+12	laene	laen	NOUN	S	Case=Par|Number=Plur	14	obj	14:obj	_
+13	tagasi	tagasi	ADV	D	_	14	compound:prt	14:compound	_
+14	maksma	maksma	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	11	xcomp	11:xcomp	_
+15	lõputult	lõputult	ADV	D	_	20	advmod	20:advmod	_
+16	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	17	det	17:det	_
+17	pidu	pidu	NOUN	S	Case=Nom|Number=Sing	20	nsubj	20:nsubj	_
+18	ei	ei	AUX	V	Polarity=Neg	20	aux	20:aux	_
+19	saanudki	saama	AUX	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	20	aux	20:aux	_
+20	kesta	kestma	VERB	V	VerbForm=Inf	7	conj	0:root|7:conj	SpaceAfter=No
+21	.	.	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = kom_pandeemia_944
+# text = Kopp kopp reaalsus koputab uksele
+1	Kopp	kopp	INTJ	I	_	3	discourse	3:discourse	_
+2	kopp	kopp	INTJ	I	_	3	discourse	3:discourse	_
+3	reaalsus	reaalsus	NOUN	S	Case=Nom|Number=Sing	4	nsubj	4:nsubj	_
+4	koputab	koputama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	uksele	uks	NOUN	S	Case=All|Number=Sing	4	obl	4:obl	_
+
+# sent_id = kom_pandeemia_945
+# text = Leelotaja
+1	Leelotaja	Leelotaja	PROPN	S	Case=Nom|Number=Sing	0	root	0:root	NE=B-Per
+
+# sent_id = kom_pandeemia_946
+# text = Eks ta ole.
+1	Eks	eks	ADV	D	_	3	advmod	3:advmod	_
+2	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj:cop	3:nsubj	_
+3	ole	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+4	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = kom_pandeemia_947
+# text = Mõned ehk saavad aru, mis muutub, mõned loodavad ikka, et peale haiguse taandumist kasvab talle 2 kõhtu ja saab rohkem "eksisteerida" kui teised.
+1	Mõned	mõni	PRON	P	Case=Nom|Number=Plur|PronType=Ind	3	nsubj	3:nsubj	_
+2	ehk	ehk	ADV	D	_	3	advmod	3:advmod	_
+3	saavad	saama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	aru	aru	NOUN	S	Case=Par|Number=Sing	3	obl	3:obl	SpaceAfter=No
+5	,	,	PUNCT	Z	_	7	punct	7:punct	_
+6	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	7	nsubj	7:nsubj	_
+7	muutub	muutuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	3:ccomp	SpaceAfter=No
+8	,	,	PUNCT	Z	_	10	punct	10:punct	_
+9	mõned	mõni	PRON	P	Case=Nom|Number=Plur|PronType=Ind	10	nsubj	10:nsubj	_
+10	loodavad	lootma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	0:root|3:conj	_
+11	ikka	ikka	ADV	D	_	10	advmod	10:advmod	SpaceAfter=No
+12	,	,	PUNCT	Z	_	17	punct	17:punct	_
+13	et	et	SCONJ	J	_	17	mark	17:mark	_
+14	peale	peale	ADP	K	AdpType=Prep	16	case	16:case	_
+15	haiguse	haigus	NOUN	S	Case=Gen|Number=Sing	16	nmod	16:nmod	_
+16	taandumist	taandumine	NOUN	S	Case=Par|Number=Sing	17	obl	17:obl	_
+17	kasvab	kasvama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp	10:ccomp	_
+18	talle	tema	PRON	P	Case=All|Number=Sing|Person=3|PronType=Prs	17	obl	17:obl	_
+19	2	2	NUM	N	NumForm=Digit|NumType=Card	20	nummod	20:nummod	_
+20	kõhtu	kõht	NOUN	S	Case=Par|Number=Sing	17	nsubj	17:nsubj	_
+21	ja	ja	CCONJ	J	_	25	cc	25:cc	_
+22	saab	saama	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	25:aux	_
+23	rohkem	rohkem	ADV	D	_	25	advmod	25:advmod	_
+24	"	"	PUNCT	Z	_	25	punct	25:punct	SpaceAfter=No
+25	eksisteerida	eksisteerima	VERB	V	VerbForm=Inf	17	conj	10:ccomp|17:conj	SpaceAfter=No
+26	"	"	PUNCT	Z	_	25	punct	25:punct	_
+27	kui	kui	SCONJ	J	_	28	mark	28:mark	_
+28	teised	teine	PRON	P	Case=Nom|Number=Plur|PronType=Dem	25	advcl	25:advcl	SpaceAfter=No
+29	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = kom_pandeemia_948
+# text = Praegu
+1	Praegu	praegu	ADV	D	_	0	root	0:root	_
+
+# sent_id = kom_pandeemia_949
+# text = tegutseda saab igapäev ja iga inimene!
+1	tegutseda	tegutsema	VERB	V	VerbForm=Inf	0	root	0:root	_
+2	saab	saama	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	1:aux	_
+3	igapäev	iga_päev	NOUN	S	Case=Nom|Number=Sing	1	obl	1:obl	_
+4	ja	ja	CCONJ	J	_	6	cc	6:cc	_
+5	iga	iga	DET	P	Case=Nom|Number=Sing|PronType=Tot	6	det	6:det	_
+6	inimene	inimene	NOUN	S	Case=Nom|Number=Sing	1	nsubj	1:nsubj	SpaceAfter=No
+7	!	!	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = kom_pandeemia_950
+# text = Interneti kaudu, naabrite kaudu, soprade kaudu, tuttavatae kaudu.
+1	Interneti	internet	NOUN	S	Case=Gen|Number=Sing	0	root	0:root	_
+2	kaudu	kaudu	ADP	K	AdpType=Post	1	case	1:case	SpaceAfter=No
+3	,	,	PUNCT	Z	_	4	punct	4:punct	_
+4	naabrite	naaber	NOUN	S	Case=Gen|Number=Plur	1	conj	0:root|1:conj	_
+5	kaudu	kaudu	ADP	K	AdpType=Post	4	case	4:case	SpaceAfter=No
+6	,	,	PUNCT	Z	_	7	punct	7:punct	_
+7	soprade	sõber	NOUN	S	Case=Gen|Number=Plur|Typo=Yes	1	conj	0:root|1:conj	CorrectForm=sõprade
+8	kaudu	kaudu	ADP	K	AdpType=Post	7	case	7:case	SpaceAfter=No
+9	,	,	PUNCT	Z	_	10	punct	10:punct	_
+10	tuttavatae	tuttav	NOUN	S	Case=Gen|Number=Sing|Typo=Yes	1	conj	0:root|1:conj	CorrectForm=tuttavate
+11	kaudu	kaudu	ADP	K	AdpType=Post	10	case	10:case	SpaceAfter=No
+12	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = kom_pandeemia_951
+# text = igal on kindlasti ideid kuidas olla abiks ja toeks uksteisele!
+1	igal	iga	PRON	P	Case=Ade|Number=Sing|PronType=Tot	0	root	0:root	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	1:cop	_
+3	kindlasti	kindlasti	ADV	D	_	1	advmod	1:advmod	_
+4	ideid	idee	NOUN	S	Case=Par|Number=Plur	1	nsubj:cop	1:nsubj	_
+5	kuidas	kuidas	ADV	D	_	7	mark	7:mark	_
+6	olla	olema	AUX	V	VerbForm=Inf	7	cop	7:cop	_
+7	abiks	abi	NOUN	S	Case=Tra|Number=Sing	4	acl	4:acl	_
+8	ja	ja	CCONJ	J	_	9	cc	9:cc	_
+9	toeks	tugi	NOUN	S	Case=Tra|Number=Sing	7	conj	4:acl|7:conj	_
+10	uksteisele	üks_teise	PRON	P	Case=All|Number=Sing|PronType=Rcp|Reflex=Yes|Typo=Yes	7	obl	7:obl	CorrectForm=üksteisele|SpaceAfter=No
+11	!	!	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = kom_pandeemia_952
+# text = Inimesed on erinevad, kes kardab rohkem, kes vähem!
+1	Inimesed	inimene	NOUN	S	Case=Nom|Number=Plur	3	nsubj:cop	3:nsubj	_
+2	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
+3	erinevad	erinev	ADJ	A	Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	Z	_	6	punct	6:punct	_
+5	kes	kes	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	6	nsubj	6:nsubj	_
+6	kardab	kartma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	3:conj	_
+7	rohkem	rohkem	ADV	D	_	6	advmod	6:advmod	SpaceAfter=No
+8	,	,	PUNCT	Z	_	9	punct	9.1:punct	_
+9	kes	kes	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	3	conj	9.1:nsubj	_
+9.1	kardab	kartma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	3:conj	Empty=9.1
+10	vähem	vähem	ADV	D	_	9	orphan	9.1:advmod	SpaceAfter=No
+11	!	!	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = kom_pandeemia_953
+# text = Ajakirjanikud saavad olla abiks sellega, et infot avaldadda peamiselt väga olulisest!
+1	Ajakirjanikud	aja_kirjanik	NOUN	S	Case=Nom|Number=Plur	4	nsubj:cop	4:nsubj	_
+2	saavad	saama	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
+3	olla	olema	AUX	V	VerbForm=Inf	4	cop	4:cop	_
+4	abiks	abi	NOUN	S	Case=Tra|Number=Sing	0	root	0:root	_
+5	sellega	see	PRON	P	Case=Com|Number=Sing|PronType=Dem	4	obl	4:obl	SpaceAfter=No
+6	,	,	PUNCT	Z	_	9	punct	9:punct	_
+7	et	et	SCONJ	J	_	9	mark	9:mark	_
+8	infot	info	NOUN	S	Case=Par|Number=Sing	9	obj	9:obj	_
+9	avaldadda	avaldama	VERB	V	Typo=Yes|VerbForm=Inf	5	acl	5:acl	CorrectForm=avaldada
+10	peamiselt	peamiselt	ADV	D	_	9	advmod	9:advmod	_
+11	väga	väga	ADV	D	_	12	advmod	12:advmod	_
+12	olulisest	oluline	ADJ	A	Case=Ela|Degree=Pos|Number=Sing	9	obl	9:obl	SpaceAfter=No
+13	!	!	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = kom_pandeemia_954
+# text = Mis inimesi täna koige enam aitab!
+1	Mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	6	nsubj	6:nsubj	_
+2	inimesi	inimene	NOUN	S	Case=Par|Number=Plur	6	obj	6:obj	_
+3	täna	täna	ADV	D	_	6	advmod	6:advmod	_
+4	koige	kõige	ADV	D	Typo=Yes	5	advmod	5:advmod	CorrectForm=kõige
+5	enam	enam	ADV	D	_	6	advmod	6:advmod	_
+6	aitab	aitama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+7	!	!	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = kom_pandeemia_955
+# text = Googles on palju infot epideemiatest ajaloos, igauks saab neid lugeda ja järeldusi teha!
+1	Googles	Google	PROPN	S	Case=Ine|Number=Sing	0	root	0:root	NE=B-Prod
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	1:cop	_
+3	palju	palju	ADV	D	_	4	advmod	4:advmod	_
+4	infot	info	NOUN	S	Case=Par|Number=Sing	1	nsubj:cop	1:nsubj	_
+5	epideemiatest	epideemia	NOUN	S	Case=Ela|Number=Plur	4	nmod	4:nmod	_
+6	ajaloos	aja_lugu	NOUN	S	Case=Ine|Number=Sing	5	nmod	5:nmod	SpaceAfter=No
+7	,	,	PUNCT	Z	_	11	punct	11:punct	_
+8	igauks	iga_üks	PRON	P	Case=Nom|Number=Sing|PronType=Ind|Typo=Yes	11	nsubj	11:nsubj|14:nsubj	CorrectForm=igaüks
+9	saab	saama	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	11:aux	_
+10	neid	see	PRON	P	Case=Par|Number=Plur|PronType=Dem	11	obj	11:obj	_
+11	lugeda	lugema	VERB	V	VerbForm=Inf	1	conj	0:root|1:conj	_
+12	ja	ja	CCONJ	J	_	14	cc	14:cc	_
+13	järeldusi	järeldus	NOUN	S	Case=Par|Number=Plur	14	obj	14:obj	_
+14	teha	tegema	VERB	V	VerbForm=Inf	11	conj	0:root|11:conj	SpaceAfter=No
+15	!	!	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = kom_pandeemia_956
+# text = Leelotaja
+1	Leelotaja	Leelotaja	PROPN	S	Case=Nom|Number=Sing	0	root	0:root	NE=B-Per
+
+# sent_id = kom_pandeemia_957
+# text = Mina mõtlesin oma mudeli välja.
+1	Mina	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	_
+2	mõtlesin	mõtlema	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	4:nmod	_
+4	mudeli	mudel	NOUN	S	Case=Gen|Number=Sing	2	obj	2:obj	_
+5	välja	välja	ADV	D	_	2	compound:prt	2:compound	SpaceAfter=No
+6	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = kom_pandeemia_958
+# text = Ma muudan oma maksuvaba pensioni osa nii, et hakkan 150 € pealt tulumaksu maksma.
+1	Ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	_
+2	muudan	muutma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	5:nmod	_
+4	maksuvaba	maksu_vaba	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	5	amod	5:amod	_
+5	pensioni	pension	NOUN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	_
+6	osa	osa	NOUN	S	Case=Par|Number=Sing	2	obj	2:obj	_
+7	nii	nii	ADV	D	_	2	advmod	2:advmod	SpaceAfter=No
+8	,	,	PUNCT	Z	_	10	punct	10:punct	_
+9	et	et	SCONJ	J	_	10	mark	10:mark	_
+10	hakkan	hakkama	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	2:advcl	_
+11	150	150	NUM	N	NumForm=Digit|NumType=Card	12	nummod	12:nummod	_
+12	€	€	SYM	Y	Abbr=Yes	15	obl	15:obl	_
+13	pealt	pealt	ADP	K	AdpType=Post	12	case	12:case	_
+14	tulumaksu	tulu_maks	NOUN	S	Case=Par|Number=Sing	15	obj	15:obj	_
+15	maksma	maksma	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	10	xcomp	10:xcomp	SpaceAfter=No
+16	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = kom_pandeemia_959
+# text = Ma peaksin nats nii ehk naa maksma aga teen seda 20€ võrra rohkem.
+1	Ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj|9:nsubj	_
+2	peaksin	pidama	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
+3	nats	nats	ADV	D	_	7	advmod	7:advmod	_
+4	nii	nii	ADV	D	_	7	advmod	7:advmod	_
+5	ehk	ehk	CCONJ	J	_	6	cc	6:cc	_
+6	naa	naa	ADV	D	_	4	conj	4:conj|7:advmod	_
+7	maksma	maksma	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	0	root	0:root	_
+8	aga	aga	CCONJ	J	_	9	cc	9:cc	_
+9	teen	tegema	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	0:root|7:conj	_
+10	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	9	obj	9:obj	_
+11	20	20	NUM	N	NumForm=Digit|NumType=Card	12	nummod	12:nummod	SpaceAfter=No
+12	€	€	SYM	Y	_	14	obl	14:obl	_
+13	võrra	võrra	ADP	K	AdpType=Post	12	case	12:case	_
+14	rohkem	rohkem	ADV	D	_	9	advmod	9:advmod	SpaceAfter=No
+15	.	.	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = kom_pandeemia_960
+# text = Praegu pole mina see, kes vajab abi.
+1	Praegu	praegu	ADV	D	_	4	advmod	4:advmod	_
+2	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+3	mina	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:cop	4:nsubj	_
+4	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	0	root	0:root|7:nsubj	SpaceAfter=No
+5	,	,	PUNCT	Z	_	7	punct	7:punct	_
+6	kes	kes	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	7	nsubj	4:ref	_
+7	vajab	vajama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	4:acl	_
+8	abi	abi	NOUN	S	Case=Par|Number=Sing	7	obj	7:obj	SpaceAfter=No
+9	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = kom_pandeemia_961
+# text = Ja noh, kui jumal päevi annab, saan järgmine aasta oma enammakstud osa tagasi.:-)))
+1	Ja	ja	CCONJ	J	_	2	cc	2:cc	_
+2	noh	noh	INTJ	I	_	9	discourse	9:discourse	SpaceAfter=No
+3	,	,	PUNCT	Z	_	7	punct	7:punct	_
+4	kui	kui	SCONJ	J	_	7	mark	7:mark	_
+5	jumal	jumal	NOUN	S	Case=Nom|Number=Sing	7	nsubj	7:nsubj	_
+6	päevi	päev	NOUN	S	Case=Par|Number=Plur	7	obj	7:obj	_
+7	annab	andma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	9:advcl	SpaceAfter=No
+8	,	,	PUNCT	Z	_	7	punct	7:punct	_
+9	saan	saama	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+10	järgmine	järgmine	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	11	amod	11:amod	_
+11	aasta	aasta	NOUN	S	Case=Nom|Number=Sing	9	obl	9:obl	_
+12	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	14	nmod	14:nmod	_
+13	enammakstud	enammaks=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	14	acl	14:acl	_
+14	osa	osa	NOUN	S	Case=Par|Number=Sing	9	obj	9:obj	_
+15	tagasi	tagasi	ADV	D	_	9	compound:prt	9:compound	SpaceAfter=No
+16	.	.	PUNCT	Z	_	9	punct	9:punct	SpaceAfter=No
+17	:-)))	:-)))	SYM	Z	_	9	discourse	9:discourse	_
+
+# sent_id = kom_pandeemia_962
+# text = Vanka
+1	Vanka	Vanka	PROPN	S	Case=Nom|Number=Sing	0	root	0:root	NE=B-Per
+
+# sent_id = kom_pandeemia_963
+# text = Ma ei saa aru, mingid poed on lahti mingid mitte, (kes pole korralikku lobitööd teinud...) poole s vinnas see eriolukord.
+1	Ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	_
+2	ei	ei	AUX	V	Polarity=Neg	3	aux	3:aux	_
+3	saa	saama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	aru	aru	NOUN	S	Case=Par|Number=Sing	3	obj	3:obj	SpaceAfter=No
+5	,	,	PUNCT	Z	_	9	punct	9:punct	_
+6	mingid	mingi	DET	P	Case=Nom|Number=Plur|PronType=Ind	7	det	7:det	_
+7	poed	pood	NOUN	S	Case=Nom|Number=Plur	9	nsubj:cop	9:nsubj	_
+8	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
+9	lahti	lahti	ADV	D	_	3	conj	0:root|3:conj	_
+10	mingid	mingi	PRON	P	Case=Nom|Number=Plur|PronType=Ind	11	nsubj:cop	11:nsubj	_
+11	mitte	mitte	ADV	D	Polarity=Neg	9	conj	0:root|9:conj	SpaceAfter=No
+12	,	,	PUNCT	Z	_	9	punct	9:punct	_
+13	(	(	PUNCT	Z	_	18	punct	18:punct	SpaceAfter=No
+14	kes	kes	PRON	P	Case=Nom|Number=Plur|PronType=Int,Rel	18	nsubj	18:nsubj	_
+15	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	18:aux	_
+16	korralikku	korralik	ADJ	A	Case=Par|Degree=Pos|Number=Sing	17	amod	17:amod	_
+17	lobitööd	lobi_töö	NOUN	S	Case=Par|Number=Sing	18	obj	18:obj	_
+18	teinud	tegema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	9	parataxis	9:parataxis	SpaceAfter=No
+19	...	...	PUNCT	Z	_	18	punct	18:punct	SpaceAfter=No
+20	)	)	PUNCT	Z	_	18	punct	18:punct	_
+21	poole	pool	NUM	N	Case=Ine|Number=Sing|NumForm=Word|NumType=Frac|Typo=Yes	23	nummod	23:nummod	CorrectForm=pooles
+22	s	_	X	_	_	21	goeswith	21:goeswith	_
+23	vinnas	vinn	NOUN	S	Case=Ine|Number=Sing	3	conj	0:root|3:conj	_
+24	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	25	det	25:det	_
+25	eriolukord	eri_olu_kord	NOUN	S	Case=Nom|Number=Sing	23	nsubj:cop	23:nsubj	SpaceAfter=No
+26	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = kom_pandeemia_964
+# text = eestlane
+1	eestlane	eestlane	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+
+# sent_id = kom_pandeemia_965
+# text = sellist jama loeb igaüks neti avarustest
+1	sellist	selline	DET	P	Case=Par|Number=Sing|PronType=Dem	2	det	2:det	_
+2	jama	jama	NOUN	S	Case=Par|Number=Sing	3	obj	3:obj	_
+3	loeb	lugema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	igaüks	iga_üks	PRON	P	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	3:nsubj	_
+5	neti	nett	NOUN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	_
+6	avarustest	avarus	NOUN	S	Case=Ela|Number=Plur	3	obl	3:obl	_
+
+# sent_id = kom_pandeemia_966
+# text = Spain
+1	Spain	Spain	PROPN	S	Case=Nom|Number=Sing	0	root	0:root	NE=B-Per
+
+# sent_id = kom_pandeemia_967
+# text = Mina prognoosin et lähima 100 aasta jooksul sureb ära vähemalt 8 miljardit inemest
+1	Mina	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	_
+2	prognoosin	prognoosima	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	et	et	SCONJ	J	_	8	mark	8:mark	_
+4	lähima	lähim	ADJ	A	Case=Gen|Degree=Sup|Number=Sing	5	amod	5:amod	_
+5	100	100	NUM	N	NumForm=Digit|NumType=Card	6	nummod	6:nummod	_
+6	aasta	aasta	NOUN	S	Case=Gen|Number=Sing	8	obl	8:obl	_
+7	jooksul	jooksul	ADP	K	AdpType=Post	6	case	6:case	_
+8	sureb	surema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp	_
+9	ära	ära	ADV	D	_	8	compound:prt	8:compound	_
+10	vähemalt	vähemalt	ADV	D	_	12	advmod	12:advmod	_
+11	8	8	NUM	N	NumForm=Digit|NumType=Card	12	compound	12:compound	_
+12	miljardit	miljard	NUM	N	Case=Par|Number=Sing|NumForm=Word|NumType=Card	13	nummod	13:nummod	_
+13	inemest	inimene	NOUN	S	Case=Par|Number=Sing|Typo=Yes	8	nsubj	8:nsubj	CorrectForm=inimest
+
+# sent_id = kom_pandeemia_968
+# text = Me
+1	Me	mina	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	root	0:root	_
+
+# sent_id = kom_pandeemia_969
+# text = oskame statistikat ise ka lugeda - selleks ei ole vaja olla professor.
+1	oskame	oskama	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	statistikat	statistika	NOUN	S	Case=Par|Number=Sing	5	obj	5:obj	_
+3	ise	ise	ADV	D	_	5	advmod	5:advmod	_
+4	ka	ka	ADV	D	_	5	advmod	5:advmod	_
+5	lugeda	lugema	VERB	V	VerbForm=Inf	1	xcomp	1:xcomp	_
+6	-	-	PUNCT	Z	_	9	punct	9:punct	_
+7	selleks	see	PRON	P	Case=Tra|Number=Sing|PronType=Dem	9	obl	9:obl	_
+8	ei	ei	AUX	V	Polarity=Neg	9	aux	9:aux	_
+9	ole	olema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	1:parataxis	_
+10	vaja	vaja	ADV	D	_	9	compound:prt	9:compound	_
+11	olla	olema	VERB	V	VerbForm=Inf	9	csubj	9:csubj	_
+12	professor	professor	NOUN	S	Case=Nom|Number=Sing	11	nsubj	11:nsubj	SpaceAfter=No
+13	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = kom_pandeemia_970
+# text = eleonore
+1	eleonore	Eleonore	PROPN	S	Case=Nom|Number=Sing|Typo=Yes	0	root	0:root	NE=B-Per|CorrectForm=Eleonore
+
+# sent_id = kom_pandeemia_971
+# text = paistab, et professor soovib nüüd kõigest hingest demonstreerida, et ka tema oskab statistikat koguda ja lugeda - küll kuu aega hiljem kui asjast huvitunud tavainimesed, aga parem hilja kui mitte kunagi, onju
+1	paistab	paistma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	Z	_	5	punct	5:punct	_
+3	et	et	SCONJ	J	_	5	mark	5:mark	_
+4	professor	professor	NOUN	S	Case=Nom|Number=Sing	5	nsubj	5:nsubj|9:nsubj	_
+5	soovib	soovima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj	1:csubj	_
+6	nüüd	nüüd	ADV	D	_	5	advmod	5:advmod	_
+7	kõigest	kõik	DET	P	Case=Ela|Number=Sing|PronType=Tot	8	det	8:det	_
+8	hingest	hing	NOUN	S	Case=Ela|Number=Sing	5	obl	5:obl	_
+9	demonstreerida	demonstreerima	VERB	V	VerbForm=Inf	5	xcomp	5:xcomp	SpaceAfter=No
+10	,	,	PUNCT	Z	_	14	punct	14:punct	_
+11	et	et	SCONJ	J	_	14	mark	14:mark	_
+12	ka	ka	ADV	D	_	13	advmod	13:advmod	_
+13	tema	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj|16:nsubj|18:nsubj	_
+14	oskab	oskama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	ccomp	9:ccomp	_
+15	statistikat	statistika	NOUN	S	Case=Par|Number=Sing	16	obj	16:obj|18:obj	_
+16	koguda	koguma	VERB	V	VerbForm=Inf	14	xcomp	14:xcomp	_
+17	ja	ja	CCONJ	J	_	18	cc	18:cc	_
+18	lugeda	lugema	VERB	V	VerbForm=Inf	16	conj	14:xcomp|16:conj	_
+19	-	-	PUNCT	Z	_	23	punct	23:punct	_
+20	küll	küll	ADV	D	_	23	advmod	23:advmod	_
+21	kuu	kuu	NOUN	S	Case=Nom|Number=Sing	22	nmod	22:nmod	_
+22	aega	aeg	NOUN	S	Case=Par|Number=Sing	23	obl	23:obl	_
+23	hiljem	hiljem	ADV	D	_	14	parataxis	14:parataxis	_
+24	kui	kui	SCONJ	J	_	27	mark	27:mark	_
+25	asjast	asi	NOUN	S	Case=Ela|Number=Sing	26	obl	26:obl	_
+26	huvitunud	huvitu=nud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Act	27	acl	27:acl	_
+27	tavainimesed	tava_inimene	NOUN	S	Case=Nom|Number=Plur	23	advcl	23:advcl	SpaceAfter=No
+28	,	,	PUNCT	Z	_	31	punct	31:punct	_
+29	aga	aga	CCONJ	J	_	31	cc	31:cc	_
+30	parem	parem	ADV	D	_	31	advmod	31:advmod	_
+31	hilja	hilja	ADV	D	_	23	conj	23:conj	_
+32	kui	kui	SCONJ	J	_	34	mark	34:mark	_
+33	mitte	mitte	ADV	D	Polarity=Neg	34	advmod	34:advmod	_
+34	kunagi	kunagi	ADV	D	_	31	advcl	31:advcl	SpaceAfter=No
+35	,	,	PUNCT	Z	_	36	punct	36:punct	_
+36	onju	onju	ADV	D	_	31	discourse	31:discourse	_
+
+# sent_id = kom_pandeemia_972
+# text = Lõpetage vassimine
+1	Lõpetage	lõpetama	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	vassimine	vassimine	NOUN	S	Case=Nom|Number=Sing	1	obj	1:obj	_
+
+# sent_id = kom_pandeemia_973
+# text = Mind ei huvita kuhu mujal maalimas need numbrid jooksevad, mind huvitab miks nakatanute numbreid ei öelda valdade järgi!?
+1	Mind	mina	PRON	P	Case=Par|Number=Sing|Person=1|PronType=Prs	3	obj	3:obj	_
+2	ei	ei	AUX	V	Polarity=Neg	3	aux	3:aux	_
+3	huvita	huvitama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	kuhu	kuhu	ADV	D	_	9	mark	9:mark	_
+5	mujal	mujal	ADV	D	_	6	advmod	6:advmod	_
+6	maalimas	maailm	NOUN	S	Case=Ine|Number=Sing|Typo=Yes	9	obl	9:obl	CorrectForm=maailmas
+7	need	see	DET	P	Case=Nom|Number=Plur|PronType=Dem	8	det	8:det	_
+8	numbrid	number	NOUN	S	Case=Nom|Number=Plur	9	nsubj	9:nsubj	_
+9	jooksevad	jooksma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	csubj	3:csubj	SpaceAfter=No
+10	,	,	PUNCT	Z	_	12	punct	12:punct	_
+11	mind	mina	PRON	P	Case=Par|Number=Sing|Person=1|PronType=Prs	12	obj	12:obj	_
+12	huvitab	huvitama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	0:root|3:conj	_
+13	miks	miks	ADV	D	_	17	mark	17:mark	_
+14	nakatanute	nakata=nu	NOUN	S	Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	15	acl	15:acl	_
+15	numbreid	number	NOUN	S	Case=Par|Number=Plur	17	obj	17:obj	_
+16	ei	ei	AUX	V	Polarity=Neg	17	aux	17:aux	_
+17	öelda	ütlema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	12	csubj	12:csubj	_
+18	valdade	vald	NOUN	S	Case=Gen|Number=Plur	17	obl	17:obl	_
+19	järgi	järgi	ADP	K	AdpType=Post	18	case	18:case	SpaceAfter=No
+20	!	!	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
+21	?	?	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = kom_pandeemia_974
+# text = Ka üle Eestiline number ei ütle lõppkokkuvõttes midagi.
+1	Ka	ka	ADV	D	_	4	advmod	4:advmod	_
+2	üle	üle	ADV	D	_	3	advmod	3:advmod	_
+3	Eestiline	eestiline	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Typo=Yes	4	nmod	4:nmod	CorrectForm=eestiline
+4	number	number	NOUN	S	Case=Nom|Number=Sing	6	nsubj	6:nsubj	_
+5	ei	ei	AUX	V	Polarity=Neg	6	aux	6:aux	_
+6	ütle	ütlema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+7	lõppkokkuvõttes	lõpp_kokku_võte	NOUN	S	Case=Ine|Number=Sing	6	obl	6:obl	_
+8	midagi	miski	PRON	P	Case=Par|Number=Sing|PronType=Ind	6	obj	6:obj	SpaceAfter=No
+9	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = kom_pandeemia_975
+# text = Meil arvatakse siiani, et on piirkondi, kus nakatunuid ei olegi.
+1	Meil	mina	PRON	P	Case=Ade|Number=Plur|Person=1|PronType=Prs	2	obl	2:obl	_
+2	arvatakse	arvama	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
+3	siiani	siiani	ADV	D	_	2	advmod	2:advmod	SpaceAfter=No
+4	,	,	PUNCT	Z	_	6	punct	6:punct	_
+5	et	et	SCONJ	J	_	6	mark	6:mark	_
+6	on	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp	_
+7	piirkondi	piirkond	NOUN	S	Case=Par|Number=Plur	6	nsubj	6:nsubj	SpaceAfter=No
+8	,	,	PUNCT	Z	_	9	punct	9:punct	_
+9	kus	kus	ADV	D	_	7	acl:relcl	7:acl	_
+10	nakatunuid	nakatu=nu	NOUN	S	Case=Par|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	9	nsubj:cop	9:nsubj	_
+11	ei	ei	AUX	V	Polarity=Neg	9	aux	9:aux	_
+12	olegi	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	SpaceAfter=No
+13	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = kom_pandeemia_976
+# text = naine
+1	naine	naine	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+
+# sent_id = kom_pandeemia_977
+# text = millal pannakse kinni kõik lasteaiad???
+1	millal	millal	ADV	D	_	2	mark	2:mark	_
+2	pannakse	panema	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
+3	kinni	kinni	ADV	D	_	2	compound:prt	2:compound	_
+4	kõik	kõik	DET	P	Case=Nom|Number=Plur|PronType=Tot	5	det	5:det	_
+5	lasteaiad	laste_aed	NOUN	S	Case=Nom|Number=Plur	2	obj	2:obj	SpaceAfter=No
+6	?	?	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+7	?	?	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+8	?	?	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = kom_pandeemia_978
+# text = 4. Ühtset käitumismustrit, mis Aasias töötanud on, ei ole.
+1	4.	4	NUM	N	NumForm=Digit|NumType=Ord	11	parataxis	11:parataxis	_
+2	Ühtset	ühtne	ADJ	A	Case=Par|Degree=Pos|Number=Sing	3	amod	3:amod	_
+3	käitumismustrit	käitumis_muster	NOUN	S	Case=Par|Number=Sing	11	nsubj	7:nsubj|11:nsubj	SpaceAfter=No
+4	,	,	PUNCT	Z	_	7	punct	7:punct	_
+5	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	7	nsubj	3:ref	_
+6	Aasias	Aasia	PROPN	S	Case=Ine|Number=Sing	7	obl	7:obl	NE=B-Loc
+7	töötanud	töötama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	3	acl:relcl	3:acl	_
+8	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	SpaceAfter=No
+9	,	,	PUNCT	Z	_	7	punct	7:punct	_
+10	ei	ei	AUX	V	Polarity=Neg	11	aux	11:aux	_
+11	ole	olema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+12	.	.	PUNCT	Z	_	11	punct	11:punct	_
+
+# sent_id = kom_pandeemia_979
+# text = On üks läbiv käitumismuster ja see on maskid.
+1	On	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	üks	üks	DET	P	Case=Nom|Number=Sing|PronType=Ind	4	det	4:det	_
+3	läbiv	läbiv	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	acl	4:acl	_
+4	käitumismuster	käitumis_muster	NOUN	S	Case=Nom|Number=Sing	1	nsubj	1:nsubj	_
+5	ja	ja	CCONJ	J	_	6	cc	6:cc	_
+6	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	1	conj	0:root|1:conj	_
+7	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
+8	maskid	mask	NOUN	S	Case=Nom|Number=Plur	6	nsubj:cop	6:nsubj	SpaceAfter=No
+9	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = kom_pandeemia_980
+# text = See pole muidugi mingi imerelv mis üksi kõik lahendab, aga mõju on suur.
+1	See	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	5:nsubj	_
+2	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
+3	muidugi	muidugi	ADV	D	_	5	advmod	5:advmod	_
+4	mingi	mingi	DET	P	Case=Nom|Number=Sing|PronType=Ind	5	det	5:det	_
+5	imerelv	imerelv	NOUN	S	Case=Nom|Number=Sing	0	root	0:root|9:nsubj	_
+6	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	9	nsubj	5:ref	_
+7	üksi	üksi	ADV	D	_	9	advmod	9:advmod	_
+8	kõik	kõik	PRON	P	Case=Nom|Number=Sing|PronType=Tot	9	obj	9:obj	_
+9	lahendab	lahendama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	5:acl	SpaceAfter=No
+10	,	,	PUNCT	Z	_	14	punct	14:punct	_
+11	aga	aga	CCONJ	J	_	14	cc	14:cc	_
+12	mõju	mõju	NOUN	S	Case=Nom|Number=Sing	14	nsubj:cop	14:nsubj	_
+13	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	14:cop	_
+14	suur	suur	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	conj	0:root|5:conj	SpaceAfter=No
+15	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = kom_pandeemia_981
+# text = Ja ega sealgi maske üleliia lihtsalt ei saa, paljud inimesed käivad riidest maskidega, olgugi isetehtud, iga päev peab seda pesema lihtsalt.
+1	Ja	ja	CCONJ	J	_	8	cc	8:cc	_
+2	ega	ega	ADV	D	Polarity=Neg	8	advmod	8:advmod	_
+3	sealgi	seal	ADV	D	_	8	advmod	8:advmod	_
+4	maske	mask	NOUN	S	Case=Par|Number=Plur	8	obj	8:obj	_
+5	üleliia	üle_liia	ADV	D	_	6	advmod	6:advmod	_
+6	lihtsalt	lihtsalt	ADV	D	_	8	advmod	8:advmod	_
+7	ei	ei	AUX	V	Polarity=Neg	8	aux	8:aux	_
+8	saa	saama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+9	,	,	PUNCT	Z	_	12	punct	12:punct	_
+10	paljud	palju	DET	P	Case=Nom|Number=Plur|PronType=Ind	11	det	11:det	_
+11	inimesed	inimene	NOUN	S	Case=Nom|Number=Plur	12	nsubj	12:nsubj	_
+12	käivad	käima	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	0:root|8:conj	_
+13	riidest	riie	NOUN	S	Case=Ela|Number=Sing	14	nmod	14:nmod	_
+14	maskidega	mask	NOUN	S	Case=Com|Number=Plur	12	obl	12:obl	SpaceAfter=No
+15	,	,	PUNCT	Z	_	17	punct	17:punct	_
+16	olgugi	olgugi	ADV	D	_	17	advmod	17:advmod	_
+17	isetehtud	ise_tehtud	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	12	conj	0:root|12:conj	SpaceAfter=No
+18	,	,	PUNCT	Z	_	23	punct	23:punct	_
+19	iga	iga	DET	P	Case=Nom|Number=Sing|PronType=Tot	20	det	20:det	_
+20	päev	päev	NOUN	S	Case=Nom|Number=Sing	23	obl	23:obl	_
+21	peab	pidama	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	23:aux	_
+22	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	23	obj	23:obj	_
+23	pesema	pesema	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	12	conj	0:root|12:conj	_
+24	lihtsalt	lihtsalt	ADV	D	_	23	advmod	23:advmod	SpaceAfter=No
+25	.	.	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = kom_pandeemia_982
+# text = Aga oluline on et kõigil, eranditult, on mingisugunegi mask ees, loomulikult see pärsib piisknakkuse levikut.
+1	Aga	aga	CCONJ	J	_	2	cc	2:cc	_
+2	oluline	oluline	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	_
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	2:cop	_
+4	et	et	SCONJ	J	_	12	mark	12:mark	_
+5	kõigil	kõik	PRON	P	Case=Ade|Number=Plur|PronType=Tot	12	obl	12:obl	SpaceAfter=No
+6	,	,	PUNCT	Z	_	7	punct	7:punct	_
+7	eranditult	eranditult	ADV	D	_	12	advmod	12:advmod	SpaceAfter=No
+8	,	,	PUNCT	Z	_	7	punct	7:punct	_
+9	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
+10	mingisugunegi	mingi_sugune	DET	P	Case=Nom|Number=Sing|PronType=Ind	11	det	11:det	_
+11	mask	mask	NOUN	S	Case=Nom|Number=Sing	12	nsubj:cop	12:nsubj	_
+12	ees	ees	ADV	D	_	2	csubj:cop	2:csubj	SpaceAfter=No
+13	,	,	PUNCT	Z	_	16	punct	16:punct	_
+14	loomulikult	loomulikult	ADV	D	_	16	advmod	16:advmod	_
+15	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	16	nsubj	16:nsubj	_
+16	pärsib	pärssima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	_
+17	piisknakkuse	piisknakkus	NOUN	S	Case=Gen|Number=Sing	18	nmod	18:nmod	_
+18	levikut	levik	NOUN	S	Case=Par|Number=Sing	16	obj	16:obj	SpaceAfter=No
+19	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = kom_pandeemia_983
+# text = kristjan õlletõrs
+1	kristjan	Kristjan	PROPN	S	Case=Nom|Number=Sing|Typo=Yes	0	root	0:root	NE=B-Per|CorrectForm=Kristjan
+2	õlletõrs	õlle_tõrs	NOUN	S	Case=Nom|Number=Sing	1	appos	1:appos	NE=I-Per
+
+# sent_id = kom_pandeemia_984
+# text = Mul on siiber sellest nunnutamisest,et palun pysige kodus,karmistame nõudeid jne.
+1	Mul	mina	PRON	P	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	0:root	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	1:cop	_
+3	siiber	siiber	NOUN	S	Case=Nom|Number=Sing	1	nsubj:cop	1:nsubj	_
+4	sellest	see	DET	P	Case=Ela|Number=Sing|PronType=Dem	5	det	5:det	_
+5	nunnutamisest	nunnutamine	NOUN	S	Case=Ela|Number=Sing	1	obl	1:obl	SpaceAfter=No
+6	,	,	PUNCT	Z	_	9	punct	9:punct	SpaceAfter=No
+7	et	et	SCONJ	J	_	9	mark	9:mark	_
+8	palun	paluma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	discourse	9:discourse	_
+9	pysige	püsima	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|Typo=Yes|VerbForm=Fin|Voice=Act	5	acl	5:acl	CorrectForm=püsige
+10	kodus	kodu	NOUN	S	Case=Ine|Number=Sing	9	obl	9:obl	SpaceAfter=No
+11	,	,	PUNCT	Z	_	12	punct	12:punct	SpaceAfter=No
+12	karmistame	karmistama	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	5:acl|9:conj	_
+13	nõudeid	nõue	NOUN	S	Case=Par|Number=Plur	12	obj	12:obj	_
+14	jne	jne	ADV	Y	Abbr=Yes	13	advmod	13:advmod	SpaceAfter=No
+15	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = kom_pandeemia_985
+# text = Eestis on võsa kyllalt.
+1	Eestis	Eesti	PROPN	S	Case=Ine|Number=Sing	4	obl	4:obl	NE=B-Gep
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+3	võsa	võsa	NOUN	S	Case=Nom|Number=Sing	4	nsubj:cop	4:nsubj	_
+4	kyllalt	küllalt	ADV	D	Typo=Yes	0	root	0:root	SpaceAfter=No|CorrectForm=küllalt
+5	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = kom_pandeemia_986
+# text = Kus on Odini sõdalased.
+1	Kus	kus	ADV	D	_	0	root	0:root	_
+2	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	1:cop	_
+3	Odini	Odin	PROPN	S	Case=Gen|Number=Sing	4	nmod	4:nmod	NE=B-Per
+4	sõdalased	sõdalane	NOUN	S	Case=Nom|Number=Plur	1	nsubj:cop	1:nsubj	SpaceAfter=No
+5	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = kom_pandeemia_987
+# text = Kaikad kätte nagu Indias ja kui saad ikka mõned sirakad yle turja ,siis rohkem tänavale ei kipu
+1	Kaikad	kaigas	NOUN	S	Case=Nom|Number=Plur	0	root	0:root	_
+2	kätte	käsi	NOUN	S	Case=Add|Number=Sing	1	nmod	1:nmod	_
+3	nagu	nagu	SCONJ	J	_	4	mark	4:mark	_
+4	Indias	India	PROPN	S	Case=Ine|Number=Sing	1	advcl	1:advcl	NE=B-Gep
+5	ja	ja	CCONJ	J	_	18	cc	18:cc	_
+6	kui	kui	SCONJ	J	_	7	mark	7:mark	_
+7	saad	saama	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	18:advcl	_
+8	ikka	ikka	ADV	D	_	7	advmod	7:advmod	_
+9	mõned	mõni	DET	P	Case=Nom|Number=Plur|PronType=Ind	10	det	10:det	_
+10	sirakad	sirakas	NOUN	S	Case=Nom|Number=Plur	7	obj	7:obj	_
+11	yle	üle	ADP	K	AdpType=Prep|Typo=Yes	12	case	12:case	CorrectForm=üle
+12	turja	turi	NOUN	S	Case=Gen|Number=Sing	7	obl	7:obl	_
+13	,	,	PUNCT	Z	_	7	punct	7:punct	SpaceAfter=No
+14	siis	siis	ADV	D	_	18	advmod	18:advmod	_
+15	rohkem	rohkem	ADV	D	_	18	advmod	18:advmod	_
+16	tänavale	tänav	NOUN	S	Case=All|Number=Sing	18	obl	18:obl	_
+17	ei	ei	AUX	V	Polarity=Neg	18	aux	18:aux	_
+18	kipu	kippuma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	0:root|1:conj	_
+
+# sent_id = kom_pandeemia_988
+# text = Heix
+1	Heix	Heix	PROPN	S	Case=Nom|Number=Sing	0	root	0:root	NE=B-Per
+
+# sent_id = kom_pandeemia_989
+# text = Lugedes neid kommentaare, siis tundub, et puhastust on vaja kuna suurem osa on ju siin kommenteerimas täisidioodid
+1	Lugedes	lugema	VERB	V	VerbForm=Conv	6	advcl	6:advcl	_
+2	neid	see	DET	P	Case=Par|Number=Plur|PronType=Dem	3	det	3:det	_
+3	kommentaare	kommentaar	NOUN	S	Case=Par|Number=Plur	1	obj	1:obj	SpaceAfter=No
+4	,	,	PUNCT	Z	_	6	punct	6:punct	_
+5	siis	siis	ADV	D	_	6	advmod	6:advmod	_
+6	tundub	tunduma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+7	,	,	PUNCT	Z	_	10	punct	10:punct	_
+8	et	et	SCONJ	J	_	10	mark	10:mark	_
+9	puhastust	puhastus	NOUN	S	Case=Par|Number=Sing	10	nsubj	10:nsubj	_
+10	on	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	csubj	6:csubj	_
+11	vaja	vaja	ADV	D	_	10	compound:prt	10:compound	_
+12	kuna	kuna	SCONJ	J	_	19	mark	19:mark	_
+13	suurem	suurem	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	14	amod	14:amod	_
+14	osa	osa	NOUN	S	Case=Nom|Number=Sing	19	nsubj:cop	19:nsubj	_
+15	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	19:cop	_
+16	ju	ju	ADV	D	_	19	advmod	19:advmod	_
+17	siin	siin	ADV	D	_	19	advmod	19:advmod	_
+18	kommenteerimas	kommenteerima	VERB	V	Case=Ine|VerbForm=Sup|Voice=Act	19	advcl	19:advcl	_
+19	täisidioodid	täis_idioot	NOUN	S	Case=Nom|Number=Plur	10	advcl	10:advcl	_
+
+# sent_id = kom_pandeemia_990
+# text = Õnneks kaine mõistus ütleb,et need inimesed siin on siiski murdosa eestlastest
+1	Õnneks	õnneks	ADV	D	_	4	advmod	4:advmod	_
+2	kaine	kaine	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	amod	3:amod	_
+3	mõistus	mõistus	NOUN	S	Case=Nom|Number=Sing	4	nsubj	4:nsubj	_
+4	ütleb	ütlema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	Z	_	12	punct	12:punct	SpaceAfter=No
+6	et	et	SCONJ	J	_	12	mark	12:mark	_
+7	need	see	DET	P	Case=Nom|Number=Plur|PronType=Dem	8	det	8:det	_
+8	inimesed	inimene	NOUN	S	Case=Nom|Number=Plur	12	nsubj:cop	12:nsubj	_
+9	siin	siin	ADV	D	_	8	advmod	8:advmod	_
+10	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
+11	siiski	siiski	ADV	D	_	12	advmod	12:advmod	_
+12	murdosa	murd_osa	NOUN	S	Case=Nom|Number=Sing	4	ccomp	4:ccomp	_
+13	eestlastest	eestlane	NOUN	S	Case=Ela|Number=Plur	12	nmod	12:nmod	_
+
+# sent_id = kom_pandeemia_991
+# text = ei näita ja, kas nüüd magame rahulikult edasi?
+1	ei	ei	AUX	V	Polarity=Neg	2	aux	2:aux	_
+2	näita	näitama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	ja	ja	CCONJ	J	_	7	cc	7:cc	SpaceAfter=No
+4	,	,	PUNCT	Z	_	7	punct	7:punct	_
+5	kas	kas	ADV	D	_	7	advmod	7:advmod	_
+6	nüüd	nüüd	ADV	D	_	7	advmod	7:advmod	_
+7	magame	magama	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp	_
+8	rahulikult	rahulikult	ADV	D	_	7	advmod	7:advmod	_
+9	edasi	edasi	ADV	D	_	7	compound:prt	7:compound	SpaceAfter=No
+10	?	?	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = kom_pandeemia_992
+# text = Ma olen sama tark, kui ma küsiks poole väham palka, kas ma saaks direktoriks?
+1	Ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:cop	4:nsubj	_
+2	olen	olema	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+3	sama	sama	ADV	D	_	4	advmod	4:advmod	_
+4	tark	tark	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	Z	_	8	punct	8:punct	_
+6	kui	kui	SCONJ	J	_	8	mark	8:mark	_
+7	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	8:nsubj	_
+8	küsiks	küsima	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	15:advcl	_
+9	poole	pool	NUM	N	Case=Gen|Number=Sing|NumForm=Word|NumType=Frac	10	nummod	10:nummod	_
+10	väham	vähem	ADV	D	Typo=Yes	11	amod	11:amod	CorrectForm=vähem
+11	palka	palk	NOUN	S	Case=Par|Number=Sing	8	obj	8:obj	SpaceAfter=No
+12	,	,	PUNCT	Z	_	15	punct	15:punct	_
+13	kas	kas	ADV	D	_	15	advmod	15:advmod	_
+14	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	15:nsubj|16:nsubj	_
+15	saaks	saama	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	0:root|4:conj	_
+16	direktoriks	direktor	NOUN	S	Case=Tra|Number=Sing	15	xcomp	15:xcomp	SpaceAfter=No
+17	?	?	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = kom_pandeemia_993
+# text = to meedik
+1	to	to	X	Y	_	2	dep	2:dep	_
+2	meedik	meedik	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+
+# sent_id = kom_pandeemia_994
+# text = Vasur on viroloog ja sina oled pööbel kommentaariumis ,kes ei saa aru, kes on arst või ravija,kes epidemoloog või viroloog.
+1	Vasur	Vasur	PROPN	S	Case=Nom|Number=Sing	3	nsubj:cop	3:nsubj	NE=B-Per
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
+3	viroloog	viroloog	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+4	ja	ja	CCONJ	J	_	7	cc	7:cc	_
+5	sina	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj:cop	7:nsubj	_
+6	oled	olema	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
+7	pööbel	pööbel	NOUN	S	Case=Nom|Number=Sing	3	conj	0:root|3:conj|12:nsubj	_
+8	kommentaariumis	kommentaarium	NOUN	S	Case=Ine|Number=Sing	7	obl	7:obl	_
+9	,	,	PUNCT	Z	_	12	punct	12:punct	SpaceAfter=No
+10	kes	kes	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	12	nsubj	7:ref	_
+11	ei	ei	AUX	V	Polarity=Neg	12	aux	12:aux	_
+12	saa	saama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	7:acl	_
+13	aru	aru	NOUN	S	Case=Par|Number=Sing	12	obl	12:obl	SpaceAfter=No
+14	,	,	PUNCT	Z	_	17	punct	17:punct	_
+15	kes	kes	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	17	nsubj:cop	17:nsubj:cop|19:nsubj:cop	_
+16	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	17:cop	_
+17	arst	arst	NOUN	S	Case=Nom|Number=Sing	12	ccomp	12:ccomp	_
+18	või	või	CCONJ	J	_	19	cc	19:cc	_
+19	ravija	ravija	NOUN	S	Case=Nom|Number=Sing	17	conj	12:ccomp|17:conj	SpaceAfter=No
+20	,	,	PUNCT	Z	_	22	punct	22:punct	SpaceAfter=No
+21	kes	kes	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	22	nsubj:cop	22:nsubj:cop|24:nsubj:cop	_
+22	epidemoloog	epi+de_mioloog	NOUN	S	Case=Nom|Number=Sing|Typo=Yes	17	conj	12:ccomp|17:conj	CorrectForm=epidemioloog
+23	või	või	CCONJ	J	_	24	cc	24:cc	_
+24	viroloog	viroloog	NOUN	S	Case=Nom|Number=Sing	22	conj	12:ccomp|22:conj	SpaceAfter=No
+25	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = kom_pandeemia_995
+# text = Terves maailmas pole seni suutnud keegi probleeme lahendada ja sina oled see tark ,kes ütleb ,et sina tead?!
+1	Terves	terve	DET	A	Case=Ine|Number=Sing|PronType=Tot	2	det	2:det	_
+2	maailmas	maa_ilm	NOUN	S	Case=Ine|Number=Sing	5	obl	5:obl	_
+3	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
+4	seni	seni	ADV	D	_	5	advmod	5:advmod	_
+5	suutnud	suutma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+6	keegi	keegi	PRON	P	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	5:nsubj|8:nsubj	_
+7	probleeme	probleem	NOUN	S	Case=Par|Number=Plur	8	obj	8:obj	_
+8	lahendada	lahendama	VERB	V	VerbForm=Inf	5	xcomp	5:xcomp	_
+9	ja	ja	CCONJ	J	_	13	cc	13:cc	_
+10	sina	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj:cop	13:nsubj	_
+11	oled	olema	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	13:cop	_
+12	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	13	det	13:det	_
+13	tark	tark	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	conj	0:root|5:conj|16:nsubj	_
+14	,	,	PUNCT	Z	_	16	punct	16:punct	SpaceAfter=No
+15	kes	kes	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	16	nsubj	13:ref	_
+16	ütleb	ütlema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	13:acl	_
+17	,	,	PUNCT	Z	_	20	punct	20:punct	SpaceAfter=No
+18	et	et	SCONJ	J	_	20	mark	20:mark	_
+19	sina	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	20	nsubj	20:nsubj	_
+20	tead	teadma	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	16	ccomp	16:ccomp	SpaceAfter=No
+21	?	?	PUNCT	Z	_	5	punct	5:punct	SpaceAfter=No
+22	!	!	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = kom_pandeemia_996
+# text = Sa ei pürgi isegi posijaks oma lolli ibaga.
+1	Sa	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj|5:nsubj	_
+2	ei	ei	AUX	V	Polarity=Neg	3	aux	3:aux	_
+3	pürgi	pürgima	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	isegi	isegi	ADV	D	_	5	advmod	5:advmod	_
+5	posijaks	posija	NOUN	S	Case=Tra|Number=Sing	3	xcomp	3:xcomp	_
+6	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	8:nmod	_
+7	lolli	loll	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	8	amod	8:amod	_
+8	ibaga	iba	NOUN	S	Case=Com|Number=Sing	3	obl	3:obl	SpaceAfter=No
+9	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = kom_pandeemia_997
+# text = aga kus oli
+1	aga	aga	CCONJ	J	_	2	cc	2:cc	_
+2	kus	kus	ADV	D	_	0	root	0:root	_
+3	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	2:cop	_
+
+# sent_id = kom_pandeemia_998
+# text = selle tädi tarkus siis kui viirus hakkas maailmas levima, siis rääkis hoopis teist jutt u
+1	selle	see	DET	P	Case=Gen|Number=Sing|PronType=Dem	2	det	2:det	_
+2	tädi	tädi	NOUN	S	Case=Gen|Number=Sing	3	nmod	3:nmod	_
+3	tarkus	tarkus	NOUN	S	Case=Nom|Number=Sing	12	nsubj	12:nsubj	_
+4	siis	siis	ADV	D	_	3	advmod	3:advmod	_
+5	kui	kui	SCONJ	J	_	7	mark	7:mark	_
+6	viirus	viirus	NOUN	S	Case=Nom|Number=Sing	7	nsubj	7:nsubj|9:nsubj	_
+7	hakkas	hakkama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	12:advcl	_
+8	maailmas	maa_ilm	NOUN	S	Case=Ine|Number=Sing	9	obl	9:obl	_
+9	levima	levima	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	7	xcomp	7:xcomp	SpaceAfter=No
+10	,	,	PUNCT	Z	_	7	punct	7:punct	_
+11	siis	siis	ADV	D	_	12	advmod	12:advmod	_
+12	rääkis	rääkima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+13	hoopis	hoopis	ADV	D	_	14	advmod	14:advmod	_
+14	teist	teine	ADJ	N	Case=Par|Number=Sing|NumForm=Word|NumType=Ord	15	amod	15:amod	_
+15	jutt	jutt	NOUN	S	Case=Par|Number=Sing|Typo=Yes	12	obj	12:obj	CorrectForm=juttu
+16	u	_	X	_	_	15	goeswith	15:goeswith	_
+
+# sent_id = kom_pandeemia_999
+# text = KRISTER PARIS erikorrespondent
+1	KRISTER	Krister	PROPN	S	Case=Nom|Number=Sing	0	root	0:root	NE=B-Per
+2	PARIS	Paris	PROPN	S	Case=Nom|Number=Sing	1	flat	1:flat	NE=I-Per
+3	erikorrespondent	eri_korrespondent	NOUN	S	Case=Nom|Number=Sing	1	appos	1:appos	_
+
+# sent_id = kom_pandeemia_1000
+# text = INTERVJUU
+1	INTERVJUU	intervjuu	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+
+# sent_id = kom_pandeemia_1001
+# text = Milja Vasur: koroonaviirusest suurt ohtu ilmselt ei kujune
+1	Milja	Milja	PROPN	S	Case=Nom|Number=Sing	0	root	0:root	NE=B-Per
+2	Vasur	Vasur	PROPN	S	Case=Nom|Number=Sing	1	flat	1:flat	NE=I-Per|SpaceAfter=No
+3	:	:	PUNCT	Z	_	9	punct	9:punct	_
+4	koroonaviirusest	koroona_viirus	NOUN	S	Case=Ela|Number=Sing	9	obl	9:obl	_
+5	suurt	suur	ADJ	A	Case=Par|Degree=Pos|Number=Sing	6	amod	6:amod	_
+6	ohtu	oht	NOUN	S	Case=Par|Number=Sing	9	nsubj	9:nsubj	_
+7	ilmselt	ilmselt	ADV	D	_	9	advmod	9:advmod	_
+8	ei	ei	AUX	V	Polarity=Neg	9	aux	9:aux	_
+9	kujune	kujunema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	1:ccomp	_
+
+# sent_id = kom_pandeemia_1002
+# text = TÜ meditsiinilise viroloogia ja mikrobioloogia professor kinnitab, et Eesti on viiruse siiajõudmiseks valmis.
+1	TÜ	TÜ	PROPN	Y	Abbr=Yes	3	nmod	3:nmod	NE=B-Org
+2	meditsiinilise	meditsiiniline	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	3	amod	3:amod	_
+3	viroloogia	viroloogia	NOUN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	_
+4	ja	ja	CCONJ	J	_	5	cc	5:cc	_
+5	mikrobioloogia	mikro_bioloogia	NOUN	S	Case=Gen|Number=Sing	3	conj	3:conj|6:nmod	_
+6	professor	professor	NOUN	S	Case=Nom|Number=Sing	7	nsubj	7:nsubj	_
+7	kinnitab	kinnitama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+8	,	,	PUNCT	Z	_	14	punct	14:punct	_
+9	et	et	SCONJ	J	_	14	mark	14:mark	_
+10	Eesti	Eesti	PROPN	S	Case=Nom|Number=Sing	14	nsubj:cop	14:nsubj	NE=B-Gep
+11	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	14:cop	_
+12	viiruse	viirus	NOUN	S	Case=Gen|Number=Sing	13	nmod	13:nmod	_
+13	siiajõudmiseks	siia_jõudmine	NOUN	S	Case=Tra|Number=Sing	14	obl	14:obl	_
+14	valmis	valmis	ADJ	A	Degree=Pos	7	ccomp	7:ccomp	SpaceAfter=No
+15	.	.	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = kom_pandeemia_1003
+# text = paris sai seal poliit tellimuse täidetud?
+1	paris	Paris	PROPN	S	Case=Nom|Number=Sing|Typo=Yes	6	nsubj	6:nsubj	NE=B-Per|CorrectForm=Paris
+2	sai	saama	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
+3	seal	seal	ADV	D	_	6	advmod	6:advmod	_
+4	poliit	poliit	NOUN	S	Case=Gen|Number=Sing	5	nmod	5:nmod	_
+5	tellimuse	tellimus	NOUN	S	Case=Gen|Number=Sing	6	obj	6:obj	_
+6	täidetud	täitma	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	SpaceAfter=No
+7	?	?	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = kom_pandeemia_1004
+# text = toivo
+1	toivo	Toivo	PROPN	S	Case=Nom|Number=Sing|Typo=Yes	0	root	0:root	NE=B-Per|CorrectForm=Toivo
+
+# sent_id = kom_pandeemia_1005
+# text = ei ole ju kõik 1. läbi põdenud 1200.000
+1	ei	ei	AUX	V	Polarity=Neg	7	aux	7:aux	_
+2	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
+3	ju	ju	ADV	D	_	7	advmod	7:advmod	_
+4	kõik	kõik	PRON	P	Case=Nom|Number=Sing|PronType=Tot	7	nsubj	7:nsubj	_
+5	1.	1	ADJ	N	NumForm=Digit|NumType=Ord	7	obl	7:obl	_
+6	läbi	läbi	ADV	D	_	7	compound:prt	7:compound	_
+7	põdenud	põdema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+8	1200.000	1200.000	NUM	N	NumForm=Digit|NumType=Card	7	obl	7:obl	_
+
+# sent_id = kom_pandeemia_1006
+# text = kas keegi on mõelnud/uurinud, et see on kopsukatku ja viiruse ristsugutis - kopsukatkul samad sümptomid.
+1	kas	kas	ADV	D	_	4	advmod	4:advmod	_
+2	keegi	keegi	PRON	P	Case=Nom|Number=Sing|PronType=Ind	4	nsubj	4:nsubj|6:nsubj	_
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
+4	mõelnud	mõtlema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
+5	/	/	PUNCT	Z	_	6	punct	6:punct	SpaceAfter=No
+6	uurinud	uurima	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	4	conj	0:root|4:conj	SpaceAfter=No
+7	,	,	PUNCT	Z	_	14	punct	14:punct	_
+8	et	et	SCONJ	J	_	14	mark	14:mark	_
+9	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	14	nsubj:cop	14:nsubj	_
+10	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	14:cop	_
+11	kopsukatku	kopsu_katk	NOUN	S	Case=Gen|Number=Sing	14	nmod	14:nmod	_
+12	ja	ja	CCONJ	J	_	13	cc	13:cc	_
+13	viiruse	viirus	NOUN	S	Case=Gen|Number=Sing	11	conj	11:conj|14:nmod	_
+14	ristsugutis	rist_sugutis	NOUN	S	Case=Ine|Number=Sing	4	ccomp	4:ccomp	_
+15	-	-	PUNCT	Z	_	16	punct	16:punct	_
+16	kopsukatkul	kopsu_katk	NOUN	S	Case=Ade|Number=Sing	4	parataxis	4:parataxis	_
+17	samad	sama	DET	P	Case=Nom|Number=Plur|PronType=Dem	18	det	18:det	_
+18	sümptomid	sümptom	NOUN	S	Case=Nom|Number=Plur	16	nsubj:cop	16:nsubj	SpaceAfter=No
+19	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = kom_pandeemia_1007
+# text = Hiina ju raporteeris 2019 novembris kuidas tuvastati kaks kopsukatku juhtumit.
+1	Hiina	Hiina	PROPN	S	Case=Nom|Number=Sing	3	nsubj	3:nsubj	NE=B-Gep
+2	ju	ju	ADV	D	_	3	advmod	3:advmod	_
+3	raporteeris	raporteerima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	2019	2019	NUM	N	NumForm=Digit|NumType=Card	5	nummod	5:nummod	_
+5	novembris	november	NOUN	S	Case=Ine|Number=Sing	3	obl	3:obl	_
+6	kuidas	kuidas	ADV	D	_	7	mark	7:mark	_
+7	tuvastati	tuvastama	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	3	ccomp	3:ccomp	_
+8	kaks	kaks	NUM	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	10	nummod	10:nummod	_
+9	kopsukatku	kopsu_katk	NOUN	S	Case=Gen|Number=Sing	10	nmod	10:nmod	_
+10	juhtumit	juhtum	NOUN	S	Case=Par|Number=Sing	7	obj	7:obj	SpaceAfter=No
+11	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = kom_pandeemia_1008
+# text = Äkki saab niimoodi kuidagipidi hakata paremini ravima, kui kaaluda sellise ristsugutise varianti.
+1	Äkki	äkki	ADV	D	_	5	advmod	5:advmod	_
+2	saab	saama	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
+3	niimoodi	nii_moodi	ADV	D	_	5	advmod	5:advmod	_
+4	kuidagipidi	kuidagi_pidi	ADV	D	_	5	advmod	5:advmod	_
+5	hakata	hakkama	VERB	V	VerbForm=Inf	0	root	0:root	_
+6	paremini	paremini	ADV	D	_	7	advmod	7:advmod	_
+7	ravima	ravima	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	5	xcomp	5:xcomp	SpaceAfter=No
+8	,	,	PUNCT	Z	_	10	punct	10:punct	_
+9	kui	kui	SCONJ	J	_	10	mark	10:mark	_
+10	kaaluda	kaaluma	VERB	V	VerbForm=Inf	5	advcl	5:advcl	_
+11	sellise	selline	DET	P	Case=Gen|Number=Sing|PronType=Dem	12	det	12:det	_
+12	ristsugutise	rist_sugutis	NOUN	S	Case=Gen|Number=Sing	13	nmod	13:nmod	_
+13	varianti	variant	NOUN	S	Case=Par|Number=Sing	10	obj	10:obj	SpaceAfter=No
+14	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = kom_pandeemia_1009
+# text = psühholoog
+1	psühholoog	psühholoog	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+
+# sent_id = kom_pandeemia_1010
+# text = Paanikat ei tekita antud juhul mitte meedia ega ka "rumal" rahvas, vaid valitsus, Terviseamet oma kuritegelikult ebapädevate nõuandjate soovitusel valede otsustega ja otsustamatusega.
+1	Paanikat	paanika	NOUN	S	Case=Par|Number=Sing	3	obj	3:obj	_
+2	ei	ei	AUX	V	Polarity=Neg	3	aux	3:aux	_
+3	tekita	tekitama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	antud	antud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	5	acl	5:acl	_
+5	juhul	juht	NOUN	S	Case=Ade|Number=Sing	3	obl	3:obl	_
+6	mitte	mitte	ADV	D	Polarity=Neg	7	advmod	7:advmod	_
+7	meedia	meedia	NOUN	S	Case=Nom|Number=Sing	3	nsubj	3:nsubj	_
+8	ega	ega	CCONJ	J	Polarity=Neg	13	cc	13:cc	_
+9	ka	ka	ADV	D	_	13	advmod	13:advmod	_
+10	"	"	PUNCT	Z	_	11	punct	11:punct	SpaceAfter=No
+11	rumal	rumal	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	13	amod	13:amod	SpaceAfter=No
+12	"	"	PUNCT	Z	_	11	punct	11:punct	_
+13	rahvas	rahvas	NOUN	S	Case=Nom|Number=Sing	7	conj	3:nsubj|7:conj	SpaceAfter=No
+14	,	,	PUNCT	Z	_	16	punct	16:punct	_
+15	vaid	vaid	CCONJ	J	_	16	cc	16:cc	_
+16	valitsus	valitsus	NOUN	S	Case=Nom|Number=Sing	7	conj	3:nsubj|7:conj	SpaceAfter=No
+17	,	,	PUNCT	Z	_	18	punct	18:punct	_
+18	Terviseamet	Tervise_amet	PROPN	S	Case=Nom|Number=Sing	16	conj	3:nsubj|16:conj	NE=B-Org
+19	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	22	nmod	22:nmod	_
+20	kuritegelikult	kuri_tegelikult	ADV	D	_	21	advmod	21:advmod	_
+21	ebapädevate	eba_pädev	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	22	amod	22:amod	_
+22	nõuandjate	nõu_andja	NOUN	S	Case=Gen|Number=Plur	23	nmod	23:nmod	_
+23	soovitusel	soovitus	NOUN	S	Case=Ade|Number=Sing	18	nmod	18:nmod	_
+24	valede	vale	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	25	amod	25:amod	_
+25	otsustega	otsus	NOUN	S	Case=Com|Number=Plur	18	nmod	18:nmod	_
+26	ja	ja	CCONJ	J	_	27	cc	27:cc	_
+27	otsustamatusega	otsustamatus	NOUN	S	Case=Com|Number=Sing	25	conj	18:nmod|25:conj	SpaceAfter=No
+28	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = kom_pandeemia_1011
+# text = Kui rahvas näeb, et neile valetatakse, kui ei tehta mitte midagi läheneva ohu ärahoidmiseks, siis tekitab see paanikat.
+1	Kui	kui	SCONJ	J	_	3	mark	3:mark	_
+2	rahvas	rahvas	NOUN	S	Case=Nom|Number=Sing	3	nsubj	3:nsubj	_
+3	näeb	nägema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	advcl	19:advcl	SpaceAfter=No
+4	,	,	PUNCT	Z	_	7	punct	7:punct	_
+5	et	et	SCONJ	J	_	7	mark	7:mark	_
+6	neile	tema	PRON	P	Case=All|Number=Plur|Person=3|PronType=Prs	7	obl	7:obl	_
+7	valetatakse	valetama	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	3	ccomp	3:ccomp	SpaceAfter=No
+8	,	,	PUNCT	Z	_	11	punct	11:punct	_
+9	kui	kui	SCONJ	J	_	11	mark	11:mark	_
+10	ei	ei	AUX	V	Polarity=Neg	11	aux	11:aux	_
+11	tehta	tegema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	3	conj	3:conj|19:advcl	_
+12	mitte	mitte	ADV	D	Polarity=Neg	13	advmod	13:advmod	_
+13	midagi	miski	PRON	P	Case=Par|Number=Sing|PronType=Ind	11	obj	11:obj	_
+14	läheneva	lähenev	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	acl	15:acl	_
+15	ohu	oht	NOUN	S	Case=Gen|Number=Sing	16	nmod	16:nmod	_
+16	ärahoidmiseks	ära_hoidmine	NOUN	S	Case=Tra|Number=Sing	11	obl	11:obl	SpaceAfter=No
+17	,	,	PUNCT	Z	_	11	punct	11:punct	_
+18	siis	siis	ADV	D	_	19	advmod	19:advmod	_
+19	tekitab	tekitama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+20	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	19	nsubj	19:nsubj	_
+21	paanikat	paanika	NOUN	S	Case=Par|Number=Sing	19	obj	19:obj	SpaceAfter=No
+22	.	.	PUNCT	Z	_	19	punct	19:punct	_
+
+# sent_id = kom_pandeemia_1012
+# text = Seda enam, et rahvas on tänapäeval kirja-ja keeleoskajad ja suudavad ise tõepärast infot hankida, samas kui "valitsejad" on kui pimedusega löödud.
+1	Seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	2	obl	2:obl	_
+2	enam	enam	ADV	D	_	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	Z	_	8	punct	8:punct	_
+4	et	et	SCONJ	J	_	8	mark	8:mark	_
+5	rahvas	rahvas	NOUN	S	Case=Nom|Number=Sing	8	nsubj:cop	8:nsubj:cop|10:nsubj:cop|12:nsubj|16:nsubj	_
+6	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
+7	tänapäeval	täna_päev	NOUN	S	Case=Ade|Number=Sing	8	obl	8:obl	_
+8	kirja-	kirja	NOUN	S	Case=Gen|Hyph=Yes|Number=Sing	2	advcl	2:advcl	SpaceAfter=No
+9	ja	ja	CCONJ	J	_	10	cc	10:cc	_
+10	keeleoskajad	keele_oskaja	NOUN	S	Case=Nom|Number=Plur	8	conj	2:advcl|8:conj	_
+11	ja	ja	CCONJ	J	_	12	cc	12:cc	_
+12	suudavad	suutma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	2:advcl|8:conj	_
+13	ise	ise	ADV	D	_	12	advmod	12:advmod	_
+14	tõepärast	tõe_pärane	ADJ	A	Case=Par|Degree=Pos|Number=Sing	15	amod	15:amod	_
+15	infot	info	NOUN	S	Case=Par|Number=Sing	16	obj	16:obj	_
+16	hankida	hankima	VERB	V	VerbForm=Inf	12	xcomp	12:xcomp	SpaceAfter=No
+17	,	,	PUNCT	Z	_	26	punct	26:punct	_
+18	samas	samas	ADV	D	ExtPos=SCONJ	26	mark	26:mark	_
+19	kui	kui	SCONJ	J	_	18	fixed	18:fixed	_
+20	"	"	PUNCT	Z	_	21	punct	21:punct	SpaceAfter=No
+21	valitsejad	valitseja	NOUN	S	Case=Nom|Number=Plur	26	obj	26:obj	SpaceAfter=No
+22	"	"	PUNCT	Z	_	21	punct	21:punct	_
+23	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	aux	26:aux	_
+24	kui	kui	SCONJ	J	_	26	mark	26:mark	_
+25	pimedusega	pimedus	NOUN	S	Case=Com|Number=Sing	26	obl	26:obl	_
+26	löödud	lööma	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	8	advcl	8:advcl	SpaceAfter=No
+27	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = kom_pandeemia_1013
+# text = Kui mingi Kükametsa Kollale poe tagant võib lolli jutu andeks anda, siis professoritelt, arstidelt, terviseametnikelt ja valitsuslikmetelt nõutakse enamat...
+1	Kui	kui	SCONJ	J	_	11	mark	11:mark	_
+2	mingi	mingi	DET	P	Case=Nom|Number=Sing|PronType=Ind	3	det	3:det	_
+3	Kükametsa	Küka_metsa	PROPN	S	Case=Nom|Number=Sing	11	obl	11:obl	NE=B-Loc
+4	Kollale	Kolla	PROPN	S	Case=All|Number=Sing	3	flat	3:flat	NE=B-Per
+5	poe	pood	NOUN	S	Case=Gen|Number=Sing	3	nmod	3:nmod	_
+6	tagant	tagant	ADP	K	AdpType=Post	5	case	5:case	_
+7	võib	võima	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	11:aux	_
+8	lolli	loll	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	9	amod	9:amod	_
+9	jutu	jutt	NOUN	S	Case=Gen|Number=Sing	11	obj	11:obj	_
+10	andeks	andeks	NOUN	S	Case=Tra|Number=Sing	11	xcomp	11:xcomp	_
+11	anda	andma	VERB	V	VerbForm=Inf	21	advcl	21:advcl	SpaceAfter=No
+12	,	,	PUNCT	Z	_	11	punct	11:punct	_
+13	siis	siis	ADV	D	_	21	advmod	21:advmod	_
+14	professoritelt	professor	NOUN	S	Case=Abl|Number=Plur	21	obl	21:obl	SpaceAfter=No
+15	,	,	PUNCT	Z	_	16	punct	16:punct	_
+16	arstidelt	arst	NOUN	S	Case=Abl|Number=Plur	14	conj	14:conj|21:obl	SpaceAfter=No
+17	,	,	PUNCT	Z	_	18	punct	18:punct	_
+18	terviseametnikelt	tervise_ametnik	NOUN	S	Case=Abl|Number=Plur	14	conj	14:conj|21:obl	_
+19	ja	ja	CCONJ	J	_	20	cc	20:cc	_
+20	valitsuslikmetelt	valitsusliige	NOUN	S	Case=Abl|Number=Plur|Typo=Yes	14	conj	14:conj|21:obl	CorrectForm=valitsusliikmetelt
+21	nõutakse	nõudma	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
+22	enamat	enam	ADJ	A	Case=Par|Degree=Cmp|Number=Sing	21	obj	21:obj	SpaceAfter=No
+23	...	...	PUNCT	Z	_	21	punct	21:punct	_
+
+# sent_id = kom_pandeemia_1014
+# text = täpselt sama nagu iga kodanik eeldab lendurilt maksimaalset õpet ja kogemusi, sest see on tema kohus ja vastutus.
+1	täpselt	täpselt	ADV	D	_	2	advmod	2:advmod	_
+2	sama	sama	ADJ	P	Case=Nom|Number=Sing|PronType=Dem	0	root	0:root	_
+3	nagu	nagu	SCONJ	J	_	6	mark	6:mark	_
+4	iga	iga	DET	P	Case=Nom|Number=Sing|PronType=Tot	5	det	5:det	_
+5	kodanik	kodanik	NOUN	S	Case=Nom|Number=Sing	6	nsubj	6:nsubj	_
+6	eeldab	eeldama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	1:advcl	_
+7	lendurilt	lendur	NOUN	S	Case=Abl|Number=Sing	6	obl	6:obl	_
+8	maksimaalset	maksimaalne	ADJ	A	Case=Par|Degree=Pos|Number=Sing	9	amod	9:amod	_
+9	õpet	õpe	NOUN	S	Case=Par|Number=Sing	6	obj	6:obj	_
+10	ja	ja	CCONJ	J	_	11	cc	11:cc	_
+11	kogemusi	kogemus	NOUN	S	Case=Par|Number=Plur	9	conj	6:obj|9:conj	SpaceAfter=No
+12	,	,	PUNCT	Z	_	17	punct	17:punct	_
+13	sest	sest	SCONJ	J	_	17	mark	17:mark	_
+14	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	17	nsubj:cop	17:nsubj:cop|19:nsubj:cop	_
+15	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	17:cop	_
+16	tema	tema	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	17	nmod	17:nmod	_
+17	kohus	kohus	NOUN	S	Case=Nom|Number=Sing	6	advcl	6:advcl	_
+18	ja	ja	CCONJ	J	_	19	cc	19:cc	_
+19	vastutus	vastutus	NOUN	S	Case=Nom|Number=Sing	17	conj	6:advcl|17:conj	SpaceAfter=No
+20	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = kom_pandeemia_1015
+# text = mina
+1	mina	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	0:root	_
+
+# sent_id = kom_pandeemia_1016
+# text = Mnjah, ma viimasel ajal ka mõtlen, et kas see kõik on äkki tahtlik tegevus?
+1	Mnjah	mnjah	INTJ	I	_	7	discourse	7:discourse	SpaceAfter=No
+2	,	,	PUNCT	Z	_	7	punct	7:punct	_
+3	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	_
+4	viimasel	viimane	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	5	amod	5:amod	_
+5	ajal	aeg	NOUN	S	Case=Ade|Number=Sing	7	obl	7:obl	_
+6	ka	ka	ADV	D	_	7	advmod	7:advmod	_
+7	mõtlen	mõtlema	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+8	,	,	PUNCT	Z	_	16	punct	16:punct	_
+9	et	et	SCONJ	J	_	16	mark	16:mark	_
+10	kas	kas	ADV	D	_	16	advmod	16:advmod	_
+11	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	16	nsubj:cop	16:nsubj	_
+12	kõik	kõik	DET	P	Case=Nom|Number=Sing|PronType=Tot	11	det	11:det	_
+13	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	16:cop	_
+14	äkki	äkki	ADV	D	_	16	advmod	16:advmod	_
+15	tahtlik	tahtlik	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	16	amod	16:amod	_
+16	tegevus	tegevus	NOUN	S	Case=Nom|Number=Sing	7	ccomp	7:ccomp	SpaceAfter=No
+17	?	?	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = kom_pandeemia_1017
+# text = Kuritegelik hoolimatus?
+1	Kuritegelik	kuri_tegelik	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	2:amod	_
+2	hoolimatus	hoolimatus	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
+3	?	?	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = kom_pandeemia_1018
+# text = Miks on inimestele näkku valetatud?
+1	Miks	miks	ADV	D	_	5	mark	5:mark	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
+3	inimestele	inimene	NOUN	S	Case=All|Number=Plur	5	obl	5:obl	_
+4	näkku	nägu	NOUN	S	Case=Add|Number=Sing	5	obl	5:obl	_
+5	valetatud	valetama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	SpaceAfter=No
+6	?	?	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = kom_pandeemia_1019
+# text = Miks ei võetud kohe meetmeid, mis aeglustanuks viiruse siiajõudmist - piiride sulgemine õigel ajal?
+1	Miks	miks	ADV	D	_	3	mark	3:mark	_
+2	ei	ei	AUX	V	Polarity=Neg	3	aux	3:aux	_
+3	võetud	võtma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	0:root	_
+4	kohe	kohe	ADV	D	_	3	advmod	3:advmod	_
+5	meetmeid	meede	NOUN	S	Case=Par|Number=Plur	3	obj	3:obj|8:nsubj	SpaceAfter=No
+6	,	,	PUNCT	Z	_	8	punct	8:punct	_
+7	mis	mis	PRON	P	Case=Nom|Number=Plur|PronType=Int,Rel	8	nsubj	5:ref	_
+8	aeglustanuks	aeglustama	VERB	V	Mood=Cnd|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	5:acl	_
+9	viiruse	viirus	NOUN	S	Case=Gen|Number=Sing	10	nmod	10:nmod	_
+10	siiajõudmist	siia_jõudmine	NOUN	S	Case=Par|Number=Sing	8	obj	8:obj	_
+11	-	-	PUNCT	Z	_	13	punct	13:punct	_
+12	piiride	piir	NOUN	S	Case=Gen|Number=Plur	13	nmod	13:nmod	_
+13	sulgemine	sulgemine	NOUN	S	Case=Nom|Number=Sing	5	parataxis	5:parataxis	_
+14	õigel	õige	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	15	amod	15:amod	_
+15	ajal	aeg	NOUN	S	Case=Ade|Number=Sing	13	nmod	13:nmod	SpaceAfter=No
+16	?	?	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = kom_pandeemia_1020
+# text = Miks Hiina sai nüüd oma piirid sulgetud (kui on viiruse kontrolli alla saanud), aga meie õigel ajal ei saanud?
+1	Miks	miks	ADV	D	_	3	mark	3:mark	_
+2	Hiina	Hiina	PROPN	S	Case=Nom|Number=Sing	3	nsubj	3:nsubj	NE=B-Gep
+3	sai	saama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	nüüd	nüüd	ADV	D	_	3	advmod	3:advmod	_
+5	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	6:nmod	_
+6	piirid	piir	NOUN	S	Case=Nom|Number=Plur	7	obj	7:obj	_
+7	sulgetud	sulgema	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	3:advcl	_
+8	(	(	PUNCT	Z	_	14	punct	14:punct	SpaceAfter=No
+9	kui	kui	SCONJ	J	_	14	mark	14:mark	_
+10	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
+11	viiruse	viirus	NOUN	S	Case=Gen|Number=Sing	14	obj	14:obj	_
+12	kontrolli	kontroll	NOUN	S	Case=Gen|Number=Sing	14	obl	14:obl	_
+13	alla	alla	ADP	K	AdpType=Post	12	case	12:case	_
+14	saanud	saama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	7	parataxis	7:parataxis	SpaceAfter=No
+15	)	)	PUNCT	Z	_	14	punct	14:punct	SpaceAfter=No
+16	,	,	PUNCT	Z	_	22	punct	22:punct	_
+17	aga	aga	CCONJ	J	_	22	cc	22:cc	_
+18	meie	mina	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	22:nsubj	_
+19	õigel	õige	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	20	amod	20:amod	_
+20	ajal	aeg	NOUN	S	Case=Ade|Number=Sing	22	obl	22:obl	_
+21	ei	ei	AUX	V	Polarity=Neg	22	aux	22:aux	_
+22	saanud	saama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	0:root|3:conj	SpaceAfter=No
+23	?	?	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = kom_pandeemia_1021
+# text = Mokk maha!
+1	Mokk	mokk	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+2	maha	maha	ADV	D	_	1	advmod	1:advmod	SpaceAfter=No
+3	!	!	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = kom_pandeemia_1022
+# text = Tegelikult tuleks keelata ka latramine ja telefoniga räuskamine kauplustes, järjekordades, ühissõidukites ja mujal teiste inimeste läheduses.
+1	Tegelikult	tegelikult	ADV	D	_	2	advmod	2:advmod	_
+2	tuleks	tulema	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	keelata	keelama	VERB	V	VerbForm=Inf	2	csubj	2:csubj	_
+4	ka	ka	ADV	D	_	5	advmod	5:advmod	_
+5	latramine	latramine	NOUN	S	Case=Nom|Number=Sing	3	obj	3:obj	_
+6	ja	ja	CCONJ	J	_	8	cc	8:cc	_
+7	telefoniga	telefon	NOUN	S	Case=Com|Number=Sing	8	nmod	8:nmod	_
+8	räuskamine	räuskamine	NOUN	S	Case=Nom|Number=Sing	5	conj	3:obj|5:conj	_
+9	kauplustes	kauplus	NOUN	S	Case=Ine|Number=Plur	5	nmod	5:nmod	SpaceAfter=No
+10	,	,	PUNCT	Z	_	11	punct	11:punct	_
+11	järjekordades	järje_kord	NOUN	S	Case=Ine|Number=Plur	9	conj	5:nmod|9:conj	SpaceAfter=No
+12	,	,	PUNCT	Z	_	13	punct	13:punct	_
+13	ühissõidukites	ühis_sõiduk	NOUN	S	Case=Ine|Number=Plur	9	conj	5:nmod|9:conj	_
+14	ja	ja	CCONJ	J	_	18	cc	18:cc	_
+15	mujal	mujal	ADV	D	_	18	advmod	18:advmod	_
+16	teiste	teine	DET	P	Case=Gen|Number=Plur|PronType=Dem	17	det	17:det	_
+17	inimeste	inimene	NOUN	S	Case=Gen|Number=Plur	18	nmod	18:nmod	_
+18	läheduses	lähedus	NOUN	S	Case=Ine|Number=Sing	9	conj	5:nmod|9:conj	SpaceAfter=No
+19	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = kom_pandeemia_1023
+# text = Süljepritsmed lendavad ju kõneledes ka.
+1	Süljepritsmed	sülje_pritse	NOUN	S	Case=Nom|Number=Plur	2	nsubj	2:nsubj	_
+2	lendavad	lendama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	ju	ju	ADV	D	_	2	advmod	2:advmod	_
+4	kõneledes	kõnelema	VERB	V	VerbForm=Conv	2	advcl	2:advcl	_
+5	ka	ka	ADV	D	_	2	advmod	2:advmod	SpaceAfter=No
+6	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = kom_pandeemia_1024
+# text = Liikuda tuleks avalikes kohtades üksi, mitte kaksi, sest elu näitab, et kui kaks inimest on koos, siis käib üks pidev "jahvatamine".
+1	Liikuda	liikuma	VERB	V	VerbForm=Inf	2	csubj	2:csubj	_
+2	tuleks	tulema	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	avalikes	avalik	ADJ	A	Case=Ine|Degree=Pos|Number=Plur	4	amod	4:amod	_
+4	kohtades	koht	NOUN	S	Case=Ine|Number=Plur	1	obl	1:obl	_
+5	üksi	üksi	ADV	D	_	2	advmod	2:advmod	SpaceAfter=No
+6	,	,	PUNCT	Z	_	8	punct	8:punct	_
+7	mitte	mitte	ADV	D	Polarity=Neg	8	advmod	8:advmod	_
+8	kaksi	kaksi	ADV	D	_	5	conj	2:advmod|5:conj	SpaceAfter=No
+9	,	,	PUNCT	Z	_	12	punct	12:punct	_
+10	sest	sest	SCONJ	J	_	12	mark	12:mark	_
+11	elu	elu	NOUN	S	Case=Nom|Number=Sing	12	nsubj	12:nsubj	_
+12	näitab	näitama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	2:advcl	SpaceAfter=No
+13	,	,	PUNCT	Z	_	19	punct	19:punct	_
+14	et	et	SCONJ	J	_	19	mark	19:mark	_
+15	kui	kui	SCONJ	J	_	19	mark	19:mark	_
+16	kaks	kaks	NUM	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	17	nummod	17:nummod	_
+17	inimest	inimene	NOUN	S	Case=Par|Number=Sing	19	nsubj:cop	19:nsubj	_
+18	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	19:cop	_
+19	koos	koos	ADV	D	_	22	advcl	22:advcl	SpaceAfter=No
+20	,	,	PUNCT	Z	_	22	punct	22:punct	_
+21	siis	siis	ADV	D	_	22	advmod	22:advmod	_
+22	käib	käima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	ccomp	12:ccomp	_
+23	üks	üks	DET	P	Case=Nom|Number=Sing|PronType=Ind	26	det	26:det	_
+24	pidev	pidev	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	26	amod	26:amod	_
+25	"	"	PUNCT	Z	_	26	punct	26:punct	SpaceAfter=No
+26	jahvatamine	jahvatamine	NOUN	S	Case=Nom|Number=Sing	22	nsubj	22:nsubj	SpaceAfter=No
+27	"	"	PUNCT	Z	_	26	punct	26:punct	SpaceAfter=No
+28	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = kom_pandeemia_1025
+# text = Mulle meeldib, kuidas Selveri valjuhääldist teatatakse, et tehke sisseoste üksi.
+1	Mulle	mina	PRON	P	Case=All|Number=Sing|Person=1|PronType=Prs	2	obl	2:obl	_
+2	meeldib	meeldima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	Z	_	7	punct	7:punct	_
+4	kuidas	kuidas	ADV	D	_	7	mark	7:mark	_
+5	Selveri	Selver	PROPN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	NE=B-Org
+6	valjuhääldist	valju_hääldi	NOUN	S	Case=Ela|Number=Sing	7	obl	7:obl	_
+7	teatatakse	teatama	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	2	csubj	2:csubj	SpaceAfter=No
+8	,	,	PUNCT	Z	_	10	punct	10:punct	_
+9	et	et	SCONJ	J	_	10	mark	10:mark	_
+10	tehke	tegema	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	7:ccomp	_
+11	sisseoste	sisse_ost	NOUN	S	Case=Par|Number=Plur	10	obj	10:obj	_
+12	üksi	üksi	ADV	D	_	10	advmod	10:advmod	SpaceAfter=No
+13	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = kom_pandeemia_1026
+# text = Kaks omavahel vadistavat inimest on, praegust olukorda arvestades, kõrvalviibijatele suureks ohuallikaks.
+1	Kaks	kaks	NUM	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	4	nummod	4:nummod	_
+2	omavahel	oma_vahel	ADV	D	_	3	advmod	3:advmod	_
+3	vadistavat	vadista=v	ADJ	A	Case=Par|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	acl	4:acl	_
+4	inimest	inimene	NOUN	S	Case=Par|Number=Sing	13	nsubj:cop	13:nsubj	_
+5	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	13:cop	SpaceAfter=No
+6	,	,	PUNCT	Z	_	9	punct	9:punct	_
+7	praegust	praegune	ADJ	A	Case=Par|Degree=Pos|Number=Sing	8	amod	8:amod	_
+8	olukorda	olu_kord	NOUN	S	Case=Par|Number=Sing	9	obj	9:obj	_
+9	arvestades	arvestama	VERB	V	VerbForm=Conv	13	advcl	13:advcl	SpaceAfter=No
+10	,	,	PUNCT	Z	_	13	punct	13:punct	_
+11	kõrvalviibijatele	kõrval_viibija	NOUN	S	Case=All|Number=Plur	13	obl	13:obl	_
+12	suureks	suur	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	13	amod	13:amod	_
+13	ohuallikaks	ohu_allikas	NOUN	S	Case=Tra|Number=Sing	0	root	0:root	SpaceAfter=No
+14	.	.	PUNCT	Z	_	13	punct	13:punct	_
+
+# sent_id = kom_pandeemia_1027
+# text = Kuidas seadusetegijad küll nii lihtsat asja ei taipa?
+1	Kuidas	kuidas	ADV	D	_	8	mark	8:mark	_
+2	seadusetegijad	seaduse_tegija	NOUN	S	Case=Nom|Number=Plur	8	nsubj	8:nsubj	_
+3	küll	küll	ADV	D	_	8	advmod	8:advmod	_
+4	nii	nii	ADV	D	_	5	advmod	5:advmod	_
+5	lihtsat	lihtne	ADJ	A	Case=Par|Degree=Pos|Number=Sing	6	amod	6:amod	_
+6	asja	asi	NOUN	S	Case=Par|Number=Sing	8	obj	8:obj	_
+7	ei	ei	AUX	V	Polarity=Neg	8	aux	8:aux	_
+8	taipa	taipama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+9	?	?	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = kom_pandeemia_1028
+# text = Mokalaat on tõesti see viimane asi, mida ma praegu kodust välja minnes kohata tahaksin.
+1	Mokalaat	moka_laat	NOUN	S	Case=Nom|Number=Sing	6	nsubj:cop	6:nsubj	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
+3	tõesti	tõesti	ADV	D	_	6	advmod	6:advmod	_
+4	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	6	det	6:det	_
+5	viimane	viimane	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	6	amod	6:amod	_
+6	asi	asi	NOUN	S	Case=Nom|Number=Sing	0	root	0:root|14:obj	SpaceAfter=No
+7	,	,	PUNCT	Z	_	15	punct	15:punct	_
+8	mida	mis	PRON	P	Case=Par|Number=Sing|PronType=Int,Rel	14	obj	6:ref	_
+9	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	14:nsubj|15:nsubj	_
+10	praegu	praegu	ADV	D	_	15	advmod	15:advmod	_
+11	kodust	kodu	NOUN	S	Case=Ela|Number=Sing	13	obl	13:obl	_
+12	välja	välja	ADV	D	_	13	compound:prt	13:compound	_
+13	minnes	minema	VERB	V	VerbForm=Conv	15	advcl	15:advcl	_
+14	kohata	kohtama	VERB	V	VerbForm=Inf	15	xcomp	15:xcomp	_
+15	tahaksin	tahtma	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	6:acl	SpaceAfter=No
+16	.	.	PUNCT	Z	_	6	punct	6:punct	_
+
+# sent_id = kom_pandeemia_1029
+# text = Olime viiruses
+1	Olime	olema	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	2:cop	_
+2	viiruses	viirus	NOUN	S	Case=Ine|Number=Sing	0	root	0:root	_
+
+# sent_id = kom_pandeemia_1030
+# text = Teadmiseks.
+1	Teadmiseks	teadmine	NOUN	S	Case=Tra|Number=Sing	0	root	0:root	SpaceAfter=No
+2	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = kom_pandeemia_1031
+# text = Meie pere oli viiruses ja see oli lihtsalt tatitõbi 2 päeva ning väga õrnalt.
+1	Meie	mina	PRON	P	Case=Gen|Number=Plur|Person=1|PronType=Prs	2	nmod	2:nmod	_
+2	pere	pere	NOUN	S	Case=Nom|Number=Sing	4	nsubj:cop	4:nsubj	_
+3	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+4	viiruses	viirus	NOUN	S	Case=Ine|Number=Sing	0	root	0:root	_
+5	ja	ja	CCONJ	J	_	9	cc	9:cc	_
+6	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	9	nsubj:cop	9:nsubj	_
+7	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
+8	lihtsalt	lihtsalt	ADV	D	_	9	advmod	9:advmod	_
+9	tatitõbi	tati_tõbi	NOUN	S	Case=Nom|Number=Sing	4	conj	0:root|4:conj	_
+10	2	2	NUM	N	NumForm=Digit|NumType=Card	11	nummod	11:nummod	_
+11	päeva	päev	NOUN	S	Case=Par|Number=Sing	9	obl	9:obl	_
+12	ning	ning	CCONJ	J	_	14	cc	14:cc	_
+13	väga	väga	ADV	D	_	14	advmod	14:advmod	_
+14	õrnalt	õrnalt	ADV	D	_	11	conj	9:advmod|11:conj	SpaceAfter=No
+15	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = kom_pandeemia_1032
+# text = Seda viirust reaalsuses ei ole olemas, see mingi meedia ülesse puhutud jura.
+1	Seda	see	DET	P	Case=Par|Number=Sing|PronType=Dem	2	det	2:det	_
+2	viirust	viirus	NOUN	S	Case=Par|Number=Sing	5	nsubj	5:nsubj|6:nsubj	_
+3	reaalsuses	reaalsus	NOUN	S	Case=Ine|Number=Sing	5	obl	5:obl	_
+4	ei	ei	AUX	V	Polarity=Neg	5	aux	5:aux	_
+5	ole	olema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+6	olemas	olema	VERB	V	Case=Ine|VerbForm=Sup|Voice=Act	5	xcomp	5:xcomp	SpaceAfter=No
+7	,	,	PUNCT	Z	_	13	punct	13:punct	_
+8	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	13	nsubj:cop	13:nsubj	_
+9	mingi	mingi	DET	P	Case=Nom|Number=Sing|PronType=Ind	13	det	13:det	_
+10	meedia	meedia	NOUN	S	Case=Gen|Number=Sing	12	obl:agent	12:obl:agent	_
+11	ülesse	ülesse	ADV	D	_	12	compound:prt	12:compound	_
+12	puhutud	puhu=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	13	acl	13:acl	_
+13	jura	jura	NOUN	S	Case=Nom|Number=Sing	5	conj	0:root|5:conj	SpaceAfter=No
+14	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = kom_pandeemia_1033
+# text = Inimesed palun tulge reaalsusesse, ärge paanitsege!
+1	Inimesed	inimene	NOUN	S	Case=Nom|Number=Plur	3	vocative	3:vocative	_
+2	palun	paluma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	discourse	3:discourse	_
+3	tulge	tulema	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	reaalsusesse	reaalsus	NOUN	S	Case=Ill|Number=Sing	3	obl	3:obl	SpaceAfter=No
+5	,	,	PUNCT	Z	_	7	punct	7:punct	_
+6	ärge	ära	AUX	V	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
+7	paanitsege	paanitsema	VERB	V	Connegative=Yes|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	0:root|3:conj	SpaceAfter=No
+8	!	!	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = kom_pandeemia_1034
+# text = jan
+1	jan	Jan	PROPN	S	Case=Nom|Number=Sing|Typo=Yes	0	root	0:root	NE=B-Per|CorrectForm=Jan
+
+# sent_id = kom_pandeemia_1035
+# text = Kurb, miks sellist juttu kirjutatakse ja avaldatakse.
+1	Kurb	kurb	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	Z	_	6	punct	6:punct	_
+3	miks	miks	ADV	D	_	6	mark	6:mark	_
+4	sellist	selline	DET	P	Case=Par|Number=Sing|PronType=Dem	5	det	5:det	_
+5	juttu	jutt	NOUN	S	Case=Par|Number=Sing	6	obj	6:obj|8:obj	_
+6	kirjutatakse	kirjutama	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	1	csubj:cop	1:csubj	_
+7	ja	ja	CCONJ	J	_	8	cc	8:cc	_
+8	avaldatakse	avaldama	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	6	conj	1:csubj:cop|6:conj	SpaceAfter=No
+9	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = kom_pandeemia_1036
+# text = Seda me teame isegi ja kui soovi, saame ka andmed kätte.
+1	Seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	3	obj	3:obj	_
+2	me	mina	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj|9:nsubj	_
+3	teame	teadma	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	isegi	ise	PRON	P	Case=Nom|Number=Sing|PronType=Prs|Reflex=Yes	3	obl	3:obl	_
+5	ja	ja	CCONJ	J	_	9	cc	9:cc	_
+6	kui	kui	SCONJ	J	_	7	mark	7:mark	_
+7	soovi	soov	NOUN	S	Case=Par|Number=Sing	9	advcl	9:advcl	SpaceAfter=No
+8	,	,	PUNCT	Z	_	9	punct	9:punct	_
+9	saame	saama	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	0:root|3:conj	_
+10	ka	ka	ADV	D	_	9	advmod	9:advmod	_
+11	andmed	andmed	NOUN	S	Case=Nom|Number=Plur	9	obj	9:obj	_
+12	kätte	käsi	NOUN	S	Case=Add|Number=Sing	9	obl	9:obl	SpaceAfter=No
+13	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = kom_pandeemia_1037
+# text = Kui inimene on pandud eksperdiks, siis tahaks teada, mis meil siin toimub ja milline on tegelik olukord.
+1	Kui	kui	SCONJ	J	_	4	mark	4:mark	_
+2	inimene	inimene	NOUN	S	Case=Nom|Number=Sing	4	obj	4:obj|5:nsubj	_
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
+4	pandud	panema	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	8	advcl	8:advcl	_
+5	eksperdiks	ekspert	NOUN	S	Case=Tra|Number=Sing	4	xcomp	4:xcomp	SpaceAfter=No
+6	,	,	PUNCT	Z	_	4	punct	4:punct	_
+7	siis	siis	ADV	D	_	8	advmod	8:advmod	_
+8	tahaks	tahtma	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+9	teada	teadma	VERB	V	VerbForm=Inf	8	xcomp	8:xcomp	SpaceAfter=No
+10	,	,	PUNCT	Z	_	14	punct	14:punct	_
+11	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	14	nsubj	14:nsubj	_
+12	meil	mina	PRON	P	Case=Ade|Number=Plur|Person=1|PronType=Prs	14	obl	14:obl	_
+13	siin	siin	ADV	D	_	14	advmod	14:advmod	_
+14	toimub	toimuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	ccomp	9:ccomp	_
+15	ja	ja	CCONJ	J	_	16	cc	16:cc	_
+16	milline	milline	ADJ	P	Case=Nom|Number=Sing|PronType=Rel	14	conj	9:ccomp|14:conj	_
+17	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	16:cop	_
+18	tegelik	tegelik	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	19	amod	19:amod	_
+19	olukord	olu_kord	NOUN	S	Case=Nom|Number=Sing	16	nsubj:cop	16:nsubj	SpaceAfter=No
+20	.	.	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = kom_pandeemia_1038
+# text = Mina
+1	Mina	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	0:root	_
+
+# sent_id = kom_pandeemia_1039
+# text = Kohustuslikuks oleks vaja muuta: variant A
+1	Kohustuslikuks	kohustuslik	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	4	xcomp	4:xcomp	_
+2	oleks	olema	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	vaja	vaja	ADV	D	_	2	compound:prt	2:compound	_
+4	muuta	muutma	VERB	V	VerbForm=Inf	2	csubj	2:csubj	SpaceAfter=No
+5	:	:	PUNCT	Z	_	2	punct	2:punct	_
+6	variant	variant	NOUN	S	Case=Nom|Number=Sing	2	parataxis	2:parataxis	_
+7	A	A	NOUN	Y	Abbr=Yes	6	appos	6:appos	_
+
+# sent_id = kom_pandeemia_1040
+# text = Poed, ühistransport jne avalikuks kasutuseks kohad, et seal toimuks regulaarne desinfitseerimine pindadel mida tihti puudutatakse.
+1	Poed	pood	NOUN	S	Case=Nom|Number=Plur	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	Z	_	3	punct	3:punct	_
+3	ühistransport	ühis_transport	NOUN	S	Case=Nom|Number=Sing	1	conj	0:root|1:conj	_
+4	jne	jne	ADV	Y	Abbr=Yes	7	advmod	7:advmod	_
+5	avalikuks	avalik	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	6	amod	6:amod	_
+6	kasutuseks	kasutus	NOUN	S	Case=Tra|Number=Sing	7	nmod	7:nmod	_
+7	kohad	koht	NOUN	S	Case=Nom|Number=Plur	1	conj	0:root|1:conj	SpaceAfter=No
+8	,	,	PUNCT	Z	_	11	punct	11:punct	_
+9	et	et	SCONJ	J	_	11	mark	11:mark	_
+10	seal	seal	ADV	D	_	11	advmod	11:advmod	_
+11	toimuks	toimuma	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	7:parataxis	_
+12	regulaarne	regulaarne	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	13	amod	13:amod	_
+13	desinfitseerimine	desinfitseeri=mine	NOUN	S	Case=Nom|Number=Sing	11	nsubj	11:nsubj	_
+14	pindadel	pind	NOUN	S	Case=Ade|Number=Plur	11	obl	11:obl|17:obj	_
+15	mida	mis	PRON	P	Case=Par|Number=Sing|PronType=Int,Rel	17	obj	14:ref	_
+16	tihti	tihti	ADV	D	_	17	advmod	17:advmod	_
+17	puudutatakse	puudutama	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	14	acl:relcl	14:acl	SpaceAfter=No
+18	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = kom_pandeemia_1041
+# text = Variant B oleks kohustuslik, et inimesed poodi jne sisenedes desinfitseeriksid käed.
+1	Variant	variant	NOUN	S	Case=Nom|Number=Sing	4	nsubj:cop	4:nsubj	_
+2	B	B	NOUN	Y	Abbr=Yes	1	appos	1:appos	_
+3	oleks	olema	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+4	kohustuslik	kohustuslik	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	Z	_	11	punct	11:punct	_
+6	et	et	SCONJ	J	_	11	mark	11:mark	_
+7	inimesed	inimene	NOUN	S	Case=Nom|Number=Plur	11	nsubj	11:nsubj	_
+8	poodi	pood	NOUN	S	Case=Add|Number=Sing	10	obl	10:obl	_
+9	jne	jne	ADV	Y	Abbr=Yes	8	advmod	8:advmod	_
+10	sisenedes	sisenema	VERB	V	VerbForm=Conv	11	advcl	11:advcl	_
+11	desinfitseeriksid	desinfitseerima	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	4:advcl	_
+12	käed	käsi	NOUN	S	Case=Nom|Number=Plur	11	obj	11:obj	SpaceAfter=No
+13	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = kom_pandeemia_1042
+# text = Praegu osad inimesed desinfitseerivad peale poes käiku aga see ju ei katista, et inimesed võivad nakkuse poodi tuua.
+1	Praegu	praegu	ADV	D	_	4	advmod	4:advmod	_
+2	osad	osa	NOUN	S	Case=Nom|Number=Plur	3	nmod	3:nmod	_
+3	inimesed	inimene	NOUN	S	Case=Nom|Number=Plur	4	nsubj	4:nsubj	_
+4	desinfitseerivad	desinfitseerima	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	peale	peale	ADP	K	AdpType=Prep	7	case	7:case	_
+6	poes	pood	NOUN	S	Case=Ine|Number=Sing	7	nmod	7:nmod	_
+7	käiku	käik	NOUN	S	Case=Par|Number=Sing	4	obl	4:obl	_
+8	aga	aga	CCONJ	J	_	12	cc	12:cc	_
+9	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	12	nsubj	12:nsubj	_
+10	ju	ju	ADV	D	_	12	advmod	12:advmod	_
+11	ei	ei	AUX	V	Polarity=Neg	12	aux	12:aux	_
+12	katista	takistama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|Typo=Yes|VerbForm=Fin|Voice=Act	4	conj	0:root|4:conj	SpaceAfter=No|CorrectForm=takista
+13	,	,	PUNCT	Z	_	19	punct	19:punct	_
+14	et	et	SCONJ	J	_	19	mark	19:mark	_
+15	inimesed	inimene	NOUN	S	Case=Nom|Number=Plur	19	nsubj	19:nsubj	_
+16	võivad	võima	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	19:aux	_
+17	nakkuse	nakkus	NOUN	S	Case=Gen|Number=Sing	19	obj	19:obj	_
+18	poodi	pood	NOUN	S	Case=Add|Number=Sing	19	obl	19:obl	_
+19	tuua	tooma	VERB	V	VerbForm=Inf	12	ccomp	12:ccomp	SpaceAfter=No
+20	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
