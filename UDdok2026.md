@@ -14,11 +14,11 @@ UD sõltuvuspuude pankades on märgendatud:
 6\. nn täiustatud sõltuvused (*enhanced dependencies*)  
 7\. muu: ortograafiavead, nimeüksused, verbikesksed argumendistruktuurid.
 
-**Sisukord**
+# **Sisukord**
 
 [CONLLU formaat](#conllu-formaat)
 
-[Sõnestamine (tokenization)](#sõnestamine-\(tokenization\))
+[Sõnestamine (tokenization)](#sõnestamine-tokenization)
 
 [UD morfoloogiline märgendus](#ud-morfoloogiline-märgendus)
 
@@ -26,39 +26,39 @@ UD sõltuvuspuude pankades on märgendatud:
 
 [Sõnaliigid](#sõnaliigid)
 
-[Morfoloogilised kategooriad (features)](#tunnused-\(features\))
+[Morfoloogilised kategooriad (features)](#tunnused-features)
 
 [Sõltuvussüntaktiline märgendus](#sõltuvussüntaktiline-märgendus)
 
-[UD üldpõhimõtted, lühidalt.](#ud-üldpõhimõtted,-lühidalt.)
+[UD üldpõhimõtted, lühidalt](#ud-üldpõhimõtted-lühidalt)
 
-[Koopula](#koopulalaused)laused
+[Koopulalaused](#koopulalaused)
 
 [Väljajättelised struktuurid ehk ellipsid](#väljajättelised-struktuurid-ehk-ellipsid)
 
-[Muud sõltuvusstruktuuri küsimused](#heading=h.30djm36n7yx2)
+[Muud sõltuvusstruktuuri küsimused](#muud-sõltuvusstruktuuri-küsimused)
 
-[Eesti keele UD süntaktilised märgendid (relations)](#eesti-keele-ud-süntaktilised-märgendid-\(relations\))
+[Eesti keele UD süntaktilised märgendid (relations)](#eesti-keele-ud-süntaktilised-märgendid-relations)
 
 [Tuumargumendid](#tuumargumendid)
 
 [Muud laiendid](#muud-laiendid)
 
-[Special clause dependents](#muud-verbi-alluvad)
+[Muud verbi alluvad](#muud-verbi-alluvad)
 
 [Koordinatsioon](#koordinatsioon)
 
 [Muu](#muu)
 
-[Mitmesõnalised üksused (sisemise struktuurita sõnaühendid)](#mitmesõnalised-üksused-\(sisemise-struktuurita-sõnaühendid\))
+[Mitmesõnalised üksused (sisemise struktuurita sõnaühendid)](#mitmesõnalised-üksused-sisemise-struktuurita-sõnaühendid)
 
-[Nõrgalt seotud suhete märgendid (*loose joining relations*)](#nõrgalt-seotud-suhete-märgendid-\(loose-joining-relations\))
+[Nõrgalt seotud suhete märgendid (*loose joining relations*)](#nõrgalt-seotud-suhete-märgendid-loose-joining-relations)
 
-[Täiustatud sõltuvused (*Enhanced Dependencies*)](#heading=h.ggb0zn7lkmqx)
+[Täiustatud sõltuvused (*Enhanced Dependencies*)](#täiustatud-sõltuvused-enhanced-dependencies)
 
-Muu
 
-# **CONLLU formaat** {#conllu-formaat}
+
+# **CONLLU formaat**
 
 Puudepankade failid on UTF-8-kodeeringus. Failides on kolme tüüpi ridu:
 
@@ -68,18 +68,20 @@ Puudepankade failid on UTF-8-kodeeringus. Failides on kolme tüüpi ridu:
 
 Laused koosnevad ühest või rohkematest ridadest, vt järgnev näide:
 
-\# sent\_id \= aja\_ee200110\_1714  
-\# text \= Lumetorm muutub üha tihedamaks, tee libedamaks.  
-1    Lumetorm    lume\_torm    NOUN    S    Case=Nom|Number=Sing    2    nsubj    2:nsubj|4:nsubj    Arg=muutuma\_Arg\_1  
+```
+# sent_id = aja_ee200110_1714  
+# text = Lumetorm muutub üha tihedamaks, tee libedamaks.  
+1    Lumetorm    lume_torm    NOUN    S    Case=Nom|Number=Sing    2    nsubj    2:nsubj|4:nsubj    Arg=muutuma_Arg_1  
 2    muutub    muutuma    VERB    V    Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act    0    root    0:root    Verb=muutuma  
-3    üha    üha    ADV    D    \_    4    advmod    4:advmod    \_  
-4    tihedamaks    tihedam    ADJ    A    Case=Tra|Degree=Cmp|Number=Sing    2    xcomp    2:xcomp    Arg=muutuma\_Arg\_2|SpaceAfter=No  
-5    ,    ,    PUNCT    Z    \_    6    punct    6:punct    \_  
-6    tee    tee    NOUN    S    Case=Nom|Number=Sing    2    conj    6.1:nsubj|7:nsubj    \_  
-6.1    muutub    muutuma    VERB    V    Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act    \_    \_    0:root|2:conj    \_  
+3    üha    üha    ADV    D    _    4    advmod    4:advmod    _  
+4    tihedamaks    tihedam    ADJ    A    Case=Tra|Degree=Cmp|Number=Sing    2    xcomp    2:xcomp    Arg=muutuma_Arg_2|SpaceAfter=No  
+5    ,    ,    PUNCT    Z    _    6    punct    6:punct    _  
+6    tee    tee    NOUN    S    Case=Nom|Number=Sing    2    conj    6.1:nsubj|7:nsubj    _  
+6.1    muutub    muutuma    VERB    V    Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act    _    _    0:root|2:conj    _  
 7    libedamaks    libedam    ADJ    A    Case=Tra|Degree=Cmp|Number=Sing    6    orphan    6.1:xcomp    SpaceAfter=No  
-8    .    .    PUNCT    Z    \_    2    punct    2:punct    \_
+8    .    .    PUNCT    Z    _    2    punct    2:punct    _
 
+```
  Lauset moodustavate üksuste read koosnevad järgmistest väljadest:
 
 * ID: sõna indeks e järjekorranumber lauses. Iga lause esimene sõna on numbriga 1\.  
@@ -100,7 +102,7 @@ Väljad peavad vastama järgmistele tingimustele:
 2. Muud väljad peale FORM, LEMMA ja MISC ei tohi sisaldada tühikuid.  
 3. UPOS, HEAD, ja DEPREL väljad ei tohi olla täitmata, välja arvatud juhud,  juhul kui need paiknevad mitmesõnaliste üksuste vahemikku kirjeldaval real, siis on nad vaikeväärtusega “\_”, esineb harva. Samuti on väljad HEAD ja DEPREL  vaikeväärtustega elliptilistes lausetes lisatud verbi kirjelduses.
 
-# **Sõnestamine (*tokenization*)** {#sõnestamine-(tokenization)}
+# **Sõnestamine (*tokenization*)**
 
 Üldiselt sõnestatakse nn tavalisel viisil: sõnapiiriks on tühik või reavahetus, kirjavahemärgid tõstetakse sõnadest lahku.   
 Tühikuteta kuupäev stiilis 07.06.03 on üks sõne.  
@@ -108,59 +110,65 @@ Kui tühik on algtekstis olnud sõna sees (*kas sile* pro *kassile*), siis on t�
 
 Kui sõna sisaldab sidekriipsu ja see on korrektne, siis märgendatakse sõna vastavalt tema morfoloogilise informatsioonile, nt
 
-1    Aeg-ajalt    aeg-ajalt    ADV    D    \_    2    advmod    2:advmod    \_
+```
+1    Aeg-ajalt    aeg-ajalt    ADV    D    _    2    advmod    2:advmod    _
+```
 
 Kui sõna on koordinatsioonis olev liitsõna esimene pool (nt *riist- ja tarkvara*),  siis märgendatakse sõna selle morfoloogilise märgendusega, mis on selle sõnapoole kohta teada
 
-14    riist-    riist    NOUN    S    Hyph=Yes    17    nmod    \_    \_
+```
+14    riist-    riist    NOUN    S    Hyph=Yes    17    nmod    _    _
+```
 
-# **UD morfoloogiline märgendus** {#ud-morfoloogiline-märgendus}
+# **UD morfoloogiline märgendus**
 
-1. ## **Lemma** {#lemma}
+## 1.  **Lemma**
 
    Lemma määramise erijuhud:
 
 - [ ]  Kui tekstisõnas on trüki- või õigekirjaviga, vastab tema lemma tema korrektsele kujule ning sõnal on märgend kirjavea kohta (Typo=Yes) ning õigekirjareeglitele vastava korrektse vormi kohta. Veebitekstide puudepanga EWT tekstides eiratakse sageli ortograafiareegleid, sh nõuet kirjutada pärisnimi suure algustähega. Väikese algustähega kirjutatud pärisnime lemma on suure algustähega ja sõnal on märgend kirjavea kohta (Typo=Yes) ning õigekirjareeglitele vastava vormi kohta:
-
+```
       28    eestis    Eesti    PROPN    S    Case=Ine|Number=Sing|Typo=Yes    26    conj    21:acl|26:conj    CorrectForm=Eestis
+```
 
 - [ ] „tsenseeritud” sõnavormi lemma on tsenseerimata sõna, nt *\*\*\*\*\*iidi* lemma on *perseiid*. Kui õige lemma kontekstist üheselt ei selgu, siis jääb muidugi „tsenseeritud” variant.  
       
 
-      2. ## **Sõnaliigid** {#sõnaliigid}
+## 2.  **Sõnaliigid**
 
-ADJ adjektiiv. Täiendi positsioonis olevad mineviku partitsiibid on sõnaliigilt omadussõnad, aga omavad ka verbi morfoloogilisi kategooriaid, nt  
-tehtud	tehtud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass  
-ADP adpositsioon, ees- ja tagasõna eristatakse tunnuse AdpType abil.  
-ADV adverb  
-AUX abiverb. Need on ainult:  
-	*olema* liitaegades, modaalid: *saama*, *võima*, *pidama*  
-	*olema* koopulalausetes  
-	*ei, ära* vormid verbi eitava liitvormi koosseisus  
-CCONJ koordineeriv sidend, nendena on märgendatud *aga, ega, ehk, elik, ent, ja, kui, kuid, kuni (kolm kuni neli kuud), nagu, nii* (liitsidendis *nii … kui), ning, vaid, või*  
-DET määratleja (*determiner*). Määratleja kohta eesti keeles vt Erelt ja Metslang „Eesti keele süntaks” lk 382 jj.  
+- ADJ adjektiiv. Täiendi positsioonis olevad mineviku partitsiibid on sõnaliigilt omadussõnad, aga omavad ka verbi morfoloogilisi kategooriaid, nt  
+> tehtud	tehtud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass  
+- ADP adpositsioon, ees- ja tagasõna eristatakse tunnuse AdpType abil.  
+- ADV adverb  
+- AUX abiverb. Need on ainult:  
+	- *olema* liitaegades, modaalid: *saama*, *võima*, *pidama*  
+	- *olema* koopulalausetes  
+	- *ei, ära* vormid verbi eitava liitvormi koosseisus  
+- CCONJ koordineeriv sidend, nendena on märgendatud *aga, ega, ehk, elik, ent, ja, kui, kuid, kuni (kolm kuni neli kuud), nagu, nii* (liitsidendis *nii … kui), ning, vaid, või*  
+- DET määratleja (*determiner*). Määratleja kohta eesti keeles vt Erelt ja Metslang „Eesti keele süntaks” lk 382 jj.  
 Määratlejatena on eesti keele UD puudepankades märgendatud: *see, too, seesama, toosama, sama, esimene, teine, mis* (tähenduses *milline,* nt kasutustes *mis vahe on* ..., *mis asi on* ..., *mis tähtsust sellel on* jne), *iga, kõik, kogu, keegi, miski, üks, ükski, mingi, terve* (tähenduses ’kogu’, nt *keetsin terve potitäie suppi*), *muu, mõni, paljud, igasugu, igasugune, mitmesugune, niisugune, niisamasugune, samasugune, selline, seesamune, seesugune, nihuke, sihuke, siuke, säherdune, säärane, selletaoline, taoline*  
 Määratleja on alati täiendi positsioonis:  
 *See maja on suur* – *see* on DET ; *See on suur maja* – *see* on PRON  
-INTJ interjektsioon. Ka üneemid (*ah, mh, no* jm) on märgendatud interjektsioonidena.  
-NOUN substantiiv  
-NUM numeraal; täis- ja järgarvsõnu eristatakse tunnuste NumType abil.  
-PRON pronoomen, alaliike eristatakse tunnuse PronType abil.  
-PROPN pärisnimi  
-PUNCT punktuatsioon  
-SCONJ alistav sidend, sellena on märgendatud *ehkki, et, justkui, kui* (v.a. liitsidendis *nii … kui*)*, kuigi, kuna, kuni, nagu, otsekui, selmet, sest.*  
-SYM sümbol, nt 50 %, Saab 340B, Ansip & Co. Märgendi SYM saavad ka emotikonid veebitekstides, nt :) ;D ja adressaati tähistav @ EWT mõnedes foorumitekstides.  
-VERB verb  
-X muu, selle märgendi saavad:
+- INTJ interjektsioon. Ka üneemid (*ah, mh, no* jm) on märgendatud interjektsioonidena.  
+- NOUN substantiiv  
+- NUM numeraal; täis- ja järgarvsõnu eristatakse tunnuste NumType abil.  
+- PRON pronoomen, alaliike eristatakse tunnuse PronType abil.  
+- PROPN pärisnimi  
+- PUNCT punktuatsioon  
+- SCONJ alistav sidend, sellena on märgendatud *ehkki, et, justkui, kui* (v.a. liitsidendis *nii … kui*)*, kuigi, kuna, kuni, nagu, otsekui, selmet, sest.*  
+- SYM sümbol, nt 50 %, Saab 340B, Ansip & Co. Märgendi SYM saavad ka emotikonid veebitekstides, nt :) ;D ja adressaati tähistav @ EWT mõnedes foorumitekstides.  
+- VERB verb  
+- X muu, selle märgendi saavad:
+	- muukeelsed sõnad. Kui neil on lauses süntaktiline funktsioon, saavad nad sellekohase märgendi, nt lauses
 
-- muukeelsed sõnad. Kui neil on lauses süntaktiline funktsioon, saavad nad sellekohase märgendi, nt lauses
-
-\# text \= Üheks teadaolevaks dementsuse põhjuseks sel perioodil oli dementia paralytica, süüfilise tertsiaalses staadiumis tekkiv dementsus.  
+```
+# text = Üheks teadaolevaks dementsuse põhjuseks sel perioodil oli dementia paralytica, süüfilise tertsiaalses staadiumis tekkiv dementsus.  
 /…/  
 8 dementia dementia X T Foreign=Yes 4 nsubj:cop 4:nsubj OrigLang=la  
 9 paralytica paralytica X T Foreign=Yes 8 flat:foreign 8:flat OrigLang=la|SpaceAfter=No
+```
 
-## **Tunnused (*features*)** {#tunnused-(features)}
+## **Tunnused (*features*)**
 
 Algselt olid sellel väljal ainult morfoloogiliste kategooriate märgendid, aga aja jooksul on lisandunud hulk muid tunnuseid, esitame need tähestiku järjekorras.
 
@@ -282,11 +290,11 @@ Voice=Pass tegumood: impersonaal ja passiiv
 
 Kogu kasutusel olev tunnuste süsteem on leitav kodulehelt: [https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify\_feature.pl?lcode=et](https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_feature.pl?lcode=et)
 
-# **Sõltuvussüntaktiline märgendus** {#sõltuvussüntaktiline-märgendus}
+# **Sõltuvussüntaktiline märgendus**
 
 Sõltuvussüntaktilise analüüsi puhul esitatakse kogu lausestruktuur kahe sõnavormi vaheliste ebasümmeetrilise suhtena (põhi e ülemus \- laiend e alluv), sellel suhtel on nimi (süntaktiline funktsioon). Lausestruktuuri esitamisel mitteterminaalseid sümboleid ei kasutata, st sõltuvussuhted on sõnade vahel, vahesõlmi (fraase, moodustajaid) ei moodustata. Ühel sõnal võib olla mitu alluvat, aga ainult üks ülemus.
 
-## **UD üldpõhimõtted, lühidalt.**  {#ud-üldpõhimõtted,-lühidalt.}
+## **UD üldpõhimõtted, lühidalt.**
 
 Pikemalt vt [https://universaldependencies.org/u/overview/syntax.html](https://universaldependencies.org/u/overview/syntax.html).
 
@@ -310,7 +318,7 @@ Kasutusel on küll abiverbi märgend aux, mille saavad verbi *olema* vormid liit
 
 UD märgendusskeemis on rikkalik märgendite repertuaar mitmesõnaliste leksikaalsete üksuste jaoks (fixed, flat, compound); selle poolest erinevad UD märgendid positiivselt eesti keele kitsenduste grammatika märgenditest.
 
-## **Koopulalaused** {#koopulalaused}
+## **Koopulalaused**
 
 Kui lause põhiverbiks on verb *olema*, loetakse lause koopulalauseks ja juurtipuks ei ole mitte *olema* vorm, vaid mingi teine element lauses ning koopulana toimiv *olema*\-verbi vorm allub sellele ja saab abiverbi sõnaliigi märgendi AUX ning koopula süntaktilise märgendi cop. cop-l ei tohi olla alluvaid, st kõik, mis muidu on öeldise alluvad, on nüüd selle juurtipuks määratud sõna alluvad.
 
@@ -326,23 +334,23 @@ Koopulalauseteks EI OLE järgmised *olema*\-verbi sisaldavad laused:
 
 **Koopulalause juurtipp** määratakse vastavalt järgmisele hierarhiale:
 
-1\. öeldistäide. *Kadri on inimene. Maja on suur.*
+1. öeldistäide. *Kadri on inimene. Maja on suur.*
 
-2\. öeldistäitemäärus (T*a oli Valgas õpetajaks, Hiinlased on teistsuguse psühholoogiaga*)
+2. öeldistäitemäärus (T*a oli Valgas õpetajaks, Hiinlased on teistsuguse psühholoogiaga*)
 
-3\. öeldistäitesarnane määrus (*Kõik on halvasti, Nad olid kahekesi; Tal on klapid peas*).
+3. öeldistäitesarnane määrus (*Kõik on halvasti, Nad olid kahekesi; Tal on klapid peas*).
 
 ka: *tulemus oli 5 %. Tulemus oli üle viie protsendi. Aeg esimesel ringil oli 3:20.*
 
-4\. omaja ja kogeja (*Tal oli kodus kass; Tal oli kodus külm*)
+4. omaja ja kogeja (*Tal oli kodus kass; Tal oli kodus külm*)
 
-5\. Koht (*Ta oli õhtul kodus; ka Ta oli õhtul õnnetuna kodus*) 
+5. Koht (*Ta oli õhtul kodus; ka Ta oli õhtul õnnetuna kodus*) 
 
-6\. Aeg (*See oli möödunud aastal*)
+6. Aeg (*See oli möödunud aastal*)
 
-7\. Viis (*See on nii, et ...*, ka *Sellega on nii, et...*)
+7. Viis (*See on nii, et ...*, ka *Sellega on nii, et...*)
 
-## **Väljajättelised struktuurid ehk ellipsid** {#väljajättelised-struktuurid-ehk-ellipsid}
+## **Väljajättelised struktuurid ehk ellipsid**
 
 Üldpõhimõtted.
 
@@ -364,25 +372,25 @@ Absoluuttarindid (*kepp käes, kott üle õla*) on analüüsitud kui koopulalaus
 
 Finiitse ja infiniitse verbi ühendites tekib sageli küsimus, kummale verbile ülejäänud lauseliikmed peaksid alluma. Mõnes lauses on see täiesti selge, mõnes mitte. Subjekt allub igal juhul finiitsele verbile. Lausetüübis *keelama/käskima/laskma/paluma* \+ kellelgi \+ da-infinitiiv, nt *keelasin koeral maad kraapida on* alalütlevas moodustaja *koeral* sisuliselt mõlema verbi alluv, aga on märgendatud finiitverbi (*keelan, käsen*, jne) alluvaks.
 
-## **Eesti keele UD süntaktilised märgendid (*relations*)** {#eesti-keele-ud-süntaktilised-märgendid-(relations)}
+## **Eesti keele UD süntaktilised märgendid (*relations*)** 
 
 Märkusena: näiteid saab otsida näiteks päringuvahendi grew.match abil https://universal.grew.fr/?corpus=UD\_Estonian-EDT@2.17\# 
 
-### **Tuumargumendid** {#tuumargumendid}
+### **Tuumargumendid** 
 
-**nsubj** – käändsõnaline subjekt, nt *Kass* *nägi koera*.
+- **nsubj** – käändsõnaline subjekt, nt *Kass* *nägi koera*.
 
-**nsubj:cop** – koopulalauselause käändsõnaline subjekt, nt *Kass* *on triibuline.*
+- **nsubj:cop** – koopulalauselause käändsõnaline subjekt, nt *Kass* *on triibuline.*
 
-**csubj** – infiniitne või osalauseline subjekt. Infiniitidest saab subjektiks olla ainult da-infinitiiv: *Tüdrukule meeldib* *tantsida.*
+- **csubj** – infiniitne või osalauseline subjekt. Infiniitidest saab subjektiks olla ainult da-infinitiiv: *Tüdrukule meeldib* *tantsida.*
 
 Osalauselise subjekti näide: *Aga mulle tundub, et kogu maailm ootab muusikamaailmalt midagi erutavalt uut minimalismi kõrvale.*
 
-**csubj:cop** – koopulalause infiniitne või osalauseline subjekt, nt *Imelik, et ma seda veel näidata julgen.  Seda vältida on võimatu.*
+- **csubj:cop** – koopulalause infiniitne või osalauseline subjekt, nt *Imelik, et ma seda veel näidata julgen.  Seda vältida on võimatu.*
 
-**obj** – käändsõnaline objekt, nt *Kass nägi* *koera.* da-infinitiivne objekt saab märgendi xcomp.
+- **obj** – käändsõnaline objekt, nt *Kass nägi* *koera.* da-infinitiivne objekt saab märgendi xcomp.
 
-**xcomp** on heterogeenne kategooria, kuid ühendav tunnus on see, et see on predikaat, mille sisuline subjekt on “ülemuslause” subjekt, objekt või, harva, määrus:
+- **xcomp** on heterogeenne kategooria, kuid ühendav tunnus on see, et see on predikaat, mille sisuline subjekt on “ülemuslause” subjekt, objekt või, harva, määrus:
 
 *Kadri tahab suppi süüa. Kadri sundis lapse suppi sööma. Kadri käskis lapsel supi ära süüa.*
 
@@ -398,7 +406,7 @@ Märgendi **xcomp** saavad:
 6. Verbi *mast*\-vorm on xcomp verbide *keelduma, hoiduma, takistama, tulema, väsima* jt seotud laiendina.  
    NB\! xcomp saab olla ainult verbi või adjektiivi alluv, nominalisatsioonis on vastav infiniit acl (*teha tahtmine*) ja vastav käändsõna oma sõnaliigi järgi nmod (*pühakuks kuulutamine*) või amod (*lolliks pidamine*)
 
-**ccomp**
+- **ccomp**
 
 1. verbi laiendav komplementlause, nt *Ta ütles, et tuleb homme. Tulen homme, ütles ta. Ta ütles: „Tulen homme.”*  
    Kuna samale verbile ei tohi UD valideerimisreeglite järgi alluda korraga sihitis ja ccomp, siis lauses  *Kui ministrid küsivad meie hinnanguid, siis seda me ka teeme, " ajab komissar Hannes Kont mõistujuttu.*  on root *ajab*, *mõistujuttu* on obj ja *teeme* on parataxis 
@@ -406,62 +414,62 @@ Märgendi **xcomp** saavad:
    vt ka https://universaldependencies.org/u/dep/ccomp.html\#reported-speech  
 2. da-infinitiivne öeldistäide, nt *Tema eesmärk on ellu* *jääda.* *Olema*\-verb sel juhul on osalause juurtipp.
 
-### **Muud laiendid** {#muud-laiendid}
+### **Muud laiendid** 
 
-**obl** – nimisõnaline (sh asesõnaline) määrus, nt *Kass põõnas* *diivanil*; ka koos kaassõnaga, nt *Kass põõnas* *palmi* *all*.
+- **obl** – nimisõnaline (sh asesõnaline) määrus, nt *Kass põõnas* *diivanil*; ka koos kaassõnaga, nt *Kass põõnas* *palmi* *all*.
 
-	**obl** alaliigid (igal obl-l pole alaliiki):
+	-**obl** alaliigid (igal obl-l pole alaliiki):
 
-	**obl:agent** \- tegijamäärus, nt *Päästemeeskonna kohale jõudes põles kahekordne puidust elumaja täisleegis. Seni on kõik krüpteerimist murdvad programmid USA kohtu poolt keelatud.*
+	- **obl:agent** \- tegijamäärus, nt *Päästemeeskonna kohale jõudes põles kahekordne puidust elumaja täisleegis. Seni on kõik krüpteerimist murdvad programmid USA kohtu poolt keelatud.*
 
-	**obl:tmod** \- ajamäärus, nt *Avatud kuni 23\. maini. Lõuna paiku saabub Kadriorust kuller…*
+	- **obl:tmod** \- ajamäärus, nt *Avatud kuni 23\. maini. Lõuna paiku saabub Kadriorust kuller…*
 
-	**obl:lmod** \- kohamäärus, nt *See on kavandatud madala võserikuga soisele alale. Kui see juhtub, siis liigub tööpuuduse tase järkjärgult tagasi tasemeni, mis oli enne produktiivsuse kasvu.*
+	- **obl:lmod** \- kohamäärus, nt *See on kavandatud madala võserikuga soisele alale. Kui see juhtub, siis liigub tööpuuduse tase järkjärgult tagasi tasemeni, mis oli enne produktiivsuse kasvu.*
 
-	**obl:mode** \- viisimäärus, nt *Projekt valmis koostöös…, Naerab südamest.*
+	- **obl:mode** \- viisimäärus, nt *Projekt valmis koostöös…, Naerab südamest.*
 
-	**obl:arg** \- sõltuvusmäärus, nt *…avaldub Vermeeri töödes…, …kus ta valdavalt toetus mõistatustele*.
+	- **obl:arg** \- sõltuvusmäärus, nt *…avaldub Vermeeri töödes…, …kus ta valdavalt toetus mõistatustele*.
 
-	**obl:state** \- seisundimäärus, nt *on heas vormis*, *jõudis tootmisse*.
+	- **obl:state** \- seisundimäärus, nt *on heas vormis*, *jõudis tootmisse*.
 
-	**obl:quant** \- hulgamäärus, nt *raha oli suures osas ära kulutatud, sissetulek jääb 3000 krooni piirile.*
+	- **obl:quant** \- hulgamäärus, nt *raha oli suures osas ära kulutatud, sissetulek jääb 3000 krooni piirile.*
 
-	**obl:idiom** \- nimisõnalised määrusena märgendatud verbi alluvad, mis moodustavad koos verbiga idiomaatilise üksuse, nt *pani südamele, peab meeles*
+	- **obl:idiom** \- nimisõnalised määrusena märgendatud verbi alluvad, mis moodustavad koos verbiga idiomaatilise üksuse, nt *pani südamele, peab meeles*
 
-**nmod**  \- nimisõnaline (sh asesõnaline) täiend
+- **nmod**  \- nimisõnaline (sh asesõnaline) täiend
 
-**appos** – lisand. Lisand saab praegu UD-s oma ülemusele ainult järgneda, mitte eelneda.
+- **appos** – lisand. Lisand saab praegu UD-s oma ülemusele ainult järgneda, mitte eelneda.
 
 appos märgendi on saanud:
 
 1. nimed, pealkirjad, jm, kui on olemas eelnev liigisõna: *arhitekt Boulle on üks minu kangelasi*   
-   K*ust tuli mõte kirjutada ooper " Writing to Vermeer "? Jällegi täissaalile lugesid oma luulet ja tõlkeid marilane Vladimir Kozlov , komilane Niina Obrezkova , liivlane Valt Ernstreit , soomlane Kari Sallamaa jt .* 
+   *Kust tuli mõte kirjutada ooper " Writing to Vermeer "? Jällegi täissaalile lugesid oma luulet ja tõlkeid marilane Vladimir Kozlov , komilane Niina Obrezkova , liivlane Valt Ernstreit , soomlane Kari Sallamaa jt .* 
 
 2. Eesti keele traditsioonilise süntaksikäsitluse mõistes järellisand: *Keegi küsis , kuidas võidi Sallamaa kutsuda Ižkari detsembris, kõige trööstitumal aastaajal .* 
 
-**nummod** – arvsõnaline (sh ka numbritega kirjutatud) täiend, nt *aastal 2016. Paadis istus* *kolm* *meest. Orkaan tappis* *sadu* *inimesi. Selles asulas on 15* *800* *elanikku.* Viimases näites saab *15* märgendi compound. Pangem tähele, et hulgafraasi käsitletakse UD raamistikus nii, et hulgasõna on kvantifitseeritava sõna alluv, st eelnevates näidetes on sõna *meest* sõna *kolm* ülemus jne.
+- **nummod** – arvsõnaline (sh ka numbritega kirjutatud) täiend, nt *aastal 2016. Paadis istus* *kolm* *meest. Orkaan tappis* *sadu* *inimesi. Selles asulas on 15* *800* *elanikku.* Viimases näites saab *15* märgendi compound. Pangem tähele, et hulgafraasi käsitletakse UD raamistikus nii, et hulgasõna on kvantifitseeritava sõna alluv, st eelnevates näidetes on sõna *meest* sõna *kolm* ülemus jne.
 
 NB\! nummod on ainult täiendi märgend, muus funktsioonis arvsõnad märgendatakse vastavalt oma funktsioonile: nt *jagas kolmeks* on xcomp
 
-**amod** – adjektiivne täiend, nt *Triibuline* *kass lõi nurru.*
+- **amod** – adjektiivne täiend, nt *Triibuline* *kass lõi nurru.*
 
-**advcl** 
+- **advcl** 
 
 1. määruskõrvallause, nt *Kui sa tuled, too mul lilli.*  
 2. infiniitne määruslik laiend, nt *Koer jooksis saba* *liputades* *mööda tänavat*. *Pikalt* *mõtlemata* *asus ta asja kallale*  
 3. võrdlustarind; lausetes nagu *Üldiselt töötavad naised osaajaga enam kui mehed*. käsitletakse võrdluskonstruktsiooni *enam kui mehed* väljajättelisena (*enam kui mehed töötavad*) ja märgendatakse kui advcl, mitte kui advmod.
 
-**advmod** – määrsõnaline laiend (määrus); ka *kas* kas-küsimuste algul
+- **advmod** – määrsõnaline laiend (määrus); ka *kas* kas-küsimuste algul
 
-	**advmod:lmod** \- määrsõnaline kohamäärus, nt *läks kaugele ära*
+	- **advmod:lmod** \- määrsõnaline kohamäärus, nt *läks kaugele ära*
 
-**advmod:tmod \-**  määrsõnaline ajamäärus, nt *see on alati nii*
+	- **advmod:tmod** \-  määrsõnaline ajamäärus, nt *see on alati nii*
 
-**advmod:mode** \- määrsõnaline viisimäärus *ajab edukalt oma igapäevaasju*
+	- **advmod:mode** \- määrsõnaline viisimäärus *ajab edukalt oma igapäevaasju*
 
-**acl** – nimisõna infiniitne täiend, sh ka partitsiiptäiendid, nt *Õpetaja andis talle loa koju* *minna. Ema* *küpsetatud* *kook maitseb hea. Haukuv* *koer ei hammusta*
+- **acl** – nimisõna infiniitne täiend, sh ka partitsiiptäiendid, nt *Õpetaja andis talle loa koju* *minna. Ema* *küpsetatud* *kook maitseb hea. Haukuv* *koer ei hammusta*
 
-**acl:relcl \-** täiendkõrvallaused: *Mees, kes seal seisab, on minu isa. See, et päike tõuseb iga päev, teda ei lohuta.*
+- **acl:relcl** \- täiendkõrvallaused: *Mees, kes seal seisab, on minu isa. See, et päike tõuseb iga päev, teda ei lohuta.*
 
 täiendkõrval**laused** on kõik acl:relcl. Infiniitsed täiendid, lauselühendid täienditena on acl.
 
@@ -469,47 +477,47 @@ acl:relcl märgendi saab ka kõrvallause, millel on korrelaat pealauses. Korrela
 
 *Mõtlesin seda, et varsti tuleb(acl:relcl-\>seda) suvi.*
 
-**case** – kaassõna, nt *Kass ronis diivani* *alla. Kass hüppas* *üle* *diivani.*
+- **case** – kaassõna, nt *Kass ronis diivani* *alla. Kass hüppas* *üle* *diivani.*
 
-### **Muud verbi alluvad** {#muud-verbi-alluvad}
+### **Muud verbi alluvad**
 
-**vocative** – üte, nt *Mari, tule palun siia\! Hooligan88 , kas sul on sidemeid-tutvusi mille kaudu see Viimsi muuseumi külastus kokku leppida?*
+- **vocative** – üte, nt *Mari, tule palun siia\! Hooligan88 , kas sul on sidemeid-tutvusi mille kaudu see Viimsi muuseumi külastus kokku leppida?*
 
-**aux** – abiverb: *olema* verbi liitaegades; modaalverbid *saama, pidama, võima* modaalkonstruktsioonides; *ei* verbi eitavas vormis, *ära* ja *ärge* verbi käskiva kõneviisi eitavates vormides. Ülemuseks on leksikaalne verb, nt *olin* *teinud*; *saan* *teha,* *võin* *teha,* *pean* *tegema; ei tee,*  *ära* *tee,* *ärge* *tehke.*
+- **aux** – abiverb: *olema* verbi liitaegades; modaalverbid *saama, pidama, võima* modaalkonstruktsioonides; *ei* verbi eitavas vormis, *ära* ja *ärge* verbi käskiva kõneviisi eitavates vormides. Ülemuseks on leksikaalne verb, nt *olin* *teinud*; *saan* *teha,* *võin* *teha,* *pean* *tegema; ei tee,*  *ära* *tee,* *ärge* *tehke.*
 
-**cop** – koopula, verb *olema* koopulalausetes, kus öeldistäide (v.a infinitiivne või osalauseline) vm moodustaja saab märgendi root ja verbi *olema* vorm allub sellele, nt *Kass* *on* *triibuline*. *See raamat* *on* *minu oma. Mari on kodus.*
+- **cop** – koopula, verb *olema* koopulalausetes, kus öeldistäide (v.a infinitiivne või osalauseline) vm moodustaja saab märgendi root ja verbi *olema* vorm allub sellele, nt *Kass* *on* *triibuline*. *See raamat* *on* *minu oma. Mari on kodus.*
 
 Kui koopula on verbi *olema* liitvorm (*Maja oli kunagi olnud punane*), siis ei allu verbivormid üksteisele vaid kumbki eraldi osalause juurtipule. 
 
-**mark** – alistavad sidendid osalause algul; küsisõnad küsilause algul, *nagu*, k*ui, otsekui, justkui* võrdlustarindites, nt *Supp on kuumem* *kui* *päike.* Sõnaliigiliselt on need adverbid ADV või alistavad sidendid SCONJ.
+- **mark** – alistavad sidendid osalause algul; küsisõnad küsilause algul, *nagu*, k*ui, otsekui, justkui* võrdlustarindites, nt *Supp on kuumem* *kui* *päike.* Sõnaliigiliselt on need adverbid ADV või alistavad sidendid SCONJ.
 
-**discourse** – hüüundid ja üneemid nagu *tere, ahah, noh, nojah, appi, aitäh* jms.
+- **discourse** – hüüundid ja üneemid nagu *tere, ahah, noh, nojah, appi, aitäh* jms.
 
 Samuti saavad selle märgendi nn partiklid (*Tõesti või icicic\!*) ja emotikonid. Samuti adressaati märkiv sümbol @ teatud foorumitekstides EWTB-s. 
 
-### **Koordinatsioon** {#koordinatsioon}
+### **Koordinatsioon** 
 
-**conj** – koordineeritud elemendid. Nende puhul märgendatakse esimene element oma süntaktilise funktsiooni märgendiga ning ülejäänud koordineeritud elemendid alluvad sellele märgendiga conj, nt *Luik,* *haug* *ja* *vähk* *vedasid vankrit.*
+- **conj** – koordineeritud elemendid. Nende puhul märgendatakse esimene element oma süntaktilise funktsiooni märgendiga ning ülejäänud koordineeritud elemendid alluvad sellele märgendiga conj, nt *Luik,* *haug* *ja* *vähk* *vedasid vankrit.*
 
-**cc** \- koordineeriv sidend, ülemuseks on järgnev koordineeritud element nt *Luik, haug* *ja* *vähk vedasid vankrit.*
+- **cc** \- koordineeriv sidend, ülemuseks on järgnev koordineeritud element nt *Luik, haug* *ja* *vähk vedasid vankrit.*
 
 Ka lause alguses olev *aga* on cc*. Aga ilm on täna ilus.* 
 
-**cc:preconj** \- lahksidendi esikomponent. Praeguse seisuga saavad selle märgendi:
+- **cc:preconj** \- lahksidendi esikomponent. Praeguse seisuga saavad selle märgendi:
 
 *nii* | *niihästi* | *niivõrd* (järelkomponent: *kui*); *kas* (*või*); *küll* (*küll*); *nii* | *sellepärast* (*et*); *selle asemel* | *vaatamata* | *hoolimata* | *enam* (*et*); *siis* | *samal ajal* (*kui*); *nii* (*nagu*) 
 
-**punct** – punktuatsioon. Punktuatsioon ei ole muidugi tegelikult lause süntaktilise struktuuri osa, nende ülemuste määramine käib järgmiselt. Lauselõpumärk allub juurtipule, välja arvatud juhul, kui sellest tekkiks ristuv kaar. Sulud, jutumärgid jm paariskirjavahemärgid alluvad nende vahel oleva konstruktsiooni kõrgeimale ülemusele, v.a. juhul, kui sellest tekiks ristuv kaar. 
+- **punct** – punktuatsioon. Punktuatsioon ei ole muidugi tegelikult lause süntaktilise struktuuri osa, nende ülemuste määramine käib järgmiselt. Lauselõpumärk allub juurtipule, välja arvatud juhul, kui sellest tekkiks ristuv kaar. Sulud, jutumärgid jm paariskirjavahemärgid alluvad nende vahel oleva konstruktsiooni kõrgeimale ülemusele, v.a. juhul, kui sellest tekiks ristuv kaar. 
 
 Sidendite ja punktuatsioonimärkide ülemuseks on vahetult järgnev konjunkt.
 
-### **Muu** {#muu}
+### **Muu**
 
 **root** – lause juurtipp, pealause öeldisverb, verbi liitvormi või ahelverbi puhul põhitähendust kandev komponent, nt *Sa oled palju ära* *teinud. Võid nüüd* *sööma* *hakata.* Koopulalause juurtipu määramise kohta vt Koopulalaused.
 
 **dep** – spetsifitseerimata sõltuvus. St alluvussuhe on selgelt olemas, aga funktsiooni pole võimalik määrata. 
 
-### **Mitmesõnalised üksused (sisemise struktuurita sõnaühendid)** {#mitmesõnalised-üksused-(sisemise-struktuurita-sõnaühendid)}
+### **Mitmesõnalised üksused (sisemise struktuurita sõnaühendid)** 
 
 **compound** – ühendab mitmesõnalisi leksikaalseid üksusi. Selle märgendi saavad
 
@@ -532,63 +540,35 @@ Sellena on märgendatud (*alati* tähendab "alati siis, kui nende vahel pole kom
 
 SIDENDID
 
-*ainult et* \- alati
-
-*enam kui* \- osad (*Seda valmistatakse enam kui 200 maitsevariatsioonis* \- fixed; *Seda on tervelt kaks korda enam kui eelmisel aastal* \- ei ole fixed)
-
-*enne kui* \- alati
-
-*eriti kui* \- alati
-
-ilma et \- alati
-
-*isegi kui* \- alati
-
-*just kui* \- alati
-
-*just nagu* \- alati
-
-*nii et* \- alati
-
-*nii kui* \- alati
-
-*nii nagu* \- alati
-
-*niipalju kui* \- alati
-
-*nõnda et* \- alati
-
-*nõnda nagu* \- alati
-
-*peaaegu et* \- alati
-
-*rohkem kui* \- osad (fixed lauses *Meid toetati rohkem kui miljoni krooniga*; ei ole fixed lauses *Õnnetusi on meil kaks korda rohkem kui Soomes*)
-
-*samas kui* \- alati
-
-*samuti kui* \- osad
-
-*samuti nagu* \- osad (*Koju, samuti nagu tema hingeelu salaurgastesse uudistama palutud keegi naljalt pole* \- fixed; *Hiina keisrid suhtusid välismaalastesse täpselt samuti nagu Rooma keisrid* \- ei ole fixed)
-
-*seeasemel et* \- alati
-
-*seni kuni* \- alati
-
-*ükskõik kuhu* \- alati
-
-*ükskõik kui* \- alati
-
-*ükskõik kuidas* \- alati
-
-*ükskõik kus* \- alati
-
-*ükspuha kus* \- alati
-
-*vaat et* \- alati
-
-*vaata et* \- alati
-
-*vähem kui* \- osad
+- *ainult et* \- alati
+- *enam kui* \- osad (*Seda valmistatakse enam kui 200 maitsevariatsioonis* \- fixed; *Seda on tervelt kaks korda enam kui eelmisel aastal* \- ei ole fixed)
+- *enne kui* \- alati
+- *eriti kui* \- alati
+- ilma et \- alati
+- *isegi kui* \- alati
+- *just kui* \- alati
+- *just nagu* \- alati
+- *nii et* \- alati
+- *nii kui* \- alati
+- *nii nagu* \- alati
+- *niipalju kui* \- alati
+- *nõnda et* \- alati
+- *nõnda nagu* \- alati
+- *peaaegu et* \- alati
+- *rohkem kui* \- osad (fixed lauses *Meid toetati rohkem kui miljoni krooniga*; ei ole fixed lauses *Õnnetusi on meil kaks korda rohkem kui Soomes*)
+- *samas kui* \- alati
+- *samuti kui* \- osad
+- *samuti nagu* \- osad (*Koju, samuti nagu tema hingeelu salaurgastesse uudistama palutud keegi naljalt pole* \- fixed; *Hiina keisrid suhtusid välismaalastesse täpselt samuti nagu Rooma keisrid* \- ei ole fixed)
+- *seeasemel et* \- alati
+- *seni kuni* \- alati
+- *ükskõik kuhu* \- alati
+- *ükskõik kui* \- alati
+- *ükskõik kuidas* \- alati
+- *ükskõik kus* \- alati
+- *ükspuha kus* \- alati
+- *vaat et* \- alati
+- *vaata et* \- alati
+- *vähem kui* \- osad
 
 MUU, st mitte-sidendid
 
@@ -604,7 +584,7 @@ MUU, st mitte-sidendid
 - *mis siis* lausetes nagu *mis siis sellest*, *mis siis ikka*   
 - *kas või* lausetes nagu *Meenutagem kas või noort Peeter Volkonskit.*
 
-### **Nõrgalt seotud suhete märgendid (*loose joining relations*)** {#nõrgalt-seotud-suhete-märgendid-(loose-joining-relations)}
+### **Nõrgalt seotud suhete märgendid (*loose joining relations*)** 
 
 **parataxis**
 
@@ -644,12 +624,14 @@ Nagu nimigi ütleb, on sellele väljale kuhjatud erinevat infot, erinevaid tunnu
 
 **Empty** \- eesti puudepanga spetsiifiline märgend, kasutatakse juhul, kui lausesse on lisatud elliptiline predikaat, nn null-node, siis saab see järjekorranumbriks talle eelneva sõna järjekorranumbri, millele lisatakse punkt ning selle sõna järjekorranumber “taastatud” fraasis, nt
 
-17    meie    mina    PRON    P    Case=Gen|Number=Plur|Person=1|PronType=Prs    18    nmod    18:nmod    \_  
-18    kanalitelt    kanal    NOUN    S    Case=Abl|Number=Plur    3    conj    18.1:obl    \_  
-18.1    meeldib    meeldima    VERB    V    Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act    \_    \_    0:root|2:conj    Empty=18.1|Place=19  
-18.2    jälgida    jälgima    VERB    V    VerbForm=Inf    \_    \_    18.1:csubj    Empty=18.2|Place=20  
-19    “    “    PUNCT    Z    \_    20    punct    20:punct    NE=B-Prod  
-20    Kuldvillakut    kuldvillak    NOUN    S    Case=Par|Number=Sing    18    orphan    18.2:obj    
+```
+17    meie    mina    PRON    P    Case=Gen|Number=Plur|Person=1|PronType=Prs    18    nmod    18:nmod    _  
+18    kanalitelt    kanal    NOUN    S    Case=Abl|Number=Plur    3    conj    18.1:obl    _  
+18.1    meeldib    meeldima    VERB    V    Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act    _    _    0:root|2:conj    Empty=18.1|Place=19  
+18.2    jälgida    jälgima    VERB    V    VerbForm=Inf    _    _    18.1:csubj    Empty=18.2|Place=20  
+19    “    “    PUNCT    Z    _    20    punct    20:punct    NE=B-Prod  
+20    Kuldvillakut    kuldvillak    NOUN    S    Case=Par|Number=Sing    18    orphan  {#muud-verbi-alluvad}   18.2:obj    
+```
 
 **Place** \- eesti puudepanga spetsiifiline märgend, kõigil Empty märgendiga sõnadel on ka märgend Place, mis näitab selle tõelist järjekorranumbrit lauses. Vt eelnevat näidet.
 
@@ -683,9 +665,10 @@ nt *kui koidulas koolis käisin 10 aastat tagasi,...*
 ## **Verbi argumendistruktuuri märgendus**
 
 EDT korpuses on MISC väljal ka verbi argumendistruktuuri märgendus. See on eesti keele spetsiifiline. Kasutatud on PropBanki (https://propbank.github.io/) märgenduspõhimõtteid. Märgendatud on nende lihtverbide argumendistruktuurid, mis esinevad EDT-s vähemalt 14 korda. Verbi enda MISC-väljal on märgend Verb=verbi\_algvorm ja juhul kui verbil on mitu tähendust ja mitu argumendistruktuuri, siis ka tähenduse number. Selle verbi subjekti ja seotud laiendite MISC-väljal on argumendi number. Argumentide numeratsioon algab nullist. Näiteks: 
-
-12    sõbrad    sõber    NOUN    S    Case=Nom|Number=Plur    13    nsubj    13:nsubj    Arg=tooma\_Arg\_0  
-13    tõid    tooma    VERB    V    Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act    7    conj    3:ccomp|7:conj    Verb=tooma\_1  
-14    kottidega    kott    NOUN    S    Case=Com|Number=Plur    13    obl    13:obl    \_  
-15    igasuguseid    iga\_sugune    DET    P    Case=Par|Number=Plur|PronType=Ind    16    det    16:det    \_  
-16    raamatuid    raamat    NOUN    S    Case=Par|Number=Plur    13    obj    13:obj    Arg=tooma\_Arg\_1|SpaceAfter=No
+```
+12    sõbrad    sõber    NOUN    S    Case=Nom|Number=Plur    13    nsubj    13:nsubj    Arg=tooma_Arg_0  
+13    tõid    tooma    VERB    V    Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act    7    conj    3:ccomp|7:conj    Verb=tooma_1  
+14    kottidega    kott    NOUN    S    Case=Com|Number=Plur    13    obl    13:obl    _  
+15    igasuguseid    iga_sugune    DET    P    Case=Par|Number=Plur|PronType=Ind    16    det    16:det    _  
+16    raamatuid    raamat    NOUN    S    Case=Par|Number=Plur    13    obj    13:obj    Arg=tooma_Arg_1|SpaceAfter=No
+```
