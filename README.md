@@ -4,7 +4,7 @@ Estonian Treebank in form of Universal Dependencies
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ## Version 2.18pre
-These are preliminary versions of Estonian UD treebanks. Final versions will be published on universaldependencies.org wevsite in May 2026.
+These are preliminary versions of Estonian UD treebanks. Final versions will be published on [universaldependencies.org](https://universaldependencies.org/) web site in May 2026.
 
 ## Version 2.8 Enhanced
 
